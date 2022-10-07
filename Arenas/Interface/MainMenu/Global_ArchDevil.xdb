@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model ObjectRecordID="1002653">
+	<Materials>
+		<Item href="Global_ArchDevil-devil_material.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Global_ArchDevil-devil_axe_material.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Global_ArchDevil-devil_axe_material.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Global_ArchDevil-lambert2.(Material).xdb#xpointer(/Material)"/>
+		<Item href="Global_ArchDevil-lambert3.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton href="Global_ArchDevil-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="Global_ArchDevil-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile ObjectRecordID="33">
+	<Texture href="/Textures/Terrain/Lava/Dead_Land3.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>62</Priority>
+	<Type>TT_LAVA</Type>
+	<MinimapColor>
+		<x>0.294118</x>
+		<y>0.247059</y>
+		<z>0.239216</z>
+	</MinimapColor>
+	<IconFile>Icons\Generated\MapObjects\_(AdvMapTile)\Lava\Dead_Land_3-icon.tga</IconFile>
+	<AmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/Lava.xdb#xpointer(/AmbientSoundSet)"/>
+	<AdventureMusic href="/Sounds/_(Music)/AdvMap-Terrain/LavaHot.xdb#xpointer(/Music)"/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

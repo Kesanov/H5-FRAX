@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile ObjectRecordID="1000001">
+	<Texture href="/Textures/Terrain/SubTerrain/SubTerrain_(3).xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>35</Priority>
+	<Type>TT_SUBTERRANEAN</Type>
+	<MinimapColor>
+		<x>0.247059</x>
+		<y>0.247059</y>
+		<z>0.247059</z>
+	</MinimapColor>
+	<IconFile>Icons\Generated\MapObjects\_(AdvMapTile)\SubTerrain\SubTerrain_(3)-icon.tga</IconFile>
+	<AmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/Dungeon.xdb#xpointer(/AmbientSoundSet)"/>
+	<AdventureMusic href="/Sounds/_(Music)/AdvMap-Terrain/Underground.xdb#xpointer(/Music)"/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

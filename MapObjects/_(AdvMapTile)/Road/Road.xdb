@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile ObjectRecordID="4">
+	<Texture href="/Textures/Terrain/Conquest/Sand_Stone.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>0</Priority>
+	<Type>TT_DIRT_ROAD</Type>
+	<MinimapColor>
+		<x>0.862745</x>
+		<y>0.862745</y>
+		<z>0.862745</z>
+	</MinimapColor>
+	<IconFile>\Texture\Terrain\Roadtest_icon.bmp</IconFile>
+	<AmbientSoundSet/>
+	<AdventureMusic/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

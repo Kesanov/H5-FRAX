@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_MINOTAUR</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_WITCH</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SCOUT</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>7740</MinPower>
+	<MaxPower>51600</MaxPower>
+</RMGSimpleCustomArmyTemplate>

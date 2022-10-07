@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Model ObjectRecordID="7195">
+	<Materials>
+		<Item href="#n:inline(Material)" id="item_4c4dca11-4173-435d-ad08-84958782521b">
+			<Material ObjectRecordID="16078">
+				<Texture href="/Textures/auto-imported_______320/Creatures/Preserve/DendroidSolder/DendroidSoldier.tga.xdb#xpointer(/Texture)" />
+				<Bump />
+				<SpecFactor>0</SpecFactor>
+				<SpecColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</SpecColor>
+				<Gloss />
+				<MetalMirror>0</MetalMirror>
+				<DielMirror>0</DielMirror>
+				<Mirror />
+				<CastShadow>true</CastShadow>
+				<ReceiveShadow>true</ReceiveShadow>
+				<Priority>0</Priority>
+				<TranslucentColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</TranslucentColor>
+				<FloatParam>0</FloatParam>
+				<DetailTexture />
+				<DetailScale>5</DetailScale>
+				<ProjectOnTerrain>false</ProjectOnTerrain>
+				<LightingMode>L_NORMAL</LightingMode>
+				<DynamicMode>DM_DONT_CARE</DynamicMode>
+				<Is2Sided>false</Is2Sided>
+				<Effect>M_GENERIC</Effect>
+				<AlphaMode>AM_ALPHA_TEST</AlphaMode>
+				<AffectedByFog>true</AffectedByFog>
+				<AddPlaced>false</AddPlaced>
+				<IgnoreZBuffer>false</IgnoreZBuffer>
+				<BackFaceCastShadow>false</BackFaceCastShadow>
+			</Material>
+		</Item>
+		<Item href="#n:inline(Material)" id="item_1e86caee-6b40-4c3f-8cd5-f92713bc8dba">
+			<Material ObjectRecordID="16079">
+				<Texture href="/Textures/auto-imported_______320/Creatures/Preserve/DendroidSolder/DendroidSoldier_add.tga.xdb#xpointer(/Texture)" />
+				<Bump />
+				<SpecFactor>0</SpecFactor>
+				<SpecColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</SpecColor>
+				<Gloss />
+				<MetalMirror>0</MetalMirror>
+				<DielMirror>0</DielMirror>
+				<Mirror />
+				<CastShadow>true</CastShadow>
+				<ReceiveShadow>true</ReceiveShadow>
+				<Priority>0</Priority>
+				<TranslucentColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</TranslucentColor>
+				<FloatParam>0</FloatParam>
+				<DetailTexture />
+				<DetailScale>5</DetailScale>
+				<ProjectOnTerrain>false</ProjectOnTerrain>
+				<LightingMode>L_NORMAL</LightingMode>
+				<DynamicMode>DM_DONT_CARE</DynamicMode>
+				<Is2Sided>false</Is2Sided>
+				<Effect>M_GENERIC</Effect>
+				<AlphaMode>AM_ALPHA_TEST</AlphaMode>
+				<AffectedByFog>true</AffectedByFog>
+				<AddPlaced>false</AddPlaced>
+				<IgnoreZBuffer>false</IgnoreZBuffer>
+				<BackFaceCastShadow>false</BackFaceCastShadow>
+			</Material>
+		</Item>
+	</Materials>
+	<Geometry href="#n:inline(Geometry)" id="item_5e0f0714-48b1-422c-8e1a-f7f045c72478">
+		<Geometry ObjectRecordID="6397">
+			<SrcName href="/models/Creatures/Preserve/DendroidSoldier.mb" />
+			<uid>444E4A33-203C-4F6A-8069-8F7019921798</uid>
+			<RootMesh />
+			<RootJoint>Global</RootJoint>
+			<Size>
+				<x>9.11572</x>
+				<y>2.14244</y>
+				<z>5.24388</z>
+			</Size>
+			<Center>
+				<x>0.0543389</x>
+				<y>0.397858</y>
+				<z>1.83363</z>
+			</Center>
+			<AIGeometry href="#n:inline(AIGeometry)" id="item_8a808a20-fd56-49dc-9a6f-07124d3ed119">
+				<AIGeometry ObjectRecordID="348">
+					<SrcName href="/models/Creatures/Preserve/DendroidSoldier.mb" />
+					<RootMesh>AI</RootMesh>
+					<RootJoint />
+					<Volume>0</Volume>
+					<SolidPart>0</SolidPart>
+					<AABBCenter>
+						<x>0.0108413</x>
+						<y>0.278388</y>
+						<z>1.77286</z>
+					</AABBCenter>
+					<AABBHalfSize>
+						<x>1.98883</x>
+						<y>0.975415</y>
+						<z>1.76224</z>
+					</AABBHalfSize>
+					<uid>BDD6248B-D4E6-48AF-A637-98CC2F6AAAC7</uid>
+				</AIGeometry>
+			</AIGeometry>
+			<NumMeshes>1</NumMeshes>
+			<MaterialQuantities>
+				<Item>2</Item>
+			</MaterialQuantities>
+			<MeshNames>
+				<Item>Body_meshShape</Item>
+			</MeshNames>
+			<MeshAnimated />
+			<MeshWindAffected />
+		</Geometry>
+	</Geometry>
+	<Skeleton href="#n:inline(Skeleton)" id="item_9eb821d8-9287-4063-b3e0-455db60faaca">
+		<Skeleton ObjectRecordID="1297">
+			<SrcName href="/models/Creatures/Preserve/DendroidSoldier.mb" />
+			<RootJoint>Global</RootJoint>
+			<MSRFormat>true</MSRFormat>
+			<Animations />
+			<uid>170A4A07-EB1B-4230-8916-AE08E6C6CAC6</uid>
+		</Skeleton>
+	</Skeleton>
+	<Animations />
+	<WindPower>1</WindPower>
+</Model>

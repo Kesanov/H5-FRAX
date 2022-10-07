@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="27">
+	<NameFileRef href="/Text/Game/Towns/Academy/Script/Hikm/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Academy/Script/Hikm/Biography.txt"/>
+	<Bonus>TOWN_BONUS_SHIPS</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_ACADEMY</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_SHARP_SHOOTER</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_BLADE_SINGER</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DRYAD</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>7728</MinPower>
+	<MaxPower>51520</MaxPower>
+</RMGSimpleCustomArmyTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_HARPOONER</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_STONE_DEFENDER</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>3363</MinPower>
+	<MaxPower>22420</MaxPower>
+</RMGSimpleCustomArmyTemplate>

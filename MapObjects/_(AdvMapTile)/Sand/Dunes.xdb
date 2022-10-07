@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile ObjectRecordID="1000005">
+	<Texture href="/Textures/Terrain/Sand/Dunes.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>145</Priority>
+	<Type>TT_SAND</Type>
+	<MinimapColor>
+		<x>1</x>
+		<y>0.85098</y>
+		<z>0.333333</z>
+	</MinimapColor>
+	<IconFile>Icons\Generated\MapObjects\_(AdvMapTile)\Sand\Dunes-icon.tga</IconFile>
+	<AmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/Sand.xdb#xpointer(/AmbientSoundSet)"/>
+	<AdventureMusic href="/Sounds/_(Music)/AdvMap-Terrain/Sand.xdb#xpointer(/Music)"/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

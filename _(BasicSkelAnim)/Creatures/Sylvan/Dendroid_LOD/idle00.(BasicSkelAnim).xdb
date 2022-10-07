@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<BasicSkelAnim ObjectRecordID="823">
+	<SrcName href="/models/Creatures/Preserve/Dendroid_LOD.mb" />
+	<uid>1726DB61-87C2-4441-AE4A-C7DC358E659E</uid>
+	<ExpSrcClip href="/Animations/Creatures/PRESERVE/Dendroid/Clip_adventure/Dendroid.idle00.ma" />
+	<ExpRootTransform>Global</ExpRootTransform>
+	<ExpFrameFirst>0</ExpFrameFirst>
+	<ExpFrameLast>0</ExpFrameLast>
+	<ExpSettingsFile href="" />
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound />
+	<Effect />
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial />
+</BasicSkelAnim>

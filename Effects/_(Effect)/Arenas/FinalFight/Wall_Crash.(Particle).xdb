@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Particle ObjectRecordID="1000688">
+	<SrcName href="/Effects/Arenas/FinalFight/Wall_crash.mb"/>
+	<ExportPrefix>FX</ExportPrefix>
+	<WrapSize>
+		<x>0</x>
+		<y>0</y>
+	</WrapSize>
+	<Bound>00ab90bd79e151c1f686954032047b42f88b17428e311642d23a0442</Bound>
+	<PerParticleFog>false</PerParticleFog>
+	<uid>BA9FFAD8-8B84-4636-AACA-59DAD847B357</uid>
+</Particle>

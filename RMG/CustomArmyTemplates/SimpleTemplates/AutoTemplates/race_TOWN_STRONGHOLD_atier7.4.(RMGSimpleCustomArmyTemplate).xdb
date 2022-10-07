@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_CYCLOP</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ORCCHIEF_BUTCHER</Creature>
+			<Coef>3</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SHAMAN</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>74958</MinPower>
+	<MaxPower>499720</MaxPower>
+</RMGSimpleCustomArmyTemplate>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapBuildingShared>
+	<Model href="/_(Model)/Buildings/Snowed/Windmill_Snow.xdb#xpointer(/Model)"/>
+	<AnimSet href="/_(AnimSet)/Buildings/Windmill-adv.(AnimSet).xdb#xpointer(/AnimSet)"/>
+	<blockedTiles>
+		<Item>
+			<x>-1</x>
+			<y>1</y>
+		</Item>
+		<Item>
+			<x>0</x>
+			<y>1</y>
+		</Item>
+		<Item>
+			<x>-1</x>
+			<y>0</y>
+		</Item>
+	</blockedTiles>
+	<holeTiles/>
+	<activeTiles>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+		</Item>
+	</activeTiles>
+	<passableTiles/>
+	<PossessionMarkerTile>
+		<x>0</x>
+		<y>0</y>
+	</PossessionMarkerTile>
+	<Effect href="/Effects/_(Effect)/Buildings/Temple.xdb#xpointer(/Effect)"/>
+	<EffectWhenOwned href="/Effects/_(Effect)/Buildings/Temple.xdb#xpointer(/Effect)"/>
+	<messagesFileRef>
+		<Item href="/Text/Game/Buildings/WindMillGold/Name.txt"/>
+		<Item href="/Text/Game/Buildings/WindMillGold/Description.txt"/>
+		<Item href="/Text/Game/Buildings/WindMillGold/FirstVisit.txt"/>
+		<Item href="/Text/Game/BuildingsCommon/AlreadyVisitedThisWeek.txt"/>
+	</messagesFileRef>
+	<WaterBased>false</WaterBased>
+	<ApplyHeroTrace>false</ApplyHeroTrace>
+	<SoundEffect href="/Sounds/_(Sound)/Interface/Ingame/Interact.xdb#xpointer(/Sound)"/>
+	<flybyMessageFileRef href="/Text/Game/Buildings/WindMill/Flyby______3164.txt"/>
+	<ObjectTypeFileRef href="/Text/Visibility_Types/Buildings.txt"/>
+	<TerrainAligned>false</TerrainAligned>
+	<FlyPassable>true</FlyPassable>
+	<AdventureSoundEffect/>
+	<RazedStatic/>
+	<Icon128/>
+	<Type>BUILDING_WATER_WHEEL</Type>
+</AdvMapBuildingShared>

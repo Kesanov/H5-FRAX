@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AdvMapHeroShared>
+	<Model href="/Characters/Heroes/Dwarves/Hangvul2/Model.xdb#xpointer(/Model)" />
+	<AnimSet href="/Characters/Heroes/Dwarves/Hangvul2/AnimSet.xdb#xpointer(/AnimSet)" />
+	<blockedTiles />
+	<holeTiles />
+	<activeTiles>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+		</Item>
+	</activeTiles>
+	<passableTiles />
+	<PossessionMarkerTile>
+		<x>0</x>
+		<y>0</y>
+	</PossessionMarkerTile>
+	<Effect />
+	<EffectWhenOwned />
+	<messagesFileRef>
+		<Item href="" />
+	</messagesFileRef>
+	<WaterBased>false</WaterBased>
+	<ApplyHeroTrace>false</ApplyHeroTrace>
+	<SoundEffect />
+	<flybyMessageFileRef href="" />
+	<ObjectTypeFileRef href="/Text/Visibility_Types/Units.txt" />
+	<TerrainAligned>false</TerrainAligned>
+	<FlyPassable>true</FlyPassable>
+	<AdventureSoundEffect />
+	<RazedStatic />
+	<Icon128 href="/UI/H5A1/Icons/Heroes/Portrets128x128/Hangvul.(Texture).xdb#xpointer(/Texture)" />
+	<InternalName>Hangvul2</InternalName>
+	<Class>HERO_CLASS_FLAMEKEEPERA</Class>
+	<Specialization />
+	<PrimarySkill>
+		<Mastery>MASTERY_BASIC</Mastery>
+		<SkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</SkillID>
+	</PrimarySkill>
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/LDragons/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/LDragons/Description.txt" />
+	<SpecializationIcon href="/UI/H5A1/Icons/Creatures/Dwarven/64x64/MagmaDragon.(Texture).xdb#xpointer(/Texture)" />
+	<FaceTexture href="/Textures/Icons/Heroes/Fortress/Fortress_Hangvul2_128x128.(Texture).xdb#xpointer(/Texture)" />
+	<FaceTextureSmall />
+	<HeroCharacterArena href="/Characters/Heroes/Dwarves/Hangvul2/HeroCharacterArena.xdb#xpointer(/Character)" />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Dwarves/Hangvul2/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
+	<HeroCharacterAdventure href="/Characters/Heroes/Dwarves/Hangvul2/HeroCharacterAdventure.xdb#xpointer(/Character)" />
+	<HeroIndividualCamera href="/Characters/Heroes/Dwarves/Hangvul2/HeroIndividualCamera.xdb#xpointer(/Camera)" />
+	<CombatVisual href="/Characters/Heroes/Dwarves/Hangvul2/CombatVisual.xdb#xpointer(/CreatureVisual)" />
+	<TownType>TOWN_FORTRESS</TownType>
+	<Editable>
+		<NameFileRef href="/Text/Game/Heroes/Persons/Dwarves/Uland/Name.txt" />
+		<BiographyFileRef href="/Text/Game/Heroes/Persons/Dwarves/Uland/Bio.txt" />
+		<Offence>0</Offence>
+		<Defence>1</Defence>
+		<Spellpower>2</Spellpower>
+		<Knowledge>2</Knowledge>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_INVOCATION</SkillID>
+			</Item>
+		</skills>
+		<perkIDs>
+			<Item>HERO_SKILL_EMPOWERED_SPELLS</Item>
+		</perkIDs>
+		<spellIDs>
+			<Item>SPELL_FIREBALL</Item>
+		</spellIDs>
+		<Ballista>false</Ballista>
+		<FirstAidTent>false</FirstAidTent>
+		<AmmoCart>false</AmmoCart>
+		<FavoriteEnemies />
+		<TalismanLevel>0</TalismanLevel>
+	</Editable>
+	<ArrowButtonState>0</ArrowButtonState>
+	<Decal />
+	<Selection href="/_(Model)/Heroes/RuneMage_Path/Symbol.xdb#xpointer(/Model)" />
+	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Fortress.(AdvMapHeroTraceSet).xdb#xpointer(/AdvMapHeroTraceSet)" />
+	<RaceTraitIcon />
+	<RaceTraitDescFileRef href="" />
+	<ScenarioHero>false</ScenarioHero>
+	<AdventureMusic />
+	<HideInEditor>false</HideInEditor>
+</AdvMapHeroShared>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowSimpleShared ObjectRecordID="1000326">
+	<Crap>false</Crap>
+	<Children>
+		<Item href="SI1.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI2.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI3.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI4.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI5.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI6.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI7.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI8.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI9.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI10.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="SI11.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		
+	</Children>
+	<Background/>
+	<Foreground/>
+	<Flags>
+		<Transparent>false</Transparent>
+	</Flags>
+	<Placement>
+		<Position>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</Position>
+		<VerAllign>
+			<First>EPA_LOW_END</First>
+			<Second>false</Second>
+		</VerAllign>
+		<HorAllign>
+			<First>EPA_LOW_END</First>
+			<Second>false</Second>
+		</HorAllign>
+		<Size>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</Size>
+		<LowerMargin>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</LowerMargin>
+		<UpperMargin>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</UpperMargin>
+	</Placement>
+	<ActiveArea/>
+	<IgnoreDblClick>false</IgnoreDblClick>
+	<ActiveMask/>
+</WindowSimpleShared>

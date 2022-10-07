@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization>
+	<NameFileRef href="/Text/Game/Towns/Haven/Script/Sheller/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Haven/Script/Sheller/Biography.txt"/>
+	<Bonus>TOWN_BONUS_AMMO_CART</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_HEAVEN</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

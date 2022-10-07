@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_RAKSHASA_KSHATRI</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DJINN_VIZIER</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_COMBAT_MAGE</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>26712</MinPower>
+	<MaxPower>178080</MaxPower>
+</RMGSimpleCustomArmyTemplate>

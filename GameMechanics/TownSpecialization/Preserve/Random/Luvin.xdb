@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="197">
+	<NameFileRef href="/Text/Game/Towns/Preserve/Random/Luvin/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Preserve/Random/Luvin/Biography.txt"/>
+	<Bonus>TOWN_BONUS_PLUS_LUCK</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_PRESERVE</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

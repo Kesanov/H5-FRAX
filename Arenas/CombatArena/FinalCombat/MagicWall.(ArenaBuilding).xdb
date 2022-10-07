@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArenaBuilding ObjectRecordID="1000045">
+	<Pos>
+		<x>15</x>
+		<y>8</y>
+	</Pos>
+	<Size>
+		<x>1</x>
+		<y>1</y>
+	</Size>
+	<Object href="MagicWall.(ArenaModObject).xdb#xpointer(/ArenaModObject)"/>
+	<Locator href="Wall_Locator.(ArenaLocObject).xdb#xpointer(/ArenaLocObject)"/>
+	<Shooter/>
+	<Shot/>
+	<Type>MAGIC_WALL</Type>
+	<HitEffect href="/Effects/_(Effect)/Arenas/FinalFight/WallHit.(Effect).xdb#xpointer(/Effect)"/>
+	<HitSound/>
+	<DestroyEffects>
+		<Item>
+			<Upgrade>1</Upgrade>
+			<RuinLevel>0</RuinLevel>
+			<Effect href="/Effects/_(Effect)/Arenas/FinalFight/Wall_Crash.(Effect).xdb#xpointer(/Effect)"/>
+			<SoundEffect/>
+			<Locator>Wall_Locator</Locator>
+		</Item>
+	</DestroyEffects>
+	<blockedTiles/>
+	<blockedTilesForDestroyed/>
+	<NameFileRef href="/Text/Game/Creatures/CombatBuildings/MagicWall.txt"/>
+	<DescriptionFileRef href=""/>
+</ArenaBuilding>

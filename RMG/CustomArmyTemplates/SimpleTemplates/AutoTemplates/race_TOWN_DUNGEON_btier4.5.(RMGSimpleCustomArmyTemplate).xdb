@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_RAVAGER</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MINOTAUR_KING</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_BLOOD_WITCH</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ASSASSIN</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>15873</MinPower>
+	<MaxPower>105820</MaxPower>
+</RMGSimpleCustomArmyTemplate>

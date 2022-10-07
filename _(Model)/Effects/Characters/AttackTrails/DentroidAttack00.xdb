@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Model ObjectRecordID="1002815">
+	<Materials>
+		<Item href="/_(Material)/auto-imported/Effects/Characters/AttackTrails/Glow_lambert.(Material).xdb#xpointer(/Material)" />
+	</Materials>
+	<Geometry href="DentroidAttack00-geom.xdb#xpointer(/Geometry)" />
+	<Skeleton href="DentroidAttack00-skel.xdb#xpointer(/Skeleton)" />
+	<Animations />
+	<WindPower>1</WindPower>
+</Model>

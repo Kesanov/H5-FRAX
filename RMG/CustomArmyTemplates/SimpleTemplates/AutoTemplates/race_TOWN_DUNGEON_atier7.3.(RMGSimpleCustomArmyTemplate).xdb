@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_DEEP_DRAGON</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MATRON</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_HYDRA</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>63120</MinPower>
+	<MaxPower>420800</MaxPower>
+</RMGSimpleCustomArmyTemplate>

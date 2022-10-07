@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile>
+	<Texture href="/Textures/Terrain/Snow/SnowRoad.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>156</Priority>
+	<Type>TT_COBBLESTONE_ROAD</Type>
+	<MinimapColor>
+		<x>0.784314</x>
+		<y>0.878431</y>
+		<z>0.901961</z>
+	</MinimapColor>
+	<IconFile>Icons\Generated\MapObjects\_(AdvMapTile)\Snow\Snow_road2.tga</IconFile>
+	<AmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/Snow.xdb#xpointer(/AmbientSoundSet)"/>
+	<AdventureMusic/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model ObjectRecordID="1002745">
+	<Materials>
+		<Item href="DTower-rampart_arena_central_tower_map.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton href="CTower-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="CTower-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

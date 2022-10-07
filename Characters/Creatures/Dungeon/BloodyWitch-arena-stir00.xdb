@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName href="/models/Creatures/Dungeon/BloodyWitch.mb"/>
+	<uid>B1044BC9-C069-424C-8CA1-3438C1B207AB</uid>
+	<ExpSrcClip href="/Animations/Creatures/Dungeon/BloodyWitch/Clip/BloodyWitch.stir00.ma"/>
+	<ExpRootTransform>Global</ExpRootTransform>
+	<ExpFrameFirst>0</ExpFrameFirst>
+	<ExpFrameLast>0</ExpFrameLast>
+	<ExpSettingsFile href=""/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound href="/Sounds/_(Sound)/Creatures/Dungeon/BloodyWitch/stir00.xdb#xpointer(/Sound)"/>
+	<Effect href="/Effects/_(Effect)/Characters/Creatures/Dungeon/BlodyWitch/SwordGlow_idle00.xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

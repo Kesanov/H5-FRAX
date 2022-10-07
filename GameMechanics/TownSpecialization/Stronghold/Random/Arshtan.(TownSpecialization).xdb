@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization>
+	<NameFileRef href="/Text/Game/Towns/Stronghold/Random/Darlakh/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Stronghold/Random/Darlakh/Biography.txt"/>
+	<Bonus>TOWN_BONUS_FIRST_AID_TENT</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_STRONGHOLD</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

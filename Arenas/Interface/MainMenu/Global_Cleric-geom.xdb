@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry ObjectRecordID="1003114">
+	<SrcName href="/models/MainMenu/M_Menu.mb"/>
+	<uid>77820E66-148A-42BB-BE39-DAEF6CC43FC7</uid>
+	<RootMesh/>
+	<RootJoint>Global_Cleric</RootJoint>
+	<Size>
+		<x>1.99399</x>
+		<y>1.07579</y>
+		<z>1.84945</z>
+	</Size>
+	<Center>
+		<x>-0.0184892</x>
+		<y>0.216288</y>
+		<z>0.924727</z>
+	</Center>
+	<BestFitPoint>
+		<x>-0.145483</x>
+		<y>-0.0208387</y>
+		<z>1.63027</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry/>
+	<NumMeshes>1</NumMeshes>
+	<MaterialQuantities>
+		<Item>2</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>BodyShape</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_MAGMA_DRAGON</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_WARLORD</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_FLAME_MAGE</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>60063</MinPower>
+	<MaxPower>400420</MaxPower>
+</RMGSimpleCustomArmyTemplate>

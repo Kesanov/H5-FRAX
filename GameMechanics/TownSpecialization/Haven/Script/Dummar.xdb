@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="215">
+	<NameFileRef href="Dummar.txt"/>
+	<BiographyFileRef href="Dummar_Bio.txt"/>
+	<Bonus>TOWN_BONUS_TOWERS</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_HEAVEN</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="33">
+	<NameFileRef href="/Text/Game/Towns/Dungeon/Random/Pelduat/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Dungeon/Random/Pelduat/Biography.txt"/>
+	<Bonus>TOWN_BONUS_FIRST_AID_TENT</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_DUNGEON</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

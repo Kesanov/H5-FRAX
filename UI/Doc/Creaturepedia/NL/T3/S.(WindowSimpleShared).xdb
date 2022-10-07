@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowSimpleShared ObjectRecordID="1000326">
+	<Crap>false</Crap>
+	<Children>
+		<Item href="1/s1.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s2.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s3.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s4.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s5.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s6.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s7.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s8.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s9.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s10.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+		<Item href="1/s11.(WindowTextView).xdb#xpointer(/WindowTextView)"/>
+
+		<Item href="/UI/Doc/Creaturepedia/Common/SI_L.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		
+		<Item href="/UI/Doc/Creaturepedia/Common/S1HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S2HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S3HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S4HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S5HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S6HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S7HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S8HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S9HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S10HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		<Item href="/UI/Doc/Creaturepedia/Common/S11HL.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+		
+	</Children>
+	<Background/>
+	<Foreground/>
+	<Flags>
+		<Transparent>false</Transparent>
+	</Flags>
+	<Placement>
+		<Position>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</Position>
+		<VerAllign>
+			<First>EPA_LOW_END</First>
+			<Second>false</Second>
+		</VerAllign>
+		<HorAllign>
+			<First>EPA_LOW_END</First>
+			<Second>false</Second>
+		</HorAllign>
+		<Size>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</Size>
+		<LowerMargin>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</LowerMargin>
+		<UpperMargin>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</UpperMargin>
+	</Placement>
+	<ActiveArea/>
+	<IgnoreDblClick>false</IgnoreDblClick>
+	<ActiveMask/>
+</WindowSimpleShared>

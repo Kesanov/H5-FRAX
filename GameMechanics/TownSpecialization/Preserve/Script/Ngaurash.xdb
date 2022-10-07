@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="210">
+	<NameFileRef href="/Text/Game/Towns/Preserve/Script/Ngaurash/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Preserve/Script/Ngaurash/Biography.txt"/>
+	<Bonus>TOWN_BONUS_SULFUR</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_PRESERVE</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

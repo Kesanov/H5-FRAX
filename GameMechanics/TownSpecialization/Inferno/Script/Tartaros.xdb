@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="142">
+	<NameFileRef href="/Text/Game/Towns/Inferno/Script/Tartaros/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Inferno/Script/Tartaros/Biography.txt"/>
+	<Bonus>TOWN_BONUS_HEROES</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_INFERNO</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

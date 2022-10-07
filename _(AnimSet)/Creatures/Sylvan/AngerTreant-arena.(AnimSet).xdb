@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AnimSet ObjectRecordID="262">
+	<animations>
+		<Item>
+			<Kind>attack00</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Sylvan/DendroidSolder/attack00.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+		<Item>
+			<Kind>happy</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Sylvan/DendroidSolder/happy.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+		<Item>
+			<Kind>hit</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Sylvan/DendroidSolder/hit.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Sylvan/DendroidSolder/idle00.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+		<Item>
+			<Kind>move</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Sylvan/DendroidSolder/move.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+		<Item>
+			<Kind>stir00</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Sylvan/DendroidSolder/stir00.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+		<Item>
+			<Kind>specability</Kind>
+			<Anim href="DendroidSolder-arena-specability.xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+		<Item>
+			<Kind>specability1</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Sylvan/DendroidSolder/happy.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+	</animations>
+	<ExpSrcScene href="/models/Creatures/Preserve/DendroidSoldier.mb" />
+	<ExpSrcClipFolder href="/Animations/Creatures/PRESERVE/DendroidSoldier/Clip/" />
+	<ExpRootTransform>Global</ExpRootTransform>
+</AnimSet>

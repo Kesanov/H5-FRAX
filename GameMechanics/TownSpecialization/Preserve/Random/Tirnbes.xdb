@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="199">
+	<NameFileRef href="/Text/Game/Towns/Preserve/Random/Tirnbes/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Preserve/Random/Tirnbes/Biography.txt"/>
+	<Bonus>TOWN_BONUS_HEROES</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_PRESERVE</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

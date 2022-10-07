@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_ANGEL</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_CAVALIER</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_PRIEST</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>27669</MinPower>
+	<MaxPower>184460</MaxPower>
+</RMGSimpleCustomArmyTemplate>

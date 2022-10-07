@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Character>
+	<Model href="/_(Model)/Creatures/Sylvan/AngerTreant.(Model).xdb#xpointer(/Model)" />
+	<ArenaAnimSet href="/_(AnimSet)/Creatures/Sylvan/AngerTreant-arena.(AnimSet).xdb#xpointer(/AnimSet)" />
+	<AdvMapAnimSet/>
+	<ColourModels/>
+</Character>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_WRAITH</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DEMILICH</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>30201</MinPower>
+	<MaxPower>201340</MaxPower>
+</RMGSimpleCustomArmyTemplate>

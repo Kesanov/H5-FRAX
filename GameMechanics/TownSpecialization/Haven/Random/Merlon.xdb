@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="96">
+	<NameFileRef href="/Text/Game/Towns/Haven/Random/Merlon/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Haven/Random/Merlon/Biography.txt"/>
+	<Bonus>TOWN_BONUS_TIER2_CREATURE</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_HEAVEN</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

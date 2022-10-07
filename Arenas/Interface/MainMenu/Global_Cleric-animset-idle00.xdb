@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim ObjectRecordID="1000949">
+	<SrcName href="/models/MainMenu/M_Menu.mb"/>
+	<uid>C1BC2007-4563-4FA2-B6A2-8B5C0E9FAAFB</uid>
+	<ExpSrcClip href="/Animations/Interface/MainMenu/Clip/Cleric/Cleric.idle00.ma"/>
+	<ExpRootTransform>Global_Cleric</ExpRootTransform>
+	<ExpFrameFirst>0</ExpFrameFirst>
+	<ExpFrameLast>0</ExpFrameLast>
+	<ExpSettingsFile href="/H:/Tools/MayaExportSettings/settings_cutscene_actor_play.ges"/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound/>
+	<Effect/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

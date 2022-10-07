@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="218">
+	<NameFileRef href="Miracl.txt"/>
+	<BiographyFileRef href="Miracl_Bio.txt"/>
+	<Bonus>TOWN_BONUS_FIRST_AID_TENT</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_HEAVEN</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

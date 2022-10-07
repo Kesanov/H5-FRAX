@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_PALADIN</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_CLERIC</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ROYAL_GRIFFIN</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SWORDSMAN</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>14766</MinPower>
+	<MaxPower>98440</MaxPower>
+</RMGSimpleCustomArmyTemplate>

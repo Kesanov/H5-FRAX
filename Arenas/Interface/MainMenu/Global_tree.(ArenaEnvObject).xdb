@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArenaEnvObject ObjectRecordID="1000399">
+	<placement>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</placement>
+	<Model href="Global_tree.xdb#xpointer(/Model)"/>
+	<AnimSet href="Global_tree-animset.xdb#xpointer(/AnimSet)"/>
+</ArenaEnvObject>

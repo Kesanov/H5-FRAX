@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArenaDesc>
+	<ExpScene href="/models/Arenas/FinalCombatSiege/FinalCombatSiege.mb"/>
+	<ExpSrcClipFolder href=""/>
+	<uid>55975BAA-2D3A-4DA5-AAF0-60A2831378B9</uid>
+	<objects/>
+	<lights/>
+	<effects/>
+	<sounds/>
+	<initialCamPos>
+		<Name/>
+		<Pos>
+			<x>262.954</x>
+			<y>278.324</y>
+			<z>31.5084</z>
+		</Pos>
+		<Rot>
+			<x>-27.674</x>
+			<y>-63.5321</y>
+			<z>0</z>
+		</Rot>
+		<Rod>56.784</Rod>
+		<FOV>54.4322</FOV>			
+		<ClipDistanceMin>0.2</ClipDistanceMin>
+		<ClipDistanceMax>500</ClipDistanceMax>
+	</initialCamPos>
+	<ObstaclesGroup/>
+	<AmbientSound/>
+	<Music/>
+	<Wind/>
+	<CamerasSet href="/_(CamerasSet)/PA2.xdb#xpointer(/CamerasSet)"/>
+	<AmbientLights>
+		<Item href="/Lights/_(AmbientLight)/Day_light.xdb#xpointer(/AmbientLight)"/>
+	</AmbientLights>
+	<cameraFlyupRole>
+		<Model/>
+		<AnimSet/>
+		<Player>PLAYER_NONE</Player>
+	</cameraFlyupRole>
+	<staticCameras/>
+	<CameraLimits/>
+	<CameraLimitsSet/>
+</ArenaDesc>

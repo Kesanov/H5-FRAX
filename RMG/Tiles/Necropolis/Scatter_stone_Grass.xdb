@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile>
+	<Texture href="/Textures/Terrain/Orc_Terrain/Scatter_stone_Grass.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>75</Priority>
+	<Type>TT_DIRT</Type>
+	<MinimapColor>
+		<x>0.533333</x>
+		<y>0.6</y>
+		<z>0.52549</z>
+	</MinimapColor>
+	<IconFile>Icons\Generated\MapObjects\_(AdvMapTile)\Orcish\Scatter_Stone_Grass.tga</IconFile>
+	<AmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/Taiga.xdb#xpointer(/AmbientSoundSet)"/>
+	<AdventureMusic href="/Sounds/_(Music)/AdvMap-Terrain/ScatterstoneG.xdb#xpointer(/Music)"/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

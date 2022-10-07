@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="168">
+	<NameFileRef href="/Text/Game/Towns/Necropolis/Script/Sepulcrum/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Necropolis/Script/Sepulcrum/Biography.txt"/>
+	<Bonus>TOWN_BONUS_GEMS</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_NECROMANCY</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

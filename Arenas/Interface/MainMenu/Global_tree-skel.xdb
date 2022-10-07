@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skeleton ObjectRecordID="1000898">
+	<SrcName href="/models/MainMenu/M_Menu.mb"/>
+	<RootJoint>Global_tree</RootJoint>
+	<MSRFormat>true</MSRFormat>
+	<Animations/>
+	<uid>A36A3F9F-7E7F-46BC-825B-4BAB443BDCCE</uid>
+</Skeleton>

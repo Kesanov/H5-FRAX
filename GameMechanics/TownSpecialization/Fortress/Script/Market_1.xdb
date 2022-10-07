@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization>
+	<NameFileRef href=""/>
+	<BiographyFileRef href=""/>
+	<Bonus>TOWN_BONUS_MARKETPLACE</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_FORTRESS</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="159">
+	<NameFileRef href="/Text/Game/Towns/Necropolis/Random/Lapis/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Necropolis/Random/Lapis/Biography.txt"/>
+	<Bonus>TOWN_BONUS_WALLS</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_NECROMANCY</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

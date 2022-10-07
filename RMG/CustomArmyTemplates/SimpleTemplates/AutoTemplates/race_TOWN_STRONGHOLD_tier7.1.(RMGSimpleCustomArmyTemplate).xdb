@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_CYCLOP_BLOODEYED</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_WYVERN_PAOKAI</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>141654</MinPower>
+	<MaxPower>944360</MaxPower>
+</RMGSimpleCustomArmyTemplate>

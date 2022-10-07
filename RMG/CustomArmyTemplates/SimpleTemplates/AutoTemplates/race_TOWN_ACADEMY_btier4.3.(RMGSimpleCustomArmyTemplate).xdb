@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_ARCH_MAGI</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_STEEL_GOLEM</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_OBSIDIAN_GARGOYLE</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>6972</MinPower>
+	<MaxPower>46480</MaxPower>
+</RMGSimpleCustomArmyTemplate>

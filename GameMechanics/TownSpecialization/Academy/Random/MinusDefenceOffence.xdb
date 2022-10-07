@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization>
+	<NameFileRef href="/Text/Game/Towns/Academy/Random/Shams/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Academy/Random/Shams/Biography.txt"/>
+	<Bonus>TOWN_BONUS_MINUS_DEFENCE_OFFENCE</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_ACADEMY</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

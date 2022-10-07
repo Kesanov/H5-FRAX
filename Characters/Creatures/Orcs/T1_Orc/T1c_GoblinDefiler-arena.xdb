@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimSet>
+	<animations>
+		<Item>
+			<Kind>attack00</Kind>
+			<Anim href="T1c_GoblinDefiler-arena-attack00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>death</Kind>
+			<Anim href="T1c_GoblinDefiler-arena-death.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>happy</Kind>
+			<Anim href="T1c_GoblinDefiler-arena-happy.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>hit</Kind>
+			<Anim href="T1c_GoblinDefiler-arena-hit.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="T1c_GoblinDefiler-arena-idle00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>move</Kind>
+			<Anim href="T1c_GoblinDefiler-arena-move.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>specability</Kind>
+			<Anim href="T1c_GoblinDefiler-arena-specability.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>cast</Kind>
+			<Anim href="T1c_GoblinDefiler-arena-specability.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>		
+		<Item>
+			<Kind>stir00</Kind>
+			<Anim href="T1c_GoblinDefiler-arena-stir00.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+	</animations>
+	<ExpSrcScene href="/H5A2/Creatures/Orcs/T1_Orc/T1c_GoblinDefiler/T1c_GoblinDefiler.mb"/>
+	<ExpSrcClipFolder href="/H5A2/Creatures/Orcs/T1_Orc/T1c_GoblinDefiler/Animations/Clip/"/>
+	<ExpRootTransform>Global</ExpRootTransform>
+</AnimSet>

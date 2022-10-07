@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimSet ObjectRecordID="266">
+	<animations>
+		<Item>
+			<Kind>attack00</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Necropolis/Zombie/attack00.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>death</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Necropolis/Zombie/death.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>hit</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Necropolis/Zombie/hit.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Necropolis/Zombie/idle00.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>move</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Necropolis/Zombie/move.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>happy</Kind>
+			<Anim href="Zombie-arena-happy.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>specability</Kind>
+			<Anim href="Zombie-arena-happy.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>spneutral</Kind>
+			<Anim href="Zombie-arena-spneutral.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+	</animations>
+	<ExpSrcScene href="/models/Creatures/Necropolis/Zombie.mb"/>
+	<ExpSrcClipFolder href="/Animations/Creatures/Necropolis/Zombie/Clip/"/>
+	<ExpRootTransform>Global</ExpRootTransform>
+</AnimSet>

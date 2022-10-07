@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_CERBERI</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_HORNED_DEMON</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_IMP</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>3753</MinPower>
+	<MaxPower>25020</MaxPower>
+</RMGSimpleCustomArmyTemplate>

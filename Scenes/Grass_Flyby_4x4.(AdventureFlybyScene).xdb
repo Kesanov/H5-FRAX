@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdventureFlybyScene ObjectRecordID="2">
+	<Scenery/>
+	<cameraFlyupRole>
+		<Model href="/_(Model)/Cutscenes/camera.(Model).xdb#xpointer(/Model)"/>
+		<AnimSet href="/_(AnimSet)/AdventureFlyby/4x4/camera.(AnimSet).xdb#xpointer(/AnimSet)"/>
+		<Player>PLAYER_NONE</Player>
+	</cameraFlyupRole>
+	<skyRole>
+		<Model href="/_(Model)/Cutscenes/Sky.(Model).xdb#xpointer(/Model)"/>
+		<AnimSet/>
+		<Player>PLAYER_NONE</Player>
+	</skyRole>
+	<MountPoint>
+		<Pos>
+			<x>20</x>
+			<y>20</y>
+		</Pos>
+		<Rot>0</Rot>
+	</MountPoint>
+	<AdditionalHeight>0</AdditionalHeight>
+	<Music/>
+	<AmbientSoundSet/>
+	<TextFormatFileRef href="/Text/Cutscenes/format.txt"/>
+	<ObstaclesGroup/>
+	<CamerasSet/>
+	<MeleeAttackPoints>
+		<Use>false</Use>
+		<AttackerPoint>
+			<x>0</x>
+			<y>0</y>
+		</AttackerPoint>
+		<DefenderPoint>
+			<x>0</x>
+			<y>0</y>
+		</DefenderPoint>
+	</MeleeAttackPoints>
+</AdventureFlybyScene>

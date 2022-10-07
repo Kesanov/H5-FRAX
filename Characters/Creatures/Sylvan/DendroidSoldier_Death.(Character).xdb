@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Character ObjectRecordID="184">
+	<Model href="/_(Model)/Creatures/Sylvan/DendroidSoldier_Death.(Model).xdb#xpointer(/Model)" />
+	<ArenaAnimSet href="/_(AnimSet)/Creatures/Sylvan/DendroidSoldier_Death-arena.(AnimSet).xdb#xpointer(/AnimSet)" />
+	<AdvMapAnimSet />
+	<ColourModels />
+</Character>

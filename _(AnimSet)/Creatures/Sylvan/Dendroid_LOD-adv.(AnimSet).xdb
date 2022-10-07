@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<AnimSet ObjectRecordID="270">
+	<animations>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="/_(BasicSkelAnim)/Creatures/Sylvan/Dendroid_LOD/idle00.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+	</animations>
+	<ExpSrcScene href="/models/Creatures/Preserve/Dendroid_LOD.mb" />
+	<ExpSrcClipFolder href="/Animations/Creatures/PRESERVE/Dendroid/Clip_adventure/" />
+	<ExpRootTransform>Global</ExpRootTransform>
+</AnimSet>

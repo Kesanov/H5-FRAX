@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimSet ObjectRecordID="1000211">
+	<animations>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="Global_Cleric-animset-idle00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+	</animations>
+	<ExpSrcScene href="/models/MainMenu/M_Menu.mb"/>
+	<ExpSrcClipFolder href=""/>
+	<ExpRootTransform>Global_Cleric</ExpRootTransform>
+</AnimSet>

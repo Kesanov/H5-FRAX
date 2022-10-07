@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ParticleInstance ObjectRecordID="1000027">
+	<SrcName />
+	<Light>L_NORMAL</Light>
+	<Particle href="#n:inline(Particle)" id="item_c4b02182-3630-4286-b64a-4ec6650323cf">
+		<Particle ObjectRecordID="1000034">
+			<SrcName href="/Effects/Characters/PRESERVE/DendroidSoldier/move.mb" />
+			<ExportPrefix>FX_dust</ExportPrefix>
+			<WrapSize>
+				<x>0</x>
+				<y>0</y>
+			</WrapSize>
+			<Bound>88ab57be80680a3d6d238b3e9ac7614034a61b40d0f20f40d2499b3f</Bound>
+			<PerParticleFog>false</PerParticleFog>
+			<uid>369C2145-79A2-486A-A827-4B784C2A3B7A</uid>
+		</Particle>
+	</Particle>
+	<Position>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</Position>
+	<Rotation>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>1</w>
+	</Rotation>
+	<Scale>1</Scale>
+	<Speed>1</Speed>
+	<Offset>0</Offset>
+	<EndCycle>2.8</EndCycle>
+	<CycleCount>0</CycleCount>
+	<Pivot>
+		<x>0</x>
+		<y>0</y>
+	</Pivot>
+	<Textures>
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item />
+		<Item href="/Textures/Effects/_Various/Smoke00.xdb#xpointer(/Texture)" />
+		<Item href="/Textures/Effects/_Various/Smoke01.xdb#xpointer(/Texture)" />
+	</Textures>
+	<IsCrown>false</IsCrown>
+	<Static>P_STATIC</Static>
+	<DoesCastShadow>false</DoesCastShadow>
+	<GlueToBone>0</GlueToBone>
+	<GlueToNamedBone />
+	<LeaveParticlesWhereStarted>false</LeaveParticlesWhereStarted>
+	<Priority>0</Priority>
+</ParticleInstance>

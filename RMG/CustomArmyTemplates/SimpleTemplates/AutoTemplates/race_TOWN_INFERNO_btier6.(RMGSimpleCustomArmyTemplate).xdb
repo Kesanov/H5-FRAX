@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_BALOR</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_FRIGHTFUL_NIGHTMARE</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>28668</MinPower>
+	<MaxPower>191120</MaxPower>
+</RMGSimpleCustomArmyTemplate>

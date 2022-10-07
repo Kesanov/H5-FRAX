@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Particle ObjectRecordID="1000685">
+	<SrcName href="/Effects/Arenas/FinalFight/Wall.mb"/>
+	<ExportPrefix>FX</ExportPrefix>
+	<WrapSize>
+		<x>0</x>
+		<y>0</y>
+	</WrapSize>
+	<Bound>40fd143e0036323ad44e06417637b6417ac7a6416c15363fdd5b1241</Bound>
+	<PerParticleFog>false</PerParticleFog>
+	<uid>F86C974D-8F0D-415F-B708-9B0E938015B5</uid>
+</Particle>

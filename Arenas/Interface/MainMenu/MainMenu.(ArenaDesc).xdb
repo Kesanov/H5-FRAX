@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArenaDesc ObjectRecordID="38">
+	<ExpScene href="/models/MainMenu/M_Menu.mb"/>
+	<ExpSrcClipFolder href=""/>
+	<uid>18951991-419F-4F86-9289-65D8CF9C326E</uid>
+	<objects>
+		<Item href="Global_tree.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="Ground.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="pPlane1.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="Global_ArchDevil.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="Global_Cleric.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="Corps.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="Sword.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="Devil_mesh.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="RangerFlag_Global.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="KnightFlag_Global.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+		<Item href="Helmet.(ArenaEnvObject).xdb#xpointer(/ArenaEnvObject)"/>
+	</objects>
+	<lights/>
+	<effects>
+		<Item>
+			<Effect href="/Effects/_(Effect)/Interface/MainMenu/Cleric.(Effect).xdb#xpointer(/Effect)"/>
+			<Locator/>
+		</Item>
+		<Item>
+			<Effect href="/Effects/_(Effect)/Interface/Grass/Grass.(Effect).xdb#xpointer(/Effect)"/>
+			<Locator/>
+		</Item>
+		<Item>
+			<Effect href="/Effects/_(Effect)/Interface/MainMenu/Devil.(Effect).xdb#xpointer(/Effect)"/>
+			<Locator/>
+		</Item>
+		<Item>
+			<Effect href="/Effects/_(Effect)/Interface/MainMenu/Leafs.(Effect).xdb#xpointer(/Effect)"/>
+			<Locator/>
+		</Item>
+	</effects>
+	<sounds/>
+	<initialCamPos>
+		<Name/>
+		<Pos>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Pos>
+		<Rot>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Rot>
+		<Rod>5</Rod>
+		<FOV>54.4322</FOV>
+		<ClipDistanceMin>0.5</ClipDistanceMin>
+		<ClipDistanceMax>500</ClipDistanceMax>
+	</initialCamPos>
+	<ObstaclesGroup/>
+	<AmbientSound/>
+	<Music/>
+	<Wind/>
+	<CamerasSet/>
+	<AmbientLights>
+		<Item href="/Lights/_(AmbientLight)/Arena/MainMenuSky/Day_light_GrassArena01(VicTest).xdb#xpointer(/AmbientLight)"/>
+	</AmbientLights>
+	<cameraFlyupRole>
+		<Model href="/_(Model)/Cutscenes/camera.(Model).xdb#xpointer(/Model)"/>
+		<AnimSet href="Camera.(AnimSet).xdb#xpointer(/AnimSet)"/>
+		<Player>PLAYER_NONE</Player>
+	</cameraFlyupRole>
+	<staticCameras/>
+	<CameraLimits/>
+	<CameraLimitsSet/>
+</ArenaDesc>

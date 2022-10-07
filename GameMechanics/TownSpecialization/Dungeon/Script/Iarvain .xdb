@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization>
+	<NameFileRef href="/Text/Game/Towns/Dungeon/Script/Iarvain/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Dungeon/Script/Iarvain/Biography.txt"/>
+	<Bonus>TOWN_BONUS_MINUS_MORALE</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_DUNGEON</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

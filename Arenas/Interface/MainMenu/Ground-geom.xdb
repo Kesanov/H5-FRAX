@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry ObjectRecordID="1003110">
+	<SrcName href="/models/MainMenu/M_Menu.mb"/>
+	<uid>5B5D9E9F-58BC-433E-99E8-F12823BDF338</uid>
+	<RootMesh>Ground</RootMesh>
+	<RootJoint/>
+	<Size>
+		<x>42.2066</x>
+		<y>46.8238</y>
+		<z>4.06523</z>
+	</Size>
+	<Center>
+		<x>-1.66645</x>
+		<y>30.2032</y>
+		<z>-3.45926</z>
+	</Center>
+	<BestFitPoint>
+		<x>1.4541</x>
+		<y>15.7468</y>
+		<z>-1.52726</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry/>
+	<NumMeshes>1</NumMeshes>
+	<MaterialQuantities>
+		<Item>1</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>GroundShape</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

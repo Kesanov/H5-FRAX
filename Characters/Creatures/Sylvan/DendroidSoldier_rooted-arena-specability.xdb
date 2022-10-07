@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<BasicSkelAnim ObjectRecordID="1000218">
+	<SrcName href="/models/Creatures/Preserve/DendroidSoldier.mb" />
+	<uid>904822BA-DD61-40DA-BADE-BCDF6D6BDCA6</uid>
+	<ExpSrcClip href="/Animations/Creatures/PRESERVE/DendroidSoldier/Clip_add/DendroidSoldier.specability.ma" />
+	<ExpRootTransform>Global</ExpRootTransform>
+	<ExpFrameFirst>0</ExpFrameFirst>
+	<ExpFrameLast>0</ExpFrameLast>
+	<ExpSettingsFile href="/H:/Tools/MayaExportSettings/settings_character_anim.ges" />
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound href="/Sounds/_(Sound)/Creatures/Sylvan/Treant/rooted-spec.xdb#xpointer(/Sound)" />
+	<Effect />
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial />
+</BasicSkelAnim>

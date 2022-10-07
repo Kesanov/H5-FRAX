@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="48">
+	<NameFileRef href="/Text/Game/Towns/Dungeon/Random/Tondnor/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Dungeon/Random/Tondnor/Biography.txt"/>
+	<Bonus>TOWN_BONUS_EXTRA_WOOD</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_DUNGEON</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

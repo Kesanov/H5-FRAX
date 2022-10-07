@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<BasicSkelAnim ObjectRecordID="1000194">
+	<SrcName href="/models/Creatures/Preserve/DendroidSoldier_Death.mb" />
+	<uid>43D0D452-FE93-48D4-A7E2-2896F8CA30B5</uid>
+	<ExpSrcClip href="/Animations/Creatures/PRESERVE/DendroidSoldier/Clip_death/DendroidSoldier.death.ma" />
+	<ExpRootTransform>Global</ExpRootTransform>
+	<ExpFrameFirst>0</ExpFrameFirst>
+	<ExpFrameLast>0</ExpFrameLast>
+	<ExpSettingsFile href="/H:/Tools/MayaExportSettings/settings_character_anim.ges" />
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound href="#n:inline(Sound)" id="item_b403b148-a87c-4d2a-8fa8-122e17e6b823">
+		<Sound ObjectRecordID="1000236">
+			<SrcName>Sounds\Creatures\Sylvan\Dendroid\Dendroid_soldier_death.wav</SrcName>
+			<uid>1E8AFE0B-3E04-47C4-A1B1-A99E427BF9C9</uid>
+			<Loop>false</Loop>
+			<Is3D>true</Is3D>
+			<MinDistance>50</MinDistance>
+			<MaxDistance>10000</MaxDistance>
+			<Priority>0</Priority>
+			<EndingSamples>0</EndingSamples>
+			<StartSamples>0</StartSamples>
+			<FrequencyVar>0</FrequencyVar>
+			<VolumeBase>1</VolumeBase>
+			<VolumeVar>0</VolumeVar>
+			<FinalSound />
+		</Sound>
+	</Sound>
+	<Effect />
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial />
+</BasicSkelAnim>

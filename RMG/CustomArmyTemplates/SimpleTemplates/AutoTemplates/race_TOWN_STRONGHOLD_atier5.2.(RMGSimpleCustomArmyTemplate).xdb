@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_ORCCHIEF_BUTCHER</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SHAMAN</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ORC_WARRIOR</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>15969</MinPower>
+	<MaxPower>106460</MaxPower>
+</RMGSimpleCustomArmyTemplate>

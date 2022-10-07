@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_HORROR_DRAGON</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_LICH_MASTER</Creature>
+			<Coef>3</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_NOSFERATU</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>56976</MinPower>
+	<MaxPower>379840</MaxPower>
+</RMGSimpleCustomArmyTemplate>

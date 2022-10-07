@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile>
+	<Texture href="/Textures/Terrain/SubTerrain/Dwarf_Floor_Road.(Texture).xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>242</Priority>
+	<Type>TT_DWARVENMINES</Type>
+	<MinimapColor>
+		<x>0.486275</x>
+		<y>0.356863</y>
+		<z>0.239216</z>
+	</MinimapColor>
+	<IconFile>Icons\Generated\MapObjects\_(AdvMapTile)\SubTerrain\SubTerrainDwarvenHex-icon.tga</IconFile>
+	<AmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/DwarfDungeon.xdb#xpointer(/AmbientSoundSet)"/>
+	<AdventureMusic/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="83">
+	<NameFileRef href="/Text/Game/Towns/Haven/Random/Dunhart/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Haven/Random/Dunhart/Biography.txt"/>
+	<Bonus>TOWN_BONUS_250_GOLD</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_HEAVEN</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

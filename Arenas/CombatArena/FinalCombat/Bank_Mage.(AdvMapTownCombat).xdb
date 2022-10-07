@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTownCombat ObjectRecordID="1000007">
+	<walls/>
+	<ArenaDesc href="Bank_Mage.(ArenaDesc).xdb#xpointer(/ArenaDesc)"/>
+	<ArenaMap href="/Scenes/CombatArenas/Bank_Mage.xdb#xpointer(/AdventureFlybyScene)"/>
+	<GroundType>TT_DWARVENMINES</GroundType>
+</AdvMapTownCombat>

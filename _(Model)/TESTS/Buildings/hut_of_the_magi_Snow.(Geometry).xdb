@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry>
+	<SrcName href="/models/Buildings/FPP2/Hat_of_Magi.mb"/>
+	<uid>C8D0C339-1CA7-4443-938D-491EC81C53D1</uid>
+	<RootMesh>Global</RootMesh>
+	<RootJoint/>
+	<Size>
+		<x>4</x>
+		<y>4</y>
+		<z>7.58836</z>
+	</Size>
+	<Center>
+		<x>1</x>
+		<y>1</y>
+		<z>3.79418</z>
+	</Center>
+	<BestFitPoint>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry href="/_(AIGeometry)/Buildings/Hat_of_Magi.(AIGeometry).xdb#xpointer(/AIGeometry)"/>
+	<NumMeshes>3</NumMeshes>
+	<MaterialQuantities>
+		<Item>1</Item>
+		<Item>1</Item>
+		<Item>1</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>HutOfMagiShape</Item>
+		<Item>Hat_of_Magi_podShape</Item>
+		<Item>CragShape</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

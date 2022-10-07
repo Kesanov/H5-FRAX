@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName href="/models/Creatures/Dungeon/Priestess.mb"/>
+	<uid>13DFB0E9-5719-4449-BB4E-0D4DB6E2D1EC</uid>
+	<ExpSrcClip href="/Animations/Creatures/DUNGEON/Priestess/Clip/Priestess.happy.ma"/>
+	<ExpRootTransform>Global</ExpRootTransform>
+	<ExpFrameFirst>0</ExpFrameFirst>
+	<ExpFrameLast>0</ExpFrameLast>
+	<ExpSettingsFile href=""/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound/>
+	<Effect/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

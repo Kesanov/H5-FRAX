@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGParameters>
+	<RMGVersion>37</RMGVersion>
+	<Mine1LevelMinRadius>5</Mine1LevelMinRadius>
+	<Mine1LevelMaxRadius>20</Mine1LevelMaxRadius>
+	<Mine2LevelMinRadius>7</Mine2LevelMinRadius>
+	<Mine2LevelMaxRadius>75</Mine2LevelMaxRadius>
+	<Mine3LevelMinRadius>4</Mine3LevelMinRadius>
+	<Mine3LevelMaxRadius>75</Mine3LevelMaxRadius>
+	<BasicLeverGuardPower>1000</BasicLeverGuardPower>
+	<ConnectionGuardLevel>2</ConnectionGuardLevel>
+	<Mine1LevelGuardLevel>1</Mine1LevelGuardLevel>
+	<Mine2LevelGuardLevel>6</Mine2LevelGuardLevel>
+	<MineGoldGuardLevel>20</MineGoldGuardLevel>
+	<JunctionMinBorderDistance>5</JunctionMinBorderDistance>
+	<TeleportMinBorderDistance>2</TeleportMinBorderDistance>
+	<TeleportMaxBorderDistance>10</TeleportMaxBorderDistance>
+	<DistBetweenLakes>15</DistBetweenLakes>
+	<DistBetweenTreasureBlocks>9</DistBetweenTreasureBlocks>
+	<CreatureMinStackAmount>5</CreatureMinStackAmount>
+	<CreatureMaxStackAmount>100</CreatureMaxStackAmount>
+	<MinDistanceBetweenBigObjects>25</MinDistanceBetweenBigObjects>
+	<MinDistanceBetweenTreasureBlocks>4</MinDistanceBetweenTreasureBlocks>
+	<GroundTerrainLight href="/Lights/_(AmbientLight)/Day_light_AdvMap01(EugeneTest).xdb#xpointer(/AmbientLight)"/>
+	<UndergroundTerrainLight href="/Lights/_(AmbientLight)/Tests/underground.xdb#xpointer(/AmbientLight)"/>
+	<PointLightParams>
+		<ZoneRadius>40</ZoneRadius>
+		<MinDist>11</MinDist>
+		<zMin>2</zMin>
+		<zMax>7</zMax>
+		<LightRadiusMin>20</LightRadiusMin>
+		<LightRadiusMax>25</LightRadiusMax>
+		<Colors>
+			<Item>
+				<x>1</x>
+				<y>0.615686</y>
+				<z>0.615686</z>
+			</Item>
+			<Item>
+				<x>0.666667</x>
+				<y>1</y>
+				<z>0.666667</z>
+			</Item>
+			<Item>
+				<x>0.666667</x>
+				<y>0.666667</y>
+				<z>1</z>
+			</Item>
+			<Item>
+				<x>1</x>
+				<y>1</y>
+				<z>0.643137</z>
+			</Item>
+			<Item>
+				<x>1</x>
+				<y>0.584314</y>
+				<z>1</z>
+			</Item>
+			<Item>
+				<x>0.682353</x>
+				<y>1</y>
+				<z>1</z>
+			</Item>
+			<Item>
+				<x>0.811765</x>
+				<y>0.988235</y>
+				<z>0.619608</z>
+			</Item>
+			<Item>
+				<x>0.913725</x>
+				<y>0.815686</y>
+				<z>0.439216</z>
+			</Item>
+			<Item>
+				<x>1</x>
+				<y>0.823529</y>
+				<z>0.827451</z>
+			</Item>
+			<Item>
+				<x>1</x>
+				<y>1</y>
+				<z>0.643137</z>
+			</Item>
+			<Item>
+				<x>1</x>
+				<y>0.941176</y>
+				<z>0.717647</z>
+			</Item>
+			<Item>
+				<x>0.905882</x>
+				<y>0.639216</y>
+				<z>0.0117647</z>
+			</Item>
+			<Item>
+				<x>0.886274</x>
+				<y>0.690196</y>
+				<z>0.478431</z>
+			</Item>
+		</Colors>
+	</PointLightParams>
+	<MapName href="rmgMapName.txt"/>
+	<MapDescription href="rmgMapDesc.txt"/>
+	<ScenarioCaption href="rmgScenarioCaption.txt"/>
+	<ScenarioDescription href="rmgScenarioDescription.txt"/>
+	<ObjectiveCaption href="ObjectiveCaption.txt"/>
+	<ObjectiveDescription href="ObjectiveDescription.txt"/>
+	<ObjectiveRMGCaption href="ObjectiveRMGCaption.txt"/>
+	<ObjectiveRMGDescription href="ObjectiveRMGDescription.txt"/>
+	<CreatureStackParams>
+		<BasicAmount>25</BasicAmount>
+		<MinAmount>6</MinAmount>
+		<MaxAmount>100</MaxAmount>
+	</CreatureStackParams>
+	<DefaultSurfaceTile href="/RMG/Tiles/Haven/Dark_Grass.xdb#xpointer(/AdvMapTile)"/>
+	<DefaultSubterraTile href="/RMG/Tiles/Dungeon/SubTerrain.xdb#xpointer(/AdvMapTile)"/>
+	<DeepWaterTile href="/RMG/Tiles/Water/Water.xdb#xpointer(/AdvMapTile)"/>
+	<DeepWaterBottom href="/RMG/Tiles/Academy/River-bed.xdb#xpointer(/AdvMapTile)"/>
+	<DefaultTransitiveTile href="/RMG/Tiles/Necropolis/DarkGround.xdb#xpointer(/AdvMapTile)"/>
+	<TransitiveTileIntensity>200</TransitiveTileIntensity>
+	<MapSizeNames>
+		<Item href="Item00.txt"/>
+		<Item href="mapsizesmalltext.txt"/>
+		<Item href="mapsizenormaltext.txt"/>
+		<Item href="mapsizelargetext.txt"/>
+		<Item href="mapsizeextralargetext.txt"/>
+		<Item href="mapsizehugetext.txt"/>
+		<Item href="mapsizeimpossibletext.txt"/>
+	</MapSizeNames>
+	<TextWith href="TextWith.txt"/>
+	<TextWithout href="TextWithout.txt"/>
+	<DefaultRMGObjective href="DefaultRMGObjective.txt"/>
+	<DefaultGrailObjective href="DefaultGrailObjective.txt"/>
+	<Templates/>
+	<TextWithWater href="TextWithWater.txt"/>
+	<TextWithoutWater href="TextWithoutWater.txt"/>
+	<MonsterStrenghtNames>
+		<Item href="MonsterWeak.txt"/>
+		<Item href="MonsterMedium.txt"/>
+		<Item href="MonsterStrong.txt"/>
+		<Item href="MonsterVeryStrong.txt"/>
+		<Item href="MonsterImpossible.txt"/>
+	</MonsterStrenghtNames>
+	<ResourceMineColors>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Item>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Item>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Item>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Item>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Item>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Item>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Item>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</Item>
+	</ResourceMineColors>
+	<MonsterLevelCoef/>
+	<ShipyardGuardsLevelCoef>20</ShipyardGuardsLevelCoef>
+	<GroundTerrainLights>
+		<Item href="/Lights/_(AmbientLight)/Day_light_AdvMap01(EugeneTest).xdb#xpointer(/AmbientLight)"/>
+		<Item href="/Lights/_(AmbientLight)/Arena/Dusk_light_BoatArena01(VicTest).xdb#xpointer(/AmbientLight)"/>
+		<Item href="/Lights/_(AmbientLight)/0_Default_AmbientLight.xdb#xpointer(/AmbientLight)"/>
+		<Item href="/Lights/_(AmbientLight)/AdvMap/C1M1.xdb#xpointer(/AmbientLight)"/>
+	</GroundTerrainLights>
+	<Obelisk href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+	<Grail href="/MapObjects/Artifacts/Graal.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)"/>
+	<WaterTreasures>
+		<Item href="/MapObjects/Sea_Chest.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Floatsam.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Water/Shipwrecks_2/FootmanWreck.xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Water/Shipwrecks_2/PeasantWreck.xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Floatsam.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Floatsam.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Floatsam.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Floatsam.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Floatsam.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Floatsam.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Floatsam.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+		<Item href="/MapObjects/Sea_Chest.(AdvMapTreasureShared).xdb#xpointer(/AdvMapTreasureShared)"/>
+	</WaterTreasures>
+</RMGParameters>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skeleton>
+	<SrcName href="/models/MainMenu/M_Menu.mb"/>
+	<RootJoint>KnightFlag_Global</RootJoint>
+	<MSRFormat>true</MSRFormat>
+	<Animations/>
+	<uid>AD049D34-4CE9-4908-87BA-B9DEFCECA52C</uid>
+</Skeleton>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_RED_DRAGON</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SHADOW_MISTRESS</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ACIDIC_HYDRA</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_BLACK_RIDER</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>75999</MinPower>
+	<MaxPower>506660</MaxPower>
+</RMGSimpleCustomArmyTemplate>

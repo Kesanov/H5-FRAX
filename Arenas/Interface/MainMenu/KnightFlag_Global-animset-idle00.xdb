@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName href="/models/MainMenu/M_Menu.mb"/>
+	<uid>5786DA90-58C7-40D1-8C0A-575FD5325081</uid>
+	<ExpSrcClip href="/Animations/Interface/MainMenu/Clip/KnightFlag/KnightFlag.idle00.ma"/>
+	<ExpRootTransform>KnightFlag_Global</ExpRootTransform>
+	<ExpFrameFirst>0</ExpFrameFirst>
+	<ExpFrameLast>0</ExpFrameLast>
+	<ExpSettingsFile href=""/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound/>
+	<Effect/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>

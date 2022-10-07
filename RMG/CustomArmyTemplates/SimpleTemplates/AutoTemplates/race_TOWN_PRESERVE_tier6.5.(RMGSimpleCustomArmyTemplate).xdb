@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_ANGER_TREANT</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_WHITE_UNICORN</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_HIGH_DRUID</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SHARP_SHOOTER</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>34620</MinPower>
+	<MaxPower>230800</MaxPower>
+</RMGSimpleCustomArmyTemplate>

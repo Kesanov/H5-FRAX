@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skeleton ObjectRecordID="1000900">
+	<SrcName href="/models/MainMenu/M_Menu.mb"/>
+	<RootJoint>Global_Cleric</RootJoint>
+	<MSRFormat>true</MSRFormat>
+	<Animations/>
+	<uid>4F6F2D1F-F62F-4EAD-86C2-F7CCA543F736</uid>
+</Skeleton>

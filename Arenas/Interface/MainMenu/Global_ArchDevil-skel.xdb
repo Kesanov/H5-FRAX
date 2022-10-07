@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skeleton ObjectRecordID="1000899">
+	<SrcName href="/models/MainMenu/M_Menu.mb"/>
+	<RootJoint>Global_ArchDevil</RootJoint>
+	<MSRFormat>true</MSRFormat>
+	<Animations/>
+	<uid>06E3ACB0-0BA5-40C6-81B7-CF55AA3D5EE5</uid>
+</Skeleton>

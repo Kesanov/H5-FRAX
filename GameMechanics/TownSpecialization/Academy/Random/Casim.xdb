@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="8">
+	<NameFileRef href="/Text/Game/Towns/Academy/Random/Casim/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Academy/Random/Casim/Biography.txt"/>
+	<Bonus>TOWN_BONUS_MARKETPLACE</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_ACADEMY</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

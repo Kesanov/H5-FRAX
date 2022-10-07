@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile ObjectRecordID="11">
+	<Texture href="/Textures/Test/Andy/Roads_test.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>19</Priority>
+	<Type>TT_DIRT</Type>
+	<MinimapColor>
+		<x>0.878431</x>
+		<y>0.556863</y>
+		<z>0.317647</z>
+	</MinimapColor>
+	<IconFile/>
+	<AmbientSoundSet/>
+	<AdventureMusic/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

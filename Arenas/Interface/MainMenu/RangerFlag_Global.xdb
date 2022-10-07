@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Materials>
+		<Item href="RangerFlag_Global-RangerFlag_lambert.(Material).xdb#xpointer(/Material)"/>
+	</Materials>
+	<Skeleton href="RangerFlag_Global-skel.xdb#xpointer(/Skeleton)"/>
+	<Geometry href="RangerFlag_Global-geom.xdb#xpointer(/Geometry)"/>
+	<Animations/>
+	<WindPower>1</WindPower>
+</Model>

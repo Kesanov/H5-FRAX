@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="73">
+	<NameFileRef href="/Text/Game/Towns/Dungeon/Script/Eahost/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Dungeon/Script/Eahost/Biography.txt"/>
+	<Bonus>TOWN_NO_BONUS</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_DUNGEON</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

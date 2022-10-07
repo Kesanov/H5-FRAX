@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="130">
+	<NameFileRef href="/Text/Game/Towns/Inferno/Random/Deht/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Inferno/Random/Deht/Biography.txt"/>
+	<Bonus>TOWN_BONUS_CRYSTALS</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_INFERNO</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

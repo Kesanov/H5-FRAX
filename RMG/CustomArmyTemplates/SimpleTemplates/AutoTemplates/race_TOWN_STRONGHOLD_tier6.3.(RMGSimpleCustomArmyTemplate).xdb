@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_WYVERN_PAOKAI</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ORCCHIEF_CHIEFTAIN</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SHAMAN_HAG</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>25764</MinPower>
+	<MaxPower>171760</MaxPower>
+</RMGSimpleCustomArmyTemplate>

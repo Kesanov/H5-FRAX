@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_ZEALOT</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_VINDICATOR</Creature>
+			<Coef>3</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_LONGBOWMAN</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>6327</MinPower>
+	<MaxPower>42180</MaxPower>
+</RMGSimpleCustomArmyTemplate>

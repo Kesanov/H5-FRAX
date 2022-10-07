@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile ObjectRecordID="9">
+	<Texture href="/Textures/Terrain/Grass/Grass.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>11</Priority>
+	<Type>TT_GRASS</Type>
+	<MinimapColor>
+		<x>0.188235</x>
+		<y>0.478431</y>
+		<z>0.113725</z>
+	</MinimapColor>
+	<IconFile>\texture\Terrain\Grass\Grass_icon.bmp</IconFile>
+	<AmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/Grass.xdb#xpointer(/AmbientSoundSet)"/>
+	<AdventureMusic href="/Sounds/_(Music)/AdvMap-Terrain/Grass.xdb#xpointer(/Music)"/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

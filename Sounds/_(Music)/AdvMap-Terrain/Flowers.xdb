@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Music>
+	<FileName>..\Music\AdvMap-Terrain\Terrain-Grass.ogg</FileName>
+	<FadeIn>2000</FadeIn>
+	<FadeOut>2000</FadeOut>
+	<MinPausedTime>500</MinPausedTime>
+	<MaxPausedTime>15000</MaxPausedTime>
+</Music>

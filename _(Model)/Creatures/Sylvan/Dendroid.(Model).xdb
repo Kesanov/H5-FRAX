@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Model ObjectRecordID="7041">
+	<Materials>
+		<Item href="#n:inline(Material)" id="item_664b9c26-47de-421c-a369-47b9391109e0">
+			<Material ObjectRecordID="15363">
+				<Texture href="/Textures/Dendroid/Dendroid.tga.xdb#xpointer(/Texture)" />
+				<Bump />
+				<SpecFactor>0</SpecFactor>
+				<SpecColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</SpecColor>
+				<Gloss />
+				<MetalMirror>0</MetalMirror>
+				<DielMirror>0</DielMirror>
+				<Mirror />
+				<CastShadow>true</CastShadow>
+				<ReceiveShadow>true</ReceiveShadow>
+				<Priority>0</Priority>
+				<TranslucentColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</TranslucentColor>
+				<FloatParam>0</FloatParam>
+				<DetailTexture />
+				<DetailScale>5</DetailScale>
+				<ProjectOnTerrain>false</ProjectOnTerrain>
+				<LightingMode>L_NORMAL</LightingMode>
+				<DynamicMode>DM_DONT_CARE</DynamicMode>
+				<Is2Sided>false</Is2Sided>
+				<Effect>M_GENERIC</Effect>
+				<AlphaMode>AM_ALPHA_TEST</AlphaMode>
+				<AffectedByFog>true</AffectedByFog>
+				<AddPlaced>false</AddPlaced>
+				<IgnoreZBuffer>false</IgnoreZBuffer>
+				<BackFaceCastShadow>false</BackFaceCastShadow>
+			</Material>
+		</Item>
+		<Item href="#n:inline(Material)" id="item_7dd7f389-9972-4d2f-bee2-c563fdd7afed">
+			<Material ObjectRecordID="15364">
+				<Texture href="/Textures/Dendroid/Dendroid_add.tga.xdb#xpointer(/Texture)" />
+				<Bump />
+				<SpecFactor>0</SpecFactor>
+				<SpecColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</SpecColor>
+				<Gloss />
+				<MetalMirror>0</MetalMirror>
+				<DielMirror>0</DielMirror>
+				<Mirror />
+				<CastShadow>true</CastShadow>
+				<ReceiveShadow>true</ReceiveShadow>
+				<Priority>0</Priority>
+				<TranslucentColor>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</TranslucentColor>
+				<FloatParam>0</FloatParam>
+				<DetailTexture />
+				<DetailScale>5</DetailScale>
+				<ProjectOnTerrain>false</ProjectOnTerrain>
+				<LightingMode>L_NORMAL</LightingMode>
+				<DynamicMode>DM_DONT_CARE</DynamicMode>
+				<Is2Sided>false</Is2Sided>
+				<Effect>M_GENERIC</Effect>
+				<AlphaMode>AM_ALPHA_TEST</AlphaMode>
+				<AffectedByFog>true</AffectedByFog>
+				<AddPlaced>false</AddPlaced>
+				<IgnoreZBuffer>false</IgnoreZBuffer>
+				<BackFaceCastShadow>false</BackFaceCastShadow>
+			</Material>
+		</Item>
+	</Materials>
+	<Geometry href="#n:inline(Geometry)" id="item_7dd83433-9e90-458e-af1d-59709eeb5c15">
+		<Geometry ObjectRecordID="6243">
+			<SrcName href="/models/Creatures/Preserve/Dendroid.mb" />
+			<uid>9E6DA3E5-E4DE-4CF9-B822-5A5BCC019A69</uid>
+			<RootMesh />
+			<RootJoint>Global</RootJoint>
+			<Size>
+				<x>9.11572</x>
+				<y>1.76089</y>
+				<z>4.49571</z>
+			</Size>
+			<Center>
+				<x>0.0543394</x>
+				<y>0.207083</y>
+				<z>1.45954</z>
+			</Center>
+			<AIGeometry href="#n:inline(AIGeometry)" id="item_23d53112-378b-416d-9c08-5383932d2b93">
+				<AIGeometry ObjectRecordID="337">
+					<SrcName href="/models/Creatures/Preserve/Dendroid.mb" />
+					<RootMesh>AI</RootMesh>
+					<RootJoint />
+					<Volume>0</Volume>
+					<SolidPart>0</SolidPart>
+					<AABBCenter>
+						<x>0.0108413</x>
+						<y>0.278388</y>
+						<z>1.77286</z>
+					</AABBCenter>
+					<AABBHalfSize>
+						<x>1.98883</x>
+						<y>0.975415</y>
+						<z>1.76224</z>
+					</AABBHalfSize>
+					<uid>AD4A4A68-2CFF-4F5F-98B3-503053297CB1</uid>
+				</AIGeometry>
+			</AIGeometry>
+			<NumMeshes>1</NumMeshes>
+			<MaterialQuantities>
+				<Item>2</Item>
+			</MaterialQuantities>
+			<MeshNames>
+				<Item>Dentroid_meshShape</Item>
+			</MeshNames>
+			<MeshAnimated />
+			<MeshWindAffected />
+		</Geometry>
+	</Geometry>
+	<Skeleton href="#n:inline(Skeleton)" id="item_a2e65c91-4db4-4d12-86f5-dd6f9a43d9a2">
+		<Skeleton ObjectRecordID="1261">
+			<SrcName href="/models/Creatures/Preserve/Dendroid.mb" />
+			<RootJoint>Global</RootJoint>
+			<MSRFormat>true</MSRFormat>
+			<Animations />
+			<uid>1F1228E1-7910-4D13-B3A0-6B8BE4B2906B</uid>
+		</Skeleton>
+	</Skeleton>
+	<Animations />
+	<WindPower>1</WindPower>
+</Model>

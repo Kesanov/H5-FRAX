@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimSet>
+	<animations>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="KnightFlag_Global-animset-idle00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+	</animations>
+	<ExpSrcScene href="/models/MainMenu/M_Menu.mb"/>
+	<ExpSrcClipFolder href=""/>
+	<ExpRootTransform>KnightFlag_Global</ExpRootTransform>
+</AnimSet>

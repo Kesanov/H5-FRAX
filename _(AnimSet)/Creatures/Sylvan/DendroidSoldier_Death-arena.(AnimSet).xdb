@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AnimSet ObjectRecordID="271">
+	<animations>
+		<Item>
+			<Kind>death</Kind>
+			<Anim href="DendroidSoldier_Death-arena-death.xdb#xpointer(/BasicSkelAnim)" />
+		</Item>
+	</animations>
+	<ExpSrcScene href="/models/Creatures/Preserve/DendroidSoldier_Death.mb" />
+	<ExpSrcClipFolder href="/Animations/Creatures/PRESERVE/DendroidSoldier/Clip_death/" />
+	<ExpRootTransform>Global</ExpRootTransform>
+</AnimSet>

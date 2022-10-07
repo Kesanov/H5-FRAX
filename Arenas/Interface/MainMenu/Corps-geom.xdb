@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Geometry>
+	<SrcName href="/models/MainMenu/M_Menu.mb"/>
+	<uid>55391DE6-ABAD-4AB3-9995-FAB6F6383405</uid>
+	<RootMesh>Corps</RootMesh>
+	<RootJoint/>
+	<Size>
+		<x>54.8548</x>
+		<y>40.2838</y>
+		<z>5.66495</z>
+	</Size>
+	<Center>
+		<x>-6.07436</x>
+		<y>32.0569</y>
+		<z>-0.296187</z>
+	</Center>
+	<BestFitPoint>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+	</BestFitPoint>
+	<Dir>
+		<x>0</x>
+		<y>0</y>
+		<z>0</z>
+		<w>0</w>
+	</Dir>
+	<AIGeometry/>
+	<NumMeshes>1</NumMeshes>
+	<MaterialQuantities>
+		<Item>16</Item>
+	</MaterialQuantities>
+	<MeshNames>
+		<Item>CorpsShape</Item>
+	</MeshNames>
+	<MeshAnimated/>
+	<MeshWindAffected/>
+</Geometry>

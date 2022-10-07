@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_WYVERN_POISONOUS</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ORCCHIEF_EXECUTIONER</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SHAMAN_WITCH</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>34086</MinPower>
+	<MaxPower>227240</MaxPower>
+</RMGSimpleCustomArmyTemplate>

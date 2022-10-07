@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_HELL_HOUND</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DEMON</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_FAMILIAR</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>3753</MinPower>
+	<MaxPower>25020</MaxPower>
+</RMGSimpleCustomArmyTemplate>

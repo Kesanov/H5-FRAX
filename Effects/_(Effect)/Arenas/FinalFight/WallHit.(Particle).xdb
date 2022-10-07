@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Particle ObjectRecordID="1000684">
+	<SrcName href="/Effects/Arenas/FinalFight/WallHit.mb"/>
+	<ExportPrefix>FX</ExportPrefix>
+	<WrapSize>
+		<x>0</x>
+		<y>0</y>
+	</WrapSize>
+	<Bound>78c86e3f421c6ec0a8d86ebf2613d041e35b6f413f916841b7987841</Bound>
+	<PerParticleFog>false</PerParticleFog>
+	<uid>8BABD2D7-7E42-48D9-9721-0029EB8ED714</uid>
+</Particle>

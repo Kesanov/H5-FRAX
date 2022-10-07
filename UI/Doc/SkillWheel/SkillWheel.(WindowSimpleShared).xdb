@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowSimpleShared ObjectRecordID="1000860">
+	<Crap>false</Crap>
+	<Children>
+		<Item href="ExitButton.(WindowMSButton).xdb#xpointer(/WindowMSButton)"/>
+
+		<Item href="Classes/H1/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/H2/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/H3/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		
+		<Item href="Classes/I1/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/I2/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/I3/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		
+		<Item href="Classes/N1/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/N2/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/N3/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		
+		<Item href="Classes/S1/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/S2/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/S3/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		
+		<Item href="Classes/D1/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/D2/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/D3/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		
+		<Item href="Classes/A1/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/A2/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/A3/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+
+		<Item href="Classes/F1/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/F2/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/F3/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+
+		<Item href="Classes/B1/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/B2/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Classes/B3/Page.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+
+		<Item href="Skills/SkillPages.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+
+		<Item href="Common/PYC.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+
+		<Item href="Background_Norm.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Background_Barb.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+		<Item href="Background_Barb2.(WindowSimple).xdb#xpointer(/WindowSimple)"/>
+	</Children>
+	<Background href="Background.(BackgroundSimpleScallingTexture).xdb#xpointer(/BackgroundSimpleScallingTexture)"/>
+	<Foreground/>
+	<Flags>
+		<Transparent>false</Transparent>
+	</Flags>
+	<Placement>
+		<Position>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</Position>
+		<VerAllign>
+			<First>EPA_LOW_END</First>
+			<Second>false</Second>
+		</VerAllign>
+		<HorAllign>
+			<First>EPA_LOW_END</First>
+			<Second>false</Second>
+		</HorAllign>
+		<Size>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</Size>
+		<LowerMargin>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</LowerMargin>
+		<UpperMargin>
+			<First>
+				<x>0</x>
+				<y>0</y>
+			</First>
+			<Second>false</Second>
+		</UpperMargin>
+	</Placement>
+	<ActiveArea/>
+	<IgnoreDblClick>false</IgnoreDblClick>
+	<ActiveMask/>
+</WindowSimpleShared>

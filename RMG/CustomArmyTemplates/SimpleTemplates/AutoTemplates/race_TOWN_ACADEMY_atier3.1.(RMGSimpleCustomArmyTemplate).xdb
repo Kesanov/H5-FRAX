@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_IRON_GOLEM</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_STONE_GARGOYLE</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>6225</MinPower>
+	<MaxPower>41500</MaxPower>
+</RMGSimpleCustomArmyTemplate>

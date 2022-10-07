@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimSet ObjectRecordID="1000073">
+	<animations>
+		<Item>
+			<Kind>death</Kind>
+			<Anim href="ChaosHydra-arena-death.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="ChaosHydra-arena-idle00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>move</Kind>
+			<Anim href="ChaosHydra-arena-move.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>attack00</Kind>
+			<Anim href="ChaosHydra-arena-attack00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>hit</Kind>
+			<Anim href="ChaosHydra-arena-hit.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>happy</Kind>
+			<Anim href="ChaosHydra-arena-happy.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>specability</Kind>
+			<Anim href="ChaosHydra-arena-happy.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>stir00</Kind>
+			<Anim href="ChaosHydra-arena-stir00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+	</animations>
+	<ExpSrcScene href="/models/Creatures/Dungeon/ChaosHydra.mb"/>
+	<ExpSrcClipFolder href="/Animations/Creatures/Dungeon/ChaosHydra/Clip/"/>
+	<ExpRootTransform>Global</ExpRootTransform>
+</AnimSet>

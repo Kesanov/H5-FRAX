@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_HORROR_DRAGON</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_BANSHEE</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>84153</MinPower>
+	<MaxPower>561020</MaxPower>
+</RMGSimpleCustomArmyTemplate>

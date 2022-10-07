@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_DRUID_ELDER</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_GRAND_ELF</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_WAR_DANCER</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>9753</MinPower>
+	<MaxPower>65020</MaxPower>
+</RMGSimpleCustomArmyTemplate>

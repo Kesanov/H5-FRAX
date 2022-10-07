@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_MATRIARCH</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_CHAOS_HYDRA</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_RAVAGER</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>29934</MinPower>
+	<MaxPower>199560</MaxPower>
+</RMGSimpleCustomArmyTemplate>

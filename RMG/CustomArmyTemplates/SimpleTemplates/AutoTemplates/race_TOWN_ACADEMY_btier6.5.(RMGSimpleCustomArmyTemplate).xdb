@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_RAKSHASA_RUKH</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MASTER_GENIE</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ARCH_MAGI</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_STEEL_GOLEM</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>32094</MinPower>
+	<MaxPower>213960</MaxPower>
+</RMGSimpleCustomArmyTemplate>

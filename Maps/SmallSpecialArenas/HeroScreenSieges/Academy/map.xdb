@@ -1,0 +1,2951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapDesc ObjectRecordID="1000678">
+	<Version>1</Version>
+	<CustomGameMap>false</CustomGameMap>
+	<TileX>72</TileX>
+	<TileY>72</TileY>
+	<HasUnderground>false</HasUnderground>
+	<HasSurface>true</HasSurface>
+	<InitialFloor>0</InitialFloor>
+	<objects>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5D4D6050-BAB8-41A1-8A51-09EC3268F1FD">
+			<AdvMapStatic ObjectRecordID="1236649">
+				<Pos>
+					<x>60</x>
+					<y>61</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount8x8_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D73B1D8C-624F-4B55-9B1A-5A2E4BCD5FAB">
+			<AdvMapStatic ObjectRecordID="1236651">
+				<Pos>
+					<x>62</x>
+					<y>13</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/sandmount10x10_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7B38385E-7E33-4CD9-93FA-C2EF69C3726E">
+			<AdvMapStatic ObjectRecordID="1236653">
+				<Pos>
+					<x>60</x>
+					<y>19</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/sandmount10x10_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_49A5CEAC-ADDC-4171-854D-5E8C3A283E4D">
+			<AdvMapStatic ObjectRecordID="1236655">
+				<Pos>
+					<x>55</x>
+					<y>17</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount5x5_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_22331B9D-0CA3-4C6D-A1D8-EC9E850B3B6B">
+			<AdvMapStatic ObjectRecordID="1236657">
+				<Pos>
+					<x>59</x>
+					<y>56</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount5x5_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C9D4E30D-9582-4FD7-A115-8109DDE8E73E">
+			<AdvMapStatic ObjectRecordID="1236685">
+				<Pos>
+					<x>21</x>
+					<y>6</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/sandmount10x10_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_318F81EA-4B3B-4350-9BCC-24746DC261DC">
+			<AdvMapStatic ObjectRecordID="1236687">
+				<Pos>
+					<x>28</x>
+					<y>9</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount10x10_3.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_1C5381F9-27E1-4F33-A283-C8C759DDA813">
+			<AdvMapStatic ObjectRecordID="1236689">
+				<Pos>
+					<x>8</x>
+					<y>28</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount5x5_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_11D71D34-F803-4349-BB9E-6CDB1B29429D">
+			<AdvMapStatic ObjectRecordID="1236691">
+				<Pos>
+					<x>11</x>
+					<y>27</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount5x5_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_14FCB260-A4D0-41FB-94AB-06C3A9CED66F">
+			<AdvMapStatic ObjectRecordID="1236693">
+				<Pos>
+					<x>9</x>
+					<y>24</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount8x8_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_8FAF033F-42EA-4AE7-A171-C28CFCF05D22">
+			<AdvMapStatic ObjectRecordID="1236695">
+				<Pos>
+					<x>7</x>
+					<y>16</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/sandmount10x10_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_A17415F8-CC88-4288-8705-709628432C9F">
+			<AdvMapStatic ObjectRecordID="1236720">
+				<Pos>
+					<x>42</x>
+					<y>64</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount10x10_3.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_19D1CF16-BA11-43BC-9B20-2FD5970A3351">
+			<AdvMapStatic ObjectRecordID="1236722">
+				<Pos>
+					<x>37</x>
+					<y>61</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount5x5_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_48AF57D6-CA82-4F3B-B9F2-555117EE7B38">
+			<AdvMapStatic ObjectRecordID="1236724">
+				<Pos>
+					<x>11</x>
+					<y>63</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount5x5_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_FC2856E9-5A48-445E-B3A3-6EF2F649C21B">
+			<AdvMapStatic ObjectRecordID="1236726">
+				<Pos>
+					<x>15</x>
+					<y>61</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount5x5_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_956E708B-26A2-403C-9F81-D2B5C69E8DB2">
+			<AdvMapStatic ObjectRecordID="1236728">
+				<Pos>
+					<x>7</x>
+					<y>63</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount10x10_3.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_FE4A0C9D-0B8A-4813-A268-B1D31C06820C">
+			<AdvMapStatic ObjectRecordID="1236730">
+				<Pos>
+					<x>6</x>
+					<y>58</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/sandmount10x10_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_06F6FAE5-4896-47E2-A307-1852CC1C52D5">
+			<AdvMapStatic ObjectRecordID="1236733">
+				<Pos>
+					<x>6</x>
+					<y>53</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/sandmount8x6_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_81265F3D-84F3-46BA-8EEE-3BD99F226738">
+			<AdvMapStatic ObjectRecordID="1236797">
+				<Pos>
+					<x>32.1389</x>
+					<y>27.7396</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree03.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5AA65257-5B9F-46D1-99FF-2682C0BF35F2">
+			<AdvMapStatic ObjectRecordID="1236799">
+				<Pos>
+					<x>34.3865</x>
+					<y>25.8253</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_04.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_175B8462-E4D4-4A2B-9802-A47C2245D8B7">
+			<AdvMapStatic ObjectRecordID="1236801">
+				<Pos>
+					<x>24.6514</x>
+					<y>32.0861</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_07.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E6689F55-014A-4F6C-8EC5-40078343906E">
+			<AdvMapStatic ObjectRecordID="1236803">
+				<Pos>
+					<x>9.67902</x>
+					<y>51.0596</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone_2x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_14614D2C-C1CE-4059-BF5F-ADA6A027A8CF">
+			<AdvMapStatic ObjectRecordID="1236805">
+				<Pos>
+					<x>6.83364</x>
+					<y>50.2472</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone3x3_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4503C523-2F9D-4C6B-8F55-20F53E1E40A5">
+			<AdvMapStatic ObjectRecordID="1236807">
+				<Pos>
+					<x>6.73708</x>
+					<y>49.0297</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_325EB365-A274-4F2C-AC3D-41AEB2F9D06A">
+			<AdvMapStatic ObjectRecordID="1236809">
+				<Pos>
+					<x>25.5942</x>
+					<y>47.6664</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone3x3_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_61E5B39D-BA18-4B84-9CD8-788AD218A500">
+			<AdvMapStatic ObjectRecordID="1236811">
+				<Pos>
+					<x>26.6045</x>
+					<y>47.7175</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2D5EAD1B-4E9D-461B-A36B-565ED23764E7">
+			<AdvMapStatic ObjectRecordID="1236813">
+				<Pos>
+					<x>27.4673</x>
+					<y>47.7133</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_03.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_02246B40-3560-4F74-8972-4681BCB7682B">
+			<AdvMapStatic ObjectRecordID="1236815">
+				<Pos>
+					<x>61</x>
+					<y>40</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/sandmount10x10_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7956FE31-DF1C-48E0-B293-CEA3E2709E78">
+			<AdvMapStatic ObjectRecordID="1236817">
+				<Pos>
+					<x>46.8484</x>
+					<y>31.3086</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_3126539F-1732-4DE0-B5C0-84959E9C47EB">
+			<AdvMapStatic ObjectRecordID="1236819">
+				<Pos>
+					<x>45.8411</x>
+					<y>31.3036</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4B88BB50-35B8-499C-A48D-8064DA9B41B9">
+			<AdvMapStatic ObjectRecordID="1236821">
+				<Pos>
+					<x>57</x>
+					<y>65</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandmountains/Sandmount10x10_3.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_9FD81493-4A4F-4F26-88CF-FC7730E4CB92">
+			<AdvMapStatic ObjectRecordID="1236823">
+				<Pos>
+					<x>27.6455</x>
+					<y>42.1448</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_05.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_1DEBE73B-6311-4FCD-9973-846BF9FABEC3">
+			<AdvMapStatic ObjectRecordID="1236825">
+				<Pos>
+					<x>25.6583</x>
+					<y>39.1776</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B9A18388-BD0E-4CF8-9347-250964D029DD">
+			<AdvMapStatic ObjectRecordID="1236827">
+				<Pos>
+					<x>26.6977</x>
+					<y>39.3491</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree03.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B9BA6F21-B920-42B3-9533-D6E461236AA0">
+			<AdvMapStatic ObjectRecordID="1236829">
+				<Pos>
+					<x>22.9637</x>
+					<y>36.1046</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F7D7B142-A896-4A39-A6D9-AA3E90D2EEFC">
+			<AdvMapStatic ObjectRecordID="1236831">
+				<Pos>
+					<x>21.9962</x>
+					<y>35.4385</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_04.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_150ACF34-61FD-4C81-B968-A8D649C49010">
+			<AdvMapStatic ObjectRecordID="1236834">
+				<Pos>
+					<x>26.2956</x>
+					<y>29.1768</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_04.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D72BBD43-1B6F-4D5E-94BA-2B19C838DB45">
+			<AdvMapStatic ObjectRecordID="1236836">
+				<Pos>
+					<x>44</x>
+					<y>39</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Dinobones/Dinobones01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EB09330E-7E9D-4404-99FD-8F0D43B4FB1E">
+			<AdvMapStatic ObjectRecordID="1236838">
+				<Pos>
+					<x>27.4162</x>
+					<y>44.0326</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Dinobones/Dinobones03.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F3D73134-1802-4B9E-B56C-10D0DB72C7B0">
+			<AdvMapStatic ObjectRecordID="1236841">
+				<Pos>
+					<x>31</x>
+					<y>13</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Dinobones/Dinobones02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_012FB6C9-0B1E-4386-A1BF-63BCE29CE3EB">
+			<AdvMapStatic ObjectRecordID="1236843">
+				<Pos>
+					<x>43</x>
+					<y>51</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7FE9F0BA-11F7-4497-B203-A1079C114F78">
+			<AdvMapStatic ObjectRecordID="1236845">
+				<Pos>
+					<x>43</x>
+					<y>53</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone3x3_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5DFC8FAF-B486-403C-83CB-A3ACDCD64D63">
+			<AdvMapStatic ObjectRecordID="1236847">
+				<Pos>
+					<x>42.1912</x>
+					<y>51.016</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B4AB498B-AD09-48FA-87D5-610A15C05C45">
+			<AdvMapStatic ObjectRecordID="1236849">
+				<Pos>
+					<x>46.611</x>
+					<y>44.0552</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_1206A23E-295A-4119-8A36-C13753A2D4DB">
+			<AdvMapStatic ObjectRecordID="1236851">
+				<Pos>
+					<x>45.8139</x>
+					<y>44.6621</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_07.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_90DCDC7A-E767-4F91-AF2C-101C0C463B23">
+			<AdvMapStatic ObjectRecordID="1236853">
+				<Pos>
+					<x>45.0057</x>
+					<y>43.0489</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_08.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5BEF4F58-E538-493C-AF92-CEA96E005344">
+			<AdvMapStatic ObjectRecordID="1236855">
+				<Pos>
+					<x>46.225</x>
+					<y>45.3163</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C0C4BD77-764E-4FEC-B1B6-225864FD5508">
+			<AdvMapStatic ObjectRecordID="1236857">
+				<Pos>
+					<x>47.0155</x>
+					<y>44.7545</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.9635</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_30030BA0-9CFE-49F1-949E-0DAA1823177E">
+			<AdvMapStatic ObjectRecordID="1236859">
+				<Pos>
+					<x>46.1756</x>
+					<y>32.0892</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_6FF48F6B-1FC8-4073-854F-73711052051A">
+			<AdvMapStatic ObjectRecordID="1236863">
+				<Pos>
+					<x>39</x>
+					<y>24</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Craters/Crater4x3_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_1D025C59-964F-4F39-B361-632AB1DF3025">
+			<AdvMapStatic ObjectRecordID="1236865">
+				<Pos>
+					<x>49</x>
+					<y>42</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Craters/Crater4x3_2.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5094CB26-B42E-4E6C-9CBC-CE6A0FA0D8F9">
+			<AdvMapStatic ObjectRecordID="1236867">
+				<Pos>
+					<x>37.7244</x>
+					<y>24.3079</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_04.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D0678D71-F4E2-46C1-BCCF-7C4F6BF28A05">
+			<AdvMapStatic ObjectRecordID="1236869">
+				<Pos>
+					<x>38.0613</x>
+					<y>25.1843</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E0568E94-7604-4DAB-9D32-9DD07EEA38B2">
+			<AdvMapStatic ObjectRecordID="1236871">
+				<Pos>
+					<x>37.1424</x>
+					<y>24.0546</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_07.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_80791DEA-BE02-4A41-9BB2-5ADE04C8DF3D">
+			<AdvMapStatic ObjectRecordID="1236873">
+				<Pos>
+					<x>38.3095</x>
+					<y>23.0372</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_03.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_65DE2849-AA85-426F-BBD4-BAB0DD4B5AB7">
+			<AdvMapStatic ObjectRecordID="1236875">
+				<Pos>
+					<x>35.3803</x>
+					<y>27.6188</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_05.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_84D55657-3EF3-442E-A369-4F4D42B9974A">
+			<AdvMapStatic ObjectRecordID="1236877">
+				<Pos>
+					<x>34.8632</x>
+					<y>27.3024</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_08.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_6459425B-E1CE-4FE2-BBC9-DCC7C04AFE47">
+			<AdvMapStatic ObjectRecordID="1236879">
+				<Pos>
+					<x>31.3933</x>
+					<y>29.0663</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_66855E24-1E53-4938-854C-2D6811B0B724">
+			<AdvMapStatic ObjectRecordID="1236881">
+				<Pos>
+					<x>43.9531</x>
+					<y>24.1945</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_08.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_8664E3E4-F437-4E77-A823-16B8FEEE4EE4">
+			<AdvMapStatic ObjectRecordID="1236883">
+				<Pos>
+					<x>43.8112</x>
+					<y>23.4974</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_05.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_3FB803C9-896A-4340-8B06-2309A8648BF9">
+			<AdvMapStatic ObjectRecordID="1236885">
+				<Pos>
+					<x>43.5176</x>
+					<y>24.6078</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_03.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_0B9A2A74-CD79-47ED-BFB0-AB1CFFDC108D">
+			<AdvMapStatic ObjectRecordID="1236887">
+				<Pos>
+					<x>40.9724</x>
+					<y>31.6348</y>
+					<z>0</z>
+				</Pos>
+				<Rot>2.18695</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_03.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_67108050-BED1-44D6-8B89-EE483F438531">
+			<AdvMapStatic ObjectRecordID="1236889">
+				<Pos>
+					<x>45.1758</x>
+					<y>42.3208</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_05.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_27C1A603-1E72-455F-B27D-04FC524494D6">
+			<AdvMapStatic ObjectRecordID="1236892">
+				<Pos>
+					<x>44.6736</x>
+					<y>42.0804</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_07.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_03E026A6-26B9-4873-B6E1-AD685EC16949">
+			<AdvMapStatic ObjectRecordID="1236894">
+				<Pos>
+					<x>39.4824</x>
+					<y>46.602</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone_2x2_01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_6892E72F-A634-4A46-8663-2484C0AC605D">
+			<AdvMapStatic ObjectRecordID="1236896">
+				<Pos>
+					<x>39.7132</x>
+					<y>46.0926</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4EC6F5CF-7829-4B1E-A718-83921D963881">
+			<AdvMapStatic ObjectRecordID="1236898">
+				<Pos>
+					<x>38.2439</x>
+					<y>46.2213</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x2_01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_0DA7B3D9-1372-41A8-96C8-85768E7A5A7D">
+			<AdvMapStatic ObjectRecordID="1236900">
+				<Pos>
+					<x>32.8525</x>
+					<y>43.0388</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2CE26F66-D221-4CB7-821E-BD4577670BC5">
+			<AdvMapStatic ObjectRecordID="1236902">
+				<Pos>
+					<x>33.7179</x>
+					<y>42.3486</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_236770BD-F51A-47F4-9A74-17C0D4597BB4">
+			<AdvMapStatic ObjectRecordID="1236904">
+				<Pos>
+					<x>35.558</x>
+					<y>44.2357</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EDD088ED-CF34-45EB-B738-8B92F4BD0A30">
+			<AdvMapStatic ObjectRecordID="1236906">
+				<Pos>
+					<x>35.7322</x>
+					<y>43.5655</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_07.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_79CD5C3D-F4B6-43EC-8268-A5E6794D1827">
+			<AdvMapStatic ObjectRecordID="1236908">
+				<Pos>
+					<x>36.2502</x>
+					<y>44.067</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_08.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EFE108CB-1F2E-49A7-86B5-04B215181B14">
+			<AdvMapStatic ObjectRecordID="1236910">
+				<Pos>
+					<x>23.9684</x>
+					<y>36.4214</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_07.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_13C7DB17-C9FF-4CD1-A510-610A8484195E">
+			<AdvMapStatic ObjectRecordID="1236912">
+				<Pos>
+					<x>23.7567</x>
+					<y>35.8155</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_08.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C6DB5266-8B92-4AE8-8863-FCB5C33AA697">
+			<AdvMapStatic ObjectRecordID="1236914">
+				<Pos>
+					<x>21.7218</x>
+					<y>34.5088</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_04.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_CD45C39D-F308-4AC6-AC19-E325DAEEE0FE">
+			<AdvMapStatic ObjectRecordID="1236916">
+				<Pos>
+					<x>26.6169</x>
+					<y>38.6621</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B72C9C37-6039-4F9E-ADF5-6AD4EC61DB95">
+			<AdvMapStatic ObjectRecordID="1236918">
+				<Pos>
+					<x>25.3674</x>
+					<y>32.7411</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_03.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_0BA4B537-F8A9-400A-9607-B51B6D2C7208">
+			<AdvMapStatic ObjectRecordID="1236920">
+				<Pos>
+					<x>24.9739</x>
+					<y>31.6277</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_BDBB4332-CD4B-465B-B253-43D2B119147A">
+			<AdvMapStatic ObjectRecordID="1236922">
+				<Pos>
+					<x>26.2002</x>
+					<y>31.8828</y>
+					<z>0</z>
+				</Pos>
+				<Rot>2.18695</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7395E413-4CB9-49E7-9742-0EB28C04590C">
+			<AdvMapStatic ObjectRecordID="1236924">
+				<Pos>
+					<x>20.7538</x>
+					<y>35.2438</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_55DA23AB-47FA-4421-8906-9D3B92AD7F87">
+			<AdvMapStatic ObjectRecordID="1236926">
+				<Pos>
+					<x>24</x>
+					<y>16</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone3x3_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_70150DA9-8463-46D4-952A-B6BA775BC068">
+			<AdvMapStatic ObjectRecordID="1236928">
+				<Pos>
+					<x>24.0216</x>
+					<y>17.4145</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone_2x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_DA3B745B-B98D-4E9A-8A17-7CE882CA86F0">
+			<AdvMapStatic ObjectRecordID="1236930">
+				<Pos>
+					<x>26.5683</x>
+					<y>17.0963</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone_2x2_01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5B6B8112-2286-4C2B-A003-B63DBF105888">
+			<AdvMapStatic ObjectRecordID="1236932">
+				<Pos>
+					<x>27.4552</x>
+					<y>18.0929</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2B82A9F0-9ABB-4B68-927E-C626FE70D485">
+			<AdvMapStatic ObjectRecordID="1236934">
+				<Pos>
+					<x>27.8646</x>
+					<y>16.9908</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7006E2C6-C6A0-46AC-8C83-BE3E4B4F8A21">
+			<AdvMapStatic ObjectRecordID="1236936">
+				<Pos>
+					<x>23.2418</x>
+					<y>19.2692</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_04.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4A82400D-4590-4C47-8690-6987EC2C77C8">
+			<AdvMapStatic ObjectRecordID="1236938">
+				<Pos>
+					<x>25.2303</x>
+					<y>18.7709</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_05.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C715F775-5103-4534-BA12-EA0C6C21D6C0">
+			<AdvMapStatic ObjectRecordID="1236940">
+				<Pos>
+					<x>24.8473</x>
+					<y>19.5946</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C7DFA215-DBBB-4990-BA6D-7BC0958A79CA">
+			<AdvMapStatic ObjectRecordID="1236941">
+				<Pos>
+					<x>26.3228</x>
+					<y>19.4276</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.75775</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_11747FB2-162E-4601-AF07-59C3125EC184">
+			<AdvMapStatic ObjectRecordID="1236942">
+				<Pos>
+					<x>25.9791</x>
+					<y>20.1437</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_06.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F5728F87-A6AE-4968-8B59-5EC4D499806E">
+			<AdvMapStatic ObjectRecordID="1236944">
+				<Pos>
+					<x>24.6505</x>
+					<y>17.7735</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_04.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7D475E04-ADAE-4907-864F-2D35FB49937C">
+			<AdvMapStatic ObjectRecordID="1236946">
+				<Pos>
+					<x>27.0533</x>
+					<y>19.0444</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_03.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_649EC295-AB1E-4A99-BD45-C66390A145CA">
+			<AdvMapStatic ObjectRecordID="1236948">
+				<Pos>
+					<x>28.0118</x>
+					<y>19.2564</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_6C173BE9-464E-4CE6-BAAE-46F628D0858D">
+			<AdvMapStatic ObjectRecordID="1236950">
+				<Pos>
+					<x>22.4956</x>
+					<y>18.3503</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_191B40B6-F8CA-4377-8FAA-C6F0DC170C66">
+			<AdvMapStatic ObjectRecordID="1236951">
+				<Pos>
+					<x>21.8917</x>
+					<y>16.9879</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Sandtrees/Sandtree01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D78AAE9F-97F3-4390-910C-86A33866E9DA">
+			<AdvMapStatic ObjectRecordID="1236953">
+				<Pos>
+					<x>26.101</x>
+					<y>20.721</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_08.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2E0EEDC2-5D12-4938-815E-B0F692188757">
+			<AdvMapStatic ObjectRecordID="1236954">
+				<Pos>
+					<x>26.8034</x>
+					<y>20.4017</y>
+					<z>0</z>
+				</Pos>
+				<Rot>2.35619</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/Cactus/Cactus_08.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2E1097F9-9042-4F82-9F33-89E966AC43D1">
+			<AdvMapStatic ObjectRecordID="1236958">
+				<Pos>
+					<x>30.0131</x>
+					<y>18.5375</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone_2x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_6F318F4C-FDB8-4C1D-BC4E-B6E35257A6A6">
+			<AdvMapStatic ObjectRecordID="1236960">
+				<Pos>
+					<x>33.9451</x>
+					<y>62.8317</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone3x3_1.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_08007460-4C37-4C96-9AAA-0DCC7C46C15E">
+			<AdvMapStatic ObjectRecordID="1236962">
+				<Pos>
+					<x>32.9559</x>
+					<y>61.2213</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D5ECA41F-8E72-4E8B-A646-E64153617A0F">
+			<AdvMapStatic ObjectRecordID="1236964">
+				<Pos>
+					<x>41.4586</x>
+					<y>51.9003</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone_2x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7DAAB24F-D150-4703-8160-222B751C920D">
+			<AdvMapStatic ObjectRecordID="1236966">
+				<Pos>
+					<x>44.1678</x>
+					<y>52.0654</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_8104D2CB-1D1A-4395-B30A-CCC73E047129">
+			<AdvMapStatic ObjectRecordID="1236968">
+				<Pos>
+					<x>40.0097</x>
+					<y>51.2661</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5302E125-AC0E-420A-B41A-EFF61E755C03">
+			<AdvMapStatic ObjectRecordID="1236970">
+				<Pos>
+					<x>47.225</x>
+					<y>46.0404</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_A88D55FC-C4C6-42B3-A9E3-EC76DE01AE2C">
+			<AdvMapStatic ObjectRecordID="1236972">
+				<Pos>
+					<x>47.9973</x>
+					<y>32.1588</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x1_01.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_44FD3630-F611-49B6-944C-5DF0FC745575">
+			<AdvMapStatic ObjectRecordID="1236974">
+				<Pos>
+					<x>44.9808</x>
+					<y>32.2039</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_6BF5255D-6915-43C0-AEF6-64CDD68C8CDD">
+			<AdvMapStatic ObjectRecordID="1236976">
+				<Pos>
+					<x>39.1701</x>
+					<y>30.4676</y>
+					<z>0</z>
+				</Pos>
+				<Rot>2.74889</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Sand/sandstones/Stone1x2_02.xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_36DDB0EA-F33E-488C-81F9-31F895FFFF78">
+			<AdvMapStatic ObjectRecordID="1278706">
+				<Pos>
+					<x>35</x>
+					<y>37</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name>herotoremove</Name>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+			</AdvMapStatic>
+		</Item>
+	</objects>
+	<Resources>
+		<PointLights/>
+		<SavesFilenames/>
+	</Resources>
+	<AmbientLight/>
+	<UndergroundAmbientLight/>
+	<GroundAmbientLights>
+		<Item href="/Lights/_(AmbientLight)/Tests/DesertArena01.xdb#xpointer(/AmbientLight)"/>
+	</GroundAmbientLights>
+	<UndergroundAmbientLights>
+		<Item/>
+	</UndergroundAmbientLights>
+	<ReflectiveWater>false</ReflectiveWater>
+	<tiles/>
+	<regions/>
+	<GroundTerrainFileName href="GroundTerrain.bin"/>
+	<UndergroundTerrainFileName href=""/>
+	<NameFileRef href=""/>
+	<DescriptionFileRef href=""/>
+	<moons>
+		<Item>
+			<State>0</State>
+			<RotationRate>0</RotationRate>
+		</Item>
+		<Item>
+			<State>0</State>
+			<RotationRate>0</RotationRate>
+		</Item>
+		<Item>
+			<State>0</State>
+			<RotationRate>0</RotationRate>
+		</Item>
+	</moons>
+	<RandomMoons>true</RandomMoons>
+	<HeroMaxLevel>0</HeroMaxLevel>
+	<CustomTeams>false</CustomTeams>
+	<players>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+		</Item>
+	</players>
+	<ScenarioInformation>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+		</Item>
+	</ScenarioInformation>
+	<Objectives>
+		<Primary>
+			<Common>
+				<Objectives/>
+				<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+			</Common>
+			<PlayerSpecific>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+			</PlayerSpecific>
+		</Primary>
+		<Secondary>
+			<Common>
+				<Objectives/>
+				<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+			</Common>
+			<PlayerSpecific>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+			</PlayerSpecific>
+		</Secondary>
+	</Objectives>
+	<Birds/>
+	<BirdsAmount>10</BirdsAmount>
+	<Weather/>
+	<Wind/>
+	<PreLight/>
+	<MapScript/>
+	<NewDayTrigger>
+		<Action>
+			<FunctionName/>
+		</Action>
+	</NewDayTrigger>
+	<WarFogEnterTrigger>
+		<Action>
+			<FunctionName/>
+		</Action>
+	</WarFogEnterTrigger>
+	<PWLTutorialHintTrigger/>
+	<BorderSize>1</BorderSize>
+	<spellIDs>
+		<Item>SPELL_UNHOLY_WORD_HIT_EFFECT</Item>
+		<Item>SPELL_ABILITY_GATING</Item>
+		<Item>SPELL_SKILL_LUCK1</Item>
+		<Item>SPELL_PLAGUE</Item>
+		<Item>SPELL_UNHOLY_WORD</Item>
+		<Item>SPELL_CURSE</Item>
+		<Item>SPELL_CELESTIAL_SHIELD</Item>
+		<Item>SPELL_SLOW</Item>
+		<Item>SPELL_ABILITY_REPAIR</Item>
+		<Item>SPELL_ABILITY_MANA_DRAIN</Item>
+		<Item>SPELL_MAGIC_FIST</Item>
+		<Item>SPELL_SKILL_FIRE_PROTECTION</Item>
+		<Item>SPELL_SPEC_SUCCUBUSES</Item>
+		<Item>SPELL_DISPEL_FAIL</Item>
+		<Item>SPELL_ANIMATE_DEAD</Item>
+		<Item>SPELL_EFFECT_BAD_MORALE</Item>
+		<Item>SPELL_SKILL_ELVEN_VOLLEY</Item>
+		<Item>SPELL_SPEC_MASTER_OF_ELEMENTS</Item>
+		<Item>SPELL_CONSUME_CORPSE</Item>
+		<Item>SPELL_EFFECT_REGENRATION</Item>
+		<Item>SPELL_IMBUE_ARROW</Item>
+		<Item>SPELL_BLESS</Item>
+		<Item>SPELL_SPEC_FOREST_GUARDIAN</Item>
+		<Item>SPELL_TOWN_OFFENCE_DEFENCE_M1</Item>
+		<Item>SPELL_TOWN_OFFENCE_DEFENCE_M2</Item>
+		<Item>SPELL_WASP_SWARM</Item>
+		<Item>SPELL_DEMONIC_STRIKE_CAST</Item>
+		<Item>SPELL_SPEC_PEASANTS</Item>
+		<Item>SPELL_SKILL_ARCHERY</Item>
+		<Item>SPELL_SPEC_MAGES</Item>
+		<Item>SPELL_SPEC_EVASIVE</Item>
+		<Item>SPELL_ABILITY_CHAIN_SHOT_END_EFFECT</Item>
+		<Item>SPELL_ABILITY_WEAKNING_STRIKE</Item>
+		<Item>SPELL_ABILITY_EXPLOSION_EFFECT</Item>
+		<Item>SPELL_ABILITY_MAGIC_BOND</Item>
+		<Item>SPELL_SKILL_DEMONIC_FIRE</Item>
+		<Item>SPELL_HOLY_CHARGE</Item>
+		<Item>SPELL_SKILL_CATAPULT</Item>
+		<Item>SPELL_TOWN_ELVEN_CAPITAL</Item>
+		<Item>SPELL_TOWN_DEFENCE_M1</Item>
+		<Item>SPELL_TELEPORT</Item>
+		<Item>SPELL_TOWN_DEFENCE_M2</Item>
+		<Item>SPELL_DEFLECT_ARROWS_HIT_EFFECT</Item>
+		<Item>SPELL_FORGETFULNESS</Item>
+		<Item>SPELL_ICE_BOLT</Item>
+		<Item>SPELL_MAGIC_ARROW</Item>
+		<Item>SPELL_SPEC_EMPIRIC</Item>
+		<Item>SPELL_EFFECT_COMBAT_HIT_00</Item>
+		<Item>SPELL_SPEC_ELVEN_FURY</Item>
+		<Item>SPELL_SPEC_ELVES</Item>
+		<Item>SPELL_EFFECT_BASH_HIT</Item>
+		<Item>SPELL_EFFECT_GOOD_LUCK</Item>
+		<Item>SPELL_SKILL_DEFENCE3</Item>
+		<Item>SPELL_ABILITY_POISONOUS_ATTACK</Item>
+		<Item>SPELL_SKILL_DEFENCE1</Item>
+		<Item>SPELL_EFFECT_REBIRTH</Item>
+		<Item>SPELL_ABILITY_RANDOM_CAST_DARK</Item>
+		<Item>SPELL_EFFECT_ARMOR_CRUSHING</Item>
+		<Item>SPELL_SPEC_WITCHES</Item>
+		<Item>SPELL_ABILITY_BATTLE_DIVE_FINISH</Item>
+		<Item>SPELL_LAND_MINE</Item>
+		<Item>SPELL_TOWN_MORALE_P1</Item>
+		<Item>SPELL_SKILL_LUCK3</Item>
+		<Item>SPELL_SKILL_LUCK2</Item>
+		<Item>SPELL_SPEC_IMPREGNABLE</Item>
+		<Item>SPELL_SKILL_RESISTANCE</Item>
+		<Item>SPELL_SPEC_MATRON_SALVO</Item>
+		<Item>SPELL_PHANTOM</Item>
+		<Item>SPELL_EFFECT_GOOD_MORALE</Item>
+		<Item>SPELL_PRAYER</Item>
+		<Item>SPELL_ABILITY_LIFE_DRAIN</Item>
+		<Item>SPELL_SPEC_RIDERS</Item>
+		<Item>SPELL_SPEC_GREMLINS</Item>
+		<Item>SPELL_BLIND</Item>
+		<Item>SPELL_EFFECT_DIMENSION_DOOR_END</Item>
+		<Item>SPELL_SKILL_ANCIENT_SMITHY</Item>
+		<Item>SPELL_ABILITY_MELT_ARTIFACT</Item>
+		<Item>SPELL_ABILITY_DEATH_CLOUD</Item>
+		<Item>SPELL_TOWN_OFFENCE_P1</Item>
+		<Item>SPELL_TOWN_OFFENCE_P2</Item>
+		<Item>SPELL_SKILL_BALLISTA</Item>
+		<Item>SPELL_TOWN_TOWERS</Item>
+		<Item>SPELL_TOWN_OFFENCE_M1</Item>
+		<Item>SPELL_SPEC_SAVAGE</Item>
+		<Item>SPELL_SPEC_BOMBARDIER</Item>
+		<Item>SPELL_SPEC_JOUSTER</Item>
+		<Item>SPELL_ABILITY_HARM_TOUCH</Item>
+		<Item>SPELL_SKILL_WAR_MACHINES3</Item>
+		<Item>SPELL_SKILL_WAR_MACHINES2</Item>
+		<Item>SPELL_SKILL_FIRST_AID</Item>
+		<Item>SPELL_METEOR_SHOWER</Item>
+		<Item>SPELL_SPEC_MINOTAURS</Item>
+		<Item>SPELL_EFFECT_CLERIC_HIT</Item>
+		<Item>SPELL_SPEC_GOLEMS</Item>
+		<Item>SPELL_CHAIN_LIGHTNING</Item>
+		<Item>SPELL_SPEC_FOOTMEN</Item>
+		<Item>SPELL_LIGHTNING_BOLT</Item>
+		<Item>SPELL_TELEPORT_FINISH_EFFECT</Item>
+		<Item>SPELL_ABILITY_SUMMON_BALOR</Item>
+		<Item>SPELL_SKILL_MATRON_SALVO</Item>
+		<Item>SPELL_EFFECT_BAD_LUCK</Item>
+		<Item>SPELL_DEATH_SCREAM</Item>
+		<Item>SPELL_SUMMON_ELEMENTALS</Item>
+		<Item>SPELL_ABILITY_MANA_FEED</Item>
+		<Item>SPELL_EFFECT_LAND_MINE_EXPLOSION</Item>
+		<Item>SPELL_WEAKNESS</Item>
+		<Item>SPELL_EFFECT_FIRE_DAMAGE</Item>
+		<Item>SPELL_DEFLECT_ARROWS</Item>
+		<Item>SPELL_DEBUG_TELEPORT</Item>
+		<Item>SPELL_FROST_RING</Item>
+		<Item>SPELL_ABILITY_DASH_EFFECT</Item>
+		<Item>SPELL_MULTISHOT</Item>
+		<Item>SPELL_ABILITY_FEAR</Item>
+		<Item>SPELL_TOWN_OFFENCE_DEFENCE_P2</Item>
+		<Item>SPELL_TOWN_OFFENCE_DEFENCE_P1</Item>
+		<Item>SPELL_SKILL_LEADERSHIP1</Item>
+		<Item>SPELL_SKILL_LEADERSHIP3</Item>
+		<Item>SPELL_SKILL_LEADERSHIP2</Item>
+		<Item>SPELL_TOWN_WALLS</Item>
+		<Item>SPELL_ANTI_MAGIC</Item>
+		<Item>SPELL_SPEC_SOULHUNTER</Item>
+		<Item>SPELL_ABILITY_DASH</Item>
+		<Item>SPELL_DEMONIC_STRIKE</Item>
+		<Item>SPELL_ABILITY_MANA_STEAL</Item>
+		<Item>SPELL_DIMENSION_DOOR</Item>
+		<Item>SPELL_BERSERK</Item>
+		<Item>SPELL_ABILITY_RESURRECT_ALLIES</Item>
+		<Item>SPELL_ARMAGEDDON</Item>
+		<Item>SPELL_SKILL_PROTECTION</Item>
+		<Item>SPELL_SKILL_TOUGHNESS</Item>
+		<Item>SPELL_SPEC_UNICORNS</Item>
+		<Item>SPELL_DISRUPTING_RAY</Item>
+		<Item>SPELL_ABILITY_UNSUMMON</Item>
+		<Item>SPELL_TOWN_PORTAL</Item>
+		<Item>SPELL_ABILITY_RANDOM_CAST_DARK_LIGHT</Item>
+		<Item>SPELL_SPEC_ARTILLERYMAN</Item>
+		<Item>SPELL_ENCOURAGE</Item>
+		<Item>SPELL_SPEC_BLADE_MASTER</Item>
+		<Item>SPELL_SKILL_DEFENCE2</Item>
+		<Item>SPELL_EFFECT_FROZEN</Item>
+		<Item>SPELL_ABILITY_COUNTERSPELL</Item>
+		<Item>SPELL_ABILITY_BATTLE_DIVE</Item>
+		<Item>SPELL_SPEC_VAMPIRES</Item>
+		<Item>SPELL_SKILL_WAR_MACHINES1</Item>
+		<Item>SPELL_TOWN_LUCK_M1</Item>
+		<Item>SPELL_SPEC_PRUDENT</Item>
+		<Item>SPELL_SPEC_FLAGBEARER_OF_DARKNESS</Item>
+		<Item>SPELL_ABILITY_SCATTER_SHOT</Item>
+		<Item>SPELL_STONESKIN</Item>
+		<Item>SPELL_EFFECT_FIRE_HIT</Item>
+		<Item>SPELL_FIREBALL</Item>
+		<Item>SPELL_HYPNOTIZE</Item>
+		<Item>SPELL_EFFECT_COMBAT_HIT_01</Item>
+		<Item>SPELL_EFFECT_COMBAT_HIT_02</Item>
+		<Item>SPELL_ABILITY_ENTANGLING_ROOTS</Item>
+		<Item>SPELL_SPEC_ARCHERS</Item>
+		<Item>SPELL_ABILITY_FROST_BREATH</Item>
+		<Item>SPELL_EFFECT_FIRST_AID_HIT</Item>
+		<Item>SPELL_ABILITY_DARK_RITUAL</Item>
+		<Item>SPELL_TOWN_DEFENCE_P2</Item>
+		<Item>SPELL_TOWN_DEFENCE_P1</Item>
+		<Item>SPELL_ABILITY_LAY_HANDS</Item>
+		<Item>SPELL_SKILL_FRENZY</Item>
+		<Item>SPELL_SPIRIT_LINK</Item>
+		<Item>SPELL_HASTE</Item>
+		<Item>SPELL_SPEC_GRIFFINS</Item>
+		<Item>SPELL_REMOTE_CONTROL</Item>
+		<Item>SPELL_TOWN_MORALE_M1</Item>
+		<Item>SPELL_EFFECT_FIRST_AID_TENT_HEAL</Item>
+		<Item>SPELL_EFFECT_WAR_MACHINE_HIT</Item>
+		<Item>SPELL_SKILL_LUCKY_STRIKE</Item>
+		<Item>SPELL_SPEC_HOUNDS</Item>
+		<Item>SPELL_SUMMON_BOAT</Item>
+		<Item>SPELL_LIZARD_BITE_HIT</Item>
+		<Item>SPELL_EFFECT_CATAPULT_CHARGE_EXPLOSION</Item>
+		<Item>SPELL_SNIPE_DEAD</Item>
+		<Item>SPELL_ABILITY_MANA_DESTROY</Item>
+		<Item>SPELL_RESURRECT</Item>
+		<Item>SPELL_SKILL_EVASION</Item>
+		<Item>SPELL_TOWN_OFFENCE_M2</Item>
+		<Item>SPELL_EARTHQUAKE</Item>
+		<Item>SPELL_SKILL_OFFENCE1</Item>
+		<Item>SPELL_SKILL_OFFENCE3</Item>
+		<Item>SPELL_SKILL_OFFENCE2</Item>
+		<Item>SPELL_BLOODLUST</Item>
+		<Item>SPELL_HOLY_WORD</Item>
+		<Item>SPELL_IMPLOSION</Item>
+		<Item>SPELL_SPEC_ZOMBIES</Item>
+		<Item>SPELL_TOWN_LUCK_P1</Item>
+		<Item>SPELL_DISPEL</Item>
+		<Item>SPELL_SPEC_FURIOUS</Item>
+		<Item>SPELL_ABILITY_EXPLOSION</Item>
+	</spellIDs>
+	<artifactIDs>
+		<Item>DRAGON_SCALE_SHIELD</Item>
+		<Item>DRAGON_FLAME_TONGUE</Item>
+		<Item>DRAGON_SCALE_ARMOR</Item>
+		<Item>CLOAK_OF_MOURNING</Item>
+		<Item>WAND_OF_X</Item>
+		<Item>DRAGON_WING_MANTLE</Item>
+		<Item>DWARVEN_MITHRAL_GREAVES</Item>
+		<Item>FOUR_LEAF_CLOVER</Item>
+		<Item>GOLDEN_SEXTANT</Item>
+		<Item>SWORD_OF_RUINS</Item>
+		<Item>LION_HIDE_CAPE</Item>
+		<Item>HELM_OF_ENLIGHTMENT</Item>
+		<Item>PLATE_MAIL_OF_STABILITY</Item>
+		<Item>CROWN_OF_MANY_EYES</Item>
+		<Item>EVERCOLD_ICICLE</Item>
+		<Item>ICEBERG_SHIELD</Item>
+		<Item>ANGEL_WINGS</Item>
+		<Item>SHACKLES_OF_WAR</Item>
+		<Item>PEDANT_OF_MASTERY</Item>
+		<Item>WAYFARER_BOOTS</Item>
+		<Item>NECKLACE_OF_POWER</Item>
+		<Item>DRAGON_EYE_RING</Item>
+		<Item>GRAAL</Item>
+		<Item>NIGHTMARISH_RING</Item>
+		<Item>GOLDEN_HORSESHOE</Item>
+		<Item>CROWN_OF_MAGI</Item>
+		<Item>GREAT_AXE_OF_GIANT_SLAYING</Item>
+		<Item>NECKLACE_OF_BRAVERY</Item>
+		<Item>PHOENIX_FEATHER_CAPE</Item>
+		<Item>ROBE_OF_MAGI</Item>
+		<Item>DWARVEN_MITHRAL_SHIELD</Item>
+		<Item>UNICORN_HORN_BOW</Item>
+		<Item>DWARVEN_MITHRAL_HELMET</Item>
+		<Item>STAFF_OF_MAGI</Item>
+		<Item>CHAIN_MAIL_OF_ENLIGHTMENT</Item>
+		<Item>RING_OF_LIFE</Item>
+		<Item>DRAGON_TALON_CROWN</Item>
+		<Item>RING_OF_HASTE</Item>
+		<Item>ENDLESS_SACK_OF_GOLD</Item>
+		<Item>ENDLESS_BAG_OF_GOLD</Item>
+		<Item>DWARVEN_MITHRAL_CUIRASS</Item>
+		<Item>BREASTPLATE_OF_PETRIFIED_WOOD</Item>
+		<Item>STAFF_OF_VEXINGS</Item>
+		<Item>RING_OF_MAGI</Item>
+		<Item>SCROLL_OF_SPELL_X</Item>
+		<Item>TITANS_TRIDENT</Item>
+		<Item>BOOTS_OF_INTERFERENCE</Item>
+		<Item>RING_OF_LIGHTING_PROTECTION</Item>
+		<Item>BOOTS_OF_SPEED</Item>
+		<Item>WEREWOLF_CLAW_NECKLACE</Item>
+		<Item>DRAGON_BONE_GRAVES</Item>
+		<Item>CROWN_OF_COURAGE</Item>
+		<Item>DRAGON_TEETH_NECKLACE</Item>
+	</artifactIDs>
+	<isUntransferable/>
+	<AvailableHeroes/>
+	<MapRumours/>
+	<Music/>
+	<MoonCalendarModifications>
+		<BlockMonstersWeeks>false</BlockMonstersWeeks>
+	</MoonCalendarModifications>
+	<thumbnailImages/>
+	<PWLPicture/>
+	<weekIDs/>
+	<BanTransparency>false</BanTransparency>
+	<MoonCalendar/>
+	<StartScene/>
+	<sRMGProps>
+		<RMGmap>false</RMGmap>
+		<RMGversion>0</RMGversion>
+		<RMGstartseed>0</RMGstartseed>
+		<InitialParams>
+			<MapSize>MAP_SIZE_SMALL</MapSize>
+			<Players>0</Players>
+			<Template/>
+			<WaterAmount>WATER_NONE</WaterAmount>
+			<MonsterLevel>MONSTER_LEVEL_WEAK</MonsterLevel>
+			<HasUnderground>false</HasUnderground>
+			<PlayersInfo>
+				<Item>
+					<Race>TOWN_SPECIAL</Race>
+					<StartHero/>
+				</Item>
+				<Item>
+					<Race>TOWN_SPECIAL</Race>
+					<StartHero/>
+				</Item>
+			</PlayersInfo>
+			<MapName/>
+		</InitialParams>
+	</sRMGProps>
+	<dialogs/>
+</AdvMapDesc>

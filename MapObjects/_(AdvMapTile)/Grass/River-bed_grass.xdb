@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile>
+	<Texture href="/Textures/Terrain/Sand/River-bed.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>277</Priority>
+	<Type>TT_GRASS</Type>
+	<MinimapColor>
+		<x>0.721569</x>
+		<y>0.760784</y>
+		<z>0.196078</z>
+	</MinimapColor>
+	<IconFile>texture\Terrain\Sand\River-bed_icon.bmp</IconFile>
+	<AmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/Water.xdb#xpointer(/AmbientSoundSet)"/>
+	<AdventureMusic href="/Sounds/_(Music)/AdvMap-Terrain/Sand.xdb#xpointer(/Music)"/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

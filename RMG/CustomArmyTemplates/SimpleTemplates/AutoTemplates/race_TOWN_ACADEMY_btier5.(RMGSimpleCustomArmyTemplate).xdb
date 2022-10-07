@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_MASTER_GENIE</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ARCH_MAGI</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>12645</MinPower>
+	<MaxPower>84300</MaxPower>
+</RMGSimpleCustomArmyTemplate>

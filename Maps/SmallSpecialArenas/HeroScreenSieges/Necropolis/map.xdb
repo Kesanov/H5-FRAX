@@ -1,0 +1,5268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapDesc ObjectRecordID="1000677">
+	<CustomGameMap>false</CustomGameMap>
+	<Version>3</Version>
+	<TileX>72</TileX>
+	<TileY>72</TileY>
+	<HasUnderground>false</HasUnderground>
+	<HasSurface>true</HasSurface>
+	<InitialFloor>0</InitialFloor>
+	<objects>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2B4F718A-7E99-40CD-A144-5A850DE20420">
+			<AdvMapStatic ObjectRecordID="1235554">
+				<Pos>
+					<x>30</x>
+					<y>28</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>20</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EDFB833C-8725-4969-A47E-878E418A83FB">
+			<AdvMapStatic ObjectRecordID="1235555">
+				<Pos>
+					<x>35</x>
+					<y>28</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>20</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_A5BC71BE-3787-4DF7-8AEB-D88FF888CE39">
+			<AdvMapStatic ObjectRecordID="1235556">
+				<Pos>
+					<x>44</x>
+					<y>32</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>20</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_8ACEA579-C9FE-4930-A52B-03914C7EB672">
+			<AdvMapStatic ObjectRecordID="1235557">
+				<Pos>
+					<x>48</x>
+					<y>38</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_589D501D-8F0D-4A67-90E1-962ABDB1602E">
+			<AdvMapStatic ObjectRecordID="1235558">
+				<Pos>
+					<x>40</x>
+					<y>44</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>20</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_96C82824-F6B5-46CD-9C61-58E51DFAF88F">
+			<AdvMapStatic ObjectRecordID="1235559">
+				<Pos>
+					<x>37</x>
+					<y>44</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>20</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_161EBF21-DDF6-4CEA-8D8F-39BBD0ACFE74">
+			<AdvMapStatic ObjectRecordID="1235560">
+				<Pos>
+					<x>28</x>
+					<y>41</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>20</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_14FF088A-0080-45FE-A047-BE165CCEAF5F">
+			<AdvMapStatic ObjectRecordID="1235561">
+				<Pos>
+					<x>25</x>
+					<y>21</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5CFB15CE-70DF-4FCC-993C-95ADD1B61F82">
+			<AdvMapStatic ObjectRecordID="1235562">
+				<Pos>
+					<x>15</x>
+					<y>37</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5D4C0C2B-9844-4E63-AC01-4E90F3215BA7">
+			<AdvMapStatic ObjectRecordID="1235563">
+				<Pos>
+					<x>16</x>
+					<y>33</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E9383E0D-12B6-489E-88F8-7BB282A4B6BC">
+			<AdvMapStatic ObjectRecordID="1235564">
+				<Pos>
+					<x>38</x>
+					<y>57</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_56C2B9FA-83D9-4672-AD05-2F7973C21A8B">
+			<AdvMapStatic ObjectRecordID="1235565">
+				<Pos>
+					<x>42</x>
+					<y>57</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_88B781C7-0B08-4176-B32B-2E741FB8C92D">
+			<AdvMapStatic ObjectRecordID="1235566">
+				<Pos>
+					<x>59</x>
+					<y>37</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_43FD94E9-0652-4B88-A4E1-32B59BF4E432">
+			<AdvMapStatic ObjectRecordID="1235567">
+				<Pos>
+					<x>60</x>
+					<y>34</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_19F24B27-9D9A-4E87-BD07-1FF1F6DA246A">
+			<AdvMapStatic ObjectRecordID="1235568">
+				<Pos>
+					<x>51</x>
+					<y>19</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B6AEB826-7E7C-45A2-8BB1-8F9FDC9A2450">
+			<AdvMapStatic ObjectRecordID="1235569">
+				<Pos>
+					<x>55</x>
+					<y>20</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>4</z>
+						</Pos>
+						<Color>
+							<x>0.819608</x>
+							<y>0.92549</y>
+							<z>0.0745098</z>
+						</Color>
+						<Radius>30</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Grass/Misc/Fireflies_01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D8973463-760A-4A6D-BAE6-10C55279B8FF">
+			<AdvMapStatic ObjectRecordID="1235572">
+				<Pos>
+					<x>31</x>
+					<y>55</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_09DD457C-A7D1-4484-94BA-4C2A0DE4FF53">
+			<AdvMapStatic ObjectRecordID="1235573">
+				<Pos>
+					<x>23</x>
+					<y>58</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_65F255B8-C866-46C5-A469-5789282AF8D7">
+			<AdvMapStatic ObjectRecordID="1235574">
+				<Pos>
+					<x>17</x>
+					<y>58</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_89CB9A7A-23AA-4160-87A8-A3FE26808030">
+			<AdvMapStatic ObjectRecordID="1235575">
+				<Pos>
+					<x>15</x>
+					<y>55</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4BA32986-6346-4F00-A5BB-32DE090A1418">
+			<AdvMapStatic ObjectRecordID="1235576">
+				<Pos>
+					<x>13</x>
+					<y>50</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5DA07992-25A6-48C9-B641-56673425BE7A">
+			<AdvMapStatic ObjectRecordID="1235577">
+				<Pos>
+					<x>8</x>
+					<y>48</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_8BC0AC94-44E4-4D78-949E-04904443699A">
+			<AdvMapStatic ObjectRecordID="1235578">
+				<Pos>
+					<x>12</x>
+					<y>45</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_593EF9B7-3D22-429D-9F39-01325904077E">
+			<AdvMapStatic ObjectRecordID="1235579">
+				<Pos>
+					<x>8</x>
+					<y>41</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D191CFAD-75D1-470D-9CB4-4B3CF239ACEF">
+			<AdvMapStatic ObjectRecordID="1235580">
+				<Pos>
+					<x>7</x>
+					<y>34</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EF04F276-2183-4FBD-B597-8924F3CB8EB3">
+			<AdvMapStatic ObjectRecordID="1235581">
+				<Pos>
+					<x>9</x>
+					<y>29</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_0426D70D-FF38-4E51-828C-73344DA73577">
+			<AdvMapStatic ObjectRecordID="1235582">
+				<Pos>
+					<x>11</x>
+					<y>24</y>
+					<z>0</z>
+				</Pos>
+				<Rot>4.71239</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_8692D187-49BB-4601-8CD4-13A31F64D17F">
+			<AdvMapStatic ObjectRecordID="1235583">
+				<Pos>
+					<x>13</x>
+					<y>21</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_77548E98-B609-4B71-9E37-24521CDE2750">
+			<AdvMapStatic ObjectRecordID="1235584">
+				<Pos>
+					<x>16</x>
+					<y>21</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_86E47D62-86CD-4944-9F2E-7D92799BC90A">
+			<AdvMapStatic ObjectRecordID="1235585">
+				<Pos>
+					<x>18</x>
+					<y>16</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_093E0286-1B1C-4B78-8C84-C88389761FBD">
+			<AdvMapStatic ObjectRecordID="1235586">
+				<Pos>
+					<x>23</x>
+					<y>12</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2C84717A-2329-45E6-94C6-AFED45D5C8F2">
+			<AdvMapStatic ObjectRecordID="1235587">
+				<Pos>
+					<x>28</x>
+					<y>11</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_04A8D7C2-F5DD-4363-9173-F69973754789">
+			<AdvMapStatic ObjectRecordID="1235588">
+				<Pos>
+					<x>32</x>
+					<y>10</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_50575F05-B10F-454D-9C77-66651F8BEDE8">
+			<AdvMapStatic ObjectRecordID="1235589">
+				<Pos>
+					<x>36</x>
+					<y>11</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_283D64B6-3711-497C-A0D0-BC44BFD1BB64">
+			<AdvMapStatic ObjectRecordID="1235590">
+				<Pos>
+					<x>40</x>
+					<y>11</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_CDE6FAA0-21E9-4D3D-B60D-D2D267C94C95">
+			<AdvMapStatic ObjectRecordID="1235591">
+				<Pos>
+					<x>44</x>
+					<y>9</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F06BD167-E406-49D5-816C-14B8FCAF62C0">
+			<AdvMapStatic ObjectRecordID="1235592">
+				<Pos>
+					<x>49</x>
+					<y>11</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_86B372C1-460E-4C8D-BC09-73A3C3C47B0C">
+			<AdvMapStatic ObjectRecordID="1235593">
+				<Pos>
+					<x>54</x>
+					<y>12</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B2704DE6-AC30-4486-BE3E-B85666701A35">
+			<AdvMapStatic ObjectRecordID="1235594">
+				<Pos>
+					<x>58</x>
+					<y>14</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_DA1FA8A6-D01D-4FCF-A4AF-AF4D9DC31D99">
+			<AdvMapStatic ObjectRecordID="1235595">
+				<Pos>
+					<x>61</x>
+					<y>18</y>
+					<z>0</z>
+				</Pos>
+				<Rot>4.71239</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E5542E22-33D8-4184-9E0F-3664012DB2A3">
+			<AdvMapStatic ObjectRecordID="1235596">
+				<Pos>
+					<x>64</x>
+					<y>23</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EE46DE24-B4B3-475B-BB84-CEFDDF16E7D4">
+			<AdvMapStatic ObjectRecordID="1235597">
+				<Pos>
+					<x>65</x>
+					<y>26</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_FC496D55-325B-4FB7-A937-B70A9CD6A633">
+			<AdvMapStatic ObjectRecordID="1235598">
+				<Pos>
+					<x>67</x>
+					<y>31</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_79FB1050-044E-49FA-A726-78095ACB2D63">
+			<AdvMapStatic ObjectRecordID="1235599">
+				<Pos>
+					<x>66</x>
+					<y>35</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EF0A3EBD-349D-4394-A994-2F85232BAC24">
+			<AdvMapStatic ObjectRecordID="1235600">
+				<Pos>
+					<x>66</x>
+					<y>40</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_664E58E3-3613-489A-94EE-CF5C27DA7CA4">
+			<AdvMapStatic ObjectRecordID="1235601">
+				<Pos>
+					<x>65</x>
+					<y>43</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_69EC784D-A5DA-4282-AE9B-A54533838EDF">
+			<AdvMapStatic ObjectRecordID="1235602">
+				<Pos>
+					<x>63</x>
+					<y>47</y>
+					<z>0</z>
+				</Pos>
+				<Rot>4.71239</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C8BD71D1-7055-4317-8AC1-6A881E8B2715">
+			<AdvMapStatic ObjectRecordID="1235603">
+				<Pos>
+					<x>63</x>
+					<y>52</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_BACD20F9-3648-42E1-8AB5-B4B2D9D16CCE">
+			<AdvMapStatic ObjectRecordID="1235604">
+				<Pos>
+					<x>60</x>
+					<y>56</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_45FA1A14-F01D-4191-AA28-E1D7B11CEF5A">
+			<AdvMapStatic ObjectRecordID="1235605">
+				<Pos>
+					<x>56</x>
+					<y>58</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_8C1CCEB5-307A-44D8-9411-7CA6262D13F1">
+			<AdvMapStatic ObjectRecordID="1235606">
+				<Pos>
+					<x>53</x>
+					<y>59</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7A1CD752-D688-4984-9AF9-0F8E16EC7AB6">
+			<AdvMapStatic ObjectRecordID="1235607">
+				<Pos>
+					<x>48</x>
+					<y>63</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_31AAB786-7342-4EF1-BCF8-7F31897A3A86">
+			<AdvMapStatic ObjectRecordID="1235608">
+				<Pos>
+					<x>43</x>
+					<y>65</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_655DEDBA-AB61-4FC5-8F3E-2A75BA8E9D8C">
+			<AdvMapStatic ObjectRecordID="1235609">
+				<Pos>
+					<x>38</x>
+					<y>64</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D7F2CDC5-6604-4732-AB5C-928BC30B90A4">
+			<AdvMapStatic ObjectRecordID="1235610">
+				<Pos>
+					<x>34</x>
+					<y>63</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_AB252F35-1987-4D20-91F3-3AB160C2949E">
+			<AdvMapStatic ObjectRecordID="1235611">
+				<Pos>
+					<x>28</x>
+					<y>61</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EF2CC141-D657-49DE-B7C7-F5A2B634698D">
+			<AdvMapStatic ObjectRecordID="1235613">
+				<Pos>
+					<x>52</x>
+					<y>48</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4D22C8E0-6E4D-4E98-9EE5-C8EA18355459">
+			<AdvMapStatic ObjectRecordID="1235614">
+				<Pos>
+					<x>53</x>
+					<y>37</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_50F623FB-5480-42F6-A92B-39F08EB5975A">
+			<AdvMapStatic ObjectRecordID="1235615">
+				<Pos>
+					<x>49</x>
+					<y>26</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_1BA8EA63-2039-4DBC-8F41-C9F029D30262">
+			<AdvMapStatic ObjectRecordID="1235616">
+				<Pos>
+					<x>43</x>
+					<y>20</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_CF591BA6-4B29-4231-A0EA-0B9F8CBE7F6E">
+			<AdvMapStatic ObjectRecordID="1235617">
+				<Pos>
+					<x>39</x>
+					<y>25</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_FAE9DA00-5652-4015-9143-D58080734D6E">
+			<AdvMapStatic ObjectRecordID="1235618">
+				<Pos>
+					<x>22</x>
+					<y>25</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7E0716CD-B109-4CBA-9E26-3997F7431EA2">
+			<AdvMapStatic ObjectRecordID="1235619">
+				<Pos>
+					<x>21</x>
+					<y>32</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_82D7077F-D944-46F5-9305-E3835201905D">
+			<AdvMapStatic ObjectRecordID="1235620">
+				<Pos>
+					<x>18</x>
+					<y>44</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_CFE2BAF0-36EA-4448-A1E2-50F891EBC0DC">
+			<AdvMapStatic ObjectRecordID="1235621">
+				<Pos>
+					<x>26</x>
+					<y>53</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_A070FD00-DC9D-45FB-8C16-ED00303D99CF">
+			<AdvMapStatic ObjectRecordID="1235622">
+				<Pos>
+					<x>46</x>
+					<y>45</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_8179B324-092F-4A30-A21A-0FE55B7384FD">
+			<AdvMapStatic ObjectRecordID="1235623">
+				<Pos>
+					<x>31</x>
+					<y>17</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_3E262D3A-54A4-4332-B3BA-DAD64FDBEBA9">
+			<AdvMapStatic ObjectRecordID="1235624">
+				<Pos>
+					<x>33</x>
+					<y>44</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C5E9BA04-9714-400A-ADCA-6881377C0676">
+			<AdvMapStatic ObjectRecordID="1235625">
+				<Pos>
+					<x>39</x>
+					<y>29</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E68C951C-4A32-4DC3-97EF-A3A56A7F7FFB">
+			<AdvMapStatic ObjectRecordID="1235626">
+				<Pos>
+					<x>28</x>
+					<y>34</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EA7308BD-F2D0-4C23-BC3B-2ED31897E79D">
+			<AdvMapStatic ObjectRecordID="1235627">
+				<Pos>
+					<x>45</x>
+					<y>38</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_75EB4E6C-AE24-4263-BBCF-5B8EA9F7D409">
+			<AdvMapStatic ObjectRecordID="1235629">
+				<Pos>
+					<x>38</x>
+					<y>52</y>
+					<z>0</z>
+				</Pos>
+				<Rot>3.14159</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree4x5_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_81E524A7-4D2B-41DF-92CD-24214523363B">
+			<AdvMapStatic ObjectRecordID="1235630">
+				<Pos>
+					<x>23</x>
+					<y>46</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree4x5_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_35FF6FBC-4642-4B0E-AD8A-086D9A459534">
+			<AdvMapStatic ObjectRecordID="1235631">
+				<Pos>
+					<x>23</x>
+					<y>17</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree4x5_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_AFCE6B72-19B4-49F4-9AD9-0070A7D03A9B">
+			<AdvMapStatic ObjectRecordID="1235633">
+				<Pos>
+					<x>35</x>
+					<y>15</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree4x5_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_81B7E989-77B0-4DF7-BC73-087A97E2E456">
+			<AdvMapStatic ObjectRecordID="1235635">
+				<Pos>
+					<x>25</x>
+					<y>40</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7127668A-6607-4CC8-BB63-C6E0BECED8C6">
+			<AdvMapStatic ObjectRecordID="1235636">
+				<Pos>
+					<x>50</x>
+					<y>32</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2BB3D596-9CAE-4D35-8B33-B68144240932">
+			<AdvMapStatic ObjectRecordID="1235637">
+				<Pos>
+					<x>44</x>
+					<y>42</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_8A5AFCF1-6605-41A8-81A5-4337DCA0FDE1">
+			<AdvMapStatic ObjectRecordID="1235638">
+				<Pos>
+					<x>29</x>
+					<y>24</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_DD626ECE-2A1C-4BDD-A887-99434100BCF1">
+			<AdvMapStatic ObjectRecordID="1235640">
+				<Pos>
+					<x>28</x>
+					<y>46</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_A229D88E-C493-4373-97A2-7ACC15B1F5D9">
+			<AdvMapStatic ObjectRecordID="1235641">
+				<Pos>
+					<x>42</x>
+					<y>40</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4ECB041F-C56B-4351-BD75-C148677F8CCD">
+			<AdvMapStatic ObjectRecordID="1235642">
+				<Pos>
+					<x>35</x>
+					<y>48</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_710A70B5-07C1-49C7-AAEA-9D61DE4A2DEF">
+			<AdvMapStatic ObjectRecordID="1235643">
+				<Pos>
+					<x>27</x>
+					<y>27</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E28F98FF-E242-42FE-9EEA-6AF9334FBE15">
+			<AdvMapStatic ObjectRecordID="1235646">
+				<Pos>
+					<x>32</x>
+					<y>40</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTreeCrooked2x2_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4CBE1285-6C2F-4E46-AD50-6FD16547B85E">
+			<AdvMapStatic ObjectRecordID="1235648">
+				<Pos>
+					<x>31.7879</x>
+					<y>29.948</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTreeCrooked2x2_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_12EF300A-675B-4401-8DCA-189C3061941F">
+			<AdvMapStatic ObjectRecordID="1235650">
+				<Pos>
+					<x>27.5533</x>
+					<y>36.3512</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTreeCrooked2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7585AB78-A1ED-41B2-B3EF-97EF86AF0B73">
+			<AdvMapStatic ObjectRecordID="1235651">
+				<Pos>
+					<x>37.2537</x>
+					<y>48.1898</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTreeCrooked2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F1FCA52D-3E98-444B-9F60-651EB5A8B7DA">
+			<AdvMapStatic ObjectRecordID="1235652">
+				<Pos>
+					<x>43</x>
+					<y>35</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTreeCrooked2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_3F003DCC-57A6-4AFC-B034-DCCE1484E675">
+			<AdvMapStatic ObjectRecordID="1235654">
+				<Pos>
+					<x>43</x>
+					<y>37</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTreeCrooked2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D21A0C75-64C7-4A1A-9FE1-A099F1678D9A">
+			<AdvMapStatic ObjectRecordID="1235656">
+				<Pos>
+					<x>38.0354</x>
+					<y>30.6021</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_70CC1E87-8C0E-4346-959A-BC6CBACCB5B8">
+			<AdvMapStatic ObjectRecordID="1235658">
+				<Pos>
+					<x>42.0845</x>
+					<y>38.174</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag2x2_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_318EBC3D-160C-4E71-8272-E3228F432A14">
+			<AdvMapStatic ObjectRecordID="1235660">
+				<Pos>
+					<x>39.462</x>
+					<y>40.9861</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_EEE31564-4937-4497-ABDC-0259CFBA0061">
+			<AdvMapStatic ObjectRecordID="1235662">
+				<Pos>
+					<x>33.6575</x>
+					<y>43.9564</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag1x3_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_1E360190-41A7-4DAF-BDA8-E03D924CAA55">
+			<AdvMapStatic ObjectRecordID="1235664">
+				<Pos>
+					<x>29.9632</x>
+					<y>34.6133</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag1x3_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_83476D2C-F7F5-4342-AD16-C59ED6F6FD34">
+			<AdvMapStatic ObjectRecordID="1235666">
+				<Pos>
+					<x>31.4491</x>
+					<y>38.7158</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_1EAA879E-0317-4032-943D-E99279DBB8B6">
+			<AdvMapStatic ObjectRecordID="1235668">
+				<Pos>
+					<x>33.6848</x>
+					<y>31.2667</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag1x3_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5303DFDD-E125-4171-9B35-2CE0383A88FC">
+			<AdvMapStatic ObjectRecordID="1235670">
+				<Pos>
+					<x>37.2256</x>
+					<y>26.0388</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag1x3_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_27D56052-9268-48A9-8A57-68D51B2A79E9">
+			<AdvMapStatic ObjectRecordID="1235672">
+				<Pos>
+					<x>35.466</x>
+					<y>22.7386</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2C0A5473-62B1-4E56-A280-9CA85AF5ABB8">
+			<AdvMapStatic ObjectRecordID="1235674">
+				<Pos>
+					<x>35.7146</x>
+					<y>24.1531</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTreeCrooked2x2_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_835C4360-2384-494C-ACE7-695C6F3DECCB">
+			<AdvMapStatic ObjectRecordID="1235676">
+				<Pos>
+					<x>27.145</x>
+					<y>33.0494</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_A499C684-A43D-44F9-A824-CCBBB7AB142B">
+			<AdvMapStatic ObjectRecordID="1235677">
+				<Pos>
+					<x>24.7938</x>
+					<y>36.7709</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_50E3939A-DB09-4E4E-94A0-BDD959708ACA">
+			<AdvMapStatic ObjectRecordID="1235678">
+				<Pos>
+					<x>24.7527</x>
+					<y>41.7707</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C01F8CA2-1A8A-4C3F-A9E7-5FA8C959A9DC">
+			<AdvMapStatic ObjectRecordID="1235679">
+				<Pos>
+					<x>32.3563</x>
+					<y>44.5779</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B6B2C1F3-60F9-4A61-B4D1-AEA674342CA9">
+			<AdvMapStatic ObjectRecordID="1235680">
+				<Pos>
+					<x>35.9798</x>
+					<y>48.0826</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_6E29E939-E0BF-41DC-817F-9AB587509E57">
+			<AdvMapStatic ObjectRecordID="1235681">
+				<Pos>
+					<x>43.0843</x>
+					<y>44.3925</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D60D838B-3291-4BC2-90EF-5B2559255500">
+			<AdvMapStatic ObjectRecordID="1235682">
+				<Pos>
+					<x>43.9726</x>
+					<y>36.3958</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_9F80DC03-2C78-4209-9153-F7785FB5732A">
+			<AdvMapStatic ObjectRecordID="1235683">
+				<Pos>
+					<x>41.8344</x>
+					<y>39.1067</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_03DE4AA2-4786-40C6-ACF4-0AE7BF8D1F6F">
+			<AdvMapStatic ObjectRecordID="1235684">
+				<Pos>
+					<x>48.5536</x>
+					<y>32.1443</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_63925767-54C2-4EAF-ADB1-3FA68DF0EEE8">
+			<AdvMapStatic ObjectRecordID="1235685">
+				<Pos>
+					<x>50.3998</x>
+					<y>35.3229</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_0C8CFBD1-3D10-49EE-AEEF-4F73709BE479">
+			<AdvMapStatic ObjectRecordID="1235686">
+				<Pos>
+					<x>39.8047</x>
+					<y>28.5443</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_931EF8AD-1BEC-44CE-A09B-34C12952AA28">
+			<AdvMapStatic ObjectRecordID="1235687">
+				<Pos>
+					<x>36.3462</x>
+					<y>25.6774</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7D9C66A0-00AE-428F-B276-D29A62C4FA66">
+			<AdvMapStatic ObjectRecordID="1235688">
+				<Pos>
+					<x>43.1813</x>
+					<y>26.487</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5F69CD1C-E7F4-487F-BE00-9F0E79207A06">
+			<AdvMapStatic ObjectRecordID="1235689">
+				<Pos>
+					<x>46.1752</x>
+					<y>27.44</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_036FACCA-33DD-4B56-8EC1-CF30DAE6EA0B">
+			<AdvMapStatic ObjectRecordID="1235690">
+				<Pos>
+					<x>36.1183</x>
+					<y>21.6269</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_00B0AEE6-D4CA-4BF0-AEA9-D9360393A44E">
+			<AdvMapStatic ObjectRecordID="1235691">
+				<Pos>
+					<x>31.616</x>
+					<y>19.9563</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_21AD2FD1-36B6-480F-9EE3-F9F0370A8F9C">
+			<AdvMapStatic ObjectRecordID="1235693">
+				<Pos>
+					<x>31.1669</x>
+					<y>31.5124</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7A4FF2C8-5482-45CE-B71F-785FF3D12B99">
+			<AdvMapStatic ObjectRecordID="1235694">
+				<Pos>
+					<x>32.2135</x>
+					<y>31.4117</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B9B8A79D-941B-4B9E-A342-452A237B1D1F">
+			<AdvMapStatic ObjectRecordID="1235695">
+				<Pos>
+					<x>32.2165</x>
+					<y>30.7145</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B241532A-F9DB-47B8-91E0-EAC6574BC1A6">
+			<AdvMapStatic ObjectRecordID="1235696">
+				<Pos>
+					<x>31.5233</x>
+					<y>30.5104</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_04786E5D-4DF9-480E-8246-DC22D36C839C">
+			<AdvMapStatic ObjectRecordID="1235697">
+				<Pos>
+					<x>31.9181</x>
+					<y>31.6774</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_77DC83DC-D0A9-4E6E-929A-1C5613ACB009">
+			<AdvMapStatic ObjectRecordID="1235698">
+				<Pos>
+					<x>33.1197</x>
+					<y>31.3913</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E25CD39B-5E73-4B07-92F1-BE2D5D3D2EE3">
+			<AdvMapStatic ObjectRecordID="1235699">
+				<Pos>
+					<x>34.1143</x>
+					<y>31.1681</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_26221F2F-93A7-49AE-975F-C1A7976E6C03">
+			<AdvMapStatic ObjectRecordID="1235700">
+				<Pos>
+					<x>33.3452</x>
+					<y>30.6269</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_3E88E3E7-13A4-4B66-A780-7A711E90F3B2">
+			<AdvMapStatic ObjectRecordID="1235701">
+				<Pos>
+					<x>32.7963</x>
+					<y>30.3032</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_282E773D-6E38-43C3-9E74-81F16EAF0D12">
+			<AdvMapStatic ObjectRecordID="1235702">
+				<Pos>
+					<x>31.7233</x>
+					<y>39.2234</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_35E35C02-1A07-4992-A2D4-5D534452D3CD">
+			<AdvMapStatic ObjectRecordID="1235703">
+				<Pos>
+					<x>32.6702</x>
+					<y>39.9189</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F176CEB6-A2B7-40E8-9CC5-343316B006ED">
+			<AdvMapStatic ObjectRecordID="1235704">
+				<Pos>
+					<x>32.6281</x>
+					<y>40.5036</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E23A738D-6CAD-47D0-B1BC-C613A1D85288">
+			<AdvMapStatic ObjectRecordID="1235705">
+				<Pos>
+					<x>32.2968</x>
+					<y>41.1228</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2852DEB9-9792-4B16-81C3-651DF54F23F5">
+			<AdvMapStatic ObjectRecordID="1235706">
+				<Pos>
+					<x>32.951</x>
+					<y>41.7563</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C6EB795C-E8B8-41B3-B647-67E50CB54E4E">
+			<AdvMapStatic ObjectRecordID="1235707">
+				<Pos>
+					<x>33.8624</x>
+					<y>41.5731</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_393AEC4F-9D7B-46BD-A48B-786D217BBF51">
+			<AdvMapStatic ObjectRecordID="1235708">
+				<Pos>
+					<x>34.6332</x>
+					<y>41.4392</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_0259A4F6-EF42-45CE-A5AE-EB031FC8B0BB">
+			<AdvMapStatic ObjectRecordID="1235709">
+				<Pos>
+					<x>34.8792</x>
+					<y>41.7035</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2ADCB6E4-5EA7-4EC8-868F-ED037D2CFD7F">
+			<AdvMapStatic ObjectRecordID="1235710">
+				<Pos>
+					<x>34.6084</x>
+					<y>42.6503</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7BF291FD-9189-46CC-9333-40C15E939DDE">
+			<AdvMapStatic ObjectRecordID="1235711">
+				<Pos>
+					<x>33.0288</x>
+					<y>43.0335</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C64B74A2-9F9C-43F4-B8BD-265141B80FAF">
+			<AdvMapStatic ObjectRecordID="1235712">
+				<Pos>
+					<x>32.5902</x>
+					<y>42.6712</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_129C2C77-9E74-4625-AFAD-29405BB55BE8">
+			<AdvMapStatic ObjectRecordID="1235713">
+				<Pos>
+					<x>33.8091</x>
+					<y>40.9052</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_9133B2E8-09FB-4F71-81F6-2B710628D175">
+			<AdvMapStatic ObjectRecordID="1235714">
+				<Pos>
+					<x>33.9436</x>
+					<y>40.4643</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_5F721987-D167-4571-AFD8-652CFF506C78">
+			<AdvMapStatic ObjectRecordID="1235715">
+				<Pos>
+					<x>31.2101</x>
+					<y>39.4318</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_9316E15B-A2EB-490D-AC16-84D5881806C7">
+			<AdvMapStatic ObjectRecordID="1235716">
+				<Pos>
+					<x>30.6642</x>
+					<y>39.4212</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_DCB5CDB1-6BC5-45EC-8E3F-49A7B7158175">
+			<AdvMapStatic ObjectRecordID="1235717">
+				<Pos>
+					<x>41.4227</x>
+					<y>40.3394</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_7A6FF6A0-4F0A-4246-9175-55C1CE4488A9">
+			<AdvMapStatic ObjectRecordID="1235718">
+				<Pos>
+					<x>40.9177</x>
+					<y>38.8785</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B7CA33ED-083A-4574-9F19-C3B2EDC51AE4">
+			<AdvMapStatic ObjectRecordID="1235719">
+				<Pos>
+					<x>41.3366</x>
+					<y>38.2807</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F0E242F2-EFE2-41C2-8216-0E2649AB8CC8">
+			<AdvMapStatic ObjectRecordID="1235720">
+				<Pos>
+					<x>41.2991</x>
+					<y>37.6428</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_212393F8-7F82-4CA5-A553-F5DF8B7DB473">
+			<AdvMapStatic ObjectRecordID="1235721">
+				<Pos>
+					<x>41.8777</x>
+					<y>36.9027</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_17582298-3EAB-499E-BBB3-618A9DD73494">
+			<AdvMapStatic ObjectRecordID="1235722">
+				<Pos>
+					<x>42.1562</x>
+					<y>36.7196</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C0436BD8-7D01-4356-8849-73D11C9634BD">
+			<AdvMapStatic ObjectRecordID="1235723">
+				<Pos>
+					<x>42.1776</x>
+					<y>35.918</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C0F5085A-07DE-412D-991C-20E53091F23B">
+			<AdvMapStatic ObjectRecordID="1235724">
+				<Pos>
+					<x>42.788</x>
+					<y>37.4152</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_A8D0E2E1-75E8-48FC-9D0C-3B693A13BF8A">
+			<AdvMapStatic ObjectRecordID="1235725">
+				<Pos>
+					<x>42.1388</x>
+					<y>37.5633</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_1D128067-30BB-4BA9-8C80-E203E96B3DF9">
+			<AdvMapStatic ObjectRecordID="1235726">
+				<Pos>
+					<x>41.2416</x>
+					<y>36.2441</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_098F263D-B183-4B36-88A4-6E8959AEB6DB">
+			<AdvMapStatic ObjectRecordID="1235727">
+				<Pos>
+					<x>40.69</x>
+					<y>38.5016</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C31CFA9D-0ACB-4A52-BAEE-0DC78AF3AE20">
+			<AdvMapStatic ObjectRecordID="1235728">
+				<Pos>
+					<x>40.5151</x>
+					<y>40.1583</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_CC653F62-C80D-497B-8DC2-97AFCFC545A6">
+			<AdvMapStatic ObjectRecordID="1235730">
+				<Pos>
+					<x>42.9805</x>
+					<y>35.6413</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_A09E9CFA-0D30-4FA7-B612-387DE53E98CD">
+			<AdvMapStatic ObjectRecordID="1235731">
+				<Pos>
+					<x>43.4571</x>
+					<y>36.6017</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_CA3306A5-965D-4F41-85F8-0BA428651976">
+			<AdvMapStatic ObjectRecordID="1235732">
+				<Pos>
+					<x>44.1943</x>
+					<y>35.7774</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F98C78F2-EF95-4652-9C80-008DFDB2B6CB">
+			<AdvMapStatic ObjectRecordID="1235733">
+				<Pos>
+					<x>43.9098</x>
+					<y>35.1588</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_9C55643C-0671-43E1-BD58-7F9944307CAF">
+			<AdvMapStatic ObjectRecordID="1235734">
+				<Pos>
+					<x>41.8132</x>
+					<y>34.7658</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_CA720274-1E6E-4103-A7F4-8AAF0A0290E7">
+			<AdvMapStatic ObjectRecordID="1235736">
+				<Pos>
+					<x>42.4349</x>
+					<y>52.2167</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_AC6663DC-BA68-482E-96EC-3BBD5E17A096">
+			<AdvMapStatic ObjectRecordID="1235738">
+				<Pos>
+					<x>46.2895</x>
+					<y>56.1234</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C76466F1-C108-47AF-B5C4-ABD24640FC9A">
+			<AdvMapStatic ObjectRecordID="1235740">
+				<Pos>
+					<x>41.5617</x>
+					<y>51.9925</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_073D73BB-BDC8-4C00-906C-FF3F8C0D5198">
+			<AdvMapStatic ObjectRecordID="1235741">
+				<Pos>
+					<x>45.4063</x>
+					<y>53.1083</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_79B025E8-C149-4877-BE54-4F86EF047595">
+			<AdvMapStatic ObjectRecordID="1235743">
+				<Pos>
+					<x>48.3612</x>
+					<y>50.1354</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_0BB3E734-0EE9-4C92-80A4-9018281B9457">
+			<AdvMapStatic ObjectRecordID="1235745">
+				<Pos>
+					<x>51.7306</x>
+					<y>55.2456</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree2x3_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_0F854CF6-0B7A-41F5-8DA8-75DC834D6956">
+			<AdvMapStatic ObjectRecordID="1235747">
+				<Pos>
+					<x>51.6684</x>
+					<y>55.4921</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_75761A5F-BBE0-4521-927A-BA99D02D1A8E">
+			<AdvMapStatic ObjectRecordID="1235748">
+				<Pos>
+					<x>47.8714</x>
+					<y>49.9038</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4F775740-C41C-4C4F-BE97-4FF82F64D153">
+			<AdvMapStatic ObjectRecordID="1235750">
+				<Pos>
+					<x>49.2802</x>
+					<y>57.1445</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_0414423D-B680-40EE-824E-CCE45B5DF843">
+			<AdvMapStatic ObjectRecordID="1235752">
+				<Pos>
+					<x>58.3219</x>
+					<y>26.3486</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree5x6_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D355E95C-A056-4060-B97A-3B5AF0DF001A">
+			<AdvMapStatic ObjectRecordID="1235754">
+				<Pos>
+					<x>55.2923</x>
+					<y>26.6558</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_92C75E73-B177-498C-A21E-545E5D97D9FE">
+			<AdvMapStatic ObjectRecordID="1235755">
+				<Pos>
+					<x>54.2234</x>
+					<y>25.6623</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_09D0E9DA-2BB9-4E6C-A7F5-0B62169A8186">
+			<AdvMapStatic ObjectRecordID="1235757">
+				<Pos>
+					<x>55.0644</x>
+					<y>14.9349</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_75FE7D93-2DA4-44FA-85BD-2B4098447567">
+			<AdvMapStatic ObjectRecordID="1235758">
+				<Pos>
+					<x>56.4851</x>
+					<y>16.1426</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_DFEBC163-81F9-4472-B980-9BF182C15194">
+			<AdvMapStatic ObjectRecordID="1235759">
+				<Pos>
+					<x>57.6487</x>
+					<y>16.1542</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_05CB310F-53E1-4630-BB71-B855C48A9057">
+			<AdvMapStatic ObjectRecordID="1235761">
+				<Pos>
+					<x>27.127</x>
+					<y>26.3232</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_43792931-3F94-4FF2-9954-198CE722A246">
+			<AdvMapStatic ObjectRecordID="1235762">
+				<Pos>
+					<x>21.1503</x>
+					<y>19.4515</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_FACC57EA-CA23-4AF6-8547-F0806454AA34">
+			<AdvMapStatic ObjectRecordID="1235763">
+				<Pos>
+					<x>20.447</x>
+					<y>21.1066</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_675B945E-CE65-4303-9377-D46FF10BA472">
+			<AdvMapStatic ObjectRecordID="1235764">
+				<Pos>
+					<x>23</x>
+					<y>25</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_DF926E69-DC06-43EC-8E62-BF30A5C7A097">
+			<AdvMapStatic ObjectRecordID="1235765">
+				<Pos>
+					<x>24.114</x>
+					<y>15.4096</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_AC052717-B6F6-4566-85BB-B5B087E3B91B">
+			<AdvMapStatic ObjectRecordID="1235766">
+				<Pos>
+					<x>28.5679</x>
+					<y>17.6631</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_9047C265-7236-4351-81DB-A532F93B4DCA">
+			<AdvMapStatic ObjectRecordID="1235768">
+				<Pos>
+					<x>10</x>
+					<y>38</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree4x5_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_73168254-250D-499B-B09E-37A8A8D160BF">
+			<AdvMapStatic ObjectRecordID="1235770">
+				<Pos>
+					<x>18.3125</x>
+					<y>39.4439</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTree4x5_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_861569AF-38DA-4281-BBC3-0EAE5DE86FB8">
+			<AdvMapStatic ObjectRecordID="1235772">
+				<Pos>
+					<x>24.1537</x>
+					<y>39.8373</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_BE3742BE-3064-488C-9311-E266020EFEA9">
+			<AdvMapStatic ObjectRecordID="1235773">
+				<Pos>
+					<x>18.7207</x>
+					<y>39.3213</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_DF2AFAEC-BC87-46EB-84F6-E69597FAECB8">
+			<AdvMapStatic ObjectRecordID="1235774">
+				<Pos>
+					<x>19.6891</x>
+					<y>34.3802</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_9BAD1B7D-7779-4589-84B2-66430BF71803">
+			<AdvMapStatic ObjectRecordID="1235775">
+				<Pos>
+					<x>10.6222</x>
+					<y>39.3179</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D20FE0E4-6FBC-447F-98C8-B34B0BAE8684">
+			<AdvMapStatic ObjectRecordID="1235776">
+				<Pos>
+					<x>9.93808</x>
+					<y>35.6352</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_465EBDFE-C4B5-4660-AC4E-DC6F48B3E022">
+			<AdvMapStatic ObjectRecordID="1235777">
+				<Pos>
+					<x>11.9462</x>
+					<y>34.1288</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_28B88929-C4C3-4C71-B852-AF09DEB0ED2B">
+			<AdvMapStatic ObjectRecordID="1235779">
+				<Pos>
+					<x>21.7749</x>
+					<y>46.9688</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_616D67A1-AA5B-4B67-BC92-23E088365EE6">
+			<AdvMapStatic ObjectRecordID="1235781">
+				<Pos>
+					<x>41.505</x>
+					<y>48.8651</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTreeCrooked2x2_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_DB291B98-C06A-45DA-BCFA-EA48E37069F7">
+			<AdvMapStatic ObjectRecordID="1235783">
+				<Pos>
+					<x>40.8483</x>
+					<y>49.3645</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag1x3_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B36E7355-11A7-4A8B-89A6-C81D8E6CAAAD">
+			<AdvMapStatic ObjectRecordID="1235785">
+				<Pos>
+					<x>38.9418</x>
+					<y>47.9718</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F7EEF6CF-7E70-4F27-A670-9F90A07F5EFC">
+			<AdvMapStatic ObjectRecordID="1235787">
+				<Pos>
+					<x>42.2175</x>
+					<y>45.2901</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone2x1_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_580527DA-584C-42FE-BB42-55493C8AC27A">
+			<AdvMapStatic ObjectRecordID="1235789">
+				<Pos>
+					<x>45.8036</x>
+					<y>34.0752</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_14EAD9C8-567B-4379-9D5F-F4A3978CEC32">
+			<AdvMapStatic ObjectRecordID="1235791">
+				<Pos>
+					<x>41.7691</x>
+					<y>36.2859</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone2x1_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B5EF4F3B-0F3B-424C-9F3A-6C2ECD8DD951">
+			<AdvMapStatic ObjectRecordID="1235793">
+				<Pos>
+					<x>35.4254</x>
+					<y>31.3534</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_720E3A5E-4B0F-4783-AECB-980709F353C1">
+			<AdvMapStatic ObjectRecordID="1235794">
+				<Pos>
+					<x>31.3852</x>
+					<y>23.2975</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_450E2D08-41E4-49A3-8E99-19DA9AD0318D">
+			<AdvMapStatic ObjectRecordID="1235796">
+				<Pos>
+					<x>31.0918</x>
+					<y>24.0089</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_D9D97E69-BFD6-4F27-8B42-01464EAF44C9">
+			<AdvMapStatic ObjectRecordID="1235798">
+				<Pos>
+					<x>30.3989</x>
+					<y>32.2812</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone2x1_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_A107C7C3-6004-42C1-928E-526354FC389A">
+			<AdvMapStatic ObjectRecordID="1235800">
+				<Pos>
+					<x>31.0276</x>
+					<y>32.8131</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_14399406-75F1-46CF-85D6-4CF1EEB00229">
+			<AdvMapStatic ObjectRecordID="1235802">
+				<Pos>
+					<x>30.2263</x>
+					<y>37.317</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_FD5BB12C-60C3-4796-A885-36DC8C5049F6">
+			<AdvMapStatic ObjectRecordID="1235804">
+				<Pos>
+					<x>29.3677</x>
+					<y>37.5629</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_AF4424AA-456B-4276-9B52-9B2D7A827752">
+			<AdvMapStatic ObjectRecordID="1235810">
+				<Pos>
+					<x>38.142</x>
+					<y>31.1644</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_1B975E0D-C9A8-42C0-BE79-7A2A17F3CFB2">
+			<AdvMapStatic ObjectRecordID="1235811">
+				<Pos>
+					<x>37.4226</x>
+					<y>31.6623</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_3FABAFC0-DDF0-464D-B875-E87DA0CF132C">
+			<AdvMapStatic ObjectRecordID="1235812">
+				<Pos>
+					<x>36.851</x>
+					<y>31.3918</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E32A53E0-9F49-43E7-895D-31E22AA7A964">
+			<AdvMapStatic ObjectRecordID="1235813">
+				<Pos>
+					<x>38.584</x>
+					<y>30.1412</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_DAD91C7C-795D-40D8-95B9-40E4E91D13D4">
+			<AdvMapStatic ObjectRecordID="1235814">
+				<Pos>
+					<x>38.353</x>
+					<y>28.7369</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_C3743361-81EA-4AB5-96D5-EC3C8F4B61C8">
+			<AdvMapStatic ObjectRecordID="1235815">
+				<Pos>
+					<x>37.9499</x>
+					<y>28.0105</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_134EA528-2A46-4C77-BD28-F726B834DB89">
+			<AdvMapStatic ObjectRecordID="1235816">
+				<Pos>
+					<x>37.4092</x>
+					<y>27.4598</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4A6E5073-1803-4341-AB77-490946C99DB2">
+			<AdvMapStatic ObjectRecordID="1235817">
+				<Pos>
+					<x>38.2428</x>
+					<y>27.498</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Grass/Grass01.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_65C5A5DB-13EA-493E-A3B7-F2A4B1404929">
+			<AdvMapStatic ObjectRecordID="1235819">
+				<Pos>
+					<x>22.8277</x>
+					<y>28.8879</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Trees/DirtTreeCrooked2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_4E93F219-1F88-4C7F-807A-C8EF37345C2D">
+			<AdvMapStatic ObjectRecordID="1235822">
+				<Pos>
+					<x>24.2347</x>
+					<y>28.848</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag1x3_3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_2BC3503A-F577-4898-A3B3-45AE00AF557A">
+			<AdvMapStatic ObjectRecordID="1235824">
+				<Pos>
+					<x>29.6205</x>
+					<y>35.9409</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush04.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_B01114DA-8B0F-441E-A3D4-1930789C3A78">
+			<AdvMapStatic ObjectRecordID="1235825">
+				<Pos>
+					<x>29.4181</x>
+					<y>35.2498</y>
+					<z>0</z>
+				</Pos>
+				<Rot>2.18695</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush04.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_AC914FA1-12B1-420B-8AE5-E8CEE5E03A92">
+			<AdvMapStatic ObjectRecordID="1235827">
+				<Pos>
+					<x>29.4183</x>
+					<y>33.9965</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush1x2_2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_9EFF1086-8BC3-4ED4-8F2A-EBE577243EA0">
+			<AdvMapStatic ObjectRecordID="1235829">
+				<Pos>
+					<x>42.8934</x>
+					<y>43.0278</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Bushs/Dirtbush2x2_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_75EC25FE-D7AD-4705-8B12-5A5FA2458F62">
+			<AdvMapStatic ObjectRecordID="1235831">
+				<Pos>
+					<x>40.1668</x>
+					<y>47.4266</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag1x2_4.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_AEA89A78-32F8-49F9-8720-191B46B618C4">
+			<AdvMapStatic ObjectRecordID="1235833">
+				<Pos>
+					<x>34.5155</x>
+					<y>41.3098</y>
+					<z>0</z>
+				</Pos>
+				<Rot>1.5708</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Snags/Snag1x3_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_E83C347E-5A0A-49C8-B642-E071965C8530">
+			<AdvMapStatic ObjectRecordID="1278701">
+				<Pos>
+					<x>36</x>
+					<y>36</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name>herotoremove</Name>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Rocks/DStone1x1_1.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_82F02F4B-8DD3-49E2-8A3D-05D6EB066C62">
+			<AdvMapStatic ObjectRecordID="-1">
+				<Pos>
+					<x>36</x>
+					<y>36</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights>
+					<Item>
+						<Pos>
+							<x>0</x>
+							<y>0</y>
+							<z>10</z>
+						</Pos>
+						<Color>
+							<x>0.843137</x>
+							<y>0.972549</y>
+							<z>0.647059</z>
+						</Color>
+						<Radius>20</Radius>
+					</Item>
+				</pointLights>
+				<Shared href="/MapObjects/Dirt/Misc/Will_o_the_wisp.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_CB907484-E85A-4773-BBC2-B4025F732045">
+			<AdvMapStatic ObjectRecordID="-1">
+				<Pos>
+					<x>35</x>
+					<y>38</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Misc/SwampHaze2x2.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+		<Item href="#n:inline(AdvMapStatic)" id="item_F4D911FB-24CC-492C-BAAB-666A9516DB08">
+			<AdvMapStatic ObjectRecordID="-1">
+				<Pos>
+					<x>34</x>
+					<y>35</y>
+					<z>0</z>
+				</Pos>
+				<Rot>0</Rot>
+				<Floor>0</Floor>
+				<Name/>
+				<CombatScript/>
+				<pointLights/>
+				<Shared href="/MapObjects/Dirt/Misc/SwampHaze3x3.(AdvMapStaticShared).xdb#xpointer(/AdvMapStaticShared)"/>
+				<IsRemovable>false</IsRemovable>
+				<TerrainAligned>false</TerrainAligned>
+				<ScalePercent>100</ScalePercent>
+			</AdvMapStatic>
+		</Item>
+	</objects>
+	<Resources>
+		<PointLights/>
+		<SavesFilenames/>
+	</Resources>
+	<AmbientLight/>
+	<UndergroundAmbientLight/>
+	<GroundAmbientLights>
+		<Item href="/Lights/_(AmbientLight)/Arena/dirtArena/DirtArena01.xdb#xpointer(/AmbientLight)"/>
+	</GroundAmbientLights>
+	<UndergroundAmbientLights>
+		<Item/>
+	</UndergroundAmbientLights>
+	<ReflectiveWater>false</ReflectiveWater>
+	<tiles>
+		<Item href="/MapObjects/_(AdvMapTile)/Water/Bog.xdb#xpointer(/AdvMapTile)"/>
+		<Item href="/MapObjects/_(AdvMapTile)/Dirt/root.xdb#xpointer(/AdvMapTile)"/>
+		<Item href="/MapObjects/_(AdvMapTile)/Dirt/Ground.xdb#xpointer(/AdvMapTile)"/>
+		<Item href="/MapObjects/_(AdvMapTile)/Dirt/Weed.xdb#xpointer(/AdvMapTile)"/>
+		<Item href="/MapObjects/_(AdvMapTile)/Dirt/DarkGround.xdb#xpointer(/AdvMapTile)"/>
+	</tiles>
+	<regions/>
+	<GroundTerrainFileName href="GroundTerrain.bin"/>
+	<UndergroundTerrainFileName href=""/>
+	<NameFileRef href=""/>
+	<DescriptionFileRef href=""/>
+	<moons>
+		<Item>
+			<State>0</State>
+			<RotationRate>0</RotationRate>
+		</Item>
+		<Item>
+			<State>0</State>
+			<RotationRate>0</RotationRate>
+		</Item>
+		<Item>
+			<State>0</State>
+			<RotationRate>0</RotationRate>
+		</Item>
+	</moons>
+	<RandomMoons>true</RandomMoons>
+	<HeroMaxLevel>0</HeroMaxLevel>
+	<CustomTeams>false</CustomTeams>
+	<players>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+			<DefaultBonus>PLAYER_BONUS_RANDOM</DefaultBonus>
+			<CanChangeBonus>true</CanChangeBonus>
+			<TavernFilter>
+				<BannedHeroesRaces/>
+				<BannedHeroes/>
+				<AllowedHeroes/>
+			</TavernFilter>
+			<DenyFogOfWarForAllies/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+			<DefaultBonus>PLAYER_BONUS_RANDOM</DefaultBonus>
+			<CanChangeBonus>true</CanChangeBonus>
+			<TavernFilter>
+				<BannedHeroesRaces/>
+				<BannedHeroes/>
+				<AllowedHeroes/>
+			</TavernFilter>
+			<DenyFogOfWarForAllies/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+			<DefaultBonus>PLAYER_BONUS_RANDOM</DefaultBonus>
+			<CanChangeBonus>true</CanChangeBonus>
+			<TavernFilter>
+				<BannedHeroesRaces/>
+				<BannedHeroes/>
+				<AllowedHeroes/>
+			</TavernFilter>
+			<DenyFogOfWarForAllies/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+			<DefaultBonus>PLAYER_BONUS_RANDOM</DefaultBonus>
+			<CanChangeBonus>true</CanChangeBonus>
+			<TavernFilter>
+				<BannedHeroesRaces/>
+				<BannedHeroes/>
+				<AllowedHeroes/>
+			</TavernFilter>
+			<DenyFogOfWarForAllies/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+			<DefaultBonus>PLAYER_BONUS_RANDOM</DefaultBonus>
+			<CanChangeBonus>true</CanChangeBonus>
+			<TavernFilter>
+				<BannedHeroesRaces/>
+				<BannedHeroes/>
+				<AllowedHeroes/>
+			</TavernFilter>
+			<DenyFogOfWarForAllies/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+			<DefaultBonus>PLAYER_BONUS_RANDOM</DefaultBonus>
+			<CanChangeBonus>true</CanChangeBonus>
+			<TavernFilter>
+				<BannedHeroesRaces/>
+				<BannedHeroes/>
+				<AllowedHeroes/>
+			</TavernFilter>
+			<DenyFogOfWarForAllies/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+			<DefaultBonus>PLAYER_BONUS_RANDOM</DefaultBonus>
+			<CanChangeBonus>true</CanChangeBonus>
+			<TavernFilter>
+				<BannedHeroesRaces/>
+				<BannedHeroes/>
+				<AllowedHeroes/>
+			</TavernFilter>
+			<DenyFogOfWarForAllies/>
+		</Item>
+		<Item>
+			<MainTown/>
+			<MainHero/>
+			<ActivePlayer>false</ActivePlayer>
+			<Team>0</Team>
+			<CanBeHumanPlayer>true</CanBeHumanPlayer>
+			<CanBeComputerPlayer>true</CanBeComputerPlayer>
+			<Behaviour>PB_RANDOM</Behaviour>
+			<CaptureAbility>0</CaptureAbility>
+			<StartHero/>
+			<HeroInTown>false</HeroInTown>
+			<ReserveHeroes/>
+			<AddHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</AddHeroTrigger>
+			<RemoveHeroTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</RemoveHeroTrigger>
+			<VictoryMessageRef href=""/>
+			<DefeatMessageRef href=""/>
+			<Race>TOWN_HEAVEN</Race>
+			<Colour>PCOLOR_NEUTRAL</Colour>
+			<CanBeDisabled>true</CanBeDisabled>
+			<Attractors/>
+			<DefaultBonus>PLAYER_BONUS_RANDOM</DefaultBonus>
+			<CanChangeBonus>true</CanChangeBonus>
+			<TavernFilter>
+				<BannedHeroesRaces/>
+				<BannedHeroes/>
+				<AllowedHeroes/>
+			</TavernFilter>
+			<DenyFogOfWarForAllies/>
+		</Item>
+	</players>
+	<CustomMapGoal>false</CustomMapGoal>
+	<CustomGoal href=""/>
+	<ScenarioInformation>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<CheckDelay>-1</CheckDelay>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+			<SoundActivated/>
+			<SoundComplete/>
+			<SoundFailed/>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<CheckDelay>-1</CheckDelay>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+			<SoundActivated/>
+			<SoundComplete/>
+			<SoundFailed/>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<CheckDelay>-1</CheckDelay>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+			<SoundActivated/>
+			<SoundComplete/>
+			<SoundFailed/>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<CheckDelay>-1</CheckDelay>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+			<SoundActivated/>
+			<SoundComplete/>
+			<SoundFailed/>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<CheckDelay>-1</CheckDelay>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+			<SoundActivated/>
+			<SoundComplete/>
+			<SoundFailed/>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<CheckDelay>-1</CheckDelay>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+			<SoundActivated/>
+			<SoundComplete/>
+			<SoundFailed/>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<CheckDelay>-1</CheckDelay>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+			<SoundActivated/>
+			<SoundComplete/>
+			<SoundFailed/>
+		</Item>
+		<Item>
+			<Name/>
+			<CaptionFileRef href=""/>
+			<ObscureCaptionFileRef href=""/>
+			<DescriptionFileRef href=""/>
+			<ProgressCommentsFileRef/>
+			<Kind>OBJECTIVE_KIND_SCENARIO_INFO</Kind>
+			<Parameters/>
+			<Timeout>-1</Timeout>
+			<Holdout>-1</Holdout>
+			<CheckDelay>-1</CheckDelay>
+			<Dependencies/>
+			<InstantVictory>false</InstantVictory>
+			<TargetGlance>
+				<Target>
+					<Type>ADV_TARGET_NONE</Type>
+					<Name/>
+					<Coords>
+						<FloorID>0</FloorID>
+						<cell>
+							<x>0</x>
+							<y>0</y>
+						</cell>
+					</Coords>
+				</Target>
+				<Radius>10</Radius>
+				<Duration>5000</Duration>
+			</TargetGlance>
+			<Award>
+				<Type>AWARD_NONE</Type>
+				<Experience>0</Experience>
+				<Resources>
+					<Wood>0</Wood>
+					<Ore>0</Ore>
+					<Mercury>0</Mercury>
+					<Crystal>0</Crystal>
+					<Sulfur>0</Sulfur>
+					<Gem>0</Gem>
+					<Gold>0</Gold>
+				</Resources>
+				<Attribute>HERO_ATTRIB_DEFENCE</Attribute>
+				<AttributeAmount>0</AttributeAmount>
+				<ArtifactID>ARTIFACT_NONE</ArtifactID>
+				<SpellID>SPELL_NONE</SpellID>
+				<ArmySlot>
+					<Creature>CREATURE_UNKNOWN</Creature>
+					<Count>0</Count>
+				</ArmySlot>
+				<SpellPoints>0</SpellPoints>
+				<Morale>0</Morale>
+				<Luck>0</Luck>
+				<SkillWithMastery>
+					<Mastery>MASTERY_NONE</Mastery>
+					<SkillID>HERO_SKILL_NONE</SkillID>
+				</SkillWithMastery>
+			</Award>
+			<TakeContribution>false</TakeContribution>
+			<CanUncomplete>false</CanUncomplete>
+			<IsInitialyActive>true</IsInitialyActive>
+			<IsInitialyVisible>true</IsInitialyVisible>
+			<IsHidden>false</IsHidden>
+			<Ignore>false</Ignore>
+			<ShowCompleted>true</ShowCompleted>
+			<NeedComplete>true</NeedComplete>
+			<StateChangeTrigger>
+				<Action>
+					<FunctionName/>
+				</Action>
+			</StateChangeTrigger>
+			<SoundActivated/>
+			<SoundComplete/>
+			<SoundFailed/>
+		</Item>
+	</ScenarioInformation>
+	<Objectives>
+		<Primary>
+			<Common>
+				<Objectives/>
+				<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+			</Common>
+			<PlayerSpecific>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+			</PlayerSpecific>
+		</Primary>
+		<Secondary>
+			<Common>
+				<Objectives/>
+				<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+			</Common>
+			<PlayerSpecific>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+				<Item>
+					<Objectives/>
+					<DieInWeekWithoutTowns>true</DieInWeekWithoutTowns>
+				</Item>
+			</PlayerSpecific>
+		</Secondary>
+	</Objectives>
+	<Birds/>
+	<BirdsAmount>10</BirdsAmount>
+	<Weather/>
+	<Wind/>
+	<PreLight/>
+	<MapScript/>
+	<NewDayTrigger>
+		<Action>
+			<FunctionName/>
+		</Action>
+	</NewDayTrigger>
+	<WarFogEnterTrigger>
+		<Action>
+			<FunctionName/>
+		</Action>
+	</WarFogEnterTrigger>
+	<PWLTutorialHintTrigger/>
+	<BorderSize>1</BorderSize>
+	<spellIDs/>
+	<artifactIDs/>
+	<isUntransferable/>
+	<AvailableHeroes/>
+	<MapRumours/>
+	<Music/>
+	<MoonCalendarModifications>
+		<BlockMonstersWeeks>false</BlockMonstersWeeks>
+	</MoonCalendarModifications>
+	<thumbnailImages/>
+	<PWLPicture/>
+	<weekIDs/>
+	<BanTransparency>false</BanTransparency>
+	<MoonCalendar/>
+	<StartScene/>
+	<sRMGProps>
+		<RMGmap>false</RMGmap>
+		<RMGversion>0</RMGversion>
+		<RMGstartseed>0</RMGstartseed>
+		<InitialParams>
+			<MapSize>MAP_SIZE_SMALL</MapSize>
+			<Players>0</Players>
+			<Template/>
+			<WaterAmount>WATER_NONE</WaterAmount>
+			<MonsterLevel>MONSTER_LEVEL_WEAK</MonsterLevel>
+			<HasUnderground>false</HasUnderground>
+			<PlayersInfo>
+				<Item>
+					<Race>TOWN_SPECIAL</Race>
+					<StartHero/>
+				</Item>
+				<Item>
+					<Race>TOWN_SPECIAL</Race>
+					<StartHero/>
+				</Item>
+			</PlayersInfo>
+			<MapName/>
+			<RandomTowns>false</RandomTowns>
+			<Minimap>false</Minimap>
+		</InitialParams>
+	</sRMGProps>
+	<dialogs/>
+	<disabledArtifactSets/>
+	<RacesRandomGroups/>
+	<ImportantArtifacts>
+		<PreservingArtifacts/>
+	</ImportantArtifacts>
+	<LoadingScreenSound/>
+</AdvMapDesc>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_LONGBOWMAN</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_LANDLORD</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>1209</MinPower>
+	<MaxPower>8060</MaxPower>
+</RMGSimpleCustomArmyTemplate>

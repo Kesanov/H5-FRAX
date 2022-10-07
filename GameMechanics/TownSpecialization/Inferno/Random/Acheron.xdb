@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="120">
+	<NameFileRef href="/Text/Game/Towns/Inferno/Random/Acheron/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Inferno/Random/Acheron/Biography.txt"/>
+	<Bonus>TOWN_BONUS_SHIPS</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_INFERNO</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

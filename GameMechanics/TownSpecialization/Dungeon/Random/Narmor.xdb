@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="34">
+	<NameFileRef href="/Text/Game/Towns/Dungeon/Random/Narmor/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Dungeon/Random/Narmor/Biography.txt"/>
+	<Bonus>TOWN_BONUS_MINUS_DEFENCE_OFFENCE</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_DUNGEON</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

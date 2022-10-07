@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table_TownTypeInfo_TownType ObjectRecordID="-1">
+	<objects>
+		<Item>
+			<ID>TOWN_SPECIAL</ID>
+			<obj>
+				<textType href=""/>
+				<textFort href=""/>
+				<textCaste href=""/>
+				<textCitadel href=""/>
+				<plotting>
+					<TargetGray/>
+					<PointGray/>
+					<TargetAvailable/>
+					<PointAvailable/>
+					<TargetContested/>
+					<PointContested/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/PointGreen.xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_UNKNOWN</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>0</Mercury>
+						<Crystal>0</Crystal>
+						<Sulfur>0</Sulfur>
+						<Gem>0</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_NONE</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>170</MoatMaxDamage>
+					<MoatSpells/>
+					<MineNameFileRef href=""/>
+					<MoatMines/>
+				</Moat>
+				<kingdomTownIcons>
+					<textures/>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_RANDOM_TYPE</ID>
+			<obj>
+				<textType href=""/>
+				<textFort href=""/>
+				<textCaste href=""/>
+				<textCitadel href=""/>
+				<plotting>
+					<TargetGray/>
+					<PointGray/>
+					<TargetAvailable/>
+					<PointAvailable/>
+					<TargetContested/>
+					<PointContested/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/PointGreen.xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_PEASANT</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>0</Mercury>
+						<Crystal>0</Crystal>
+						<Sulfur>0</Sulfur>
+						<Gem>0</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_NONE</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>170</MoatMaxDamage>
+					<MoatSpells/>
+					<MineNameFileRef href=""/>
+					<MoatMines/>
+				</Moat>
+				<kingdomTownIcons>
+					<textures/>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_NO_TYPE</ID>
+			<obj>
+				<textType href="/Text/Game/Towns/Types/no_type.txt"/>
+				<textFort href="/Text/Game/Towns/Types/no_type.txt"/>
+				<textCaste href="/Text/Game/Towns/Types/no_type.txt"/>
+				<textCitadel href="/Text/Game/Towns/Types/no_type.txt"/>
+				<plotting>
+					<TargetGray/>
+					<PointGray/>
+					<TargetAvailable/>
+					<PointAvailable/>
+					<TargetContested/>
+					<PointContested/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/PointGreen.xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_PEASANT</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>0</Mercury>
+						<Crystal>0</Crystal>
+						<Sulfur>0</Sulfur>
+						<Gem>0</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_NONE</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>170</MoatMaxDamage>
+					<MoatSpells/>
+					<MineNameFileRef href=""/>
+					<MoatMines/>
+				</Moat>
+				<kingdomTownIcons>
+					<textures/>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_HEAVEN</ID>
+			<obj>
+				<textType href="/Text/Game/Towns/Types/heaven.txt"/>
+				<textFort href="/Text/Game/TownBuildings/Haven/Fort/Fort_Name.txt"/>
+				<textCaste href="/Text/Game/TownBuildings/Haven/Fort/Castle_Name.txt"/>
+				<textCitadel href="/Text/Game/TownBuildings/Haven/Fort/Citadel_Name.txt"/>
+				<plotting>
+					<TargetGray href="/UI/HeroPlotitng/Heaven/TargetGrey.(Model).xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Heaven/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Heaven/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Heaven/PointGreen.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Heaven/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Heaven/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/PointGreen.xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_ARCHER</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>0</Mercury>
+						<Crystal>0</Crystal>
+						<Sulfur>0</Sulfur>
+						<Gem>1</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_BALLISTA</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>204</MoatMaxDamage>
+					<MoatSpells/>
+					<MineNameFileRef href=""/>
+					<MoatMines/>
+				</Moat>
+				<kingdomTownIcons>
+					<textures>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Haven_1.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Haven_2.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Haven_3.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Haven_4.(Texture).xdb#xpointer(/Texture)"/>
+					</textures>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_PRESERVE</ID>
+			<obj>
+				<textType href="/Text/Game/Towns/Types/preserve.txt"/>
+				<textFort href="/Text/Game/TownBuildings/Preserve/Fort/Fort_Name.txt"/>
+				<textCaste href="/Text/Game/TownBuildings/Preserve/Fort/Castle_Name.txt"/>
+				<textCitadel href="/Text/Game/TownBuildings/Preserve/Fort/Citadel_Name.txt"/>
+				<plotting>
+					<TargetGray href="/UI/HeroPlotitng/Rampart/TargetGrey.(Model).xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Rampart/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Rampart/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Rampart/PointGreen.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Rampart/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Rampart/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/PointGreen.xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_BLADE_JUGGLER</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>0</Mercury>
+						<Crystal>0</Crystal>
+						<Sulfur>0</Sulfur>
+						<Gem>1</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_BALLISTA</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>170</MoatMaxDamage>
+					<MoatSpells>
+						<Item>
+							<Spell>SPELL_ABILITY_ENTANGLING_ROOTS</Spell>
+							<Chance>50</Chance>
+							<SpellMastery>MASTERY_ADVANCED</SpellMastery>
+							<SpellPower>5</SpellPower>
+						</Item>
+					</MoatSpells>
+					<MineNameFileRef href=""/>
+					<MoatMines/>
+				</Moat>
+				<kingdomTownIcons>
+					<textures>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Sylvan_1.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Sylvan_2.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Sylvan_3.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Sylvan_4.(Texture).xdb#xpointer(/Texture)"/>
+					</textures>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_ACADEMY</ID>
+			<obj>
+				<textType href="/Text/Game/Towns/Types/academy.txt"/>
+				<textFort href="/Text/Game/TownBuildings/Academy/Fort/Fort_Name.txt"/>
+				<textCaste href="/Text/Game/TownBuildings/Academy/Fort/Castle_Name.txt"/>
+				<textCitadel href="/Text/Game/TownBuildings/Academy/Fort/Citadel_Name.txt"/>
+				<plotting>
+					<TargetGray href="/UI/HeroPlotitng/Academy/TargetGrey.(Model).xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Academy/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Academy/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Academy/PointGreen.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Academy/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Academy/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/PointGreen.xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_STONE_GARGOYLE</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>1</Mercury>
+						<Crystal>0</Crystal>
+						<Sulfur>0</Sulfur>
+						<Gem>0</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_BALLISTA</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>340</MoatMaxDamage>
+					<MoatSpells/>
+					<MineNameFileRef href="/Text/Game/Creatures/AcademyMine.txt"/>
+					<MoatMines>
+						<Item>
+							<Effect href="/GameMechanics/SpellVisual/MoatObjects/AcademyMine.xdb#xpointer(/SpellVisual)"/>
+							<ExplosionEffect href="/GameMechanics/Spell/Combat_Spells/SummoningMagic/LandMine_Explosion.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+							<SpellToCast>
+								<Spell>SPELL_BLIND</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_ADVANCED</SpellMastery>
+								<SpellPower>5</SpellPower>
+							</SpellToCast>
+							<SpellToCastOnFriend>
+								<Spell>SPELL_NONE</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCastOnFriend>
+						</Item>
+					</MoatMines>
+				</Moat>
+				<kingdomTownIcons>
+					<textures>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Academy_1.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Academy_2.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Academy_3.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Academy_4.(Texture).xdb#xpointer(/Texture)"/>
+					</textures>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_DUNGEON</ID>
+			<obj>
+				<textType href="/Text/Game/Towns/Types/dungeon.txt"/>
+				<textFort href="/Text/Game/TownBuildings/Dungeon/Fort/Fort_Name.txt"/>
+				<textCaste href="/Text/Game/TownBuildings/Dungeon/Fort/Castle_Name.txt"/>
+				<textCitadel href="/Text/Game/TownBuildings/Dungeon/Fort/Citadel_Name.txt"/>
+				<plotting>
+					<TargetGray href="/UI/HeroPlotitng/Dungeon/TargetGrey.(Model).xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Dungeon/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Dungeon/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Dungeon/PointGreen.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Dungeon/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Dungeon/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/PointGreen.xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_WITCH</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>0</Mercury>
+						<Crystal>1</Crystal>
+						<Sulfur>0</Sulfur>
+						<Gem>0</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_BALLISTA</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>170</MoatMaxDamage>
+					<MoatSpells>
+						<Item>
+							<Spell>SPELL_ABILITY_POISONOUS_ATTACK</Spell>
+							<Chance>100</Chance>
+							<SpellMastery>MASTERY_ADVANCED</SpellMastery>
+							<SpellPower>28</SpellPower>
+						</Item>
+					</MoatSpells>
+					<MineNameFileRef href=""/>
+					<MoatMines/>
+				</Moat>
+				<kingdomTownIcons>
+					<textures>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Dungeon_1.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Dungeon_2.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Dungeon_3.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Dungeon_4.(Texture).xdb#xpointer(/Texture)"/>
+					</textures>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_NECROMANCY</ID>
+			<obj>
+				<textType href="/Text/Game/Towns/Types/necromancy.txt"/>
+				<textFort href="/Text/Game/TownBuildings/Necromancy/Fort/Fort_Name.txt"/>
+				<textCaste href="/Text/Game/TownBuildings/Necromancy/Fort/Castle_Name.txt"/>
+				<textCitadel href="/Text/Game/TownBuildings/Necromancy/Fort/Citadel_Name.txt"/>
+				<plotting>
+					<TargetGray href="/UI/HeroPlotitng/Necropolis/TargetGrey.(Model).xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Necropolis/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Necropolis/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Necropolis/PointGreen.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Necropolis/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Necropolis/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/PointGreen.xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_WALKING_DEAD</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>1</Mercury>
+						<Crystal>0</Crystal>
+						<Sulfur>0</Sulfur>
+						<Gem>0</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_BALLISTA</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>170</MoatMaxDamage>
+					<MoatSpells>
+						<Item>
+							<Spell>SPELL_CURSE</Spell>
+							<Chance>100</Chance>
+							<SpellMastery>MASTERY_ADVANCED</SpellMastery>
+							<SpellPower>5</SpellPower>
+						</Item>
+						<Item>
+							<Spell>SPELL_DISRUPTING_RAY</Spell>
+							<Chance>100</Chance>
+							<SpellMastery>MASTERY_ADVANCED</SpellMastery>
+							<SpellPower>5</SpellPower>
+						</Item>
+					</MoatSpells>
+					<MineNameFileRef href=""/>
+					<MoatMines/>
+				</Moat>
+				<kingdomTownIcons>
+					<textures>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Necropolis_1.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Necropolis_2.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Necropolis_3.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Necropolis_4.(Texture).xdb#xpointer(/Texture)"/>
+					</textures>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_INFERNO</ID>
+			<obj>
+				<textType href="/Text/Game/Towns/Types/inferno.txt"/>
+				<textFort href="/Text/Game/TownBuildings/Inferno/Fort/Fort_Name.txt"/>
+				<textCaste href="/Text/Game/TownBuildings/Inferno/Fort/Castle_Name.txt"/>
+				<textCitadel href="/Text/Game/TownBuildings/Inferno/Fort/Citadel_Name.txt"/>
+				<plotting>
+					<TargetGray href="/UI/HeroPlotitng/inferno/TargetGrey.(Model).xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/inferno/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/inferno/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/inferno/PointGreen.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/inferno/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/inferno/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/PointGreen.xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_DEMON</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>0</Mercury>
+						<Crystal>0</Crystal>
+						<Sulfur>1</Sulfur>
+						<Gem>0</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_BALLISTA</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>204</MoatMaxDamage>
+					<MoatSpells/>
+					<MineNameFileRef href=""/>
+					<MoatMines/>
+				</Moat>
+				<kingdomTownIcons>
+					<textures>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Inferno_1.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Inferno_2.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Inferno_3.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Inferno_4.(Texture).xdb#xpointer(/Texture)"/>
+					</textures>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_FORTRESS</ID>
+			<obj>
+				<textType href="/Text/Game/Towns/Types/fortress.txt"/>
+				<textFort href="/Text/Game/TownBuildings/Dwarves/Fort/Fort_Name.txt"/>
+				<textCaste href="/Text/Game/TownBuildings/Dwarves/Fort/Castle_Name.txt"/>
+				<textCitadel href="/Text/Game/TownBuildings/Dwarves/Fort/Citadel_Name.txt"/>
+				<plotting>
+					<TargetGray href="/UI/HeroPlotitng/Fortress/TargetGrey.(model).xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Fortress/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Fortress/TargetGreen.(model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Fortress/PointGreen.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Fortress/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Fortress/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_AXE_THROWER</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>0</Mercury>
+						<Crystal>1</Crystal>
+						<Sulfur>0</Sulfur>
+						<Gem>0</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_BALLISTA</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>170</MoatMaxDamage>
+					<MoatSpells/>
+					<MineNameFileRef href="/Text/Game/Creatures/FortressMine.txt"/>
+					<MoatMines>
+						<Item>
+							<Effect href="/GameMechanics/SpellVisual/MoatObjects/FortressMine.xdb#xpointer(/SpellVisual)"/>
+							<ExplosionEffect href="/GameMechanics/Spell/Combat_Spells/DestructiveMagic/ChainLightning.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+							<SpellToCast>
+								<Spell>SPELL_EFFECT_MASTER_OF_LIGHTNING</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_ADVANCED</SpellMastery>
+								<SpellPower>5</SpellPower>
+							</SpellToCast>
+							<SpellToCastOnFriend>
+								<Spell>SPELL_RUNE_OF_STUNNING</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCastOnFriend>
+						</Item>
+						<Item>
+							<Effect href="/GameMechanics/SpellVisual/MoatObjects/FortressMine2.xdb#xpointer(/SpellVisual)"/>
+							<ExplosionEffect href="/GameMechanics/Spell/Combat_Spells/DestructiveMagic/IceBolt.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+							<SpellToCast>
+								<Spell>SPELL_EFFECT_FROZEN</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCast>
+							<SpellToCastOnFriend>
+								<Spell>SPELL_RUNE_OF_BERSERKING</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCastOnFriend>
+						</Item>
+						<Item>
+							<Effect href="/GameMechanics/SpellVisual/MoatObjects/FortressMine3.xdb#xpointer(/SpellVisual)"/>
+							<ExplosionEffect href="/GameMechanics/Spell/Creature_Abilities/Dwarf/MarkOfFireEffect.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+							<SpellToCast>
+								<Spell>SPELL_EFFECT_MARK_OF_FIRE</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCast>
+							<SpellToCastOnFriend>
+								<Spell>SPELL_RUNE_OF_ELEMENTAL_IMMUNITY</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCastOnFriend>
+						</Item>
+						<Item>
+							<Effect href="/GameMechanics/SpellVisual/MoatObjects/FortressMine4.xdb#xpointer(/SpellVisual)"/>
+							<ExplosionEffect/>
+							<SpellToCast>
+								<Spell>SPELL_SLOW</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_ADVANCED</SpellMastery>
+								<SpellPower>3</SpellPower>
+							</SpellToCast>
+							<SpellToCastOnFriend>
+								<Spell>SPELL_RUNE_OF_MAGIC_CONTROL</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCastOnFriend>
+						</Item>
+						<Item>
+							<Effect href="/GameMechanics/SpellVisual/MoatObjects/FortressMine5.xdb#xpointer(/SpellVisual)"/>
+							<ExplosionEffect href="/GameMechanics/Spell/Combat_Spells/SummoningMagic/LandMine_Explosion.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+							<SpellToCast>
+								<Spell>SPELL_EFFECT_FIRE_DAMAGE</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCast>
+							<SpellToCastOnFriend>
+								<Spell>SPELL_RUNE_OF_ETHEREALNESS</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCastOnFriend>
+						</Item>
+						<Item>
+							<Effect href="/GameMechanics/SpellVisual/MoatObjects/FortressMine6.xdb#xpointer(/SpellVisual)"/>
+							<ExplosionEffect/>
+							<SpellToCast>
+								<Spell>SPELL_EFFECT_MASTER_OF_LIGHTNING</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_ADVANCED</SpellMastery>
+								<SpellPower>5</SpellPower>
+							</SpellToCast>
+							<SpellToCastOnFriend>
+								<Spell>SPELL_ENCOURAGE</Spell>
+								<Chance>100</Chance>
+								<SpellMastery>MASTERY_NONE</SpellMastery>
+								<SpellPower>0</SpellPower>
+							</SpellToCastOnFriend>
+						</Item>
+					</MoatMines>
+				</Moat>
+				<kingdomTownIcons>
+					<textures>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Fortress_1.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Fortress_2.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Fortress_3.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Fortress_4.(Texture).xdb#xpointer(/Texture)"/>
+					</textures>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+		<Item>
+			<ID>TOWN_STRONGHOLD</ID>
+			<obj>
+				<textType href="/Text/Game/Towns/Types/stronghold.txt"/>
+				<textFort href="/Text/Game/TownBuildings/Inferno/Fort/Fort_Name.txt"/>
+				<textCaste href="/Text/Game/TownBuildings/Inferno/Fort/Castle_Name.txt"/>
+				<textCitadel href="/Text/Game/TownBuildings/Inferno/Fort/Citadel_Name.txt"/>
+				<plotting>
+					<TargetGray href="/UI/HeroPlotitng/Stronghold/TargetGrey.(model).xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Stronghold/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Stronghold/TargetGreen.(model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Stronghold/PointGreen.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Stronghold/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Stronghold/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</plotting>
+				<GhostPlotting>
+					<TargetGray href="/UI/HeroPlotitng/Ghost/TargetGrey.xdb#xpointer(/Model)"/>
+					<PointGray href="/UI/HeroPlotitng/Ghost/PointGrey.(Model).xdb#xpointer(/Model)"/>
+					<TargetAvailable href="/UI/HeroPlotitng/Ghost/TargetGreen.(Model).xdb#xpointer(/Model)"/>
+					<PointAvailable href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<TargetContested href="/UI/HeroPlotitng/Ghost/TargetRed.(Model).xdb#xpointer(/Model)"/>
+					<PointContested href="/UI/HeroPlotitng/Ghost/PointRed.(Model).xdb#xpointer(/Model)"/>
+				</GhostPlotting>
+				<values>
+					<NeutralCreature>CREATURE_CENTAUR</NeutralCreature>
+					<ResourceSiloIncome>
+						<Wood>0</Wood>
+						<Ore>0</Ore>
+						<Mercury>0</Mercury>
+						<Crystal>0</Crystal>
+						<Sulfur>1</Sulfur>
+						<Gem>0</Gem>
+						<Gold>0</Gold>
+					</ResourceSiloIncome>
+					<NativeWarMachine>WAR_MACHINE_BALLISTA</NativeWarMachine>
+				</values>
+				<Moat>
+					<MoatMaxDamage>204</MoatMaxDamage>
+					<MoatSpells/>
+					<MineNameFileRef href=""/>
+					<MoatMines/>
+				</Moat>
+				<kingdomTownIcons>
+					<textures>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Stronghold_1.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Stronghold_2.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Stronghold_3.(Texture).xdb#xpointer(/Texture)"/>
+						<Item href="/UI/MissionObjectives/KingdomOverview/TownsIcons/Stronghold_4.(Texture).xdb#xpointer(/Texture)"/>
+					</textures>
+				</kingdomTownIcons>
+			</obj>
+		</Item>
+	</objects>
+</Table_TownTypeInfo_TownType>

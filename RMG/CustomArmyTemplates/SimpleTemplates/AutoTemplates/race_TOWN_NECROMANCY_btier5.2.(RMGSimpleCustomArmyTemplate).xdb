@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_DEMILICH</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_VAMPIRE_LORD</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_GHOST</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>20838</MinPower>
+	<MaxPower>138920</MaxPower>
+</RMGSimpleCustomArmyTemplate>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_VAMPIRE</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MANES</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_WALKING_DEAD</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SKELETON</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>8265</MinPower>
+	<MaxPower>55100</MaxPower>
+</RMGSimpleCustomArmyTemplate>

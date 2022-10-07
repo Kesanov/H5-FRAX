@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AdvMapHeroShared>
+	<Model href="/Characters/Heroes/Necropolis/GiovanniMP/Model.xdb#xpointer(/Model)" />
+	<AnimSet href="/Characters/Heroes/Necropolis/GiovanniMP/AnimSet.xdb#xpointer(/AnimSet)" />
+	<blockedTiles />
+	<holeTiles />
+	<activeTiles>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+		</Item>
+	</activeTiles>
+	<passableTiles />
+	<PossessionMarkerTile>
+		<x>0</x>
+		<y>0</y>
+	</PossessionMarkerTile>
+	<Effect />
+	<EffectWhenOwned />
+	<messagesFileRef />
+	<WaterBased>false</WaterBased>
+	<ApplyHeroTrace>false</ApplyHeroTrace>
+	<SoundEffect />
+	<flybyMessageFileRef href="" />
+	<ObjectTypeFileRef href="/Text/Visibility_Types/Units.txt" />
+	<TerrainAligned>false</TerrainAligned>
+	<FlyPassable>true</FlyPassable>
+	<AdventureSoundEffect />
+	<RazedStatic />
+	<Icon128 href="/UI/H5A1/Icons/Heroes/Portrets128x128/Giovanni.(Texture).xdb#xpointer(/Texture)" />
+	<InternalName>GiovanniMP</InternalName>
+	<Class>HERO_CLASS_REAVER</Class>
+	<Specialization>HERO_SPEC_POISONER</Specialization>
+	<PrimarySkill>
+		<Mastery>MASTERY_ADVANCED</Mastery>
+		<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
+	</PrimarySkill>
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Poisoner2/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Poisoner2/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Dungeon/Poisoner.xdb#xpointer(/Texture)" />
+	<FaceTexture href="/UI/H5A1/Icons/Heroes/Portrets128x128/Giovanni.(Texture).xdb#xpointer(/Texture)" />
+	<FaceTextureSmall />
+	<HeroCharacterArena href="/Characters/Heroes/Necropolis/GiovanniMP/HeroCharacterArena.xdb#xpointer(/Character)" />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Necropolis/GiovanniMP/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
+	<HeroCharacterAdventure href="/Characters/Heroes/Necropolis/GiovanniMP/HeroCharacterAdventure.xdb#xpointer(/Character)" />
+	<HeroIndividualCamera href="/Characters/Heroes/Necropolis/GiovanniMP/HeroIndividualCamera.xdb#xpointer(/Camera)" />
+	<CombatVisual href="/Characters/Heroes/Necropolis/GiovanniMP/CombatVisual.xdb#xpointer(/CreatureVisual)" />
+	<TownType>TOWN_NECROMANCY</TownType>
+	<Editable>
+		<NameFileRef href="/Text/Game/Heroes/Persons/Necropolis/Giovanni/name.txt" />
+		<BiographyFileRef href="/Text/Game/Heroes/Persons/Necropolis/Giovanni/Bio.txt" />
+		<Offence>0</Offence>
+		<Defence>0</Defence>
+		<Spellpower>3</Spellpower>
+		<Knowledge>2</Knowledge>
+		<skills />
+		<perkIDs>
+			<Item>HERO_SKILL_MASTER_OF_SICKNESS</Item>
+		</perkIDs>
+		<spellIDs>
+			<Item>SPELL_PLAGUE</Item>
+			<Item>SPELL_ANIMATE_DEAD</Item>
+		</spellIDs>
+		<Ballista>false</Ballista>
+		<FirstAidTent>false</FirstAidTent>
+		<AmmoCart>false</AmmoCart>
+		<FavoriteEnemies />
+	</Editable>
+	<ArrowButtonState>0</ArrowButtonState>
+	<Decal />
+	<Selection href="/_(Model)/Heroes/Necromancer_Path/Symbol.xdb#xpointer(/Model)" />
+	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Necropolis.xdb#xpointer(/AdvMapHeroTraceSet)" />
+	<RaceTraitIcon />
+	<RaceTraitDescFileRef href="" />
+	<ScenarioHero>false</ScenarioHero>
+	<AdventureMusic />
+	<HideInEditor>false</HideInEditor>
+</AdvMapHeroShared>

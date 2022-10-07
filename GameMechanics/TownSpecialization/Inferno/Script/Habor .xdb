@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization>
+	<NameFileRef href="/Text/Game/Towns/Inferno/Script/Habor/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Inferno/Script/Habor/Biography.txt"/>
+	<Bonus>TOWN_BONUS_GEMS</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_INFERNO</TownType>
+	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
+</TownSpecialization>

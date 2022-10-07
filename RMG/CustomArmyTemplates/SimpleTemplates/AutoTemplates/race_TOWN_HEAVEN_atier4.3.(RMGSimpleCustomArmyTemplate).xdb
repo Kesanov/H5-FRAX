@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_ROYAL_GRIFFIN</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SWORDSMAN</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MARKSMAN</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>3015</MinPower>
+	<MaxPower>20100</MaxPower>
+</RMGSimpleCustomArmyTemplate>

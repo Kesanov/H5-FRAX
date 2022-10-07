@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile ObjectRecordID="15">
+	<Texture href="/Textures/Terrain/Sand.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>21</Priority>
+	<Type>TT_SAND</Type>
+	<MinimapColor>
+		<x>0.784314</x>
+		<y>0.784314</y>
+		<z>0</z>
+	</MinimapColor>
+	<IconFile>Texture\Terrain\Sand_icon.bmp</IconFile>
+	<AmbientSoundSet/>
+	<AdventureMusic/>
+	<HideInEditor>false</HideInEditor>
+</AdvMapTile>

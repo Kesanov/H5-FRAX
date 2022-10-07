@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArenaEnvObject>
+	<placement>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</placement>
+	<Model href="KnightFlag_Global.xdb#xpointer(/Model)"/>
+	<AnimSet href="KnightFlag_Global-animset.xdb#xpointer(/AnimSet)"/>
+</ArenaEnvObject>

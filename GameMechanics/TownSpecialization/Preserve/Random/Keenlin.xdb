@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization>
+	<NameFileRef href="/Text/Game/Towns/Preserve/Random/Keenlin/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Preserve/Random/Keenlin/Biography.txt"/>
+	<Bonus>TOWN_BONUS_TIER3_CREATURE</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_PRESERVE</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

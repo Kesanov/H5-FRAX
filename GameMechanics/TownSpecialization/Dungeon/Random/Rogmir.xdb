@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="31">
+	<NameFileRef href="/Text/Game/Towns/Dungeon/Random/Rogmir/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Dungeon/Random/Rogmir/Biography.txt"/>
+	<Bonus>TOWN_BONUS_TIER2_CREATURE</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_DUNGEON</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

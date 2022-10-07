@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_BEAR_RIDER</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_AXE_FIGHTER</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DEFENDER</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>4134</MinPower>
+	<MaxPower>27560</MaxPower>
+</RMGSimpleCustomArmyTemplate>

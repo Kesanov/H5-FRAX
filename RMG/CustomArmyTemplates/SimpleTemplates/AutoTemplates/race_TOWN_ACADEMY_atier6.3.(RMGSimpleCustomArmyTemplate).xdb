@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_RAKSHASA</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_GENIE</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MAGI</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>26712</MinPower>
+	<MaxPower>178080</MaxPower>
+</RMGSimpleCustomArmyTemplate>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization>
+	<NameFileRef href="/Text/Game/Towns/Haven/Random/Greystone/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Haven/Random/Greystone/Biography.txt"/>
+	<Bonus>TOWN_BONUS_EXTRA_ORE</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_HEAVEN</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

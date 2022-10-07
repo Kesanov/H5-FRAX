@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_NOSFERATU</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DISEASE_ZOMBIE</Creature>
+			<Coef>3</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SKELETON_WARRIOR</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>7326</MinPower>
+	<MaxPower>48840</MaxPower>
+</RMGSimpleCustomArmyTemplate>

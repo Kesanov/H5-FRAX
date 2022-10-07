@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdvMapTile>
+	<Texture href="/Textures/Terrain/Dirt/DirtRoad.xdb#xpointer(/Texture)"/>
+	<SecondTexture/>
+	<Material/>
+	<Priority>236</Priority>
+	<Type>TT_COBBLESTONE_ROAD</Type>
+	<MinimapColor>
+		<x>0.670588</x>
+		<y>0.65098</y>
+		<z>0.380392</z>
+	</MinimapColor>
+	<IconFile/>
+	<AmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/Taiga.xdb#xpointer(/AmbientSoundSet)"/>
+	<AdventureMusic/>
+	<HideInEditor>true</HideInEditor>
+</AdvMapTile>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_SHAMAN_HAG</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ORC_WARMONGER</Creature>
+			<Coef>2</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>6282</MinPower>
+	<MaxPower>41880</MaxPower>
+</RMGSimpleCustomArmyTemplate>

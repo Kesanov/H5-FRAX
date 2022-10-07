@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableRaceMusic ObjectRecordID="1000000">
+	<objects>
+		<Item>
+			<race>TOWN_HEAVEN</race>
+			<musicInfo>
+				<TownAmbientSoundSet href="/Sounds/_(Ambient)/Towns/heaven.xdb#xpointer(/AmbientSoundSet)"/>
+				<TownMusic href="Towns/Haven.(Music).xdb#xpointer(/Music)"/>
+				<TavernMusic href="Tavern-Themes/Haven.xdb#xpointer(/Music)"/>
+				<DwellingMusic href="Dwellings/Haven.xdb#xpointer(/Music)"/>
+				<MagicGuildSound href="/Sounds/_(Sound)/Interface/Ingame/MageGuild.xdb#xpointer(/Sound)"/>
+				<TownHallSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<MarketplaceSound href="/Sounds/_(Sound)/Interface/Ingame/Marketplace.xdb#xpointer(/Sound)"/>
+				<ShipyardSound href="/Sounds/_(Sound)/Interface/Ingame/Shipyard.xdb#xpointer(/Sound)"/>
+				<BlacksmithSound/>
+				<UpgradeTownBuildingSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<combatMusics>
+					<Item href="Battle-Themes/Haven.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Haven2.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Haven6.xdb#xpointer(/Music)"/>					
+				</combatMusics>
+				<SiegeMusic href="Seige-Battle/Haven.xdb#xpointer(/Music)"/>
+				<WinCombatMusic href="Win-Battle/Haven.xdb#xpointer(/Music)"/>
+				<LooseCombatMusic href="Lose-Battle/Haven.xdb#xpointer(/Music)"/>
+				<RetreatCombatMusic href="Retreat-Battle/Haven.xdb#xpointer(/Music)"/>
+				<WaitMusic href="AI-Themes/Haven.xdb#xpointer(/Music)"/>
+			</musicInfo>
+		</Item>
+		<Item>
+			<race>TOWN_PRESERVE</race>
+			<musicInfo>
+				<TownAmbientSoundSet href="/Sounds/_(Ambient)/Towns/Sylvan.xdb#xpointer(/AmbientSoundSet)"/>
+				<TownMusic href="Towns/Sylvan.(Music).xdb#xpointer(/Music)"/>
+				<TavernMusic href="Tavern-Themes/Sylvan.xdb#xpointer(/Music)"/>
+				<DwellingMusic href="Dwellings/Sylvan.xdb#xpointer(/Music)"/>
+				<MagicGuildSound href="/Sounds/_(Sound)/Interface/Ingame/MageGuild.xdb#xpointer(/Sound)"/>
+				<TownHallSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<MarketplaceSound href="/Sounds/_(Sound)/Interface/Ingame/Marketplace.xdb#xpointer(/Sound)"/>
+				<ShipyardSound href="/Sounds/_(Sound)/Interface/Ingame/Shipyard.xdb#xpointer(/Sound)"/>
+				<BlacksmithSound/>
+				<UpgradeTownBuildingSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<combatMusics>
+					<Item href="Battle-Themes/Sylvan.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Sylvan6.xdb#xpointer(/Music)"/>					
+				</combatMusics>
+				<SiegeMusic href="Seige-Battle/Sylvan.xdb#xpointer(/Music)"/>
+				<WinCombatMusic href="Win-Battle/Sylvan.xdb#xpointer(/Music)"/>
+				<LooseCombatMusic href="Lose-Battle/Sylvan.xdb#xpointer(/Music)"/>
+				<RetreatCombatMusic href="Retreat-Battle/Sylvan.xdb#xpointer(/Music)"/>
+				<WaitMusic href="AI-Themes/Sylvan.xdb#xpointer(/Music)"/>
+			</musicInfo>
+		</Item>
+		<Item>
+			<race>TOWN_ACADEMY</race>
+			<musicInfo>
+				<TownAmbientSoundSet href="/Sounds/_(Ambient)/Towns/Academy.xdb#xpointer(/AmbientSoundSet)"/>
+				<TownMusic href="Towns/Academy.(Music).xdb#xpointer(/Music)"/>
+				<TavernMusic href="Tavern-Themes/Academy.xdb#xpointer(/Music)"/>
+				<DwellingMusic href="Dwellings/Academy.xdb#xpointer(/Music)"/>
+				<MagicGuildSound href="/Sounds/_(Sound)/Interface/Ingame/MageGuild.xdb#xpointer(/Sound)"/>
+				<TownHallSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<MarketplaceSound href="/Sounds/_(Sound)/Interface/Ingame/Marketplace.xdb#xpointer(/Sound)"/>
+				<ShipyardSound href="/Sounds/_(Sound)/Interface/Ingame/Shipyard.xdb#xpointer(/Sound)"/>
+				<BlacksmithSound/>
+				<UpgradeTownBuildingSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<combatMusics>
+					<Item href="Battle-Themes/Academy.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Academy6.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/a2_Wizards.xdb#xpointer(/Music)"/>					
+				</combatMusics>
+				<SiegeMusic href="Seige-Battle/Academy.xdb#xpointer(/Music)"/>
+				<WinCombatMusic href="Win-Battle/Academy.xdb#xpointer(/Music)"/>
+				<LooseCombatMusic href="Lose-Battle/Academy.xdb#xpointer(/Music)"/>
+				<RetreatCombatMusic href="Retreat-Battle/Academy.xdb#xpointer(/Music)"/>
+				<WaitMusic href="AI-Themes/Academy.xdb#xpointer(/Music)"/>
+			</musicInfo>
+		</Item>
+		<Item>
+			<race>TOWN_DUNGEON</race>
+			<musicInfo>
+				<TownAmbientSoundSet href="/Sounds/_(Ambient)/Towns/Dungeon.xdb#xpointer(/AmbientSoundSet)"/>
+				<TownMusic href="Towns/Dungeon.(Music).xdb#xpointer(/Music)"/>
+				<TavernMusic href="Tavern-Themes/Dungeon.xdb#xpointer(/Music)"/>
+				<DwellingMusic href="Dwellings/Dungeon.xdb#xpointer(/Music)"/>
+				<MagicGuildSound href="/Sounds/_(Sound)/Interface/Ingame/MageGuild.xdb#xpointer(/Sound)"/>
+				<TownHallSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<MarketplaceSound href="/Sounds/_(Sound)/Interface/Ingame/Marketplace.xdb#xpointer(/Sound)"/>
+				<ShipyardSound href="/Sounds/_(Sound)/Interface/Ingame/Shipyard.xdb#xpointer(/Sound)"/>
+				<BlacksmithSound/>
+				<UpgradeTownBuildingSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<combatMusics>
+					<Item href="Battle-Themes/Dungeon.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Dungeon6.xdb#xpointer(/Music)"/>					
+				</combatMusics>
+				<SiegeMusic href="Seige-Battle/Dungeon.xdb#xpointer(/Music)"/>
+				<WinCombatMusic href="Win-Battle/Dungeon.xdb#xpointer(/Music)"/>
+				<LooseCombatMusic href="Lose-Battle/Dungeon.xdb#xpointer(/Music)"/>
+				<RetreatCombatMusic href="Retreat-Battle/Dungeon.xdb#xpointer(/Music)"/>
+				<WaitMusic href="AI-Themes/Dungeon.xdb#xpointer(/Music)"/>
+			</musicInfo>
+		</Item>
+		<Item>
+			<race>TOWN_NECROMANCY</race>
+			<musicInfo>
+				<TownAmbientSoundSet href="/Sounds/_(Ambient)/Towns/Necropolis.xdb#xpointer(/AmbientSoundSet)"/>
+				<TownMusic href="Towns/Necropolis.(Music).xdb#xpointer(/Music)"/>
+				<TavernMusic href="Tavern-Themes/Necropolis.xdb#xpointer(/Music)"/>
+				<DwellingMusic href="Dwellings/Necropolis.xdb#xpointer(/Music)"/>
+				<MagicGuildSound href="/Sounds/_(Sound)/Interface/Ingame/MageGuild.xdb#xpointer(/Sound)"/>
+				<TownHallSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<MarketplaceSound href="/Sounds/_(Sound)/Interface/Ingame/Marketplace.xdb#xpointer(/Sound)"/>
+				<ShipyardSound href="/Sounds/_(Sound)/Interface/Ingame/Shipyard.xdb#xpointer(/Sound)"/>
+				<BlacksmithSound/>
+				<UpgradeTownBuildingSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<combatMusics>
+					<Item href="Battle-Themes/Necropolis.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/a2_Necro.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Necropolis6.xdb#xpointer(/Music)"/>					
+				</combatMusics>
+				<SiegeMusic href="Seige-Battle/Necropolis.xdb#xpointer(/Music)"/>
+				<WinCombatMusic href="Win-Battle/Necropolis.xdb#xpointer(/Music)"/>
+				<LooseCombatMusic href="Lose-Battle/Necropolis.xdb#xpointer(/Music)"/>
+				<RetreatCombatMusic href="Retreat-Battle/Necropolis.xdb#xpointer(/Music)"/>
+				<WaitMusic href="AI-Themes/a2_Necro.xdb#xpointer(/Music)"/>
+			</musicInfo>
+		</Item>
+		<Item>
+			<race>TOWN_INFERNO</race>
+			<musicInfo>
+				<TownAmbientSoundSet href="/Sounds/_(Ambient)/Towns/Inferno.xdb#xpointer(/AmbientSoundSet)"/>
+				<TownMusic href="Towns/Inferno.(Music).xdb#xpointer(/Music)"/>
+				<TavernMusic href="Tavern-Themes/Inferno.xdb#xpointer(/Music)"/>
+				<DwellingMusic href="Dwellings/Inferno.xdb#xpointer(/Music)"/>
+				<MagicGuildSound href="/Sounds/_(Sound)/Interface/Ingame/MageGuild.xdb#xpointer(/Sound)"/>
+				<TownHallSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<MarketplaceSound href="/Sounds/_(Sound)/Interface/Ingame/Marketplace.xdb#xpointer(/Sound)"/>
+				<ShipyardSound href="/Sounds/_(Sound)/Interface/Ingame/Shipyard.xdb#xpointer(/Sound)"/>
+				<BlacksmithSound/>
+				<UpgradeTownBuildingSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<combatMusics>
+					<Item href="Battle-Themes/Inferno.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Inferno2.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/a2_Inferno.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Inferno6.xdb#xpointer(/Music)"/>					
+				</combatMusics>
+				<SiegeMusic href="Seige-Battle/Inferno.xdb#xpointer(/Music)"/>
+				<WinCombatMusic href="Win-Battle/Inferno.xdb#xpointer(/Music)"/>
+				<LooseCombatMusic href="Lose-Battle/Inferno.xdb#xpointer(/Music)"/>
+				<RetreatCombatMusic href="Retreat-Battle/Inferno.xdb#xpointer(/Music)"/>
+				<WaitMusic href="AI-Themes/Inferno.xdb#xpointer(/Music)"/>
+			</musicInfo>
+		</Item>
+		<Item>
+			<race>TOWN_NO_TYPE</race>
+			<musicInfo>
+				<TownAmbientSoundSet/>
+				<TownMusic/>
+				<TavernMusic/>
+				<DwellingMusic href="Dwellings/Neutral.xdb#xpointer(/Music)"/>
+				<MagicGuildSound/>
+				<TownHallSound/>
+				<MarketplaceSound/>
+				<ShipyardSound/>
+				<BlacksmithSound/>
+				<UpgradeTownBuildingSound/>
+				<combatMusics>
+					<Item href="Battle-Themes/Neutral.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Neutral2.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Neutral3.xdb#xpointer(/Music)"/>
+				</combatMusics>
+				<SiegeMusic/>
+				<WinCombatMusic/>
+				<LooseCombatMusic/>
+				<RetreatCombatMusic/>
+				<WaitMusic/>
+			</musicInfo>
+		</Item>
+		<Item>
+			<race>TOWN_FORTRESS</race>
+			<musicInfo>
+				<TownAmbientSoundSet href="/Sounds/_(Ambient)/TerrainAmbients/Snow.xdb#xpointer(/AmbientSoundSet)"/>
+				<TownMusic href="Towns/a1-Fortress.xdb#xpointer(/Music)"/>
+				<TavernMusic href="Towns/a1-Fortress.xdb#xpointer(/Music)"/>
+				<DwellingMusic href="Towns/a1-Fortress.xdb#xpointer(/Music)"/>
+				<MagicGuildSound href="/Sounds/_(Sound)/Interface/Ingame/MageGuild.xdb#xpointer(/Sound)"/>
+				<TownHallSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<MarketplaceSound href="/Sounds/_(Sound)/Interface/Ingame/Marketplace.xdb#xpointer(/Sound)"/>
+				<ShipyardSound href="/Sounds/_(Sound)/Interface/Ingame/Shipyard.xdb#xpointer(/Sound)"/>
+				<BlacksmithSound/>
+				<UpgradeTownBuildingSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<combatMusics>
+					<Item href="Battle-Themes/a1-Fortress.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Fortress6.xdb#xpointer(/Music)"/>					
+				</combatMusics>
+				<SiegeMusic href="Seige-Battle/a1-Fortress.xdb#xpointer(/Music)"/>
+				<WinCombatMusic href="Win-Battle/a1-Fortress.xdb#xpointer(/Music)"/>
+				<LooseCombatMusic href="Lose-Battle/a1-Fortress.xdb#xpointer(/Music)"/>
+				<RetreatCombatMusic/>
+				<WaitMusic href="AI-Themes/a1-Fortress.xdb#xpointer(/Music)"/>
+			</musicInfo>
+		</Item>
+		<Item>
+			<race>TOWN_STRONGHOLD</race>
+			<musicInfo>
+				<TownAmbientSoundSet href="/Sounds/_(Ambient)/Towns/Stronghold.xdb#xpointer(/AmbientSoundSet)"/>
+				<TownMusic href="Towns/a2_Stronghold.xdb#xpointer(/Music)"/>
+				<TavernMusic href="Tavern-Themes/a2-Stronghold.xdb#xpointer(/Music)"/>
+				<DwellingMusic href="Dwellings/a2-Stronghold.xdb#xpointer(/Music)"/>
+				<MagicGuildSound href="/Sounds/_(Sound)/Interface/Ingame/MageGuild.xdb#xpointer(/Sound)"/>
+				<TownHallSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<MarketplaceSound href="/Sounds/_(Sound)/Interface/Ingame/Marketplace.xdb#xpointer(/Sound)"/>
+				<ShipyardSound href="/Sounds/_(Sound)/Interface/Ingame/Shipyard.xdb#xpointer(/Sound)"/>
+				<BlacksmithSound/>
+				<UpgradeTownBuildingSound href="/Sounds/_(Sound)/Interface/Ingame/Constr.xdb#xpointer(/Sound)"/>
+				<combatMusics>
+					<Item href="Battle-Themes/a2_Stronghold.xdb#xpointer(/Music)"/>
+					<Item href="Battle-Themes/Stronghold6.xdb#xpointer(/Music)"/>						
+				</combatMusics>
+				<SiegeMusic href="Seige-Battle/a2_Stronghold.xdb#xpointer(/Music)"/>
+				<WinCombatMusic href="Win-Battle/a2-Stronghold.xdb#xpointer(/Music)"/>
+				<LooseCombatMusic href="Lose-Battle/a2-Stronhold.xdb#xpointer(/Music)"/>
+				<RetreatCombatMusic href="Lose-Battle/a2-Necro2Up.xdb#xpointer(/Music)"/>
+				<WaitMusic href="AI-Themes/a2_Stronghold.xdb#xpointer(/Music)"/>
+			</musicInfo>
+		</Item>
+	</objects>
+</TableRaceMusic>

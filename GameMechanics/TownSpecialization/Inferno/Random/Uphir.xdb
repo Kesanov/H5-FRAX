@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TownSpecialization ObjectRecordID="135">
+	<NameFileRef href="/Text/Game/Towns/Inferno/Random/Uphir/Name.txt"/>
+	<BiographyFileRef href="/Text/Game/Towns/Inferno/Random/Uphir/Biography.txt"/>
+	<Bonus>TOWN_BONUS_FIRST_AID_TENT</Bonus>
+	<BonusDescriptionFileRef href=""/>
+	<TownType>TOWN_INFERNO</TownType>
+	<RandomTown>TOWN_RANDOM</RandomTown>
+</TownSpecialization>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMGSimpleCustomArmyTemplate>
+	<Stacks>
+		<Item>
+			<Creature>CREATURE_SUCCUBUS_SEDUCER</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_FIREBREATHER_HOUND</Creature>
+			<Coef>1</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_HORNED_LEAPER</Creature>
+			<Coef>2</Coef>
+		</Item>
+		<Item>
+			<Creature>CREATURE_QUASIT</Creature>
+			<Coef>3</Coef>
+		</Item>
+	</Stacks>
+	<MinPower>8682</MinPower>
+	<MaxPower>57880</MaxPower>
+</RMGSimpleCustomArmyTemplate>
