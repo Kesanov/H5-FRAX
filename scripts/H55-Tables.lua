@@ -161,7 +161,7 @@ H55_CreaturesGrowthReal = {
 
 H55_NeutralCreatures = {85,86,87,88,91,113,114,115,116,90}; --Fire,Water,Earth,Air,Phoenix,Wolf,Eagle,Manticore,Mummy,BKnight
 H55_NeutralCreaturesExp = {60,60,60,60,500,37,130,135,72,158};
-H55_NeutralCreaturesGrowth = {4,4,4,4,1,8,2,2,3};
+H55_NeutralCreaturesGrowth = {4,4,4,4,1,8,2,2,3,2};
 H55_NeutralSpecialists = {"Calid2","Melodia","Kunyak","KingTolghar","RedHeavenHero03","Emilia","Menel"};
 H55_NeutralSpecialistsCr = {["Calid2"] = 85,["Melodia"] = 86,["Kunyak"] = 87,["KingTolghar"] = 88,["RedHeavenHero03"] = 113,["Emilia"] = 114,["Menel"] = 115,["Thant"] = 116};
 

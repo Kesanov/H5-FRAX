@@ -34,7 +34,7 @@ H55_StaticBanks = 0;
 H55_NewDayTrigger = 0; H55_SecNewDayTrigger = 0; H55_ThrNewDayTrigger = 0; H55_FrtNewDayTrigger = 0; H55_FifNewDayTrigger = 0;
 H55_DelayedVariables = 0;
 H55_AdvMapProcessed = 0;
-H55_GenerateMixedStacks = 1; H55_ForceMixedStacks = 0; H55_AskForMixedStacks = 0; H55_SkipModifyStackSize = 0; H55_MixedByMapmixer = 0; H55_MixingStacksComplete = 0;
+H55_GenerateMixedStacks = 1; H55_ForceMixedStacks = 0; H55_AskForMixedStacks = 0; H55_SkipModifyStackSize = 0; H55_MixedByMapmixer = 0; H55_MixingStacksComplete = 0; H55_MixDecisionDelay = 0;
 H55_MixStacksThreshold = 200;
 H55_NeutralStackSize = 1;
 H55_BanksDifficulty = 1;
@@ -1222,26 +1222,27 @@ function H55_PrepareDuel()
 			local skeletons = math.round((H55_Duel_WeeksGrowth/2)*25);
 			local ghosts = math.round((H55_Duel_WeeksGrowth/2)*9);				
 			local wights = math.round((H55_Duel_WeeksGrowth/2)*2);
-			for i,hero in heroes do
-				if H55_GetHeroClass(hero) == "Ranger" then
+			
+			for i,hero in heroes do		
+				if H55_RangersPhonebook[hero] == 1 then
 					AddHeroCreatures(hero,45,dancers);
 				end;
-				if H55_GetHeroClass(hero) == "Avenger" then
+				if H55_AvengersPhonebook[hero] == 1 then
 					AddHeroCreatures(hero,45,dancers);
 				end;
-				if H55_GetHeroClass(hero) == "Deathknight" then
+				if H55_DeathKnightsPhonebook[hero] == 1 then
 					AddHeroCreatures(hero,29,skeletons);
 				end;	
-				if H55_GetHeroClass(hero) == "Necromancer" then
+				if H55_NecromancersPhonebook[hero] == 1 then
 					AddHeroCreatures(hero,33,ghosts);
 				end;
-				if H55_GetHeroClass(hero) == "Nethermage" then
+				if H55_NethermagesPhonebook[hero] == 1 then
 					AddHeroCreatures(hero,39,wights);
 				end;
-				if H55_GetHeroClass(hero) == "Wizard" then
+				if H55_WizardsPhonebook[hero] == 1 then
 					ChangeHeroStat(hero,1,4);
 					ChangeHeroStat(hero,2,4);						
-				end;					
+				end;				
 			end;
 			
 			local tier1 = math.round((H55_Duel_WeeksGrowth/2)*25);
@@ -1417,7 +1418,7 @@ function H55_DuelStart()
 end;
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
---AI FUNCTIONS
+--CORE FUNCTIONS
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 function H55_DetectP1AI()
@@ -1689,6 +1690,17 @@ function H55_GetAllHeroes()
 	return all;
 end;
 
+function H55_OtherPlayerHeroes(excluded,player)
+	local others = {};
+	local heroes = GetPlayerHeroes(player);
+	for i,hero in heroes do
+		if hero ~= excluded then
+			table.inject(others,hero);
+		end;
+	end;
+	return others;
+end;
+
 function H55_GetPlayerTeam(player)
 	local team = H55_PlayerTeams[player];
 	return team;
@@ -1789,488 +1801,6 @@ function H55_AICheatSetting()
 	return coef;
 end;
 
-function H55_FindTownToAttack(hero)
-	local myteam = H55_GetObjectOwningTeam(hero);
-	local towns = GetObjectNamesByType("TOWN");
-	local distance = 1000000;
-	local cities_open = {};
-	local cities_hero = {};
-	local cities_far = {};
-	local chosen = nil;
-	for i,town in towns do
-		if H55_GetObjectOwningTeam(town) ~= myteam then
-			local x,y,z = GetObjectPosition(town);
-			if CanMoveHero(hero,x,y,z) == not nil then
-				table.inject(cities_open,town);
-			elseif H55_IsAnyHeroInGate(town) == 1 then
-				local enemy = H55_IDHeroInGate(town);
-				local x,y,z = GetObjectPosition(enemy);
-				if CanMoveHero(hero,x,y,z) == not nil then
-					table.inject(cities_hero,enemy);
-				end;				
-			else
-				table.inject(cities_far,town);
-			end;
-		end;
-	end;
-	if table.length(cities_open) ~= 0 then
-		for i, city in cities_open do
-			local a,b,c = GetObjectPosition(city);
-			local amount = CalcHeroMoveCost(hero,a,b,c) --H55_GetDistanceUG(hero,city);
-			if amount < distance then
-				distance = amount;
-				chosen = city;
-			end;
-		end;
-	elseif table.length(cities_hero) ~= 0 then
-		for i, city in cities_hero do
-			local a,b,c = GetObjectPosition(city);
-			local amount = CalcHeroMoveCost(hero,a,b,c) 
-			if amount < distance then
-				distance = amount;
-				chosen = city;
-			end;
-		end;
-	end;	
-	return chosen;
-end;
-
-function H55_FindHeroToAttack(hero)
-	local myteam = H55_GetObjectOwningTeam(hero);
-	local distance = 1000000;
-	local targets = H55_GetAllHeroes();
-	local enemies = {};
-	local chosen = nil;
-	for i,target in targets do
-		if IsObjectExists(target) and H55_GetObjectOwningTeam(target) ~= myteam then
-			local x,y,z = GetObjectPosition(target);
-			if CanMoveHero(hero,x,y,z) == not nil then
-				table.inject(enemies,target);
-			end;
-		end;
-	end;
-	if table.length(enemies) ~= 0 then
-		for i, enemy in enemies do
-			local a,b,c = GetObjectPosition(enemy);
-			local amount = CalcHeroMoveCost(hero,a,b,c);
-			if amount < distance then
-				distance = amount;
-				chosen = enemy;
-			end;
-		end;
-	end;
-	return chosen;
-end;
-
-function H55_InvokeNuclearOption(player)
-	local heroes = GetPlayerHeroes(player);
-	for i,hero in heroes do
-		if H55_FindTownToAttack(hero) then
-			local town = H55_FindTownToAttack(hero);
-			local x,y,z = GetObjectPosition(town);
-			EnableHeroAI(hero,not nil);
-			MoveHero(hero,x,y,z);
-		elseif H55_FindHeroToAttack(hero) then
-			local enemy = H55_FindHeroToAttack(hero);
-			local x,y,z = GetObjectPosition(enemy);
-			EnableHeroAI(hero,not nil);
-			MoveHero(hero,x,y,z);
-		else
-			print("H55 AI cannot find any target and is about to die!");
-		end;
-	end;
-	H55_AIGoesNuclear = H55_AIGoesNuclear + 1;
-end;
-
-function H55_ModifyStackSize()
-	if H55_NeutralStackSize > 1 then
-		print("H55 Increasing Neutral stack sizes...WARNING: The game might lag for several minutes, the job is done when you can open your townscreen.");
-		--BlockGame();
-		local neutrals = GetObjectNamesByType("CREATURE");
-		local totalamount = table.length(neutrals);
-		for i = 1, totalamount-1 do
-			local units,count = H55_StackInfo(neutrals[i]);
-			for j = 0,6 do
-				if (units[j] ~= 0) and (units[j] ~= nil) then
-					local amount = math.round((count[j]*H55_NeutralStackSize)-count[j]);
-					if amount >= 1 then
-						AddObjectCreatures(neutrals[i],units[j],amount)
-					end;
-				end;
-			end;
-		end;
-		--UnblockGame();
-		print("H55 Game Unblocked...");
-	elseif H55_NeutralStackSize > 0.1 and H55_NeutralStackSize < 1 then
-		print("H55 Decreasing Neutral stack sizes...WARNING: The game might lag for several minutes, the job is done when you can open your townscreen.");
-		--BlockGame();
-		local neutrals = GetObjectNamesByType("CREATURE");
-		local totalamount = table.length(neutrals)
-		for i = 1, totalamount-1 do
-			local units,count = H55_StackInfo(neutrals[i]);
-			for j = 0,6 do
-				if (units[j] ~= 0) and (units[j] ~= nil) then
-					local amount = math.round(count[j]-(count[j]*H55_NeutralStackSize));
-					if amount >= 1 then
-						RemoveObjectCreatures(neutrals[i],units[j],amount)
-					end;
-				end;
-			end;
-		end;
-		--UnblockGame();
-		print("H55 Game Unblocked...");
-	end;
-end;
-
-function H55_MixStacks()
-	--BlockGame();
-	local creatures = GetObjectNamesByType("CREATURE");
-	local stacksqty = table.length(creatures);
-	if stacksqty ~= 0 then
-		print("H55 Mixing "..stacksqty.." neutral stacks!");
-		for i = 1,8 do
-			local heroes = GetPlayerHeroes(i);
-			if GetPlayerState(i) == 1 and H55_IsThisAIPlayer(i) then
-				if H55_AskForMixedStacks == 1 then
-					startThread(H55_ProtectedSign,"/Text/Game/Scripts/Mixingmany.txt",heroes[0],i,H55_MsgSleep,30);
-				else
-					startThread(H55_ProtectedSign,"/Text/Game/Scripts/Mixingsome.txt",heroes[0],i,H55_MsgSleep,20);
-				end;
-			end;
-		end;
-		for i, object in creatures do
-			local creatures = H55_MonsterInfo(object);
-			local power,unit,typ = 0, 1, {0,0,0};
-			local i = 0;
-			local stacks = 1+random(3);
-			local mix = 1+random(2);
-			local skip = 0;	
-			for unit_, count in creatures do
-				i = i + 1;
-				local typ_ = H55_CreaturesInv[unit_];
-				power = power + count / H55_CreaturesGrowthReal[typ_[1]][typ_[2]];
-				if typ_[2] > typ[2] then
-					unit = unit_;
-					typ  = typ_;
-				end;
-				if i > 1 then
-					RemoveObjectCreatures(object, unit_, count);
-				end;
-			end;
-			if creatures[unit] >= 7 then
-				local removal = math.floor(creatures[unit]*(1-(1/(1+stacks))));
-				if H55_NeutralStackSize > 1 then
-					removal = math.floor(removal/H55_NeutralStackSize)
-					if removal == 0 then removal = 1 end;
-				end;
-				local result = creatures[unit] - removal;
-				if result < 6 then
-					removal = creatures[unit]-5-random(2);
-				end;
-				RemoveObjectCreatures(object,unit,removal);
-			elseif creatures[unit] == 1 then 
-				skip = 1;
-			elseif creatures[unit] <= 4 then
-				local add = 2+random(2);
-				AddObjectCreatures(object,unit,add);
-			end;
-			local town2 = H55_EvilTowns[typ[1]][1+random(4)];
-			if skip == 0 then
-				local strength = H55_NeutralStackSize * power;
-				for j = 1,stacks do
-					local town = typ[1];
-					if j == 2 and mix ~= 1 then town = town2 end;
-					local tier = H55_CreaturesInv[unit][2];
-					if tier >= 3 then tier = (1+random(3))+(tier-3) else tier = 1+random(tier) end;
-					local up = 1+random(3);	
-					local amount = math.ceil(strength / stacks * H55_CreaturesGrowth[town][tier]);
-					if amount <= 4 then amount = 5+random(2) end;
-					AddObjectCreatures(object,H55_Creatures[town][tier][up],amount);
-				end;
-			end;
-		end;
-	end;
-	H55_MixingStacksComplete = 1;
-	--UnblockGame();
-end;
-
-----------------------------------------------------------------------------------------------------------------------------------------------------
---CONSOLE COMMANDS
-----------------------------------------------------------------------------------------------------------------------------------------------------
-
-function H55_Path()
-	local map = GetMapDataPath();
-	print(map);
-end;
-
-function H55_Log()
-	consoleCmd('game_writelog 1');
-	print("Game starts logging next turn, info will be saved in console.txt in bin folder after game is closed")
-end;
-
-function H55_BackLog()
-	consoleCmd("console_size 999");
-end;
-
--- function H55_WeeklyError()
-	-- consoleCmd("setvar dev_console_password = schwinge-des-todes");
-	-- H55_ErrorCounter = H55_ErrorCounter + 1;
-	-- H55_ErrorLogbook[H55_ErrorCounter] = {"W",H55_DEBUG[1],H55_DEBUG[2],H55_DEBUG[3],GetDate(DAY)};
-	-- print("H55 Weekly Event crashed, last section executed was: "..H55_DEBUG[1].." "..H55_DEBUG[2].." for player:"..H55_DEBUG[3]);
--- end;
-
--- function H55_DailyError()
-	-- consoleCmd("setvar dev_console_password = schwinge-des-todes");
-	-- H55_ErrorCounter = H55_ErrorCounter + 1;
-	-- H55_ErrorLogbook[H55_ErrorCounter] = {"D",H55_DEBUG[1],H55_DEBUG[2],H55_DEBUG[3],GetDate(DAY)};
-	-- print("H55 Daily Event crashed, last section executed was: "..H55_DEBUG[1].." "..H55_DEBUG[2].." for player:"..H55_DEBUG[3]);
--- end;
-
--- function H55_ContinuesError()
-	-- consoleCmd("setvar dev_console_password = schwinge-des-todes");
-	-- H55_ErrorCounter = H55_ErrorCounter + 1;
-	-- H55_ErrorLogbook[H55_ErrorCounter] = {"C",H55_DEBUG[1],H55_DEBUG[2],H55_DEBUG[3],GetDate(DAY)};
-	-- print("H55 Continues Event crashed, last section executed was: "..H55_DEBUG[1].." "..H55_DEBUG[2].." for player:"..H55_DEBUG[3]);
--- end;
-
--- function H55_AdvMapError()
-	-- consoleCmd("setvar dev_console_password = schwinge-des-todes");
-	-- H55_ErrorCounter = H55_ErrorCounter + 1;
-	-- H55_ErrorLogbook[H55_ErrorCounter] = {"A",H55_DEBUG[1],H55_DEBUG[2],H55_DEBUG[3],GetDate(DAY)};
-	-- print("H55 AdvMap preparation crashed, last section executed was: "..H55_DEBUG[1].." "..H55_DEBUG[2].." for player:"..H55_DEBUG[3]);
--- end;
-
--- function H55_ScriptLog()
-	-- if H55_ErrorCounter > 0 then
-		-- print("H55 Observatory Bug Report: Errors have occurred during this game:");
-		-- for i=1,H55_ErrorCounter do
-			-- print(H55_ErrorLogbook[i][1]..H55_ErrorLogbook[i][2].." "..H55_ErrorLogbook[i][3].." P"..H55_ErrorLogbook[i][4].." D"..H55_ErrorLogbook[i][5]);
-		-- end;
-	-- else
-		-- print("H55 Observatory Bug Report: No Errors have occured during this game");
-	-- end;
--- end;
-
-function H55_FixAI()
-	H55_ForceAIFix = 1;
-	print("H55 Tomorrow AI will try to find target.")
-end;
-
-function H55_FixAICTD()
-	for i, academy in (GetObjectNamesByType("TOWN_ACADEMY")) do
-		DestroyTownBuildingToLevel(academy,TOWN_BUILDING_SPECIAL_3,0,0);
-	end;
-	for i, dungeon in (GetObjectNamesByType("TOWN_DUNGEON")) do
-		DestroyTownBuildingToLevel(dungeon,TOWN_BUILDING_SPECIAL_4,0,0);
-	end;
-	print("Done!, all artifact merchants in towns are destroyed, hopefully this fixes your issue")
-end;
-
-function H55_BreakAI()
-	consoleCmd("setvar ai_time_limit = 180");
-end;
-
-function H55_CutOffAI()
-	consoleCmd("setvar ai_time_limit = 1800");
-end;
-
-function H55_RestoreAI()
-	consoleCmd("setvar ai_time_limit = 180000");
-end;
-
-function H55_NoFog(player)
-	OpenCircleFog(0,0,0,9999,player);
-	OpenCircleFog(0,0,1,9999,player);
-end;
-
-function H55_Speedrun(player)
-	local heroes = GetPlayerHeroes(player);
-	for i,hero in heroes do
-		AddHeroCreatures(hero,84,999);
-	end;
-end;
-
-function H55_EndlessRun(player)
-	local heroes = GetPlayerHeroes(player);
-	local hero = heroes[0];
-	while 1 do
-		if GetHeroStat(hero,STAT_MOVE_POINTS) <= 2499 then		
-			ChangeHeroStat(hero,STAT_MOVE_POINTS,5000);
-		end;
-		sleep(5);
-	end;
-end;
-
-function H55_IDNearbyTown(hero)
-	local towns = GetObjectNamesByType("TOWN");
-	local distance = 0;
-	local townid = "No Town Nearby";
-	for i,town in towns do
-		if H55_GetDistance(hero,town) <= 12 then
-		 distance = H55_GetDistance(hero,town);
-		 townid = town
-		end;
-	end;
-	print(distance);
-	print(townid);
-end;
-
-function H55_IDHeroes(player)
-	local heroes = GetPlayerHeroes(player)
-	for i,hero in heroes do
-		print(hero);	
-	end;
-end;
-
--- function H55_Dbg()
-	-- print("Index: "..H55_DbgTxt[1].." Chapter: "..H55_DbgTxt[2].." Player: "..H55_DbgTxt[3].." Hero: "..H55_DbgTxt[4]);
--- end;
-
-function H55_Dbg()
-	H55_DbgTxt = H55_DEBUG;
-	print("Index: "..H55_DbgTxt[1].." Chapter: "..H55_DbgTxt[2].." Player: "..H55_DbgTxt[3].." Hero: "..H55_DbgTxt[4]);
-end;
-
-function H55_UseNewDayTrigger()
-	H55_NewDayTrigger = 1;
-end;
-
-function H55_SetSleepTime(num)
-	if num >= 0 and num <= 100 then
-		H55_CycleSpeed = num;
-	else
-		print("Value must be between 1 and 100!");
-	end;
-end;
-
-----------------------------------------------------------------------------------------------------------------------------------------------------
---GAMEPLAY FUNCTIONS
-----------------------------------------------------------------------------------------------------------------------------------------------------
-
-function H55_IndexArtifacts()
-	for i,minorartifact in H55_MinorArtifacts do
-		if table.contains(H55_RemoveTheseArtifactsFromBanks,minorartifact) == nil then
-			table.inject(H55_MinorArtifactsUsed,minorartifact);
-		end;
-	end;
-	for i,majorartifact in H55_MajorArtifacts do
-		if table.contains(H55_RemoveTheseArtifactsFromBanks,majorartifact) == nil then
-			table.inject(H55_MajorArtifactsUsed,majorartifact);
-		end;
-	end;	
-	for i,relicartifact in H55_RelicArtifacts do
-		if table.contains(H55_RemoveTheseArtifactsFromBanks,relicartifact) == nil then
-			table.inject(H55_RelicArtifactsUsed,relicartifact);
-		end;
-	end;
-	for i,ultimateartifact in H55_UltimateArtifacts do
-		if table.contains(H55_RemoveTheseArtifactsFromBanks,ultimateartifact) == nil then
-			table.inject(H55_UltimateArtifactsUsed,ultimateartifact);
-		end;
-	end;
-	if H55_RPGPotions == 1 then
-		table.inject(H55_MinorArtifactsUsed,ARTIFACT_POTION01);
-		table.inject(H55_MajorArtifactsUsed,ARTIFACT_POTION02);
-		--table.inject(H55_RelicArtifactsUsed,ARTIFACT_POTION03);
-	end;
-	if H55_MapType == "Campaign" then
-		table.inject(H55_MinorArtifactsUsed,ARTIFACT_POTION01);
-		table.inject(H55_MajorArtifactsUsed,ARTIFACT_POTION02);
-	end;
-	H55_ArtifactsIndexed = 1;
-	print("H55 Day 2 Artifacts indexation complete!")
-end;
-
-function H55_OtherPlayerHeroes(excluded,player)
-	local others = {};
-	local heroes = GetPlayerHeroes(player);
-	for i,hero in heroes do
-		if hero ~= excluded then
-			table.inject(others,hero);
-		end;
-	end;
-	return others;
-end;
-
--- function H55_GetHeroClass(hero)
-	-- local typ = "Renegade"
-	-- for i=1,H55_ClassesCount do
-		-- if table.contains(H55_ClassesList[i],hero) then 
-			-- typ = H55_ClassesNames[i];
-			-- break;
-		-- end;
-	-- end;
-	-- return typ;
--- end;
-
-function H55_GetHeroClass(hero)
-	local class = "Renegade";
-	if H55_RenegadesPhonebook[hero] == 1 then class = "Renegade";
-	elseif H55_KnightsPhonebook[hero] == 1 then class = "Knight"; 
-	elseif H55_HereticsPhonebook[hero] == 1 then class = "Heretic";
-	elseif H55_RangersPhonebook[hero] == 1 then class = "Ranger"; 
-	elseif H55_AvengersPhonebook[hero] == 1 then class = "Avenger"; 
-	elseif H55_DruidsPhonebook[hero] == 1 then class = "Druid";
-	elseif H55_DemonlordsPhonebook[hero] == 1 then class = "Demonlord"; 
-	elseif H55_GatekeepersPhonebook[hero] == 1 then class = "Gatekeeper"; 
-	elseif H55_SorcerersPhonebook[hero] == 1 then class = "Sorcerer";
-	elseif H55_DeathKnightsPhonebook[hero] == 1 then class = "DeathKnight"; 
-	elseif H55_NecromancersPhonebook[hero] == 1 then class = "Necromancer"; 
-	elseif H55_NethermagesPhonebook[hero] == 1 then class = "Nethermage";
-	elseif H55_EnchantersPhonebook[hero] == 1 then class = "Enchanter"; 
-	elseif H55_ConjurersPhonebook[hero] == 1 then class = "Conjurer"; 
-	elseif H55_WizardsPhonebook[hero] == 1 then class = "Wizard";
-	elseif H55_OverlordsPhonebook[hero] == 1 then class = "Overlord"; 
-	elseif H55_TrickstersPhonebook[hero] == 1 then class = "Trickster"; 
-	elseif H55_WarlocksPhonebook[hero] == 1 then class = "Warlock";
-	elseif H55_EngineersPhonebook[hero] == 1 then class = "Engineer"; 
-	elseif H55_RunemagesPhonebook[hero] == 1 then class = "Runemage"; 
-	elseif H55_FlamekeepersPhonebook[hero] == 1 then class = "Flamekeeper" 
-	elseif H55_ChieftainsPhonebook[hero] == 1 then class = "Chieftain"; 
-	elseif H55_ShamansPhonebook[hero] == 1 then class = "Shaman"; 
-	elseif H55_WitchesPhonebook[hero] == 1 then class = "Witch" end;
-	return class;
-end;
-
--- function H55_GetHeroClassType(hero)
-	-- local typ = "Mind";
-	-- if table.contains(H55_Renegades,hero)
-		-- or table.contains(H55_Demonlords,hero)
-		-- or table.contains(H55_DeathKnights,hero)
-		-- or table.contains(H55_Rangers,hero)
-		-- or table.contains(H55_Overlords,hero)
-		-- or table.contains(H55_Engineers,hero)
-		-- or table.contains(H55_Enchanters,hero) then typ = "Might";
-	-- elseif table.contains(H55_Heretics,hero)
-		-- or table.contains(H55_Sorcerers,hero)
-		-- or table.contains(H55_Nethermages,hero)
-		-- or table.contains(H55_Flamekeepers,hero)
-		-- or table.contains(H55_Warlocks,hero)
-		-- or table.contains(H55_Druids,hero)
-		-- or table.contains(H55_Shamans,hero)
-		-- or table.contains(H55_Witches,hero)
-		-- or table.contains(H55_Wizards,hero) then typ = "Magic";
-	-- elseif table.contains(H55_Chieftains,hero) then typ = "Chieftain";
-	-- else typ = "Mind";
-	-- end;
-	-- return typ;
--- end;
-
-function H55_GetUnusualSchools(hero)
-	local race = H55_GetHeroRaceNum(hero);
-	local school1 = H55_UnusualSchools[race][1];
-	local school2 = H55_UnusualSchools[race][2];
-	if hero == "Erika" or hero == "Zouleika" then
-		school1 = H55_UnusualSchools[9][1];
-		school2 = H55_UnusualSchools[8][2];
-	end;
-	if hero == "Hero2" or hero == "Hero3" then
-		school1 = H55_UnusualSchools[9][2];
-		school2 = H55_UnusualSchools[8][2];
-	end;	
-	return school1,school2;
-end;	
-
 function H55_GetTownRace(town)
 	local towntype = 0;
 	if table.contains(GetObjectNamesByType("TOWN_HEAVEN"),town) then towntype = 1;
@@ -2336,105 +1866,46 @@ function H55_GetHeroRace(hero)
 	return race;
 end; 
 
-function H55_GetRaceElementalTypeID(player,cityrace)
-	local elemtype = 87;
-	if cityrace == 1 and H55_FireSwitch[player] == 1 then elemtype = 85;
-	elseif cityrace == 1 then elemtype = 113;
-	elseif cityrace == 5 then elemtype = 114;
-	elseif cityrace == 8 and H55_WolfSwitch[player] == 1 then elemtype = 113;	
-	elseif cityrace == 8 then elemtype = 87; 
-	elseif cityrace == 6 then elemtype = 115;
-	elseif cityrace == 2 and H55_WolfSwitch[player] == 1 then elemtype = 113;
-	elseif cityrace == 2 then elemtype = 86;
-	elseif cityrace == 7 and H55_FireSwitch[player] == 1 then elemtype = 85;
-	elseif cityrace == 7 then elemtype = 88; 
-	elseif cityrace == 3 then elemtype = 85; 
-	elseif cityrace == 4 and H55_BKnightSwitch[player] == 1 then elemtype = 90;
-	elseif cityrace == 4 then elemtype = 116 end;	
-	return elemtype;
+-- function H55_GetHeroClass(hero)
+	-- local typ = "Renegade"
+	-- for i=1,H55_ClassesCount do
+		-- if table.contains(H55_ClassesList[i],hero) then 
+			-- typ = H55_ClassesNames[i];
+			-- break;
+		-- end;
+	-- end;
+	-- return typ;
+-- end;
+
+function H55_GetHeroClass(hero)
+	local class = "Renegade";
+	if H55_RenegadesPhonebook[hero] == 1 then class = "Renegade";
+	elseif H55_KnightsPhonebook[hero] == 1 then class = "Knight"; 
+	elseif H55_HereticsPhonebook[hero] == 1 then class = "Heretic";
+	elseif H55_RangersPhonebook[hero] == 1 then class = "Ranger"; 
+	elseif H55_AvengersPhonebook[hero] == 1 then class = "Avenger"; 
+	elseif H55_DruidsPhonebook[hero] == 1 then class = "Druid";
+	elseif H55_DemonlordsPhonebook[hero] == 1 then class = "Demonlord"; 
+	elseif H55_GatekeepersPhonebook[hero] == 1 then class = "Gatekeeper"; 
+	elseif H55_SorcerersPhonebook[hero] == 1 then class = "Sorcerer";
+	elseif H55_DeathKnightsPhonebook[hero] == 1 then class = "Deathknight";
+	elseif H55_NecromancersPhonebook[hero] == 1 then class = "Necromancer"; 
+	elseif H55_NethermagesPhonebook[hero] == 1 then class = "Nethermage";
+	elseif H55_EnchantersPhonebook[hero] == 1 then class = "Enchanter"; 
+	elseif H55_ConjurersPhonebook[hero] == 1 then class = "Conjurer"; 
+	elseif H55_WizardsPhonebook[hero] == 1 then class = "Wizard";
+	elseif H55_OverlordsPhonebook[hero] == 1 then class = "Overlord"; 
+	elseif H55_TrickstersPhonebook[hero] == 1 then class = "Trickster"; 
+	elseif H55_WarlocksPhonebook[hero] == 1 then class = "Warlock";
+	elseif H55_EngineersPhonebook[hero] == 1 then class = "Engineer"; 
+	elseif H55_RunemagesPhonebook[hero] == 1 then class = "Runemage"; 
+	elseif H55_FlamekeepersPhonebook[hero] == 1 then class = "Flamekeeper" 
+	elseif H55_ChieftainsPhonebook[hero] == 1 then class = "Chieftain"; 
+	elseif H55_ShamansPhonebook[hero] == 1 then class = "Shaman"; 
+	elseif H55_WitchesPhonebook[hero] == 1 then class = "Witch" end;
+	return class;
 end;
 
-function H55_GetRaceCasterTypes(cityrace)
-	local casterunits = {10,110,9};
-	if cityrace == "Haven" then casterunits = {10,110,9} 
-	elseif cityrace == "Academy" then casterunits = {64,162,63} 
-	elseif cityrace == "Stronghold" then casterunits = {124,176,123} 
-	elseif cityrace == "Necropolis" then casterunits = {38,156,37} 
-	elseif cityrace == "Dungeon" then casterunits = {82,143,81} 
-	elseif cityrace == "Sylvan" then casterunits = {50,148,49} 
-	elseif cityrace == "Fortress" then casterunits = {101,170,100} 
-	elseif cityrace == "Inferno" then casterunits = {26,136,25} end;
-	return casterunits;
-end;
-
-function H55_IsChillSummoner(hero)
-	if HasHeroSkill(hero,NECROMANCER_FEAT_CHILLING_BONES) then
-		if (table.contains(H55_Witches,hero) or 
-			table.contains(H55_Warlocks,hero) or 
-			table.contains(H55_Sorcerers,hero)) then
-			return not nil;
-		end;
-	end;
-	return nil;
-end;
-
-function H55_GetLegionCap(hero)
-	local cap = 0;
-	if HasArtefact(hero,ARTIFACT_LEGION_T7,0) then cap = 7 
-	elseif HasArtefact(hero,ARTIFACT_LEGION_T6,0) then cap = 6 
-	elseif HasArtefact(hero,ARTIFACT_LEGION_T5,0) then cap = 5 
-	elseif HasArtefact(hero,ARTIFACT_LEGION_T4,0) then cap = 4 
-	elseif HasArtefact(hero,ARTIFACT_LEGION_T3,0) then cap = 3 
-	elseif HasArtefact(hero,ARTIFACT_LEGION_T2,0) then cap = 2 
-	elseif HasArtefact(hero,ARTIFACT_LEGION_T1,0) then cap = 1 end;
-	return cap;
-end;
-
-function H55_GetAmountAlignedTowns(racenum)
-	local amountcities = 0;
-	if racenum == 1 then amountcities = table.length(GetObjectNamesByType("TOWN_HEAVEN")) 
-	elseif racenum == 5 then amountcities = table.length(GetObjectNamesByType("TOWN_ACADEMY")) 
-	elseif racenum == 8 then amountcities = table.length(GetObjectNamesByType("TOWN_STRONGHOLD")) 
-	elseif racenum == 4 then amountcities = table.length(GetObjectNamesByType("TOWN_NECROMANCY")) 
-	elseif racenum == 6 then amountcities = table.length(GetObjectNamesByType("TOWN_DUNGEON")) 
-	elseif racenum == 2 then amountcities = table.length(GetObjectNamesByType("TOWN_PRESERVE")) 
-	elseif racenum == 7 then amountcities = table.length(GetObjectNamesByType("TOWN_FORTRESS")) 
-	elseif racenum == 3 then amountcities = table.length(GetObjectNamesByType("TOWN_INFERNO")) end;
-	return amountcities;
-end;
-
-function H55_GetHallTrialLevel(hero,player)
-	local level = 0;
-	if H55_MapType == "Campaign" then 
-		level = 3;
-	else
-		local towns = H55_GetAlignedTownsOwned(hero,player);
-		if towns ~= nil then
-			for i,town in towns do
-				local hall = GetTownBuildingLevel(town, TOWN_BUILDING_SPECIAL_1);
-				if hall > level then
-					level = hall;
-				end;
-			end;
-		end;
-	end;
-	return level;
-end;
-
-function H55_GetWalkerHutLevel(hero,player)
-	local level = 0;
-	local towns = H55_GetAlignedTownsOwned(hero,player);
-	if towns ~= nil then
-		for i,town in towns do
-			local hall = GetTownBuildingLevel(town, TOWN_BUILDING_SPECIAL_3);
-			if hall > level then
-				level = hall;
-			end;
-		end;
-	end;
-	return level;
-end;
-	
 function H55_GetPlayerTowns(player)
 	local cities = {};
 	local towns = GetObjectNamesByType("TOWN");
@@ -2572,6 +2043,617 @@ function H55_IsNativeTownNearby(hero,player)
 	return answer;
 end;
 
+function H55_GetRotationAngle(x,y,z,angle,array,tile)
+	local passable = 0;
+	local mapsize = GetTerrainSize();
+	if table.length(array["x"]) == 0 then
+		return 1;
+	end;
+	for i=0, table.length(array["x"])-1 do
+		local xx,yy = 0,0;
+		local xxx,yyy = 0,0;
+		if angle == 1 then xx, yy =   array["x"][i],  array["y"][i]; end;
+		if angle == 2 then xx, yy = - array["y"][i],  array["x"][i]; end;
+		if angle == 3 then xx, yy = - array["x"][i],- array["y"][i]; end;
+		if angle == 4 then xx, yy =   array["y"][i],- array["x"][i]; end;
+		if mapsize == x+xx or mapsize == y+yy then
+			passable = 0;
+		elseif IsTilePassable(x + xx, y + yy, z ) ~= nil then
+			passable = 1;
+		end;
+		if passable ~= tile then
+			return 0; --fail
+		end;
+	end;
+	return 1; --success
+end;
+
+function H55_GetTownRotation(town)
+    local xx,yy,v,mode = 0,0,0,0;
+    local race = H55_GetTownRace(town)
+    local townrace = H55_GetTownRaceString(race);
+    local x,y,z = GetObjectPosition(town);
+    while mode < 2 and v < H55_ObjectTiles[townrace]["entries"]+1 do
+		r = 0;
+		local active = H55_ObjectTiles[townrace]["activeTiles"][""..v];
+		local blocked = H55_ObjectTiles[townrace]["blockedTiles"][""..v];
+		while mode < 2 and r < 4 do
+		mode = 0;
+		r = r + 1;
+		mode = mode + H55_GetRotationAngle(x, y, z, r, active , 1);
+		mode = mode + H55_GetRotationAngle(x, y, z, r, blocked, 0);	     
+		end;
+		v = v + 1;
+	end;
+	--print("H55 This Town Rotation is "..r);
+	return r;
+end;
+
+function H55_GetTownActiveTile(town)
+	local xx,yy = 0,0;
+	local race = H55_GetTownRace(town)
+	local townrace = H55_GetTownRaceString(race);
+	local x,y,z = GetObjectPosition(town);
+	local r = H55_GetTownRotation(town);
+	if r == 1 then xx, yy =   H55_ObjectTiles[townrace]["activeTiles"]["0"]["x"][0],  H55_ObjectTiles[townrace]["activeTiles"]["0"]["y"][0]; end;
+	if r == 2 then xx, yy = - H55_ObjectTiles[townrace]["activeTiles"]["0"]["y"][0],  H55_ObjectTiles[townrace]["activeTiles"]["0"]["x"][0]; end;
+	if r == 3 then xx, yy = - H55_ObjectTiles[townrace]["activeTiles"]["0"]["x"][0],- H55_ObjectTiles[townrace]["activeTiles"]["0"]["y"][0]; end;
+	if r == 4 then xx, yy =   H55_ObjectTiles[townrace]["activeTiles"]["0"]["y"][0],- H55_ObjectTiles[townrace]["activeTiles"]["0"]["x"][0]; end;
+	return  x + xx, y + yy, z;
+end;
+
+function H55_FindTownToAttack(hero)
+	local myteam = H55_GetObjectOwningTeam(hero);
+	local towns = GetObjectNamesByType("TOWN");
+	local distance = 1000000;
+	local cities_open = {};
+	local cities_hero = {};
+	local cities_far = {};
+	local chosen = nil;
+	for i,town in towns do
+		if H55_GetObjectOwningTeam(town) ~= myteam then
+			local x,y,z = GetObjectPosition(town);
+			if CanMoveHero(hero,x,y,z) == not nil then
+				table.inject(cities_open,town);
+			elseif H55_IsAnyHeroInGate(town) == 1 then
+				local enemy = H55_IDHeroInGate(town);
+				local x,y,z = GetObjectPosition(enemy);
+				if CanMoveHero(hero,x,y,z) == not nil then
+					table.inject(cities_hero,enemy);
+				end;				
+			else
+				table.inject(cities_far,town);
+			end;
+		end;
+	end;
+	if table.length(cities_open) ~= 0 then
+		for i, city in cities_open do
+			local a,b,c = GetObjectPosition(city);
+			local amount = CalcHeroMoveCost(hero,a,b,c) --H55_GetDistanceUG(hero,city);
+			if amount < distance then
+				distance = amount;
+				chosen = city;
+			end;
+		end;
+	elseif table.length(cities_hero) ~= 0 then
+		for i, city in cities_hero do
+			local a,b,c = GetObjectPosition(city);
+			local amount = CalcHeroMoveCost(hero,a,b,c) 
+			if amount < distance then
+				distance = amount;
+				chosen = city;
+			end;
+		end;
+	end;	
+	return chosen;
+end;
+
+function H55_FindHeroToAttack(hero)
+	local myteam = H55_GetObjectOwningTeam(hero);
+	local distance = 1000000;
+	local targets = H55_GetAllHeroes();
+	local enemies = {};
+	local chosen = nil;
+	for i,target in targets do
+		if IsObjectExists(target) and H55_GetObjectOwningTeam(target) ~= myteam then
+			local x,y,z = GetObjectPosition(target);
+			if CanMoveHero(hero,x,y,z) == not nil then
+				table.inject(enemies,target);
+			end;
+		end;
+	end;
+	if table.length(enemies) ~= 0 then
+		for i, enemy in enemies do
+			local a,b,c = GetObjectPosition(enemy);
+			local amount = CalcHeroMoveCost(hero,a,b,c);
+			if amount < distance then
+				distance = amount;
+				chosen = enemy;
+			end;
+		end;
+	end;
+	return chosen;
+end;
+
+function H55_InvokeNuclearOption(player)
+	local heroes = GetPlayerHeroes(player);
+	for i,hero in heroes do
+		if H55_FindTownToAttack(hero) then
+			local town = H55_FindTownToAttack(hero);
+			local x,y,z = GetObjectPosition(town);
+			EnableHeroAI(hero,not nil);
+			MoveHero(hero,x,y,z);
+		elseif H55_FindHeroToAttack(hero) then
+			local enemy = H55_FindHeroToAttack(hero);
+			local x,y,z = GetObjectPosition(enemy);
+			EnableHeroAI(hero,not nil);
+			MoveHero(hero,x,y,z);
+		else
+			print("H55 AI cannot find any target and is about to die!");
+		end;
+	end;
+	H55_AIGoesNuclear = H55_AIGoesNuclear + 1;
+end;
+
+function H55_AttackTown(hero,town)
+	local x,y,z = H55_GetTownActiveTile(town);
+	MoveHero(hero,x,y,z);
+	--startThread(H55_AttackTownFinish,hero,town,xx,yy,zz);
+end;
+
+function H55_ReachedDestination(hero,x,y,z)
+	local answer = 0;
+	local a,b,c = GetObjectPosition(hero);
+	if a == x and b == y and c == z then
+		answer = 1;
+	end;
+	return answer;
+end;
+
+-- function H55_AttackTownFinish(hero,town,xx,yy,zz)
+	-- local a,b,c = GetObjectPosition(hero);
+	-- while IsObjectExists(hero) == not nil and a~=xx and b~=yy and c~=zz do
+		-- sleep(1);
+	-- end;
+	-- if IsObjectExists(hero) == not nil then
+		-- local x,y,z = GetObjectPosition(town);
+		-- MoveHero(hero,x,y,z);
+	-- end;
+-- end;
+
+function H55_ModifyStackSize()
+	if H55_NeutralStackSize > 1 then
+		print("H55 Increasing Neutral stack sizes...WARNING: The game might lag for several minutes, the job is done when you can open your townscreen.");
+		--BlockGame();
+		local neutrals = GetObjectNamesByType("CREATURE");
+		local totalamount = table.length(neutrals);
+		for i = 1, totalamount-1 do
+			local units,count = H55_StackInfo(neutrals[i]);
+			for j = 0,6 do
+				if (units[j] ~= 0) and (units[j] ~= nil) then
+					local amount = math.round((count[j]*H55_NeutralStackSize)-count[j]);
+					if amount >= 1 then
+						AddObjectCreatures(neutrals[i],units[j],amount)
+					end;
+				end;
+			end;
+		end;
+		--UnblockGame();
+		print("H55 Game Unblocked...");
+	elseif H55_NeutralStackSize > 0.1 and H55_NeutralStackSize < 1 then
+		print("H55 Decreasing Neutral stack sizes...WARNING: The game might lag for several minutes, the job is done when you can open your townscreen.");
+		--BlockGame();
+		local neutrals = GetObjectNamesByType("CREATURE");
+		local totalamount = table.length(neutrals)
+		for i = 1, totalamount-1 do
+			local units,count = H55_StackInfo(neutrals[i]);
+			for j = 0,6 do
+				if (units[j] ~= 0) and (units[j] ~= nil) then
+					local amount = math.round(count[j]-(count[j]*H55_NeutralStackSize));
+					if amount >= 1 then
+						RemoveObjectCreatures(neutrals[i],units[j],amount)
+					end;
+				end;
+			end;
+		end;
+		--UnblockGame();
+		print("H55 Game Unblocked...");
+	end;
+end;
+
+function H55_MixStacks()
+	--BlockGame();
+	local creatures = GetObjectNamesByType("CREATURE");
+	local stacksqty = table.length(creatures);
+	if stacksqty ~= 0 then
+		print("H55 Mixing "..stacksqty.." neutral stacks!");
+		for i = 1,8 do
+			local heroes = GetPlayerHeroes(i);
+			if GetPlayerState(i) == 1 and H55_IsThisAIPlayer(i) then
+				if H55_AskForMixedStacks == 1 then
+					startThread(H55_ProtectedSign,"/Text/Game/Scripts/Mixingmany.txt",heroes[0],i,H55_MsgSleep,30);
+				else
+					startThread(H55_ProtectedSign,"/Text/Game/Scripts/Mixingsome.txt",heroes[0],i,H55_MsgSleep,20);
+				end;
+			end;
+		end;
+		for i, object in creatures do
+			local creatures = H55_MonsterInfo(object);
+			local power,unit,typ = 0, 1, {0,0,0};
+			local i = 0;
+			local stacks = 1+random(3);
+			local mix = 1+random(2);
+			local skip = 0;	
+			for unit_, count in creatures do
+				i = i + 1;
+				local typ_ = H55_CreaturesInv[unit_];
+				power = power + count / H55_CreaturesGrowthReal[typ_[1]][typ_[2]];
+				if typ_[2] > typ[2] then
+					unit = unit_;
+					typ  = typ_;
+				end;
+				if i > 1 then
+					RemoveObjectCreatures(object, unit_, count);
+				end;
+			end;
+			if creatures[unit] >= 7 then
+				local removal = math.floor(creatures[unit]*(1-(1/(1+stacks))));
+				if H55_NeutralStackSize > 1 then
+					removal = math.floor(removal/H55_NeutralStackSize)
+					if removal == 0 then removal = 1 end;
+				end;
+				local result = creatures[unit] - removal;
+				if result < 6 then
+					removal = creatures[unit]-5-random(2);
+				end;
+				RemoveObjectCreatures(object,unit,removal);
+			elseif creatures[unit] == 1 then 
+				skip = 1;
+			elseif creatures[unit] <= 4 then
+				local add = 2+random(2);
+				AddObjectCreatures(object,unit,add);
+			end;
+			local town2 = H55_EvilTowns[typ[1]][1+random(4)];
+			if skip == 0 then
+				local strength = H55_NeutralStackSize * power;
+				for j = 1,stacks do
+					local town = typ[1];
+					if j == 2 and mix ~= 1 then town = town2 end;
+					local tier = H55_CreaturesInv[unit][2];
+					if tier >= 3 then tier = (1+random(3))+(tier-3) else tier = 1+random(tier) end;
+					local up = 1+random(3);	
+					local amount = math.ceil(strength / stacks * H55_CreaturesGrowth[town][tier]);
+					if amount <= 4 then amount = 5+random(2) end;
+					AddObjectCreatures(object,H55_Creatures[town][tier][up],amount);
+				end;
+			end;
+		end;
+	end;
+	H55_MixingStacksComplete = 1;
+	--UnblockGame();
+end;
+
+-- function H55_GetHeroClassType(hero)
+	-- local typ = "Mind";
+	-- if table.contains(H55_Renegades,hero)
+		-- or table.contains(H55_Demonlords,hero)
+		-- or table.contains(H55_DeathKnights,hero)
+		-- or table.contains(H55_Rangers,hero)
+		-- or table.contains(H55_Overlords,hero)
+		-- or table.contains(H55_Engineers,hero)
+		-- or table.contains(H55_Enchanters,hero) then typ = "Might";
+	-- elseif table.contains(H55_Heretics,hero)
+		-- or table.contains(H55_Sorcerers,hero)
+		-- or table.contains(H55_Nethermages,hero)
+		-- or table.contains(H55_Flamekeepers,hero)
+		-- or table.contains(H55_Warlocks,hero)
+		-- or table.contains(H55_Druids,hero)
+		-- or table.contains(H55_Shamans,hero)
+		-- or table.contains(H55_Witches,hero)
+		-- or table.contains(H55_Wizards,hero) then typ = "Magic";
+	-- elseif table.contains(H55_Chieftains,hero) then typ = "Chieftain";
+	-- else typ = "Mind";
+	-- end;
+	-- return typ;
+-- end;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+--CONSOLE COMMANDS
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- function H55_WeeklyError()
+	-- consoleCmd("setvar dev_console_password = schwinge-des-todes");
+	-- H55_ErrorCounter = H55_ErrorCounter + 1;
+	-- H55_ErrorLogbook[H55_ErrorCounter] = {"W",H55_DEBUG[1],H55_DEBUG[2],H55_DEBUG[3],GetDate(DAY)};
+	-- print("H55 Weekly Event crashed, last section executed was: "..H55_DEBUG[1].." "..H55_DEBUG[2].." for player:"..H55_DEBUG[3]);
+-- end;
+
+-- function H55_DailyError()
+	-- consoleCmd("setvar dev_console_password = schwinge-des-todes");
+	-- H55_ErrorCounter = H55_ErrorCounter + 1;
+	-- H55_ErrorLogbook[H55_ErrorCounter] = {"D",H55_DEBUG[1],H55_DEBUG[2],H55_DEBUG[3],GetDate(DAY)};
+	-- print("H55 Daily Event crashed, last section executed was: "..H55_DEBUG[1].." "..H55_DEBUG[2].." for player:"..H55_DEBUG[3]);
+-- end;
+
+-- function H55_ContinuesError()
+	-- consoleCmd("setvar dev_console_password = schwinge-des-todes");
+	-- H55_ErrorCounter = H55_ErrorCounter + 1;
+	-- H55_ErrorLogbook[H55_ErrorCounter] = {"C",H55_DEBUG[1],H55_DEBUG[2],H55_DEBUG[3],GetDate(DAY)};
+	-- print("H55 Continues Event crashed, last section executed was: "..H55_DEBUG[1].." "..H55_DEBUG[2].." for player:"..H55_DEBUG[3]);
+-- end;
+
+-- function H55_AdvMapError()
+	-- consoleCmd("setvar dev_console_password = schwinge-des-todes");
+	-- H55_ErrorCounter = H55_ErrorCounter + 1;
+	-- H55_ErrorLogbook[H55_ErrorCounter] = {"A",H55_DEBUG[1],H55_DEBUG[2],H55_DEBUG[3],GetDate(DAY)};
+	-- print("H55 AdvMap preparation crashed, last section executed was: "..H55_DEBUG[1].." "..H55_DEBUG[2].." for player:"..H55_DEBUG[3]);
+-- end;
+
+-- function H55_ScriptLog()
+	-- if H55_ErrorCounter > 0 then
+		-- print("H55 Observatory Bug Report: Errors have occurred during this game:");
+		-- for i=1,H55_ErrorCounter do
+			-- print(H55_ErrorLogbook[i][1]..H55_ErrorLogbook[i][2].." "..H55_ErrorLogbook[i][3].." P"..H55_ErrorLogbook[i][4].." D"..H55_ErrorLogbook[i][5]);
+		-- end;
+	-- else
+		-- print("H55 Observatory Bug Report: No Errors have occured during this game");
+	-- end;
+-- end;
+
+function H55_Path()
+	local map = GetMapDataPath();
+	print(map);
+end;
+
+function H55_Log()
+	consoleCmd('game_writelog 1');
+	print("Game starts logging next turn, info will be saved in console.txt in bin folder after game is closed")
+end;
+
+function H55_BackLog()
+	consoleCmd("console_size 999");
+end;
+
+function H55_FixAI()
+	H55_ForceAIFix = 1;
+	print("H55 Tomorrow AI will try to find target.")
+end;
+
+function H55_FixAICTD()
+	for i, academy in (GetObjectNamesByType("TOWN_ACADEMY")) do
+		DestroyTownBuildingToLevel(academy,TOWN_BUILDING_SPECIAL_3,0,0);
+	end;
+	for i, dungeon in (GetObjectNamesByType("TOWN_DUNGEON")) do
+		DestroyTownBuildingToLevel(dungeon,TOWN_BUILDING_SPECIAL_4,0,0);
+	end;
+	print("Done!, all artifact merchants in towns are destroyed, hopefully this fixes your issue")
+end;
+
+function H55_BreakAI()
+	consoleCmd("setvar ai_time_limit = 180");
+end;
+
+function H55_CutOffAI()
+	consoleCmd("setvar ai_time_limit = 1800");
+end;
+
+function H55_RestoreAI()
+	consoleCmd("setvar ai_time_limit = 180000");
+end;
+
+function H55_NoFog(player)
+	OpenCircleFog(0,0,0,9999,player);
+	OpenCircleFog(0,0,1,9999,player);
+end;
+
+function H55_Speedrun(player)
+	local heroes = GetPlayerHeroes(player);
+	for i,hero in heroes do
+		AddHeroCreatures(hero,84,999);
+	end;
+end;
+
+function H55_EndlessRun(player)
+	local heroes = GetPlayerHeroes(player);
+	local hero = heroes[0];
+	while 1 do
+		if GetHeroStat(hero,STAT_MOVE_POINTS) <= 2499 then		
+			ChangeHeroStat(hero,STAT_MOVE_POINTS,5000);
+		end;
+		sleep(5);
+	end;
+end;
+
+function H55_IDNearbyTown(hero)
+	local towns = GetObjectNamesByType("TOWN");
+	local distance = 0;
+	local townid = "No Town Nearby";
+	for i,town in towns do
+		if H55_GetDistance(hero,town) <= 12 then
+		 distance = H55_GetDistance(hero,town);
+		 townid = town
+		end;
+	end;
+	print(distance);
+	print(townid);
+end;
+
+function H55_IDHeroes(player)
+	local heroes = GetPlayerHeroes(player)
+	for i,hero in heroes do
+		print(hero);	
+	end;
+end;
+
+function H55_Dbg()
+	H55_DbgTxt = H55_DEBUG;
+	print("Index: "..H55_DbgTxt[1].." Chapter: "..H55_DbgTxt[2].." Player: "..H55_DbgTxt[3].." Hero: "..H55_DbgTxt[4]);
+end;
+
+function H55_UseNewDayTrigger()
+	H55_NewDayTrigger = 1;
+end;
+
+function H55_SetSleepTime(num)
+	if num >= 0 and num <= 100 then
+		H55_CycleSpeed = num;
+	else
+		print("Value must be between 1 and 100!");
+	end;
+end;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+--GAMEPLAY FUNCTIONS
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+function H55_IndexArtifacts()
+	for i,minorartifact in H55_MinorArtifacts do
+		if table.contains(H55_RemoveTheseArtifactsFromBanks,minorartifact) == nil then
+			table.inject(H55_MinorArtifactsUsed,minorartifact);
+		end;
+	end;
+	for i,majorartifact in H55_MajorArtifacts do
+		if table.contains(H55_RemoveTheseArtifactsFromBanks,majorartifact) == nil then
+			table.inject(H55_MajorArtifactsUsed,majorartifact);
+		end;
+	end;	
+	for i,relicartifact in H55_RelicArtifacts do
+		if table.contains(H55_RemoveTheseArtifactsFromBanks,relicartifact) == nil then
+			table.inject(H55_RelicArtifactsUsed,relicartifact);
+		end;
+	end;
+	for i,ultimateartifact in H55_UltimateArtifacts do
+		if table.contains(H55_RemoveTheseArtifactsFromBanks,ultimateartifact) == nil then
+			table.inject(H55_UltimateArtifactsUsed,ultimateartifact);
+		end;
+	end;
+	if H55_RPGPotions == 1 then
+		table.inject(H55_MinorArtifactsUsed,ARTIFACT_POTION01);
+		table.inject(H55_MajorArtifactsUsed,ARTIFACT_POTION02);
+		--table.inject(H55_RelicArtifactsUsed,ARTIFACT_POTION03);
+	end;
+	if H55_MapType == "Campaign" then
+		table.inject(H55_MinorArtifactsUsed,ARTIFACT_POTION01);
+		table.inject(H55_MajorArtifactsUsed,ARTIFACT_POTION02);
+	end;
+	H55_ArtifactsIndexed = 1;
+	print("H55 Day 2 Artifacts indexation complete!")
+end;
+
+function H55_GetUnusualSchools(hero)
+	local race = H55_GetHeroRaceNum(hero);
+	local school1 = H55_UnusualSchools[race][1];
+	local school2 = H55_UnusualSchools[race][2];
+	if hero == "Erika" or hero == "Zouleika" then
+		school1 = H55_UnusualSchools[9][1];
+		school2 = H55_UnusualSchools[8][2];
+	end;
+	if hero == "Hero2" or hero == "Hero3" then
+		school1 = H55_UnusualSchools[9][2];
+		school2 = H55_UnusualSchools[8][2];
+	end;	
+	return school1,school2;
+end;	
+
+function H55_GetRaceElementalTypeID(player,cityrace)
+	local elemtype = 87;
+	if cityrace == 1 and H55_FireSwitch[player] == 1 then elemtype = 85;
+	elseif cityrace == 1 then elemtype = 113;
+	elseif cityrace == 5 then elemtype = 114;
+	elseif cityrace == 8 and H55_WolfSwitch[player] == 1 then elemtype = 113;	
+	elseif cityrace == 8 then elemtype = 87; 
+	elseif cityrace == 6 then elemtype = 115;
+	elseif cityrace == 2 and H55_WolfSwitch[player] == 1 then elemtype = 113;
+	elseif cityrace == 2 then elemtype = 86;
+	elseif cityrace == 7 and H55_FireSwitch[player] == 1 then elemtype = 85;
+	elseif cityrace == 7 then elemtype = 88; 
+	elseif cityrace == 3 then elemtype = 85; 
+	elseif cityrace == 4 and H55_BKnightSwitch[player] == 1 then elemtype = 90;
+	elseif cityrace == 4 then elemtype = 116 end;	
+	return elemtype;
+end;
+
+function H55_GetRaceCasterTypes(cityrace)
+	local casterunits = {10,110,9};
+	if cityrace == "Haven" then casterunits = {10,110,9} 
+	elseif cityrace == "Academy" then casterunits = {64,162,63} 
+	elseif cityrace == "Stronghold" then casterunits = {124,176,123} 
+	elseif cityrace == "Necropolis" then casterunits = {38,156,37} 
+	elseif cityrace == "Dungeon" then casterunits = {82,143,81} 
+	elseif cityrace == "Sylvan" then casterunits = {50,148,49} 
+	elseif cityrace == "Fortress" then casterunits = {101,170,100} 
+	elseif cityrace == "Inferno" then casterunits = {26,136,25} end;
+	return casterunits;
+end;
+
+-- function H55_IsChillSummoner(hero)
+	-- if HasHeroSkill(hero,NECROMANCER_FEAT_CHILLING_BONES) then
+		-- if (table.contains(H55_Witches,hero) or 
+			-- table.contains(H55_Warlocks,hero) or 
+			-- table.contains(H55_Sorcerers,hero)) then
+			-- return not nil;
+		-- end;
+	-- end;
+	-- return nil;
+-- end;
+
+function H55_GetLegionCap(hero)
+	local cap = 0;
+	if HasArtefact(hero,ARTIFACT_LEGION_T7,0) then cap = 7 
+	elseif HasArtefact(hero,ARTIFACT_LEGION_T6,0) then cap = 6 
+	elseif HasArtefact(hero,ARTIFACT_LEGION_T5,0) then cap = 5 
+	elseif HasArtefact(hero,ARTIFACT_LEGION_T4,0) then cap = 4 
+	elseif HasArtefact(hero,ARTIFACT_LEGION_T3,0) then cap = 3 
+	elseif HasArtefact(hero,ARTIFACT_LEGION_T2,0) then cap = 2 
+	elseif HasArtefact(hero,ARTIFACT_LEGION_T1,0) then cap = 1 end;
+	return cap;
+end;
+
+function H55_GetAmountAlignedTowns(racenum)
+	local amountcities = 0;
+	if racenum == 1 then amountcities = table.length(GetObjectNamesByType("TOWN_HEAVEN")) 
+	elseif racenum == 5 then amountcities = table.length(GetObjectNamesByType("TOWN_ACADEMY")) 
+	elseif racenum == 8 then amountcities = table.length(GetObjectNamesByType("TOWN_STRONGHOLD")) 
+	elseif racenum == 4 then amountcities = table.length(GetObjectNamesByType("TOWN_NECROMANCY")) 
+	elseif racenum == 6 then amountcities = table.length(GetObjectNamesByType("TOWN_DUNGEON")) 
+	elseif racenum == 2 then amountcities = table.length(GetObjectNamesByType("TOWN_PRESERVE")) 
+	elseif racenum == 7 then amountcities = table.length(GetObjectNamesByType("TOWN_FORTRESS")) 
+	elseif racenum == 3 then amountcities = table.length(GetObjectNamesByType("TOWN_INFERNO")) end;
+	return amountcities;
+end;
+
+function H55_GetHallTrialLevel(hero,player)
+	local level = 0;
+	if H55_MapType == "Campaign" then 
+		level = 3;
+	else
+		local towns = H55_GetAlignedTownsOwned(hero,player);
+		if towns ~= nil then
+			for i,town in towns do
+				local hall = GetTownBuildingLevel(town, TOWN_BUILDING_SPECIAL_1);
+				if hall > level then
+					level = hall;
+				end;
+			end;
+		end;
+	end;
+	return level;
+end;
+
+function H55_GetWalkerHutLevel(hero,player)
+	local level = 0;
+	local towns = H55_GetAlignedTownsOwned(hero,player);
+	if towns ~= nil then
+		for i,town in towns do
+			local hall = GetTownBuildingLevel(town, TOWN_BUILDING_SPECIAL_3);
+			if hall > level then
+				level = hall;
+			end;
+		end;
+	end;
+	return level;
+end;
+	
 function H55_GetJoinSpecMultiplier(hero,player)
 	local multiplier = 1;
 	local amount = table.length(H55_GetAlignedTownsOwned(hero,player));
@@ -3957,65 +4039,6 @@ function H55_GiveAidKit(player,hero,artifact)
 	end;
 end;
 
-function H55_GetRotationAngle(x,y,z,angle,array,tile)
-	local passable = 0;
-	local mapsize = GetTerrainSize();
-	if table.length(array["x"]) == 0 then
-		return 1;
-	end;
-	for i=0, table.length(array["x"])-1 do
-		local xx,yy = 0,0;
-		local xxx,yyy = 0,0;
-		if angle == 1 then xx, yy =   array["x"][i],  array["y"][i]; end;
-		if angle == 2 then xx, yy = - array["y"][i],  array["x"][i]; end;
-		if angle == 3 then xx, yy = - array["x"][i],- array["y"][i]; end;
-		if angle == 4 then xx, yy =   array["y"][i],- array["x"][i]; end;
-		if mapsize == x+xx or mapsize == y+yy then
-			passable = 0;
-		elseif IsTilePassable(x + xx, y + yy, z ) ~= nil then
-			passable = 1;
-		end;
-		if passable ~= tile then
-			return 0; --fail
-		end;
-	end;
-	return 1; --success
-end;
-
-function H55_GetTownRotation(town)
-    local xx,yy,v,mode = 0,0,0,0;
-    local race = H55_GetTownRace(town)
-    local townrace = H55_GetTownRaceString(race);
-    local x,y,z = GetObjectPosition(town);
-    while mode < 2 and v < H55_ObjectTiles[townrace]["entries"]+1 do
-		r = 0;
-		local active = H55_ObjectTiles[townrace]["activeTiles"][""..v];
-		local blocked = H55_ObjectTiles[townrace]["blockedTiles"][""..v];
-		while mode < 2 and r < 4 do
-		mode = 0;
-		r = r + 1;
-		mode = mode + H55_GetRotationAngle(x, y, z, r, active , 1);
-		mode = mode + H55_GetRotationAngle(x, y, z, r, blocked, 0);	     
-		end;
-		v = v + 1;
-	end;
-	--print("H55 This Town Rotation is "..r);
-	return r;
-end;
-
-function H55_GetTownActiveTile(town)
-	local xx,yy = 0,0;
-	local race = H55_GetTownRace(town)
-	local townrace = H55_GetTownRaceString(race);
-	local x,y,z = GetObjectPosition(town);
-	local r = H55_GetTownRotation(town);
-	if r == 1 then xx, yy =   H55_ObjectTiles[townrace]["activeTiles"]["0"]["x"][0],  H55_ObjectTiles[townrace]["activeTiles"]["0"]["y"][0]; end;
-	if r == 2 then xx, yy = - H55_ObjectTiles[townrace]["activeTiles"]["0"]["y"][0],  H55_ObjectTiles[townrace]["activeTiles"]["0"]["x"][0]; end;
-	if r == 3 then xx, yy = - H55_ObjectTiles[townrace]["activeTiles"]["0"]["x"][0],- H55_ObjectTiles[townrace]["activeTiles"]["0"]["y"][0]; end;
-	if r == 4 then xx, yy =   H55_ObjectTiles[townrace]["activeTiles"]["0"]["y"][0],- H55_ObjectTiles[townrace]["activeTiles"]["0"]["x"][0]; end;
-	return  x + xx, y + yy, z;
-end;
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 --TOWN MANAGEMENT
 -----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -4124,11 +4147,12 @@ end;
 
 function H55_IsEnemyNearby(object,proximity)
 	local player = GetObjectOwner(object); --invoke this function only for heroes outside town
+	local team = H55_GetPlayerTeam(player);
 	local answer = 0;
 	local enemies = H55_GetAllHeroes();
 	for i, enemy in enemies do
 		if H55_IsHeroInAnyTown(enemy) == 0 then
-			if GetObjectOwner(enemy) ~= player and GetObjectOwner(enemy) ~= 0 and H55_GetDistance(object,enemy) < proximity then
+			if GetObjectOwner(enemy) ~= player and H55_GetObjectOwningTeam(enemy) ~= team and GetObjectOwner(enemy) ~= 0 and H55_GetDistance(object,enemy) < proximity then
 				answer = 1;
 			end;
 		end;
@@ -7136,7 +7160,7 @@ function H55_ContinuesEvent(player)
 	
 	if H55_DelayedVariables == 0 and H55_ARMG_Duel == 0 then
 		sleep(1);
-		if table.containsamount(H55_PlayerStatus,0) >= 2 then 
+		if H55_MapType ~= "Campaign" and H55_MapType ~= "Scenario" and table.containsamount(H55_PlayerStatus,0) >= 2 then 
 			consoleCmd("setvar dev_console_password = disabled");
 		end;
 		if H55_MapType == "Campaign" or H55_MapType == "Scenario" then
@@ -7206,9 +7230,15 @@ function H55_ContinuesEvent(player)
 		if H55_IgnoreExpAdjustment == 1 then
 			H55_SetEasyExperience();
 		end;
-		if H55_SkipModifyStackSize == 0 then
-			startThread(H55_ModifyStackSize);
-		end;
+		-- if H55_ForceMixedStacks == 1 and H55_HiddenArtifacts == 0 then
+			-- H55_SkipModifyStackSize = 1;
+			-- startThread(H55_MixStacks);
+		-- else
+			-- H55_MixingStacksComplete = 1;
+		-- end;
+		-- if H55_SkipModifyStackSize == 0 then
+			-- startThread(H55_ModifyStackSize);
+		-- end;
 		H55_DelayedVariables = 1;
 	end;
 	
@@ -9885,7 +9915,7 @@ function H55_CrashProtection()
 			print("The H55 script engine has crashed, reloading...");
 			H55_AmountCrashes = H55_AmountCrashes+1;
 			H55_Switch = 1;
-			H55_ScriptLog();
+			--H55_ScriptLog();
 			startThread(H55_ContinuesActivator);
 			print("The H55 script engine has been restarted!");
 		else
@@ -9937,11 +9967,11 @@ function H55_WTF()
 	sleep(7);
 	if H55_Day == currentdate then
 		print("H55 is running fine");
-		H55_ScriptLog();
+		--H55_ScriptLog();
 	end;
 	if H55_Day < currentdate then
 		print("The H55 script engine has crashed, sorry for the inconvenience, trying to reload...");
-		H55_ScriptLog();
+		--H55_ScriptLog();
 		H55_Switch = 1;
 		startThread(H55_ContinuesActivator);
 		sleep(2);
@@ -10254,7 +10284,7 @@ dofile("/scripts/H55-AdvMap.lua");
 
 --startThread(H55_TeamUpQuestion);
 
-do
+do  
 	sleep(1);
 	local monsters = GetObjectNamesByType("CREATURE");
 	local monstersqty = table.length(monsters);	
@@ -10295,7 +10325,7 @@ do
 	if avgpower > 1000 then
 		H55_AveragePowerRating = avgpower;
 	end;
-
+	
 	local player = 1;
 	for i = 1,8 do 
 		if IsPlayerCurrent(i) then player = i end;
@@ -10310,15 +10340,23 @@ do
 		else
 			H55_MixingStacksComplete = 1;
 		end;
-	elseif H55_ForceMixedStacks == 1 and H55_HiddenArtifacts == 0 then --or table.contains(H55_MultiplayerMaps,GetMapDataPath())
-		H55_SkipModifyStackSize = 1;
-		startThread(H55_MixStacks);
+	-- elseif H55_ForceMixedStacks == 1 and H55_HiddenArtifacts == 0 then --or table.contains(H55_MultiplayerMaps,GetMapDataPath())
+		-- H55_SkipModifyStackSize = 1;
+		-- startThread(H55_MixStacks);	
 	else
+		H55_MixDecisionDelay = 1;
 		H55_MixingStacksComplete = 1;
 	end;
 end;
 
 repeat sleep(1); until H55_AdvMapProcessed == 1 and H55_MixingStacksComplete == 1;
+
+if H55_MixDecisionDelay == 1 and H55_ForceMixedStacks == 1 and H55_HiddenArtifacts == 0 then
+	H55_SkipModifyStackSize = 1;
+	startThread(H55_MixStacks);
+end;
+if H55_SkipModifyStackSize == 0 and H55_HiddenArtifacts == 0 then startThread(H55_ModifyStackSize) end;
+
 startThread(H55_ContinuesActivator);
 Trigger(CUSTOM_ABILITY_TRIGGER,"H55_TownManagement");
 Trigger(NEW_DAY_TRIGGER,"H55_CrashProtection");

@@ -2659,7 +2659,7 @@ end;
 
 function H55_RObservatoryVisit(hero,object)
 	local player = GetObjectOwner(hero);
-	startThread(H55_ScriptLog);
+	-- startThread(H55_ScriptLog);
 	-- if H55_IsThisAIPlayer(player) == 1 then
 	-- else	
 		if H55_RObservatoryUsers[hero] ~= H55_Day then
@@ -3921,7 +3921,7 @@ end;
 function H55_WitchVisit(hero,hut)
 	local player = GetObjectOwner(hero);
 	if H55_IsThisAIPlayer(player) == 1 then
-		print("AI Visits Witch Hut!");
+		print("H55 AI Visits Witch Hut!");
 	elseif table.contains(H55_WHVisited[hut],hero) then
 			ShowFlyingSign("/Text/Game/Scripts/Witch/Already.txt",hero,player,5);
 	else
@@ -6055,13 +6055,13 @@ function H55_UtopiaVisit(hero,bank)
 				StartCombat(hero,nil,4,83,cnt07,84,cnt07,41,cnt06,42,cnt06,nil,"H55_UtopiaWin","/Arenas/CombatArena/FinalCombat/Bank_Utopia.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 			end;
 			if combat == 6 then
-				StartCombat(hero,nil,4,83,cnt07,84,cnt07,144,cnt07,115,cnt06,115,cnt06,nil,"H55_UtopiaWin","/Arenas/CombatArena/FinalCombat/Bank_Utopia.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+				StartCombat(hero,nil,5,83,cnt07,84,cnt07,144,cnt07,115,cnt06,115,cnt06,nil,"H55_UtopiaWin","/Arenas/CombatArena/FinalCombat/Bank_Utopia.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 			end;
 			if combat == 7 then
 				StartCombat(hero,nil,4,104,cnt07,105,cnt07,172,cnt07,91,cnt07,nil,"H55_UtopiaWin","/Arenas/CombatArena/FinalCombat/Bank_Utopia.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 			end;
 			if combat == 8 then
-				StartCombat(hero,nil,4,151,cnt07,56,cnt07,55,cnt07,tew,cntew,tew,cntew,nil,"H55_UtopiaWin","/Arenas/CombatArena/FinalCombat/Bank_Utopia.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+				StartCombat(hero,nil,5,151,cnt07,56,cnt07,55,cnt07,tew,cntew,tew,cntew,nil,"H55_UtopiaWin","/Arenas/CombatArena/FinalCombat/Bank_Utopia.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 			end;				
 		end;
 	else 
