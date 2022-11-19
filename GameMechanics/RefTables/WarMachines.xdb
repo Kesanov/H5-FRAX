@@ -39,11 +39,13 @@
 			<ID>WAR_MACHINE_BALLISTA</ID>
 			<Obj href="#n:inline(WarMachine)" id="item_20388156-af46-40fe-b843-66d3a2404b58">
 				<WarMachine ObjectRecordID="29">
-					<Shots>20</Shots>
-					<Initiative>10</Initiative>
-					<Health>200</Health>
+					<Shots>100</Shots>
+					<Initiative>8</Initiative>
+					<Health>500</Health>
 					<Range>0</Range>
-					<spellIDs/>
+					<spellIDs>
+						<Item>SPELL_ABILITY_HARPOON_STRIKE</Item>
+					</spellIDs>
 					<MagicElement>
 						<First>ELEMENT_NONE</First>
 						<Second>ELEMENT_NONE</Second>
@@ -55,38 +57,38 @@
 						<Crystal>0</Crystal>
 						<Sulfur>0</Sulfur>
 						<Gem>0</Gem>
-						<Gold>2500</Gold>
+						<Gold>4500</Gold>
 					</Cost>
 					<CombatSize>2</CombatSize>
 					<flybySequence/>
 					<Visual href="/GameMechanics/CreatureVisual/WarMachines/Ballista.xdb#xpointer(/CreatureVisual)"/>
 					<TimeToCommand>10</TimeToCommand>
 					<Offense>
-						<Item>7</Item>
-						<Item>9</Item>
-						<Item>12</Item>
-						<Item>14</Item>
-						<Item>17</Item>
+						<Item>20</Item>
+						<Item>20</Item>
+						<Item>20</Item>
+						<Item>20</Item>
+						<Item>20</Item>
 					</Offense>
 					<Defense>
-						<Item>9</Item>
-						<Item>12</Item>
-						<Item>15</Item>
-						<Item>17</Item>
+						<Item>20</Item>
+						<Item>20</Item>
+						<Item>20</Item>
+						<Item>20</Item>
 						<Item>20</Item>
 					</Defense>
 					<MinDamageFactor>
-						<Item>3</Item>
-						<Item>3</Item>
-						<Item>3</Item>
-						<Item>4</Item>
-						<Item>4</Item>
+						<Item>6</Item>
+						<Item>6</Item>
+						<Item>6</Item>
+						<Item>6</Item>
+						<Item>6</Item>
 					</MinDamageFactor>
 					<MaxDamageFactor>
-						<Item>4</Item>
-						<Item>4</Item>
-						<Item>5</Item>
-						<Item>5</Item>
+						<Item>6</Item>
+						<Item>6</Item>
+						<Item>6</Item>
+						<Item>6</Item>
 						<Item>6</Item>
 					</MaxDamageFactor>
 					<PresetPrice>250</PresetPrice>
@@ -98,8 +100,8 @@
 			<Obj href="#n:inline(WarMachine)" id="item_eb716ddf-8f42-49e5-96ac-c4d686a4301a">
 				<WarMachine ObjectRecordID="30">
 					<Shots>0</Shots>
-					<Initiative>12</Initiative>
-					<Health>1200</Health>
+					<Initiative>10</Initiative>
+					<Health>500</Health>
 					<Range>0</Range>
 					<spellIDs/>
 					<MagicElement>
@@ -121,25 +123,25 @@
 					<TimeToCommand>10</TimeToCommand>
 					<Offense/>
 					<Defense>
-						<Item>9</Item>
-						<Item>12</Item>
-						<Item>15</Item>
-						<Item>17</Item>
-						<Item>20</Item>
+						<Item>200</Item>
+						<Item>200</Item>
+						<Item>200</Item>
+						<Item>200</Item>
+						<Item>200</Item>
 					</Defense>
 					<MinDamageFactor>
-						<Item>150</Item>
 						<Item>200</Item>
-						<Item>250</Item>
-						<Item>300</Item>
-						<Item>350</Item>
+						<Item>200</Item>
+						<Item>200</Item>
+						<Item>200</Item>
+						<Item>200</Item>
 					</MinDamageFactor>
 					<MaxDamageFactor>
 						<Item>200</Item>
-						<Item>250</Item>
-						<Item>300</Item>
-						<Item>350</Item>
-						<Item>400</Item>
+						<Item>200</Item>
+						<Item>200</Item>
+						<Item>200</Item>
+						<Item>200</Item>
 					</MaxDamageFactor>
 					<PresetPrice>400</PresetPrice>
 				</WarMachine>
@@ -149,13 +151,17 @@
 			<ID>WAR_MACHINE_FIRST_AID_TENT</ID>
 			<Obj href="#n:inline(WarMachine)" id="item_9f5e94d7-770d-44c8-9b64-03dc4472504e">
 				<WarMachine ObjectRecordID="31">
-					<Shots>3</Shots>
+					<Shots>4</Shots>
 					<Initiative>10</Initiative>
-					<Health>100</Health>
+					<Health>500</Health>
 					<Range>0</Range>
+					<Knowledge>0</Knowledge>
 					<spellIDs>
 						<Item>SPELL_EFFECT_FIRST_AID_TENT_HEAL</Item>
 					</spellIDs>
+					<SpellPoints>0</SpellPoints>
+					<SpellPoints1>0</SpellPoints1>
+					<SpellPoints2>0</SpellPoints2>
 					<MagicElement>
 						<First>ELEMENT_NONE</First>
 						<Second>ELEMENT_NONE</Second>
@@ -167,7 +173,7 @@
 						<Crystal>0</Crystal>
 						<Sulfur>0</Sulfur>
 						<Gem>0</Gem>
-						<Gold>500</Gold>
+						<Gold>250</Gold>
 					</Cost>
 					<CombatSize>2</CombatSize>
 					<flybySequence/>
@@ -175,10 +181,10 @@
 					<TimeToCommand>10</TimeToCommand>
 					<Offense/>
 					<Defense>
-						<Item>9</Item>
-						<Item>12</Item>
-						<Item>15</Item>
-						<Item>17</Item>
+						<Item>20</Item>
+						<Item>20</Item>
+						<Item>20</Item>
+						<Item>20</Item>
 						<Item>20</Item>
 					</Defense>
 					<MinDamageFactor/>
@@ -191,9 +197,9 @@
 			<ID>WAR_MACHINE_AMMO_CART</ID>
 			<Obj href="#n:inline(WarMachine)" id="item_d7364980-44f1-4811-bbed-23ebc1148dc6">
 				<WarMachine ObjectRecordID="32">
-					<Shots>0</Shots>
+					<Shots>10</Shots>
 					<Initiative>10</Initiative>
-					<Health>100</Health>
+					<Health>500</Health>
 					<Range>0</Range>
 					<spellIDs/>
 					<MagicElement>
@@ -207,19 +213,19 @@
 						<Crystal>0</Crystal>
 						<Sulfur>0</Sulfur>
 						<Gem>0</Gem>
-						<Gold>400</Gold>
+						<Gold>1000</Gold>
 					</Cost>
-					<CombatSize>1</CombatSize>
+					<CombatSize>2</CombatSize>
 					<flybySequence/>
 					<Visual href="/GameMechanics/CreatureVisual/WarMachines/AmmoCart.xdb#xpointer(/CreatureVisual)"/>
 					<TimeToCommand>10</TimeToCommand>
 					<Offense/>
 					<Defense>
-						<Item>9</Item>
-						<Item>12</Item>
-						<Item>15</Item>
-						<Item>17</Item>
-						<Item>20</Item>
+						<Item>0</Item>
+						<Item>0</Item>
+						<Item>0</Item>
+						<Item>0</Item>
+						<Item>0</Item>
 					</Defense>
 					<MinDamageFactor/>
 					<MaxDamageFactor/>

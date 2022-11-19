@@ -30,13 +30,13 @@
 	<Icon128 />
 	<InternalName>Deleb</InternalName>
 	<Class>HERO_CLASS_DEMON_LORD</Class>
-	<Specialization>HERO_SPEC_BOMBARDIER</Specialization>
+	<Specialization>HERO_SPEC_INFERNAL_MACHINE</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_GATING</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Inferno/Bombardier/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Inferno/Bombardier/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Preserve/Infernal_Machine/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Preserve/Infernal_Machine/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Inferno/Bombardier.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Deleb_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
@@ -56,15 +56,11 @@
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_WAR_MACHINES</SkillID>
+				<SkillID>HERO_SKILL_TRAINING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_BALLISTA</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_CURSE</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

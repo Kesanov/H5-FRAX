@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization>
-	<NameFileRef href="/Text/Game/Towns/Haven/Script/Mistlake/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Haven/Script/Mistlake/Biography.txt"/>
-	<Bonus>TOWN_BONUS_PLUS_LUCK</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_HEAVEN</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

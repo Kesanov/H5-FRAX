@@ -33,7 +33,7 @@
 	<Specialization>HERO_SPEC_FEATHER_MAGE</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_ARTIFICIER</SkillID>
+		<SkillID>HERO_SKILL_SORCERY</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Academy/Feather_Mage/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Academy/Feather_Mage/Description.txt" />
@@ -52,19 +52,15 @@
 		<Offence>0</Offence>
 		<Defence>0</Defence>
 		<Spellpower>2</Spellpower>
-		<Knowledge>3</Knowledge>
+		<Knowledge>2</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_SORCERY</SkillID>
+				<SkillID>HERO_SKILL_INVOCATION</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_DARK_RITUAL</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_MAGIC_FIST</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

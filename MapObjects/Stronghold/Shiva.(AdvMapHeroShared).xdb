@@ -32,14 +32,14 @@
 	<Icon128 />
 	<InternalName>Shiva</InternalName>
 	<Class>HERO_CLASS_SHAMAN</Class>
-	<Specialization />
+	<Specialization>HERO_SPEC_EVASIVE</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
+		<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/ShatterLightE/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/ShatterLightE/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Skills/LightMagic_3.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Evasive3/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Evasive3/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Dungeon/Evasive.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Stronghold/Stronghold_Shiva_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Stronghold/Shiva/HeroCharacterArena.xdb#xpointer(/Character)" />
@@ -51,22 +51,18 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Stronghold/Shiva/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Stronghold/Shiva/Bio.txt" />
-		<Offence>1</Offence>
-		<Defence>0</Defence>
+		<Offence>0</Offence>
+		<Defence>1</Defence>
 		<Spellpower>2</Spellpower>
 		<Knowledge>2</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_SORCERY</SkillID>
+				<SkillID>HERO_SKILL_BODYBUILDING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_DARK_RITUAL</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_MAGIC_ARROW</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

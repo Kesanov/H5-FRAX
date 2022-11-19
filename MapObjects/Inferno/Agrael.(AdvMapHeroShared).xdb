@@ -27,19 +27,19 @@
 	<FlyPassable>true</FlyPassable>
 	<AdventureSoundEffect />
 	<RazedStatic />
-	<Icon128 />
+	<Icon128 href="/Textures/Icons/Heroes/Inferno/Inferno_Agrael_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<InternalName>Agrael</InternalName>
-	<Class>HERO_CLASS_DEMON_LORD</Class>
+	<Class>HERO_CLASS_SORCERER</Class>
 	<Specialization>HERO_SPEC_FURIOUS</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_GATING</SkillID>
+		<SkillID>HERO_SKILL_SORCERY</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Inferno/Furious/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Inferno/Furious/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Inferno/Furious.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Agrael_128x128.(Texture).xdb#xpointer(/Texture)" />
-	<FaceTextureSmall href="/Textures/Icons/Heroes/Inferno/Inferno_Agrael_128x128_64.(Texture).xdb#xpointer(/Texture)" />
+	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/Agrael/HeroCharacterArena.xdb#xpointer(/Character)" />
 	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/Agrael/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/Agrael/HeroCharacterAdventure.xdb#xpointer(/Character)" />
@@ -49,22 +49,18 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Inferno/Agrael/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Inferno/Agrael/Bio.txt" />
-		<Offence>2</Offence>
+		<Offence>0</Offence>
 		<Defence>0</Defence>
-		<Spellpower>1</Spellpower>
+		<Spellpower>3</Spellpower>
 		<Knowledge>2</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_OFFENCE</SkillID>
+				<SkillID>HERO_SKILL_GATING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_FRENZY</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_BLOODLUST</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>
@@ -76,7 +72,7 @@
 	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Inferno.xdb#xpointer(/AdvMapHeroTraceSet)" />
 	<RaceTraitIcon />
 	<RaceTraitDescFileRef href="" />
-	<ScenarioHero>true</ScenarioHero>
+	<ScenarioHero>false</ScenarioHero>
 	<AdventureMusic href="/Sounds/_(Music)/AdvMap-Heroes/Agrael.xdb#xpointer(/Music)" />
 	<HideInEditor>false</HideInEditor>
 </AdvMapHeroShared>

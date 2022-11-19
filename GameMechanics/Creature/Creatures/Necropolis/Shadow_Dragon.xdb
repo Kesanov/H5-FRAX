@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="77">
-	<AttackSkill>29</AttackSkill>
-	<DefenceSkill>29</DefenceSkill>
+	<AttackSkill>30</AttackSkill>
+	<DefenceSkill>30</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>30</MinDamage>
 	<MaxDamage>37</MaxDamage>
 	<Speed>8</Speed>
 	<Initiative>11</Initiative>
 	<Flying>true</Flying>
-	<Health>200</Health>
-	<KnownSpells/>
+	<Health>300</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
@@ -35,14 +35,14 @@
 		<Gold>2300</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Necropolis/Shadow_Dragon.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Necropolis/Shadow_Dragon.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>2</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Necropolis/Shadow_Dragon.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Necropolis/Shadow_Dragon.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_BONE_DRAGON</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_UNDEAD</Item>
 		<Item>ABILITY_CURSING_ATTACK</Item>

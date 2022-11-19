@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="43">
-	<AttackSkill>13</AttackSkill>
-	<DefenceSkill>13</DefenceSkill>
+	<AttackSkill>24</AttackSkill>
+	<DefenceSkill>24</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>8</MinDamage>
 	<MaxDamage>16</MaxDamage>
 	<Speed>8</Speed>
 	<Initiative>14</Initiative>
 	<Flying>false</Flying>
-	<Health>76</Health>
-	<KnownSpells/>
+	<Health>114</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>1</SpellPoints2>
@@ -35,11 +35,11 @@
 		<Gold>520</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Inferno/Nightmare.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Inferno/Nightmare.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>2</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Inferno/Nightmare.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Inferno/Nightmare.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_UNKNOWN</BaseCreature>
 	<Upgrades>
@@ -49,6 +49,5 @@
 	<Abilities>
 		<Item>ABILITY_DEMONIC</Item>
 		<Item>ABILITY_FEAR</Item>
-		<Item>ABILITY_MAGIC_PROOF_25</Item>
 	</Abilities>
 </Creature>

@@ -32,8 +32,8 @@
 	<Class>HERO_CLASS_REAVER</Class>
 	<Specialization>HERO_SPEC_POISONER</Specialization>
 	<PrimarySkill>
-		<Mastery>MASTERY_ADVANCED</Mastery>
-		<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
+		<Mastery>MASTERY_BASIC</Mastery>
+		<SkillID>HERO_SKILL_LOGISTICS</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Poisoner2/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Poisoner2/Description.txt" />
@@ -58,8 +58,6 @@
 			<Item>HERO_SKILL_MASTER_OF_SICKNESS</Item>
 		</perkIDs>
 		<spellIDs>
-			<Item>SPELL_PLAGUE</Item>
-			<Item>SPELL_ANIMATE_DEAD</Item>
 		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

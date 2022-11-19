@@ -1,25 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="5">
-	<NameFileRef href="/Text/Game/Spells/Combat/Magic_Arrow/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Magic_Arrow/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_MagicArrow_lc.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Magic_Missile.(Texture).xdb#xpointer(/Texture)"/>
+	<NameFileRef href="/Text/Game/Spells/Combat/Magic_Arrow/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Magic_Arrow/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_MagicArrow_lc.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Magic_Missile.(Texture).xdb#xpointer(/Texture)" />
 	<SpellBookPredictions>
-		<Item href="/Text/Game/Spells/SpellBookPredictions/DirectDamage.txt"/>
+		<Item href="/Text/Game/Spells/SpellBookPredictions/DirectDamage.txt" />
 	</SpellBookPredictions>
-	<CombatLogTexts/>
-	<Level>2</Level>
+	<CombatLogTexts />
+	<Level>1</Level>
 	<MagicSchool>MAGIC_SCHOOL_LIGHT</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
-	<TrainedCost>6</TrainedCost>
+	<TrainedCost>4</TrainedCost>
 	<damage>
 		<Item>
 			<Base>40</Base>
-			<PerPower>10</PerPower>
-		</Item>
-		<Item>
-			<Base>40</Base>
-			<PerPower>13</PerPower>
+			<PerPower>14</PerPower>
 		</Item>
 		<Item>
 			<Base>40</Base>
@@ -27,10 +23,14 @@
 		</Item>
 		<Item>
 			<Base>40</Base>
+			<PerPower>18</PerPower>
+		</Item>
+		<Item>
+			<Base>40</Base>
 			<PerPower>20</PerPower>
 		</Item>
 	</damage>
-	<duration/>
+	<duration />
 	<sSpellCost>
 		<Wood>0</Wood>
 		<Ore>0</Ore>
@@ -47,6 +47,6 @@
 	<Element>ELEMENT_NONE</Element>
 	<DamageIsElemental>false</DamageIsElemental>
 	<visuals>
-		<Item href="MagicArrow.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="MagicArrow.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

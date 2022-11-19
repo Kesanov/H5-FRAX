@@ -1,25 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="42">
-	<AttackSkill>6</AttackSkill>
-	<DefenceSkill>6</DefenceSkill>
-	<Shots>5</Shots>
+	<AttackSkill>21</AttackSkill>
+	<DefenceSkill>21</DefenceSkill>
+	<Shots>7</Shots>
 	<MinDamage>7</MinDamage>
 	<MaxDamage>13</MaxDamage>
 	<Speed>4</Speed>
 	<Initiative>10</Initiative>
 	<Flying>false</Flying>
-	<Health>38</Health>
-	<KnownSpells>
-		<Item>
-			<Spell>SPELL_DISPEL</Spell>
-			<Mastery>MASTERY_EXPERT</Mastery>
-		</Item>
-		<Item>
-			<Spell>SPELL_FORGETFULNESS</Spell>
-			<Mastery>MASTERY_EXPERT</Mastery>
-		</Item>
-	</KnownSpells>
-	<SpellPoints>20</SpellPoints>
+	<Health>57</Health>
+	<KnownSpells />
+	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>1</SpellPoints2>
 	<Exp>60</Exp>
@@ -44,18 +35,18 @@
 		<Gold>350</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Inferno/Infernal_Succubus.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Inferno/Infernal_Succubus.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Inferno/InfernalSuccubus.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Inferno/InfernalSuccubus.xdb#xpointer(/CreatureVisual)" />
 	<Range>-2</Range>
 	<BaseCreature>CREATURE_SUCCUBUS</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_DEMONIC</Item>
 		<Item>ABILITY_RANGED_RETALIATE</Item>
 		<Item>ABILITY_CHAIN_SHOT</Item>
-		<Item>ABILITY_IMMUNITY_TO_BERSERK</Item>		
+		<Item>ABILITY_IMMUNITY_TO_MIND_CONTROL</Item>
 	</Abilities>
 </Creature>

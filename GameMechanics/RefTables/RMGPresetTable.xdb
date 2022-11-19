@@ -12,10 +12,10 @@
 					<Item href="/MapObjects/Inferno/Jazaz.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/Marder.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/Harkenraz.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>	
-					<Item href="/MapObjects/Inferno/Grok.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>	
-					<Item href="/MapObjects/Inferno/Malustar.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
+					<Item href="/MapObjects/Inferno/Calh.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>		
+					<Item href="/MapObjects/Inferno/Malustar.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>	
+					<Item href="/MapObjects/Inferno/Grok.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/Nymus.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
-					<Item href="/MapObjects/Inferno/Calh.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>	
 					<Item href="/MapObjects/Inferno/Deleb.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/OrlandoMP.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/Oddrema.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
@@ -145,30 +145,20 @@
 				<ExtendedAdditionalObjects2/>
 				<NewLuckMoraleBuildings>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>	
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>	
+					<Item>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>4</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>						
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -196,7 +186,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -441,6 +431,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -538,7 +533,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
@@ -850,30 +845,20 @@
 				</ExtendedAdditionalObjects2>
 				<NewLuckMoraleBuildings>	
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>	
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>	
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>	
+					<Item>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>4</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>					
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -901,7 +886,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -986,7 +971,7 @@
 					</Item>
 					<Item>
 						<Building href="/MapObjects/RMGMagma.(AdvMapShrineShared).xdb#xpointer(/AdvMapShrineShared)"/>
-						<Value>1</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>	
 					<Item>
@@ -1141,6 +1126,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -1238,7 +1228,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
@@ -1428,7 +1418,7 @@
 					<Item href="/MapObjects/Haven/Jeddite.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>	
 					<Item href="/MapObjects/Haven/AlaricMP.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>		
 					<Item href="/MapObjects/Haven/RedHeavenHero04.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
-					<Item href="/MapObjects/Haven/OrlandoMP.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>					
+					<Item href="/MapObjects/Haven/RedHeaven07_Orlando.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>		
 					<Item href="/MapObjects/Haven/Markal.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>				
 				</HeroPool>
 				<Dwellings>
@@ -1566,30 +1556,20 @@
 				<ExtendedAdditionalObjects2/>
 				<NewLuckMoraleBuildings>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>	
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>					
-					<Item>
-						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -1622,7 +1602,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -1652,7 +1632,7 @@
 					</Item>
 					<Item>
 						<Building href="/MapObjects/WindmillWarren.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
+						<Value>6</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
@@ -1867,6 +1847,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -1974,7 +1959,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
@@ -2272,30 +2257,20 @@
 				<ExtendedAdditionalObjects2/>
 				<NewLuckMoraleBuildings>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>		
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>	
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>		
+					<Item>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>4</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>					
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -2328,7 +2303,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -2578,6 +2553,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -2685,7 +2665,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
@@ -2954,30 +2934,20 @@
 				<ExtendedAdditionalObjects2/>
 				<NewLuckMoraleBuildings>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>		
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>		
+					<Item>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>4</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>					
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -3005,7 +2975,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -3255,6 +3225,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -3347,7 +3322,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
@@ -3626,30 +3601,20 @@
 				<ExtendedAdditionalObjects2/>
 				<NewLuckMoraleBuildings>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>		
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>		
+					<Item>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>4</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>					
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -3677,7 +3642,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -3758,6 +3723,11 @@
 					<Item>
 						<Building href="/MapObjects/RMGGrave06.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>1</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>
+					<Item>
+						<Building href="/MapObjects/RMGMagma.(AdvMapShrineShared).xdb#xpointer(/AdvMapShrineShared)"/>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
@@ -3932,6 +3902,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -4029,7 +4004,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
@@ -4345,22 +4320,7 @@
 				<ExtendedAdditionalObjects2/>
 				<NewLuckMoraleBuildings>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>			
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
@@ -4368,7 +4328,12 @@
 						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>			
+					<Item>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>4</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>					
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -4401,7 +4366,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -4671,6 +4636,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -4778,7 +4748,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
@@ -4933,10 +4903,10 @@
 					<Item href="/MapObjects/Inferno/Jazaz.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/Marder.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/Harkenraz.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>	
-					<Item href="/MapObjects/Inferno/Grok.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
+					<Item href="/MapObjects/Inferno/Calh.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>		
 					<Item href="/MapObjects/Inferno/Malustar.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>	
+					<Item href="/MapObjects/Inferno/Grok.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/Nymus.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
-					<Item href="/MapObjects/Inferno/Calh.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/Deleb.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/OrlandoMP.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
 					<Item href="/MapObjects/Inferno/Oddrema.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
@@ -5082,30 +5052,20 @@
 				<ExtendedAdditionalObjects2/>
 				<NewLuckMoraleBuildings>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>		
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>		
+					<Item>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>4</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>						
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -5133,7 +5093,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -5218,7 +5178,7 @@
 					</Item>
 					<Item>
 						<Building href="/MapObjects/RMGMagma.(AdvMapShrineShared).xdb#xpointer(/AdvMapShrineShared)"/>
-						<Value>1</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
@@ -5383,6 +5343,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -5480,7 +5445,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
@@ -5757,30 +5722,20 @@
 				<ExtendedAdditionalObjects2/>
 				<NewLuckMoraleBuildings>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>		
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>		
+					<Item>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>4</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>					
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -5813,7 +5768,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared) (2).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -5903,7 +5858,7 @@
 					</Item>
 					<Item>
 						<Building href="/MapObjects/RMGMagma.(AdvMapShrineShared).xdb#xpointer(/AdvMapShrineShared)"/>
-						<Value>1</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
@@ -6058,6 +6013,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -6155,7 +6115,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
@@ -6462,30 +6422,20 @@
 				<ExtendedAdditionalObjects2/>
 				<NewLuckMoraleBuildings>
 					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>			
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>4</Value>
-						<GuardStrenght>0</GuardStrenght>
-					</Item>
-					<Item>
-						<Building href="/MapObjects/RMGDimensionDoor.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
-					</Item>
+					</Item>			
+					<Item>
+						<Building href="/MapObjects/Magic_Well.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>4</Value>
+						<GuardStrenght>0</GuardStrenght>
+					</Item>					
 					<Item>
 						<Building href="/MapObjects/Learning_Stone.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>2</Value>
@@ -6518,7 +6468,7 @@
 					</Item>
 					<Item>					
 						<Building href="/MapObjects/Stables.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
-						<Value>2</Value>
+						<Value>4</Value>
 						<GuardStrenght>0</GuardStrenght>
 					</Item>				
 					<Item>
@@ -6778,6 +6728,11 @@
 						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
+						<Building href="/MapObjects/Arena.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
+						<Value>6</Value>
+						<GuardStrenght>15</GuardStrenght>
+					</Item>
+					<Item>
 						<Building href="/MapObjects/Sphinx.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
 						<GuardStrenght>15</GuardStrenght>
@@ -6885,7 +6840,7 @@
 					<Item>
 						<Building href="/MapObjects/Hill_Fort.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>
 						<Value>6</Value>
-						<GuardStrenght>25</GuardStrenght>
+						<GuardStrenght>15</GuardStrenght>
 					</Item>
 					<Item>
 						<Building href="/MapObjects/Black_Market.(AdvMapBuildingShared).xdb#xpointer(/AdvMapBuildingShared)"/>

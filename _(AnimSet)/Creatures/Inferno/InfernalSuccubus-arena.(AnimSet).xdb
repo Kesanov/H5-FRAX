@@ -31,7 +31,7 @@
 		</Item>
 		<Item>
 			<Kind>cast</Kind>
-			<Anim href="/_(BasicSkelAnim)/Creatures/Inferno/InfernalSuccubus/attack00.(BasicSkelAnim).xdb#xpointer(/BasicSkelAnim)"/>
+			<Anim href="Succubus-arena-cast.xdb#xpointer(/BasicSkelAnim)"/>
 		</Item>		
 		<Item>
 			<Kind>happy</Kind>

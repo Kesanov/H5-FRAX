@@ -52,21 +52,16 @@
 		<BiographyFileRef href="/Maps/SingleMissions/A2S2/bio.txt" />
 		<Offence>0</Offence>
 		<Defence>1</Defence>
-		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Spellpower>1</Spellpower>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
 				<SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_CREATURES</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_MAGIC_ARROW</Item>
-			<Item>SPELL_SUMMON_ELEMENTALS</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

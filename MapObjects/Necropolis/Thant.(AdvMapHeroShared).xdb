@@ -33,7 +33,7 @@
 	<Specialization />
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
+		<SkillID>HERO_SKILL_LOGISTICS</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/Mummies/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/Mummies/Description.txt" />
@@ -59,11 +59,8 @@
 				<SkillID>HERO_SKILL_NECROMANCY</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_NO_REST_FOR_THE_WICKED</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs>
-			<Item>SPELL_ANIMATE_DEAD</Item>
 		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

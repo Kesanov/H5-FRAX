@@ -290,6 +290,8 @@ function SaveHeroAllSetArtifacts( hero, missionName )
 end;
 
 function SaveHeroAllSetArtifactsEquipped( hero, missionName )
+	Fx_MissionEnd(hero, missionName)
+
 	if IsObjectExists(hero) == not nil then
 		for i = 0, AllSetArtifactsCount - 1 do
 			if HasArtefact(hero, AllSetArtifacts[i],1) then
@@ -304,6 +306,8 @@ function SaveHeroAllSetArtifactsEquipped( hero, missionName )
 end;
 
 function LoadHeroAllSetArtifacts( hero, loadFromMissionName )
+	Fx_MissionStart(hero, loadFromMissionName)
+
 	if IsObjectExists(hero) == not nil then
 		for i = 0, AllSetArtifactsCount - 1 do
 			local artefactIdString = '_'..AllSetArtifacts[i];

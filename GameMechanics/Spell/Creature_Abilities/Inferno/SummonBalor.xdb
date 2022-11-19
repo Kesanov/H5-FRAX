@@ -26,7 +26,7 @@
 	<IsAimed>true</IsAimed>
 	<IsAreaAttack>false</IsAreaAttack>
 	<CanSelectDead>true</CanSelectDead>
-	<Target>TARGET_NEUTRAL</Target>
+	<Target>TARGET_FRIEND</Target>
 	<Element>ELEMENT_NONE</Element>
 	<DamageIsElemental>true</DamageIsElemental>
 	<visuals>

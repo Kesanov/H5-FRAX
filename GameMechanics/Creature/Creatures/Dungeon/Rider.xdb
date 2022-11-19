@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="1000018">
-	<AttackSkill>9</AttackSkill>
-	<DefenceSkill>7</DefenceSkill>
+	<AttackSkill>21</AttackSkill>
+	<DefenceSkill>21</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>7</MinDamage>
 	<MaxDamage>12</MaxDamage>
 	<Speed>7</Speed>
 	<Initiative>11</Initiative>
 	<Flying>false</Flying>
-	<Health>50</Health>
-	<KnownSpells/>
+	<Health>75</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
@@ -35,11 +35,11 @@
 		<Gold>300</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Dungeon/Rider.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Dungeon/Rider.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>2</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dungeon/Rider.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dungeon/Rider.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_UNKNOWN</BaseCreature>
 	<Upgrades>

@@ -14,7 +14,7 @@
 	<MagicSchool>MAGIC_SCHOOL_SPECIAL</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
 	<IsAimed>true</IsAimed>
-	<TrainedCost>20</TrainedCost>
+	<TrainedCost>0</TrainedCost>
 	<damage/>
 	<duration/>
 	<sSpellCost>

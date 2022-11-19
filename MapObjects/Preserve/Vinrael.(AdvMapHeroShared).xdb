@@ -30,13 +30,13 @@
 	<Icon128 />
 	<InternalName>Vinrael</InternalName>
 	<Class>HERO_CLASS_ENCHANTER</Class>
-	<Specialization />
+	<Specialization>HERO_SPEC_ELVEN_VOLLEY</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_LEARNING</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/Spellpower3/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/Spellpower3/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Preserve/Elven_Volley/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Preserve/Elven_Volley/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Skills/Sorcery_3.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Preserve/Preserve_Elleshar_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
@@ -59,12 +59,8 @@
 				<SkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_SCHOLAR</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_MAGIC_ARROW</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

@@ -32,14 +32,14 @@
 	<Icon128 href="/UI/H5A2/Icons/Heroes/Portrets128x128/Stronghold_Kujin.(Texture).xdb#xpointer(/Texture)" />
 	<InternalName>KujinMP</InternalName>
 	<Class>HERO_CLASS_SHAMAN</Class>
-	<Specialization />
+	<Specialization>HERO_SPEC_SOULHUNTER</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
+		<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/ShatterLightO/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/ShatterLightO/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Skills/LightMagic_3.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Soulhunter2/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Soulhunter2/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Necropolis/Reanimator.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/UI/H5A2/Icons/Heroes/Portrets128x128/Stronghold_Kujin.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Stronghold/KujinMP/HeroCharacterArena.xdb#xpointer(/Character)" />
@@ -51,22 +51,18 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Stronghold/Kujin/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Stronghold/Kujin/Bio.txt" />
-		<Offence>1</Offence>
+		<Offence>3</Offence>
 		<Defence>0</Defence>
-		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Spellpower>1</Spellpower>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_WAR_MACHINES</SkillID>
+				<SkillID>HERO_SKILL_LEADERSHIP</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_FIRST_AID</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_MAGIC_ARROW</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

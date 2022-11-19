@@ -43,7 +43,7 @@
 	<FaceTexture href="/UI/H5A2/Icons/Heroes/Portrets128x128/Inferno_Nelech.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall href="/UI/H5A2/Icons/Heroes/Portrets128x128/Inferno_Nelech.(Texture).xdb#xpointer(/Texture)" />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/OrlandoMP/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/OrlandoMP/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/OrlandoMP/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Inferno/OrlandoMP/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Inferno/OrlandoMP/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -61,13 +61,8 @@
 				<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_GATING_MASTERY</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_CURSE</Item>
-			<Item>SPELL_HASTE</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

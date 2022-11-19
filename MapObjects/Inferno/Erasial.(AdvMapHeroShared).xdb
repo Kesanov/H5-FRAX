@@ -33,15 +33,15 @@
 	<Specialization>HERO_SPEC_BEATER</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_GATING</SkillID>
+		<SkillID>HERO_SKILL_TRAINING</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Inferno/Beater/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Inferno/Beater/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Inferno/Beater.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Inferno/Impregnable/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Inferno/Impregnable/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Inferno/Impregnable.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Erasial_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall href="/Textures/Icons/Heroes/Inferno/Inferno_Erasial_128x128_64.(Texture).xdb#xpointer(/Texture)" />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/Erasial/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/Erasial/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/Erasial/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Inferno/Erasial/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Inferno/Erasial/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -53,13 +53,14 @@
 		<Defence>0</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
-		<skills />
-		<perkIDs>
-			<Item>HERO_SKILL_GATING_MASTERY</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_TELEPORT</Item>
-		</spellIDs>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
+			</Item>
+		</skills>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="167">
-	<NameFileRef href="/Text/Game/Towns/Necropolis/Script/Latro/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Necropolis/Script/Latro/Biography.txt"/>
-	<Bonus>TOWN_BONUS_THIEVES_GUILD</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_NECROMANCY</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

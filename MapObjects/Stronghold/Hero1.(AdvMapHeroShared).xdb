@@ -43,7 +43,7 @@
 	<FaceTexture href="/UI/H5A2/Icons/Heroes/Portrets128x128/Stronghold_Grumsh.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Stronghold/Hero1/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Stronghold/Hero1/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Stronghold/Hero1/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Stronghold/Hero1/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Stronghold/Hero1/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -61,9 +61,7 @@
 				<SkillID>HERO_SKILL_TRAINING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_CRITICAL_STRIKE</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

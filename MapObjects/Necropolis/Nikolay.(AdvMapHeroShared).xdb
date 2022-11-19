@@ -59,12 +59,8 @@
 				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_NO_REST_FOR_THE_WICKED</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_ANIMATE_DEAD</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

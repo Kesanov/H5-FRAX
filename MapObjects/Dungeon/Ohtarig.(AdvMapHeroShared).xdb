@@ -32,7 +32,7 @@
 	<Class>HERO_CLASS_SEER</Class>
 	<Specialization>HERO_SPEC_SAVAGE</Specialization>
 	<PrimarySkill>
-		<Mastery>MASTERY_ADVANCED</Mastery>
+		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_LUCK</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Savage/Name.txt" />
@@ -49,17 +49,18 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Dungeon/Ohtarig/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Dungeon/Ohtarig/Bio.txt" />
-		<Offence>1</Offence>
+		<Offence>2</Offence>
 		<Defence>0</Defence>
 		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
-		<skills />
-		<perkIDs>
-			<Item>HERO_SKILL_CHAOTIC_SPELLS</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_PLAGUE</Item>
-		</spellIDs>
+		<Knowledge>1</Knowledge>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_OFFENCE</SkillID>
+			</Item>
+		</skills>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

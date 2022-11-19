@@ -33,7 +33,7 @@
 	<Specialization />
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_RUNELORE</SkillID>
+		<SkillID>HERO_SKILL_EXPERT_TRAINER</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/ElemAir/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/ElemAir/Description.txt" />
@@ -51,20 +51,16 @@
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Dwarves/King_Tolghar/Bio.txt" />
 		<Offence>1</Offence>
 		<Defence>1</Defence>
-		<Spellpower>1</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Spellpower>2</Spellpower>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID>
+				<SkillID>HERO_SKILL_SORCERY</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_ABSOLUTE_FEAR</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_LAND_MINE</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

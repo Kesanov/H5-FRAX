@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell>
-	<NameFileRef href="/Text/Game/Spells/Combat/EmpoweredDeepFreeze/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/EmpoweredDeepFreeze/Long_Description.txt"/>
-	<Texture href="/UI/H5A2/Icons/Spells/Deep_Freeze.(Texture).xdb#xpointer(/Texture)"/>
-	<EffectTexture/>
+	<NameFileRef href="/Text/Game/Spells/Combat/EmpoweredDeepFreeze/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/EmpoweredDeepFreeze/Long_Description.txt" />
+	<Texture href="/UI/H5A2/Icons/Spells/Deep_Freeze.(Texture).xdb#xpointer(/Texture)" />
+	<EffectTexture />
 	<SpellBookPredictions>
-		<Item href="/Text/Game/Spells/Combat/DeepFreeze/SpellBookPrediction.txt"/>
-		<Item href="/Text/Game/Spells/Combat/DeepFreeze/SpellBookPrediction_MasterOfIce.txt"/>
+		<Item href="/Text/Game/Spells/Combat/DeepFreeze/SpellBookPrediction.txt" />
+		<Item href="/Text/Game/Spells/Combat/DeepFreeze/SpellBookPrediction_MasterOfIce.txt" />
 	</SpellBookPredictions>
-	<CombatLogTexts/>
+	<CombatLogTexts />
 	<Level>4</Level>
 	<MagicSchool>MAGIC_SCHOOL_DESTRUCTIVE</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
-	<TrainedCost>54</TrainedCost>
+	<TrainedCost>100</TrainedCost>
 	<damage>
 		<Item>
 			<Base>15</Base>
@@ -64,5 +64,5 @@
 	<Target>TARGET_HOSTILE</Target>
 	<Element>ELEMENT_WATER</Element>
 	<DamageIsElemental>true</DamageIsElemental>
-	<visuals/>
+	<visuals />
 </Spell>

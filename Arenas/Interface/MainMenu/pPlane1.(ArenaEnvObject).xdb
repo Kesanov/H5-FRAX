@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ArenaEnvObject ObjectRecordID="1000401">
-	<placement>0000803f0000000000000000000000000000000000004034feff7f3f0000000000000000feff7fbf0000403400000000d624efbf7e2756423f9b99410000803f</placement>
-	<Model href="pPlane1.xdb#xpointer(/Model)"/>
-	<AnimSet/>
-</ArenaEnvObject>

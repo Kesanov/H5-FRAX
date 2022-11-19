@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AdvMapTownCombat ObjectRecordID="1000007">
-	<walls>
-		<Item href="MagicWall.(ArenaBuilding).xdb#xpointer(/ArenaBuilding)"/>
-	</walls>
-	<ArenaDesc href="FinalCombat.(ArenaDesc).xdb#xpointer(/ArenaDesc)"/>
-	<ArenaMap href="/Scenes/CombatArenas/Boss_c6m5_Sovereign1.xdb#xpointer(/AdventureFlybyScene)"/>
-	<GroundType>TT_LAVA</GroundType>
-</AdvMapTownCombat>

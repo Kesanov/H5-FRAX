@@ -1,29 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>12</AttackSkill>
-	<DefenceSkill>10</DefenceSkill>
-	<Shots>7</Shots>
+	<AttackSkill>21</AttackSkill>
+	<DefenceSkill>21</DefenceSkill>
+	<Shots>10</Shots>
 	<MinDamage>12</MinDamage>
 	<MaxDamage>15</MaxDamage>
 	<Speed>5</Speed>
 	<Initiative>9</Initiative>
 	<Flying>false</Flying>
-	<Health>42</Health>
+	<Health>63</Health>
 	<KnownSpells>
 		<Item>
 			<Spell>SPELL_STONE_SPIKES</Spell>
-			<Mastery>MASTERY_BASIC</Mastery>
-		</Item>	
-		<Item>
-			<Spell>SPELL_BLOODLUST</Spell>
-			<Mastery>MASTERY_ADVANCED</Mastery>
-		</Item>	
+			<Mastery>MASTERY_EXPERT</Mastery>
+		</Item>
 		<Item>
 			<Spell>SPELL_HASTE</Spell>
 			<Mastery>MASTERY_EXPERT</Mastery>
-		</Item>		
+		</Item>
 	</KnownSpells>
-	<SpellPoints>18</SpellPoints>
+	<SpellPoints>15</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>70</Exp>
@@ -48,14 +44,14 @@
 		<Gold>450</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Preserve/Alt_upgrade/High_Druid.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Preserve/Alt_upgrade/High_Druid.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Preserve/3rd/HighDruid.(CreatureVisual).xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Preserve/3rd/HighDruid.(CreatureVisual).xdb#xpointer(/CreatureVisual)" />
 	<Range>-2</Range>
 	<BaseCreature>CREATURE_DRUID</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_POWER_FEED</Item>
 	</Abilities>

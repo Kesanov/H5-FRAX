@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="1000096">
-	<NameFileRef href="/Text/Game/Spells/Combat/EmpoweredMagic_Fist/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/EmpoweredMagic_Fist/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_MagicFist.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/MagicFist.(Texture).xdb#xpointer(/Texture)"/>
-	<SpellBookPredictions/>
-	<CombatLogTexts/>
+	<NameFileRef href="/Text/Game/Spells/Combat/EmpoweredMagic_Fist/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/EmpoweredMagic_Fist/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_MagicFist.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/MagicFist.(Texture).xdb#xpointer(/Texture)" />
+	<SpellBookPredictions />
+	<CombatLogTexts />
 	<Level>2</Level>
 	<MagicSchool>MAGIC_SCHOOL_SUMMONING</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
 	<IsAimed>true</IsAimed>
-	<TrainedCost>12</TrainedCost>
+	<TrainedCost>22</TrainedCost>
 	<damage>
 		<Item>
 			<Base>1</Base>
@@ -29,7 +29,7 @@
 			<PerPower>1</PerPower>
 		</Item>
 	</damage>
-	<duration/>
+	<duration />
 	<sSpellCost>
 		<Wood>0</Wood>
 		<Ore>0</Ore>
@@ -43,5 +43,5 @@
 	<CanSelectDead>false</CanSelectDead>
 	<Target>TARGET_HOSTILE</Target>
 	<Element>ELEMENT_EARTH</Element>
-	<visuals/>
+	<visuals />
 </Spell>

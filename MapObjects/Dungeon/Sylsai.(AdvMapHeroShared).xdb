@@ -30,14 +30,14 @@
 	<Icon128 />
 	<InternalName>Sylsai</InternalName>
 	<Class>HERO_CLASS_SEER</Class>
-	<Specialization>HERO_SPEC_BEATER</Specialization>
+	<Specialization>HERO_SPEC_AVATAR_OF_DEATH</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_LUCK</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Inferno/Beater2/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Inferno/Beater2/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Dungeon/Power_Bargain.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/AvatarOfDeath/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/AvatarOfDeath/Description.txt" />
+	<SpecializationIcon href="/UI/H5A2/Icons/Heroes_Specializations/AvatarOfDeath.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Dungeon/Dungeon_Sylsai_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Dungeon/Sylsai/HeroCharacterArena.xdb#xpointer(/Character)" />
@@ -49,23 +49,18 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Dungeon/Sylsai/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Dungeon/Sylsai/Bio.txt" />
-		<Offence>1</Offence>
+		<Offence>2</Offence>
 		<Defence>0</Defence>
 		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
+				<SkillID>HERO_SKILL_SORCERY</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_CHAOTIC_SPELLS</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_PLAGUE</Item>
-			<Item>SPELL_TELEPORT</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

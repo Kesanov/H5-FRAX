@@ -43,7 +43,7 @@
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Sheltem_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/Sheltem/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/Sheltem/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/Sheltem/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Inferno/Sheltem/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Inferno/Sheltem/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -61,9 +61,7 @@
 				<SkillID>HERO_SKILL_WAR_MACHINES</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_BALLISTA</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

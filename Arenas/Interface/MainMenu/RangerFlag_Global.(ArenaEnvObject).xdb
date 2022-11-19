@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ArenaEnvObject>
-	<placement>0000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f</placement>
-	<Model href="RangerFlag_Global.xdb#xpointer(/Model)"/>
-	<AnimSet href="RangerFlag_Global-animset.xdb#xpointer(/AnimSet)"/>
-</ArenaEnvObject>

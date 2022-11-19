@@ -30,10 +30,10 @@
 	<Icon128 />
 	<InternalName>Astral</InternalName>
 	<Class>HERO_CLASS_ELEMENTALIST</Class>
-	<Specialization>HERO_SPEC_DARK_ACOLYTE</Specialization>
+	<Specialization>HERO_SPEC_INEXHAUSTIBLE</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID>
+		<SkillID>HERO_SKILL_ARTIFICIER</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Dark_Acolyte4/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Dark_Acolyte4/Description.txt" />
@@ -51,20 +51,15 @@
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Academy/Astral/Bio.txt" />
 		<Offence>0</Offence>
 		<Defence>1</Defence>
-		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Spellpower>3</Spellpower>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_SORCERY</SkillID>
+				<SkillID>HERO_SKILL_DEFENCE</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_DARK_RITUAL</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_SUMMON_ELEMENTALS</Item>
-		</spellIDs>
+		<perkIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

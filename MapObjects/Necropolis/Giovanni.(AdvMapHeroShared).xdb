@@ -27,17 +27,17 @@
 	<FlyPassable>true</FlyPassable>
 	<AdventureSoundEffect />
 	<RazedStatic />
-	<Icon128 />
+	<Icon128 href="/UI/H5A1/Icons/Heroes/Portrets128x128/Giovanni.(Texture).xdb#xpointer(/Texture)" />
 	<InternalName>Giovanni</InternalName>
-	<Class>HERO_CLASS_NECROMANCERA</Class>
-	<Specialization>HERO_SPEC_SOULHUNTER</Specialization>
+	<Class>HERO_CLASS_REAVER</Class>
+	<Specialization>HERO_SPEC_POISONER</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_NECROMANCY</SkillID>
+		<SkillID>HERO_SKILL_LOGISTICS</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Soulhunter/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Soulhunter/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Necropolis/Soulhunter.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Poisoner2/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Poisoner2/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Dungeon/Poisoner.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/UI/H5A1/Icons/Heroes/Portrets128x128/Giovanni.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Necropolis/Giovanni/HeroCharacterArena.xdb#xpointer(/Character)" />
@@ -49,18 +49,14 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Necropolis/Giovanni/name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Necropolis/Giovanni/Bio.txt" />
-		<Offence>1</Offence>
+		<Offence>0</Offence>
 		<Defence>0</Defence>
-		<Spellpower>2</Spellpower>
+		<Spellpower>3</Spellpower>
 		<Knowledge>2</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_OFFENCE</SkillID>
+				<SkillID>HERO_SKILL_LUCK</SkillID>
 			</Item>
 		</skills>
 		<perkIDs />
@@ -76,7 +72,7 @@
 	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Necropolis.xdb#xpointer(/AdvMapHeroTraceSet)" />
 	<RaceTraitIcon />
 	<RaceTraitDescFileRef href="" />
-	<ScenarioHero>true</ScenarioHero>
+	<ScenarioHero>false</ScenarioHero>
 	<AdventureMusic />
 	<HideInEditor>false</HideInEditor>
 </AdvMapHeroShared>

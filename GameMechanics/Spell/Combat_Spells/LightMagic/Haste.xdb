@@ -1,52 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="128">
-	<NameFileRef href="/Text/Game/Spells/Combat/Haste/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Haste/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Haste.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Haste.(Texture).xdb#xpointer(/Texture)"/>
+	<NameFileRef href="/Text/Game/Spells/Combat/Haste/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Haste/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Haste.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Haste.(Texture).xdb#xpointer(/Texture)" />
 	<SpellBookPredictions>
-		<Item href="/Text/Game/Spells/Combat/Haste/SpellBookPrediction.txt"/>
+		<Item href="/Text/Game/Spells/Combat/Haste/SpellBookPrediction.txt" />
 	</SpellBookPredictions>
-	<CombatLogTexts/>
-	<Level>1</Level>
+	<CombatLogTexts />
+	<Level>2</Level>
 	<MagicSchool>MAGIC_SCHOOL_LIGHT</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
 	<IsAimed>true</IsAimed>
-	<TrainedCost>6</TrainedCost>
+	<TrainedCost>5</TrainedCost>
 	<damage>
 		<Item>
+			<Base>0.0</Base>
+			<PerPower>0.005</PerPower>
+		</Item>
+		<Item>
+			<Base>0.5</Base>
+			<PerPower>0.005</PerPower>
+		</Item>
+		<Item>
+			<Base>0.10</Base>
+			<PerPower>0.005</PerPower>
+		</Item>
+		<Item>
 			<Base>0.15</Base>
-			<PerPower>0.0025</PerPower>
-		</Item>
-		<Item>
-			<Base>0.16</Base>
-			<PerPower>0.0033</PerPower>
-		</Item>
-		<Item>
-			<Base>0.18</Base>
-			<PerPower>0.0033</PerPower>
-		</Item>
-		<Item>
-			<Base>0.20</Base>
-			<PerPower>0.0033</PerPower>
+			<PerPower>0.005</PerPower>
 		</Item>
 	</damage>
 	<duration>
 		<Item>
-			<Base>1</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 		<Item>
-			<Base>1.5</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 		<Item>
-			<Base>1.5</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 		<Item>
-			<Base>1.5</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 	</duration>
 	<sSpellCost>
@@ -58,13 +58,13 @@
 		<Gem>0</Gem>
 		<Gold>0</Gold>
 	</sSpellCost>
-	<IsAimed>true</IsAimed>		
+	<IsAimed>true</IsAimed>
 	<IsAreaAttack>false</IsAreaAttack>
 	<CanSelectDead>false</CanSelectDead>
 	<Target>TARGET_FRIEND</Target>
 	<Element>ELEMENT_NONE</Element>
-	<DamageIsElemental>true</DamageIsElemental>		
+	<DamageIsElemental>true</DamageIsElemental>
 	<visuals>
-		<Item href="Haste.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="Haste.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

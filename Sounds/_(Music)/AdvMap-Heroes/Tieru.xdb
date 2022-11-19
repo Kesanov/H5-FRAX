@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Music ObjectRecordID="99">
-	<FileName>..\Music\AdvMap-Heroes\Heroes-Tieru.ogg</FileName>
-	<FadeIn>2000</FadeIn>
-	<FadeOut>2000</FadeOut>
-	<MinPausedTime>500</MinPausedTime>
-	<MaxPausedTime>15000</MaxPausedTime>
-</Music>

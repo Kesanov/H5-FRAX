@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="1000029">
-	<AttackSkill>10</AttackSkill>
-	<DefenceSkill>8</DefenceSkill>
+	<AttackSkill>21</AttackSkill>
+	<DefenceSkill>21</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>7</MinDamage>
 	<MaxDamage>14</MaxDamage>
 	<Speed>9</Speed>
 	<Initiative>11</Initiative>
 	<Flying>false</Flying>
-	<Health>70</Health>
-	<KnownSpells/>
+	<Health>105</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
@@ -35,16 +35,16 @@
 		<Gold>430</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Dungeon/Ravager.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Dungeon/Ravager.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>2</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dungeon/Ravager.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dungeon/Ravager.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_RIDER</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
-		<Item>ABILITY_RIDER_CHARGE</Item>
 		<Item>ABILITY_LIZARD_BITE</Item>
+		<Item>ABILITY_RIDER_CHARGE</Item>
 	</Abilities>
 </Creature>

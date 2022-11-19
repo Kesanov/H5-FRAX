@@ -55,7 +55,7 @@
 		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
-				<Mastery>MASTERY_ADVANCED</Mastery>
+				<Mastery>MASTERY_BASIC</Mastery>
 				<SkillID>HERO_SKILL_LEADERSHIP</SkillID>
 			</Item>
 		</skills>

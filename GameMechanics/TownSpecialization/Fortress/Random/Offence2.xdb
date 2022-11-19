@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="-1">
-	<NameFileRef href="/Text/Game/Towns/DwarvenTown/Random/Frostfred/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/DwarvenTown/Random/Frostfred/description.txt"/>
-	<Bonus>TOWN_BONUS_MINUS_OFFENCE_2</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_FORTRESS</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

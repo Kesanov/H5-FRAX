@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="165">
-	<NameFileRef href="/Text/Game/Towns/Necropolis/Script/Animus/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Necropolis/Script/Animus/Biography.txt"/>
-	<Bonus>TOWN_BONUS_TIER3_CREATURE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_NECROMANCY</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="189">
-	<NameFileRef href="/Text/Game/Towns/Preserve/Random/Rovadell/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Preserve/Random/Rovadell/Biography.txt"/>
-	<Bonus>TOWN_BONUS_MINUS_DEFENCE_OFFENCE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_PRESERVE</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>4</AttackSkill>
-	<DefenceSkill>3</DefenceSkill>
-	<Shots>6</Shots>
+	<AttackSkill>13</AttackSkill>
+	<DefenceSkill>13</DefenceSkill>
+	<Shots>9</Shots>
 	<MinDamage>1</MinDamage>
 	<MaxDamage>2</MaxDamage>
 	<Speed>5</Speed>
 	<Initiative>12</Initiative>
 	<Flying>false</Flying>
-	<Health>8</Health>
-	<KnownSpells/>
+	<Health>12</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
@@ -36,14 +36,14 @@
 	</Cost>
 	<PresetPrice>0</PresetPrice>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Academy/Gremlin_Saboteur.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Academy/Gremlin_Saboteur.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Academy/3rd/GremlinSaboteur.(CreatureVisual).xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Academy/3rd/GremlinSaboteur.(CreatureVisual).xdb#xpointer(/CreatureVisual)" />
 	<Range>-2</Range>
 	<BaseCreature>CREATURE_GREMLIN</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_SABOTAGE</Item>
 	</Abilities>

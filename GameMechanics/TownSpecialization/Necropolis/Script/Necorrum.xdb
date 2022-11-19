@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="181">
-	<NameFileRef href="/Text/Game/Towns/Necropolis/Script/Necorrum/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Necropolis/Script/Necorrum/Biography.txt"/>
-	<Bonus>TOWN_BONUS_MINUS_DEFENCE_OFFENCE_2</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_NECROMANCY</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

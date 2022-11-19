@@ -8,10 +8,10 @@
 		<Item href="/Text/Game/Spells/Hero_Special_Abilities/Warcry_RallingCry/SpellBookPrediction.txt"/>
 	</SpellBookPredictions>
 	<CombatLogTexts/>
-	<Level>3</Level>
+	<Level>1</Level>
 	<MagicSchool>MAGIC_SCHOOL_WARCRIES</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
-	<TrainedCost>24</TrainedCost>
+	<TrainedCost>5</TrainedCost>
 	<damage>
 		<Item>
 			<Base>1</Base>

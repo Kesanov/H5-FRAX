@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <AdvMapHero ObjectRecordID="1003597">
 	<Pos>
 		<x>18</x>
@@ -7,125 +7,72 @@
 	</Pos>
 	<Rot>0</Rot>
 	<Floor>0</Floor>
-	<Name/>
-	<CombatScript/>
-	<pointLights/>
-	<Shared href="/MapObjects/Inferno/DelebC.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
+	<Name />
+	<CombatScript />
+	<pointLights />
+	<Shared href="/MapObjects/Inferno/Nymus.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)" />
 	<PlayerID>PLAYER_2</PlayerID>
-	<Experience>14700</Experience>
+	<Experience>500000</Experience>
 	<armySlots>
 		<Item>
-			<Creature>CREATURE_FIRE_ELEMENTAL</Creature>
-			<Count>24</Count>
+			<Creature>CREATURE_QUASIT</Creature>
+			<Count>510</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_DEMON</Creature>
-			<Count>105</Count>
+			<Creature>CREATURE_HORNED_LEAPER</Creature>
+			<Count>480</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_HELL_HOUND</Creature>
-			<Count>48</Count>
+			<Creature>CREATURE_FIREBREATHER_HOUND</Creature>
+			<Count>240</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_SUCCUBUS</Creature>
-			<Count>30</Count>
+			<Creature>CREATURE_SUCCUBUS_SEDUCER</Creature>
+			<Count>120</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_NIGHTMARE</Creature>
-			<Count>18</Count>
+			<Creature>CREATURE_HELLMARE</Creature>
+			<Count>84</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_PIT_FIEND</Creature>
-			<Count>12</Count>
+			<Creature>CREATURE_PIT_SPAWN</Creature>
+			<Count>40</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_DEVIL</Creature>
-			<Count>6</Count>
+			<Creature>CREATURE_ARCH_DEMON</Creature>
+			<Count>20</Count>
 		</Item>
 	</armySlots>
-	<artifactIDs>
-		<Item>ARTIFACT_TREEBORN_QUIVER</Item>
-		<Item>ARTIFACT_LEGION_T2</Item>
-	</artifactIDs>
-	<isUntransferable/>
+	<artifactIDs />
+	<isUntransferable />
 	<Editable>
-		<NameFileRef href=""/>
-		<BiographyFileRef href=""/>
-		<Offence>2</Offence>
-		<Defence>2</Defence>
-		<Spellpower>10</Spellpower>
-		<Knowledge>8</Knowledge>
-		<skills>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_OFFENCE</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DEFENCE</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_EXPERT</Mastery>
-				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_EXPERT</Mastery>
-				<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</SkillID>
-			</Item>
-		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_FRENZY</Item>
-			<Item>HERO_SKILL_EVASION</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_BLESS</Item>
-			<Item>SPELL_HASTE</Item>
-			<Item>SPELL_DISPEL</Item>
-			<Item>SPELL_STONESKIN</Item>
-			<Item>SPELL_BLOODLUST</Item>
-			<Item>SPELL_DEFLECT_ARROWS</Item>
-			<Item>SPELL_CURSE</Item>
-			<Item>SPELL_SLOW</Item>
-			<Item>SPELL_DISRUPTING_RAY</Item>
-			<Item>SPELL_FORGETFULNESS</Item>
-			<Item>SPELL_WEAKNESS</Item>			
-			<Item>SPELL_TELEPORT</Item>	
-			<Item>SPELL_LAND_MINE</Item>
-			<Item>SPELL_WASP_SWARM</Item>
-			<Item>SPELL_ARCANE_CRYSTAL</Item>
-			<Item>SPELL_BLADE_BARRIER</Item>
-			<Item>SPELL_STONE_SPIKES</Item>
-			<Item>SPELL_LIGHTNING_BOLT</Item>		
-		</spellIDs>
-		<Ballista>true</Ballista>
+		<NameFileRef href="" />
+		<BiographyFileRef href="" />
+		<Offence>17</Offence>
+		<Defence>7</Defence>
+		<Spellpower>15</Spellpower>
+		<Knowledge>10</Knowledge>
+		<skills><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_ABSOLUTE_GATING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_GATING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SORCERY</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DEFENCE</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_OFFENCE</SkillID></Item></skills><perkIDs><Item>HERO_SKILL_SUN_FIRE</Item><Item>HERO_SKILL_FIRE_AFFINITY</Item><Item>HERO_SKILL_ELEMENTAL_BALANCE</Item><Item>HERO_SKILL_DEMONIC_FIRE</Item><Item>HERO_SKILL_QUICK_GATING</Item><Item>HERO_SKILL_GATING_MASTERY</Item><Item>HERO_SKILL_MAGIC_BOND</Item><Item>HERO_SKILL_ELITE_CASTERS</Item><Item>HERO_SKILL_DARK_RITUAL</Item><Item>HERO_SKILL_LAST_STAND</Item><Item>HERO_SKILL_EVASION</Item><Item>HERO_SKILL_PROTECTION</Item><Item>HERO_SKILL_POWER_OF_HASTE</Item><Item>HERO_SKILL_TELEPORT_ASSAULT</Item><Item>HERO_SKILL_SNATCH</Item><Item>HERO_SKILL_TACTICS</Item><Item>HERO_SKILL_CHILLING_STEEL</Item><Item>HERO_SKILL_FAST_AND_FURIOUS</Item></perkIDs><spellIDs><Item>SPELL_WASP_SWARM</Item><Item>SPELL_LAND_MINE</Item><Item>SPELL_ARCANE_CRYSTAL</Item><Item>SPELL_EARTHQUAKE</Item><Item>SPELL_MAGIC_FIST</Item><Item>SPELL_ANTI_MAGIC</Item><Item>SPELL_BLADE_BARRIER</Item><Item>SPELL_SUMMON_HIVE</Item><Item>SPELL_FIREWALL</Item><Item>SPELL_HYPNOTIZE</Item><Item>SPELL_CONJURE_PHOENIX</Item></spellIDs><Ballista>true</Ballista>
 		<FirstAidTent>true</FirstAidTent>
 		<AmmoCart>true</AmmoCart>
-		<FavoriteEnemies/>
+		<FavoriteEnemies />
 		<TalismanLevel>0</TalismanLevel>
 	</Editable>
 	<OverrideMask>32</OverrideMask>
 	<PrimarySkillMastery>MASTERY_EXPERT</PrimarySkillMastery>
 	<LossTrigger>
 		<Action>
-			<FunctionName/>
+			<FunctionName />
 		</Action>
 	</LossTrigger>
 	<AllowQuickCombat>true</AllowQuickCombat>
 	<Textures>
-		<Icon128x128/>
-		<Icon64x64/>
-		<RoundedFace/>
-		<LeftFace/>
-		<RightFace/>
+		<Icon128x128 />
+		<Icon64x64 />
+		<RoundedFace />
+		<LeftFace />
+		<RightFace />
 	</Textures>
 	<PresetPrice>0</PresetPrice>
-	<BannedRaces/>
+	<BannedRaces />
 </AdvMapHero>

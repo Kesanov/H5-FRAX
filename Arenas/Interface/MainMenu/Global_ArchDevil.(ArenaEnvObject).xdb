@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ArenaEnvObject ObjectRecordID="1000403">
-	<placement>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</placement>
-	<Model href="Global_ArchDevil.xdb#xpointer(/Model)"/>
-	<AnimSet href="Global_ArchDevil-animset.xdb#xpointer(/AnimSet)"/>
-</ArenaEnvObject>

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="1000089">
-	<NameFileRef href="/Text/Game/Spells/Combat/EmpoweredChain_Lightning/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/EmpoweredChain_Lightning/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_ChainLightning.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/ChainLight.(Texture).xdb#xpointer(/Texture)"/>
-	<SpellBookPredictions/>
-	<CombatLogTexts/>
+	<NameFileRef href="/Text/Game/Spells/Combat/EmpoweredChain_Lightning/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/EmpoweredChain_Lightning/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_ChainLightning.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/ChainLight.(Texture).xdb#xpointer(/Texture)" />
+	<SpellBookPredictions />
+	<CombatLogTexts />
 	<Level>3</Level>
 	<MagicSchool>MAGIC_SCHOOL_DESTRUCTIVE</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
 	<IsAimed>true</IsAimed>
-	<TrainedCost>36</TrainedCost>
+	<TrainedCost>67</TrainedCost>
 	<damage>
 		<Item>
 			<Base>1</Base>
@@ -29,7 +29,7 @@
 			<PerPower>1</PerPower>
 		</Item>
 	</damage>
-	<duration/>
+	<duration />
 	<sSpellCost>
 		<Wood>0</Wood>
 		<Ore>0</Ore>
@@ -43,5 +43,5 @@
 	<CanSelectDead>false</CanSelectDead>
 	<Target>TARGET_HOSTILE</Target>
 	<Element>ELEMENT_AIR</Element>
-	<visuals/>
+	<visuals />
 </Spell>

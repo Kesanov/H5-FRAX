@@ -1,29 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>12</AttackSkill>
-	<DefenceSkill>10</DefenceSkill>
-	<Shots>5</Shots>
-	<MinDamage>7</MinDamage>
-	<MaxDamage>7</MaxDamage>
+	<AttackSkill>21</AttackSkill>
+	<DefenceSkill>21</DefenceSkill>
+	<Shots>7</Shots>
+	<MinDamage>8</MinDamage>
+	<MaxDamage>8</MaxDamage>
 	<Speed>4</Speed>
 	<Initiative>10</Initiative>
 	<Flying>false</Flying>
-	<Health>38</Health>
+	<Health>63</Health>
 	<KnownSpells>
 		<Item>
-			<Spell>SPELL_MAGIC_FIST</Spell>
-			<Mastery>MASTERY_ADVANCED</Mastery>
+			<Spell>SPELL_EMPOWERED_MAGIC_ARROW</Spell>
+			<Mastery>MASTERY_EXPERT</Mastery>
 		</Item>
 		<Item>
-			<Spell>SPELL_BLOODLUST</Spell>
-			<Mastery>MASTERY_ADVANCED</Mastery>
-		</Item>
-		<Item>
-			<Spell>SPELL_SLOW</Spell>
+			<Spell>SPELL_MASS_DEFLECT_ARROWS</Spell>
 			<Mastery>MASTERY_EXPERT</Mastery>
 		</Item>
 	</KnownSpells>
-	<SpellPoints>14</SpellPoints>
+	<SpellPoints>19</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>60</Exp>
@@ -48,17 +44,17 @@
 		<Gold>360</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Academy/Combat_Mage.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Academy/Combat_Mage.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Academy/3rd/CombatMage.(CreatureVisual).xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Academy/3rd/CombatMage.(CreatureVisual).xdb#xpointer(/CreatureVisual)" />
 	<Range>-1</Range>
 	<BaseCreature>CREATURE_MAGI</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
-		<Item>ABILITY_ELDRITCH_AURA</Item>
-		<Item>ABILITY_MAGIC_ATTACK</Item>
 		<Item>ABILITY_NO_RANGE_PENALTY</Item>
+		<Item>ABILITY_MAGIC_ATTACK</Item>
+		<Item>ABILITY_ELDRITCH_AURA</Item>
 	</Abilities>
 </Creature>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="6">
-	<NameFileRef href="/Text/Game/Towns/Academy/Random/Demir/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Academy/Random/Demir/Biography.txt"/>
-	<Bonus>TOWN_BONUS_TIER3_CREATURE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_ACADEMY</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

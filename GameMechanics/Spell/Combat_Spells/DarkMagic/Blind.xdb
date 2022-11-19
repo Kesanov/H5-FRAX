@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="8">
-	<NameFileRef href="/Text/Game/Spells/Combat/Blind/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Blind/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Blind_lc.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Blind.(Texture).xdb#xpointer(/Texture)"/>
+	<NameFileRef href="/Text/Game/Spells/Combat/Blind/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Blind/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Blind_lc.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Blind.(Texture).xdb#xpointer(/Texture)" />
 	<SpellBookPredictions>
-		<Item href="/Text/Game/Spells/Combat/Blind/SpellBookPrediction.txt"/>
-		<Item href="/Text/Game/Spells/Combat/Blind/SpellBookPrediction_Expert.txt"/>
+		<Item href="/Text/Game/Spells/Combat/Blind/SpellBookPrediction.txt" />
+		<Item href="/Text/Game/Spells/Combat/Blind/SpellBookPrediction_Expert.txt" />
 	</SpellBookPredictions>
-	<CombatLogTexts/>
-	<Level>4</Level>
+	<CombatLogTexts />
+	<Level>5</Level>
 	<MagicSchool>MAGIC_SCHOOL_LIGHT</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
-	<TrainedCost>18</TrainedCost>
-	<damage/>
+	<TrainedCost>30</TrainedCost>
+	<damage />
 	<duration>
 		<Item>
-			<Base>0.4</Base>
-			<PerPower>0.05</PerPower>
-		</Item>
-		<Item>
-			<Base>0.6</Base>
-			<PerPower>0.05</PerPower>
-		</Item>
-		<Item>
-			<Base>0.8</Base>
-			<PerPower>0.05</PerPower>
+			<Base>3</Base>
+			<PerPower>0.1</PerPower>
 		</Item>
 		<Item>
 			<Base>1</Base>
-			<PerPower>0.05</PerPower>
+			<PerPower>0.1</PerPower>
+		</Item>
+		<Item>
+			<Base>2</Base>
+			<PerPower>0.1</PerPower>
+		</Item>
+		<Item>
+			<Base>3</Base>
+			<PerPower>0.1</PerPower>
 		</Item>
 	</duration>
 	<sSpellCost>
@@ -48,7 +48,7 @@
 	<Element>ELEMENT_NONE</Element>
 	<DamageIsElemental>true</DamageIsElemental>
 	<visuals>
-		<Item href="Blind.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="Blind.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 	<PresetPrice>0</PresetPrice>
 	<AvailableForPresets>true</AvailableForPresets>

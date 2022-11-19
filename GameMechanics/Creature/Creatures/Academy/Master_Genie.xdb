@@ -1,22 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="1000046">
-	<AttackSkill>14</AttackSkill>
-	<DefenceSkill>14</DefenceSkill>
+	<AttackSkill>24</AttackSkill>
+	<DefenceSkill>24</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>14</MinDamage>
-	<MaxDamage>19</MaxDamage>
+	<MaxDamage>20</MaxDamage>
 	<Speed>9</Speed>
-	<Initiative>12</Initiative>
+	<Initiative>15</Initiative>
 	<Flying>true</Flying>
-	<Health>60</Health>
-	<KnownSpells>
-		<Item>
-			<Spell>SPELL_ABILITY_RANDOM_CAST_DARK_LIGHT</Spell>
-			<Mastery>MASTERY_ADVANCED</Mastery>
-		</Item>
-	</KnownSpells>
+	<Health>90</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
-	<SpellPoints1>3</SpellPoints1>
+	<SpellPoints1>99</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>76</Exp>
 	<Power>1126</Power>
@@ -41,17 +36,17 @@
 	</Cost>
 	<PresetPrice>0</PresetPrice>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Academy/Master_Genie.xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Academy/Master_Genie.xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>2</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Academy/Master_Genie.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Academy/Master_Genie.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_GENIE</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_RANDOM_CASTER_BLESS</Item>
-		<Item>ABILITY_MAGIC_PROOF_50</Item>
-		<Item>ABILITY_IMMUNITY_TO_CURSE</Item>		
+		<Item>ABILITY_MAGIC_PROOF_75</Item>
+		<Item>ABILITY_IMMUNITY_TO_CURSE</Item>
 	</Abilities>
 </Creature>

@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>7</AttackSkill>
-	<DefenceSkill>12</DefenceSkill>
+	<AttackSkill>21</AttackSkill>
+	<DefenceSkill>21</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>6</MinDamage>
 	<MaxDamage>12</MaxDamage>
 	<Speed>6</Speed>
 	<Initiative>11</Initiative>
 	<Flying>true</Flying>
-	<Health>65</Health>
-	<KnownSpells/>
+	<Health>97</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
-	<SpellPoints1>1</SpellPoints1>
+	<SpellPoints1>3</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>60</Exp>
 	<Power>711</Power>
@@ -36,18 +36,19 @@
 	</Cost>
 	<PresetPrice>0</PresetPrice>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Haven/Renegates/BattleGriffin.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Haven/Renegates/BattleGriffin.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>2</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Haven/Renegates/BattleGriffin.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Haven/Renegates/BattleGriffin.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_GRIFFIN</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_UNLIMITED_RETALIATION</Item>
 		<Item>ABILITY_IMMUNITY_TO_BLIND</Item>
+		<Item>ABILITY_TAUNT</Item>
 		<Item>ABILITY_PACK_DIVE</Item>
-		<Item>ABILITY_BATTLE_FRENZY</Item>
+		<Item>ABILITY_FIERCE_RETALIATION</Item>
 	</Abilities>
 </Creature>

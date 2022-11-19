@@ -32,7 +32,7 @@
 	<Class>HERO_CLASS_WIZARD</Class>
 	<Specialization />
 	<PrimarySkill>
-		<Mastery>MASTERY_ADVANCED</Mastery>
+		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_TRAINING</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/Devils/Name.txt" />
@@ -41,7 +41,7 @@
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Harkenraz_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/Harkenraz/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/Harkenraz/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/Harkenraz/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Inferno/Harkenraz/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Inferno/Harkenraz/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -53,10 +53,13 @@
 		<Defence>0</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
-		<skills />
-		<perkIDs>
-			<Item>HERO_SKILL_CRITICAL_STRIKE</Item>
-		</perkIDs>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_GATING</SkillID>
+			</Item>
+		</skills>
+		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

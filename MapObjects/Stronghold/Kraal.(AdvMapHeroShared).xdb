@@ -32,18 +32,18 @@
 	<Icon128 />
 	<InternalName>Kraal</InternalName>
 	<Class>HERO_CLASS_BARBARIAN</Class>
-	<Specialization>HERO_SPEC_WAR_MACHINES</Specialization>
+	<Specialization>HERO_SPEC_EMPIRIC</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_DEMONIC_RAGE</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Haven/Artilleryman3/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Haven/Artilleryman3/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Haven/Artilleryman.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Empiric/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Empiric/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Necropolis/Empiric.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Stronghold/Stronghold_Kraal_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Stronghold/Kraal/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Stronghold/Kraal/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Stronghold/Kraal/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Stronghold/Kraal/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Stronghold/Kraal/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -61,9 +61,7 @@
 				<SkillID>HERO_SKILL_WAR_MACHINES</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_BALLISTA</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>5</AttackSkill>
-	<DefenceSkill>5</DefenceSkill>
+	<AttackSkill>21</AttackSkill>
+	<DefenceSkill>21</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>6</MinDamage>
 	<MaxDamage>9</MaxDamage>
 	<Speed>6</Speed>
 	<Initiative>11</Initiative>
 	<Flying>false</Flying>
-	<Health>40</Health>
+	<Health>60</Health>
 	<KnownSpells>
 		<Item>
 			<Spell>SPELL_SLOW</Spell>
@@ -19,7 +19,7 @@
 			<Mastery>MASTERY_ADVANCED</Mastery>
 		</Item>
 	</KnownSpells>
-	<SpellPoints>12</SpellPoints>
+	<SpellPoints>15</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>32</Exp>
@@ -44,11 +44,11 @@
 		<Gold>250</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Stronghold/Shaman.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Stronghold/Shaman.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Orcs/Shaman1.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Orcs/Shaman1.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_UNKNOWN</BaseCreature>
 	<Upgrades>
@@ -57,5 +57,6 @@
 	</Upgrades>
 	<Abilities>
 		<Item>ABILITY_DEMON_RAGED</Item>
+		<Item>ABILITY_SACRIFICE_GOBLIN</Item>
 	</Abilities>
 </Creature>

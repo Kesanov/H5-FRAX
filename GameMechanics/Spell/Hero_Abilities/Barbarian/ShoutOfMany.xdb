@@ -10,10 +10,10 @@
 	<CombatLogTexts>
 		<Item href="/Text/CombatLog/CastSpellTargetedDamage.txt"/>
 	</CombatLogTexts>
-	<Level>3</Level>
+	<Level>2</Level>
 	<MagicSchool>MAGIC_SCHOOL_WARCRIES</MagicSchool>
-	<RequiredHeroLevel>0</RequiredHeroLevel>
-	<TrainedCost>20</TrainedCost>
+	<RequiredHeroLevel>20</RequiredHeroLevel>
+	<TrainedCost>10</TrainedCost>
 	<damage>
 		<Item>
 			<Base>1</Base>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="29">
-	<NameFileRef href="/Text/Game/Towns/Academy/Script/Sey_in_6_campany/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Academy/Script/Sey_in_6_campany/Biography.txt"/>
-	<Bonus>TOWN_BONUS_PLUS_DEFENCE_OFFENCE_2</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_ACADEMY</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

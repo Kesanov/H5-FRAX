@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="25">
-	<NameFileRef href="/Text/Game/Towns/Academy/Script/Insar/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Academy/Script/Insar/Biography.txt"/>
-	<Bonus>TOWN_BONUS_TOWERS</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_ACADEMY</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

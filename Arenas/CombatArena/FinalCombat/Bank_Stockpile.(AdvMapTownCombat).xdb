@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AdvMapTownCombat ObjectRecordID="1000007">
-	<walls/>
-	<ArenaDesc href="Bank_Stockpile.(ArenaDesc).xdb#xpointer(/ArenaDesc)"/>
-	<ArenaMap href="/Scenes/CombatArenas/Bank_Stockpile.xdb#xpointer(/AdventureFlybyScene)"/>
-	<GroundType>TT_SUBTERRANEAN</GroundType>
-</AdvMapTownCombat>

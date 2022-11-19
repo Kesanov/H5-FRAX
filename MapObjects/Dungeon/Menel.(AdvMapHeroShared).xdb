@@ -59,9 +59,7 @@
 				<SkillID>HERO_SKILL_WAR_MACHINES</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_RECRUITMENT</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

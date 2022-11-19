@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Skeleton>
-	<SrcName href="/models/MainMenu/M_Menu.mb"/>
-	<RootJoint>RangerFlag_Global</RootJoint>
-	<MSRFormat>true</MSRFormat>
-	<Animations/>
-	<uid>8E6317DD-E7AC-4F8B-B859-878F387AC00F</uid>
-</Skeleton>

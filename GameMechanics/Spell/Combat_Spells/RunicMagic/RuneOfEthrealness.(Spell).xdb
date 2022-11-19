@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell>
-	<NameFileRef href="RuneOfEthrealnessName.txt"/>
-	<LongDescriptionFileRef href="RuneOfEthrealnessDesc.txt"/>
-	<Texture href="/UI/H5A1/Icons/Magic/Runemagic/Runes128/Rune_of_Etherealness.(Texture).xdb#xpointer(/Texture)"/>
-	<EffectTexture/>
-	<SpellBookPredictions/>
+	<NameFileRef href="RuneOfEthrealnessName.txt" />
+	<LongDescriptionFileRef href="RuneOfEthrealnessDesc.txt" />
+	<Texture href="/UI/H5A1/Icons/Magic/Runemagic/Runes128/Rune_of_Etherealness.(Texture).xdb#xpointer(/Texture)" />
+	<EffectTexture />
+	<SpellBookPredictions />
 	<CombatLogTexts>
-		<Item href="Rune_Usage.txt"/>
+		<Item href="Rune_Usage.txt" />
 	</CombatLogTexts>
 	<Level>4</Level>
 	<MagicSchool>MAGIC_SCHOOL_RUNIC</MagicSchool>
@@ -33,7 +33,7 @@
 	</damage>
 	<duration>
 		<Item>
-			<Base>1</Base>
+			<Base>2</Base>
 			<PerPower>1</PerPower>
 		</Item>
 		<Item>
@@ -63,6 +63,6 @@
 	<Target>TARGET_FRIEND</Target>
 	<Element>ELEMENT_NONE</Element>
 	<visuals>
-		<Item href="RuneOfEthrealness.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="RuneOfEthrealness.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

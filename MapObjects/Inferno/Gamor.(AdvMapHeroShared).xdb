@@ -41,7 +41,7 @@
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Alastor_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall href="/Textures/Icons/Heroes/Inferno/Inferno_Alastor_128x128_64.(Texture).xdb#xpointer(/Texture)" />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/Gamor/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/Gamor/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/Gamor/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Inferno/Gamor/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Inferno/Gamor/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -53,13 +53,14 @@
 		<Defence>0</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>2</Knowledge>
-		<skills />
-		<perkIDs>
-			<Item>HERO_SKILL_GATING_MASTERY</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_TELEPORT</Item>
-		</spellIDs>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_SORCERY</SkillID>
+			</Item>
+		</skills>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

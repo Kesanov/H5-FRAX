@@ -29,11 +29,11 @@
 	<RazedStatic />
 	<Icon128 />
 	<InternalName>Kyrre</InternalName>
-	<Class>HERO_CLASS_WARDEN</Class>
+	<Class>HERO_CLASS_RANGERA</Class>
 	<Specialization>HERO_SPEC_RASH</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_AVENGER</SkillID>
+		<SkillID>HERO_SKILL_DEFENCE</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Stronghold/Rash2/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Stronghold/Rash2/Description.txt" />
@@ -59,12 +59,8 @@
 				<SkillID>HERO_SKILL_TRAINING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_IMBUE_ARROW</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_DISRUPTING_RAY</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

@@ -30,13 +30,13 @@
 	<Icon128 />
 	<InternalName>Tazar</InternalName>
 	<Class>HERO_CLASS_NECROMANCER</Class>
-	<Specialization />
+	<Specialization>HERO_SPEC_WHITE_KNIGHT</Specialization>
 	<PrimarySkill>
-		<Mastery>MASTERY_ADVANCED</Mastery>
+		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_WAR_MACHINES</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/Defense/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/Defense/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Haven/White_Knight/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Haven/White_Knight/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Skills/Defence_3.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Fortress/Fortress_Tazar_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
@@ -49,14 +49,17 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Dwarves/Tazar/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Dwarves/Tazar/Bio.txt" />
-		<Offence>1</Offence>
-		<Defence>3</Defence>
+		<Offence>0</Offence>
+		<Defence>4</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
-		<skills />
-		<perkIDs>
-			<Item>HERO_SKILL_BALLISTA</Item>
-		</perkIDs>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_LEADERSHIP</SkillID>
+			</Item>
+		</skills>
+		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

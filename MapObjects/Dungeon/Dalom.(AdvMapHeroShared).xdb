@@ -59,13 +59,8 @@
 				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_SICKNESS</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_PLAGUE</Item>
-			<Item>SPELL_LIGHTNING_BOLT</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

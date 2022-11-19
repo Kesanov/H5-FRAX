@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization>
-	<NameFileRef href=""/>
-	<BiographyFileRef href=""/>
-	<Bonus>TOWN_BONUS_MINUS_OFFENCE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_NECROMANCY</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

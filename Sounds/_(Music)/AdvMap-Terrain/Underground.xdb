@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Music ObjectRecordID="103">
-	<FileName>..\Music\MMH55\Adventure_Terrain_Underground_003.ogg</FileName>
-	<FadeIn>2000</FadeIn>
-	<FadeOut>2000</FadeOut>
-	<MinPausedTime>500</MinPausedTime>
-	<MaxPausedTime>15000</MaxPausedTime>
-</Music>

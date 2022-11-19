@@ -1,52 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="114">
-	<NameFileRef href="/Text/Game/Spells/Combat/Weakness/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Weakness/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Weakness.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Weakness.(Texture).xdb#xpointer(/Texture)"/>
+	<NameFileRef href="/Text/Game/Spells/Combat/Weakness/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Weakness/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Weakness.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Weakness.(Texture).xdb#xpointer(/Texture)" />
 	<SpellBookPredictions>
-		<Item href="/Text/Game/Spells/Combat/Weakness/SpellBookPrediction.txt"/>
+		<Item href="/Text/Game/Spells/Combat/Weakness/SpellBookPrediction.txt" />
 	</SpellBookPredictions>
-	<CombatLogTexts/>
+	<CombatLogTexts />
 	<Level>2</Level>
 	<MagicSchool>MAGIC_SCHOOL_DARK</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
 	<IsAimed>true</IsAimed>
-	<TrainedCost>7</TrainedCost>
+	<TrainedCost>5</TrainedCost>
 	<damage>
 		<Item>
-			<Base>4</Base>
-			<PerPower>0.15</PerPower>
+			<Base>7</Base>
+			<PerPower>0.35</PerPower>
 		</Item>
 		<Item>
-			<Base>4</Base>
-			<PerPower>0.2</PerPower>
+			<Base>7</Base>
+			<PerPower>0.35</PerPower>
 		</Item>
 		<Item>
-			<Base>5</Base>
-			<PerPower>0.2</PerPower>
+			<Base>8</Base>
+			<PerPower>0.35</PerPower>
 		</Item>
 		<Item>
-			<Base>6</Base>
-			<PerPower>0.25</PerPower>
+			<Base>13</Base>
+			<PerPower>0.35</PerPower>
 		</Item>
 	</damage>
 	<duration>
 		<Item>
-			<Base>1</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 		<Item>
-			<Base>1</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 		<Item>
-			<Base>1</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 		<Item>
-			<Base>1</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 	</duration>
 	<sSpellCost>
@@ -63,6 +63,6 @@
 	<Target>TARGET_HOSTILE</Target>
 	<Element>ELEMENT_NONE</Element>
 	<visuals>
-		<Item href="Weakness.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="Weakness.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

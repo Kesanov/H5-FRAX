@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="1000041">
-	<AttackSkill>5</AttackSkill>
-	<DefenceSkill>5</DefenceSkill>
+	<AttackSkill>19</AttackSkill>
+	<DefenceSkill>19</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>3</MinDamage>
 	<MaxDamage>5</MaxDamage>
 	<Speed>5</Speed>
 	<Initiative>8</Initiative>
 	<Flying>false</Flying>
-	<Health>25</Health>
-	<KnownSpells/>
+	<Health>37</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
@@ -35,11 +35,11 @@
 		<Gold>120</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Academy/Iron_Golem.xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Academy/Iron_Golem.xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Academy/Iron_Golem.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Academy/Iron_Golem.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_UNKNOWN</BaseCreature>
 	<Upgrades>
@@ -48,7 +48,7 @@
 	</Upgrades>
 	<Abilities>
 		<Item>ABILITY_MECHANICAL</Item>
-		<Item>ABILITY_IMMUNITY_TO_SLOW</Item>
 		<Item>ABILITY_MAGIC_PROOF_50</Item>
+		<Item>ABILITY_IMMUNITY_TO_SLOW</Item>
 	</Abilities>
 </Creature>

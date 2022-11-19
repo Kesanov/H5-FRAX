@@ -55,7 +55,12 @@
 		<Defence>0</Defence>
 		<Spellpower>3</Spellpower>
 		<Knowledge>1</Knowledge>
-		<skills />
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_SORCERY</SkillID>
+			</Item>
+		</skills>
 		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>

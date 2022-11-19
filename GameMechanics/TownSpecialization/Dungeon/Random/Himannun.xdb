@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="39">
-	<NameFileRef href="/Text/Game/Towns/Dungeon/Random/Himannun/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Dungeon/Random/Himannun/Biography.txt"/>
-	<Bonus>TOWN_BONUS_MINUS_MORALE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_DUNGEON</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

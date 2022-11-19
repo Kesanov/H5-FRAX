@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="109">
-	<NameFileRef href="/Text/Game/Towns/Haven/Script/Exeter/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Haven/Script/Exeter/Biography.txt"/>
-	<Bonus>TOWN_NO_BONUS</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_HEAVEN</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

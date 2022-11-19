@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="-1">
-	<NameFileRef href="/Text/Game/Towns/DwarvenTown/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/DwarvenTown/Name.txt"/>
-	<Bonus>TOWN_BONUS_FIRST_AID_TENT</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_FORTRESS</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

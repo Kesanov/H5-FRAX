@@ -33,7 +33,7 @@
 	<Specialization />
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_DEFENCE</SkillID>
+		<SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/DKnights/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/DKnights/Description.txt" />
@@ -49,19 +49,17 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Necropolis/Xerxon/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Necropolis/Xerxon/Bio.txt" />
-		<Offence>1</Offence>
-		<Defence>2</Defence>
+		<Offence>2</Offence>
+		<Defence>1</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_TRAINING</SkillID>
+				<SkillID>HERO_SKILL_DEFENCE</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_TOUGHNESS</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

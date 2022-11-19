@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RPGCombatUniqueCreatureStats ObjectRecordID="1000000">
 	<PrototypeCreature>CREATURE_PHOENIX</PrototypeCreature>
-	<Health>100</Health>
-	<Health_PerPower>160</Health_PerPower>
+	<Health>33</Health>
+	<Health_PerPower>0</Health_PerPower>
 	<Health_PerLevel>0</Health_PerLevel>
 	<Health_PerKnowledge>0</Health_PerKnowledge>
 	<DamageMin>0</DamageMin>
-	<DamageMin_PerPower>60</DamageMin_PerPower>
+	<DamageMin_PerPower>10</DamageMin_PerPower>
 	<DamageMin_PerLevel>0</DamageMin_PerLevel>
 	<DamageMax>0</DamageMax>
-	<DamageMax_PerPower>80</DamageMax_PerPower>
+	<DamageMax_PerPower>10</DamageMax_PerPower>
 	<DamageMax_PerLevel>0</DamageMax_PerLevel>
-	<Offence>10</Offence>
-	<Offence_PerPower>4</Offence_PerPower>
+	<Offence>42</Offence>
+	<Offence_PerPower>1</Offence_PerPower>
 	<Offence_PerLevel>0</Offence_PerLevel>
-	<Defence>10</Defence>
-	<Defence_PerPower>4</Defence_PerPower>
+	<Defence>42</Defence>
+	<Defence_PerPower>0</Defence_PerPower>
 	<Defence_PerLevel>0</Defence_PerLevel>
-	<Initiative>14</Initiative>
-	<Initiative_PerPower>0.2</Initiative_PerPower>
-	<Initiative_PerLevel>0</Initiative_PerLevel>
-	<Speed>6</Speed>
-	<Speed_PerPower>0.3</Speed_PerPower>
+	<Initiative>0</Initiative>
+	<Initiative_PerPower>0</Initiative_PerPower>
+	<Initiative_PerLevel>1</Initiative_PerLevel>
+	<Speed>33</Speed>
+	<Speed_PerPower>0</Speed_PerPower>
 	<Speed_PerLevel>0</Speed_PerLevel>
 	<NameFileRef href="/Text/Game/Creatures/Neutrals/ConjuredPhoenix.txt"/>
 	<Abilities>
 		<Item>
 			<Level>0</Level>
 			<Abilities>
-				<Item>ABILITY_ELEMENTAL</Item>			
-				<Item>ABILITY_FIRE_SHIELD</Item>
-				<Item>ABILITY_IMMUNITY_TO_MAGIC</Item>
-				<Item>ABILITY_CRYSTAL_SCALES</Item>				
+				<Item>ABILITY_ELEMENTAL</Item>
+				<Item>ABILITY_ENCHANTED_OBSIDIAN</Item>
+				<Item>ABILITY_NO_ENEMY_RETALIATION</Item>
+				<Item>ABILITY_INCORPOREAL</Item>
+				<Item>ABILITY_FRIGHTFUL_PRESENCE</Item>
 			</Abilities>
 		</Item>
 	</Abilities>

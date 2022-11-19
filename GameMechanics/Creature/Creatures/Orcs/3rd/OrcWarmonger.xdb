@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>4</AttackSkill>
-	<DefenceSkill>6</DefenceSkill>
+	<AttackSkill>19</AttackSkill>
+	<DefenceSkill>19</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>3</MinDamage>
 	<MaxDamage>5</MaxDamage>
 	<Speed>5</Speed>
 	<Initiative>9</Initiative>
 	<Flying>false</Flying>
-	<Health>28</Health>
-	<KnownSpells/>
+	<Health>42</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
@@ -35,18 +35,19 @@
 		<Gold>130</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Stronghold/Orc_Warmonger.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Stronghold/Orc_Warmonger.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Orcs/3rd/OrcWarmonger.(CreatureVisual).xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Orcs/3rd/OrcWarmonger.(CreatureVisual).xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_ORC_WARRIOR</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_DEMON_RAGED</Item>
-		<Item>ABILITY_FIERCE_RETALIATION</Item>
 		<Item>ABILITY_ENRAGED</Item>
-		<Item>ABILITY_TAUNT</Item>
+		<Item>ABILITY_FIERCE_RETALIATION</Item>
+		<Item>ABILITY_LARGE_SHIELD</Item>
+		<Item>ABILITY_SHIELD_OTHER</Item>
 	</Abilities>
 </Creature>

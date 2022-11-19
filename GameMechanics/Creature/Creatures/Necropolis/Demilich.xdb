@@ -1,29 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="75">
-	<AttackSkill>18</AttackSkill>
-	<DefenceSkill>18</DefenceSkill>
-	<Shots>5</Shots>
-	<MinDamage>15</MinDamage>
-	<MaxDamage>22</MaxDamage>
+	<AttackSkill>24</AttackSkill>
+	<DefenceSkill>24</DefenceSkill>
+	<Shots>7</Shots>
+	<MinDamage>12</MinDamage>
+	<MaxDamage>17</MaxDamage>
 	<Speed>4</Speed>
 	<Initiative>10</Initiative>
 	<Flying>false</Flying>
-	<Health>70</Health>
+	<Health>105</Health>
 	<KnownSpells>
 		<Item>
-			<Spell>SPELL_SLOW</Spell>
-			<Mastery>MASTERY_EXPERT</Mastery>
-		</Item>
-		<Item>
-			<Spell>SPELL_PLAGUE</Spell>
+			<Spell>SPELL_SORROW</Spell>
 			<Mastery>MASTERY_ADVANCED</Mastery>
 		</Item>
 		<Item>
-			<Spell>SPELL_WEAKNESS</Spell>
-			<Mastery>MASTERY_EXPERT</Mastery>
+			<Spell>SPELL_MASS_FORGETFULNESS</Spell>
+			<Mastery>MASTERY_ADVANCED</Mastery>
 		</Item>
 	</KnownSpells>
-	<SpellPoints>18</SpellPoints>
+	<SpellPoints>19</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>105</Exp>
@@ -48,16 +44,17 @@
 		<Gold>850</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Necropolis/Demilich.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Necropolis/Demilich.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>2</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Necropolis/Demilich.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Necropolis/Demilich.xdb#xpointer(/CreatureVisual)" />
 	<Range>-2</Range>
 	<BaseCreature>CREATURE_LICH</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_UNDEAD</Item>
 		<Item>ABILITY_DEATH_CLOUD</Item>
+		<Item>ABILITY_VENOM</Item>
 	</Abilities>
 </Creature>

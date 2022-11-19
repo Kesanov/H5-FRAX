@@ -29,11 +29,11 @@
 	<RazedStatic />
 	<Icon128 />
 	<InternalName>Grok</InternalName>
-	<Class>HERO_CLASS_WIZARD</Class>
+	<Class>HERO_CLASS_DEMON_LORD</Class>
 	<Specialization>HERO_SPEC_BEATER</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_TRAINING</SkillID>
+		<SkillID>HERO_SKILL_GATING</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Inferno/Beater/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Inferno/Beater/Description.txt" />
@@ -41,7 +41,7 @@
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Erasial_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/Grok/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/Grok/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/Grok/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Inferno/Grok/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Inferno/Grok/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -49,23 +49,18 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Inferno/Grok/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Inferno/Grok/Bio.txt" />
-		<Offence>3</Offence>
+		<Offence>2</Offence>
 		<Defence>0</Defence>
-		<Spellpower>1</Spellpower>
+		<Spellpower>2</Spellpower>
 		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
+				<SkillID>HERO_SKILL_LEARNING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_CURSES</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_WEAKNESS</Item>
-			<Item>SPELL_TELEPORT</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

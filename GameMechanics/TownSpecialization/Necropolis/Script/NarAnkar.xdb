@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="216">
-	<NameFileRef href="NarAnkar.txt"/>
-	<BiographyFileRef href="NarAnkar_bio.txt"/>
-	<Bonus>TOWN_BONUS_MINUS_DEFENCE_OFFENCE_2</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_NECROMANCY</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

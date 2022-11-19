@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spell>
 	<NameFileRef href="/Text/Game/Creatures/Creature_abilities/Presence_of_the_storm/Name.txt"/>
 	<LongDescriptionFileRef href="/Text/Game/Creatures/Creature_abilities/Presence_of_the_storm/Description.txt"/>

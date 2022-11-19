@@ -11,10 +11,10 @@
 		<Item href="/Text/CombatLog/Spells/FearMyRoar.txt"/>
 		<Item href="/Text/CombatLog/Spells/FearMyRoarFailed.txt"/>
 	</CombatLogTexts>
-	<Level>2</Level>
+	<Level>1</Level>
 	<MagicSchool>MAGIC_SCHOOL_WARCRIES</MagicSchool>
-	<RequiredHeroLevel>0</RequiredHeroLevel>
-	<TrainedCost>15</TrainedCost>
+	<RequiredHeroLevel>15</RequiredHeroLevel>
+	<TrainedCost>8</TrainedCost>
 	<damage>
 		<Item>
 			<Base>1</Base>

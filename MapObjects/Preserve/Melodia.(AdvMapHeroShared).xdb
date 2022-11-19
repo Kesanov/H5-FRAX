@@ -33,7 +33,7 @@
 	<Specialization />
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_LOGISTICS</SkillID>
+		<SkillID>HERO_SKILL_DEFENCE</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/ElemWater/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/ElemWater/Description.txt" />
@@ -49,8 +49,8 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Preserve/Melodia/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Preserve/Melodia/Bio.txt" />
-		<Offence>2</Offence>
-		<Defence>1</Defence>
+		<Offence>3</Offence>
+		<Defence>0</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
 		<skills>
@@ -59,12 +59,8 @@
 				<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_BLESSING</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_BLESS</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

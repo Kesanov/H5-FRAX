@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>18</AttackSkill>
-	<DefenceSkill>24</DefenceSkill>
+	<AttackSkill>27</AttackSkill>
+	<DefenceSkill>27</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>9</MinDamage>
 	<MaxDamage>13</MaxDamage>
 	<Speed>9</Speed>
 	<Initiative>10</Initiative>
 	<Flying>true</Flying>
-	<Health>180</Health>
-	<KnownSpells/>
+	<Health>270</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
-	<SpellPoints1>1</SpellPoints1>
+	<SpellPoints1>2</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>170</Exp>
 	<Power>2437</Power>
@@ -36,17 +36,17 @@
 	</Cost>
 	<PresetPrice>0</PresetPrice>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Dwarf/Tunder_Thane.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Dwarf/Tunder_Thane.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>2</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dwarf/3rd/ThunderThane.(CreatureVisual).xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dwarf/3rd/ThunderThane.(CreatureVisual).xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_THANE</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
-		<Item>ABILITY_STORMSTRIKE</Item>
 		<Item>ABILITY_IMMUNITY_TO_AIR</Item>
+		<Item>ABILITY_STORMSTRIKE</Item>
 		<Item>ABILITY_STORMBOLT</Item>
 	</Abilities>
 </Creature>

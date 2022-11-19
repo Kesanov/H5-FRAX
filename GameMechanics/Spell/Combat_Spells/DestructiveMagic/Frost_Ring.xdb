@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="118">
-	<NameFileRef href="/Text/Game/Spells/Combat/Frost_Ring/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Frost_Ring/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_FrostRing.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/FrostRing.(Texture).xdb#xpointer(/Texture)"/>
+	<NameFileRef href="/Text/Game/Spells/Combat/Frost_Ring/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Frost_Ring/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_FrostRing.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/FrostRing.(Texture).xdb#xpointer(/Texture)" />
 	<SpellBookPredictions>
-		<Item href="/Text/Game/Spells/SpellBookPredictions/DirectDamage.txt"/>
-		<Item href="/Text/Game/Spells/SpellBookPredictions/DirectDamageMasterOfIce.txt"/>
+		<Item href="/Text/Game/Spells/SpellBookPredictions/DirectDamage.txt" />
+		<Item href="/Text/Game/Spells/SpellBookPredictions/DirectDamageMasterOfIce.txt" />
 	</SpellBookPredictions>
-	<CombatLogTexts/>
+	<CombatLogTexts />
 	<Level>3</Level>
 	<MagicSchool>MAGIC_SCHOOL_DESTRUCTIVE</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
 	<IsAimed>true</IsAimed>
-	<TrainedCost>27</TrainedCost>
+	<TrainedCost>15</TrainedCost>
 	<damage>
 		<Item>
 			<Base>0</Base>
-			<PerPower>15</PerPower>
-		</Item>
-		<Item>
-			<Base>0</Base>
-			<PerPower>19</PerPower>
+			<PerPower>30</PerPower>
 		</Item>
 		<Item>
 			<Base>0</Base>
 			<PerPower>24</PerPower>
+		</Item>
+		<Item>
+			<Base>0</Base>
+			<PerPower>27</PerPower>
 		</Item>
 		<Item>
 			<Base>0</Base>
@@ -47,6 +47,6 @@
 	<Target>TARGET_HOSTILE</Target>
 	<Element>ELEMENT_WATER</Element>
 	<visuals>
-		<Item href="FrostRing.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="FrostRing.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

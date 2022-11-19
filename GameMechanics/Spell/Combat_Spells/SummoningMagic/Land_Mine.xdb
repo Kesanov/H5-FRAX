@@ -1,53 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="137">
-	<NameFileRef href="/Text/Game/Spells/Combat/Land_Mine/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Land_Mine/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_LandMine.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/LandMine.(Texture).xdb#xpointer(/Texture)"/>
+	<NameFileRef href="/Text/Game/Spells/Combat/Land_Mine/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Land_Mine/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_LandMine.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/LandMine.(Texture).xdb#xpointer(/Texture)" />
 	<SpellBookPredictions>
-		<Item href="/Text/Game/Spells/Combat/Land_Mine/SpellBookPrediction.txt"/>
+		<Item href="/Text/Game/Spells/Combat/Land_Mine/SpellBookPrediction.txt" />
 	</SpellBookPredictions>
 	<CombatLogTexts>
-		<Item href="/Text/CombatLog/Spells/LandMine.txt"/>
+		<Item href="/Text/CombatLog/Spells/LandMine.txt" />
 	</CombatLogTexts>
 	<Level>1</Level>
 	<MagicSchool>MAGIC_SCHOOL_SUMMONING</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
 	<IsAimed>true</IsAimed>
-	<TrainedCost>10</TrainedCost>
+	<TrainedCost>7</TrainedCost>
 	<damage>
 		<Item>
 			<Base>0</Base>
-			<PerPower>8</PerPower>
+			<PerPower>12</PerPower>
 		</Item>
 		<Item>
 			<Base>0</Base>
-			<PerPower>10</PerPower>
-		</Item>
-		<Item>
-			<Base>0</Base>
-			<PerPower>13</PerPower>
+			<PerPower>14</PerPower>
 		</Item>
 		<Item>
 			<Base>0</Base>
 			<PerPower>16</PerPower>
 		</Item>
+		<Item>
+			<Base>0</Base>
+			<PerPower>18</PerPower>
+		</Item>
 	</damage>
 	<duration>
 		<Item>
-			<Base>4.5</Base>
+			<Base>5</Base>
 			<PerPower>0.1</PerPower>
 		</Item>
 		<Item>
-			<Base>5.5</Base>
+			<Base>6</Base>
 			<PerPower>0.1</PerPower>
 		</Item>
 		<Item>
-			<Base>6.5</Base>
+			<Base>7</Base>
 			<PerPower>0.1</PerPower>
 		</Item>
 		<Item>
-			<Base>7.5</Base>
+			<Base>8</Base>
 			<PerPower>0.1</PerPower>
 		</Item>
 	</duration>
@@ -66,7 +66,7 @@
 	<Element>ELEMENT_FIRE</Element>
 	<DamageIsElemental>true</DamageIsElemental>
 	<visuals>
-		<Item href="LandMine.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
-		<Item href="LandMine_Explosion.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="LandMine.(SpellVisual).xdb#xpointer(/SpellVisual)" />
+		<Item href="LandMine_Explosion.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

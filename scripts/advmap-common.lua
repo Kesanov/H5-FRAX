@@ -75,4 +75,5 @@ function PlayVoiceover( soundName )
 end;
 
 dofile("/scripts/H55-Tables.lua");
+dofile("/scripts/Frax/Adventure.lua");
 dofile("/scripts/H55-Core.lua");

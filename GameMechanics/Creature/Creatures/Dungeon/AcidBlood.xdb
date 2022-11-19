@@ -255,7 +255,7 @@
 		</Item>
 	</Patterns>
 	<RotateToMainTarget>false</RotateToMainTarget>
-	<DamageToMainTargetCoefficient>1</DamageToMainTargetCoefficient>
-	<DamageToOtherTargetsCoefficient>1</DamageToOtherTargetsCoefficient>
+	<DamageToMainTargetCoefficient>100</DamageToMainTargetCoefficient>
+	<DamageToOtherTargetsCoefficient>100</DamageToOtherTargetsCoefficient>
 	<DamageAll>true</DamageAll>
 </PatternAttack>

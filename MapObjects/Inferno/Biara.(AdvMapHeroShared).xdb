@@ -32,13 +32,13 @@
 	<Icon128 href="/Textures/Icons/Heroes/Inferno/Inferno_Biara_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<InternalName>Biara</InternalName>
 	<Class>HERO_CLASS_SORCERER</Class>
-	<Specialization>HERO_SPEC_EVASIVE</Specialization>
+	<Specialization>HERO_SPEC_FEATHER_MAGE</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_SORCERY</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Evasive2/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Evasive2/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Academy/Feather_Mage2/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Academy/Feather_Mage2/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Feather_Mage.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Biara_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
@@ -58,15 +58,11 @@
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</SkillID>
+				<SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_DARK_RITUAL</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_STONE_SPIKES</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

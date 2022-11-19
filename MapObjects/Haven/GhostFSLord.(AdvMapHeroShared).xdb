@@ -58,17 +58,9 @@
 				<Mastery>MASTERY_BASIC</Mastery>
 				<SkillID>HERO_SKILL_LEADERSHIP</SkillID>
 			</Item>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
-			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_PRAYER</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_BLESS</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

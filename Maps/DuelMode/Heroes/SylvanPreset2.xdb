@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <AdvMapHero ObjectRecordID="1003600">
 	<Pos>
 		<x>24</x>
@@ -7,125 +7,73 @@
 	</Pos>
 	<Rot>0</Rot>
 	<Floor>0</Floor>
-	<Name/>
-	<CombatScript/>
-	<pointLights/>
-	<Shared href="/MapObjects/Preserve/DirayaC.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)"/>
+	<Name />
+	<CombatScript />
+	<pointLights />
+	<Shared href="/MapObjects/Preserve/Arniel.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)" />
 	<PlayerID>PLAYER_3</PlayerID>
-	<Experience>14700</Experience>
+	<Experience>500000</Experience>
 	<armySlots>
 		<Item>
-			<Creature>CREATURE_WATER_ELEMENTAL</Creature>
-			<Count>24</Count>
+			<Creature>CREATURE_DRYAD</Creature>
+			<Count>360</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_BLADE_JUGGLER</Creature>
-			<Count>63</Count>
+			<Creature>CREATURE_BLADE_SINGER</Creature>
+			<Count>270</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_WOOD_ELF</Creature>
-			<Count>42</Count>
+			<Creature>CREATURE_SHARP_SHOOTER</Creature>
+			<Count>210</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_DRUID</Creature>
-			<Count>24</Count>
+			<Creature>CREATURE_HIGH_DRUID</Creature>
+			<Count>108</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_UNICORN</Creature>
-			<Count>18</Count>
+			<Creature>CREATURE_WHITE_UNICORN</Creature>
+			<Count>72</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_TREANT</Creature>
-			<Count>12</Count>
+			<Creature>CREATURE_ANGER_TREANT</Creature>
+			<Count>50</Count>
 		</Item>
 		<Item>
-			<Creature>CREATURE_GREEN_DRAGON</Creature>
-			<Count>6</Count>
+			<Creature>CREATURE_RAINBOW_DRAGON</Creature>
+			<Count>20</Count>
 		</Item>
 	</armySlots>
-	<artifactIDs>
-		<Item>ARTIFACT_TREEBORN_QUIVER</Item>
-		<Item>ARTIFACT_LEGION_T2</Item>
-	</artifactIDs>
-	<isUntransferable/>
+	<artifactIDs />
+	<isUntransferable />
 	<Editable>
-		<NameFileRef href=""/>
-		<BiographyFileRef href=""/>
-		<Offence>2</Offence>
-		<Defence>2</Defence>
-		<Spellpower>10</Spellpower>
-		<Knowledge>8</Knowledge>
-		<skills>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_OFFENCE</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DEFENCE</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_EXPERT</Mastery>
-				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_EXPERT</Mastery>
-				<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID>
-			</Item>
-			<Item>
-				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</SkillID>
-			</Item>
-		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_FRENZY</Item>
-			<Item>HERO_SKILL_EVASION</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_BLESS</Item>
-			<Item>SPELL_HASTE</Item>
-			<Item>SPELL_DISPEL</Item>
-			<Item>SPELL_STONESKIN</Item>
-			<Item>SPELL_BLOODLUST</Item>
-			<Item>SPELL_DEFLECT_ARROWS</Item>
-			<Item>SPELL_CURSE</Item>
-			<Item>SPELL_SLOW</Item>
-			<Item>SPELL_DISRUPTING_RAY</Item>
-			<Item>SPELL_FORGETFULNESS</Item>
-			<Item>SPELL_WEAKNESS</Item>			
-			<Item>SPELL_TELEPORT</Item>	
-			<Item>SPELL_LAND_MINE</Item>
-			<Item>SPELL_WASP_SWARM</Item>
-			<Item>SPELL_ARCANE_CRYSTAL</Item>
-			<Item>SPELL_BLADE_BARRIER</Item>
-			<Item>SPELL_STONE_SPIKES</Item>
-			<Item>SPELL_LIGHTNING_BOLT</Item>		
-		</spellIDs>
-		<Ballista>true</Ballista>
+		<NameFileRef href="" />
+		<BiographyFileRef href="" />
+		<Offence>17</Offence>
+		<Defence>12</Defence>
+		<Spellpower>7</Spellpower>
+		<Knowledge>12</Knowledge>
+		<skills><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_WEAKEN_LIGHT</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DARK_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_LEARNING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_AVENGER</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_LEADERSHIP</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_TRAINING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_EXPERT_TRAINER</SkillID></Item></skills><perkIDs><Item>HERO_SKILL_MASTER_OF_SICKNESS</Item><Item>HERO_SKILL_PARIAH</Item><Item>HERO_SKILL_MASTER_OF_CURSES</Item><Item>HERO_SKILL_SCOUTING</Item><Item>HERO_SKILL_QUICKNESS_OF_MIND</Item><Item>HERO_SKILL_INTELLIGENCE</Item><Item>HERO_SKILL_SNIPE_DEAD</Item><Item>HERO_SKILL_MULTISHOT</Item><Item>HERO_SKILL_IMBUE_ARROW</Item><Item>HERO_SKILL_ENCOURAGE</Item><Item>HERO_SKILL_PRAYER</Item><Item>HERO_SKILL_RECRUITMENT</Item><Item>HERO_SKILL_STUNNING_BLOW</Item><Item>HERO_SKILL_POWERFULL_BLOW</Item><Item>HERO_SKILL_DEMONIC_STRIKE</Item><Item>HERO_SKILL_TOUGHNESS</Item><Item>HERO_SKILL_PREPARATION</Item><Item>HERO_SKILL_RESISTANCE</Item></perkIDs><spellIDs><Item>SPELL_PLAGUE</Item><Item>SPELL_CURSE</Item><Item>SPELL_WEAKNESS</Item><Item>SPELL_SLOW</Item><Item>SPELL_DISRUPTING_RAY</Item><Item>SPELL_ANIMATE_DEAD</Item><Item>SPELL_SORROW</Item><Item>SPELL_TELEPORT</Item><Item>SPELL_PHANTOM</Item><Item>SPELL_UNHOLY_WORD</Item><Item>SPELL_BERSERK</Item><Item>SPELL_VAMPIRISM</Item></spellIDs><Ballista>true</Ballista>
 		<FirstAidTent>true</FirstAidTent>
 		<AmmoCart>true</AmmoCart>
-		<FavoriteEnemies/>
+		<FavoriteEnemies>
+		</FavoriteEnemies>
 		<TalismanLevel>0</TalismanLevel>
 	</Editable>
 	<OverrideMask>32</OverrideMask>
 	<PrimarySkillMastery>MASTERY_EXPERT</PrimarySkillMastery>
 	<LossTrigger>
 		<Action>
-			<FunctionName/>
+			<FunctionName />
 		</Action>
 	</LossTrigger>
 	<AllowQuickCombat>true</AllowQuickCombat>
 	<Textures>
-		<Icon128x128/>
-		<Icon64x64/>
-		<RoundedFace/>
-		<LeftFace/>
-		<RightFace/>
+		<Icon128x128 />
+		<Icon64x64 />
+		<RoundedFace />
+		<LeftFace />
+		<RightFace />
 	</Textures>
 	<PresetPrice>0</PresetPrice>
-	<BannedRaces/>
+	<BannedRaces />
 </AdvMapHero>

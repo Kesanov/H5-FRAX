@@ -37,9 +37,9 @@
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_NECROMANCY</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/AvatarOfDeath4/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/AvatarOfDeath4/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Necropolis/Reanimator.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/AvatarOfDeath5/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/AvatarOfDeath5/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Necropolis/AvatarOfDeath.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/UI/H5A2/Icons/Heroes/Portrets128x128/Necropolis_Arantir.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Necropolis/A2_Arantir/HeroCharacterArena.xdb#xpointer(/Character)" />
@@ -52,21 +52,17 @@
 		<NameFileRef href="/Text/Game/Heroes/Persons/Necropolis/Arantir/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Necropolis/Arantir/Bio.txt" />
 		<Offence>1</Offence>
-		<Defence>0</Defence>
+		<Defence>1</Defence>
 		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
+				<SkillID>HERO_SKILL_SORCERY</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_NO_REST_FOR_THE_WICKED</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_ANIMATE_DEAD</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>
@@ -78,7 +74,7 @@
 	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Necropolis.xdb#xpointer(/AdvMapHeroTraceSet)" />
 	<RaceTraitIcon />
 	<RaceTraitDescFileRef href="" />
-	<ScenarioHero>true</ScenarioHero>
+	<ScenarioHero>false</ScenarioHero>
 	<AdventureMusic href="/Sounds/_(Music)/AdvMap-Heroes/a2-Arantir.xdb#xpointer(/Music)" />
 	<HideInEditor>false</HideInEditor>
 	<PresetMinimalAttributes>

@@ -29,15 +29,15 @@
 	<RazedStatic />
 	<Icon128 href="/UI/H5A1/Icons/Heroes/Portrets128x128/Thralsai.(Texture).xdb#xpointer(/Texture)" />
 	<InternalName>Thralsai</InternalName>
-	<Class>HERO_CLASS_SEER</Class>
-	<Specialization>HERO_SPEC_DARK_ACOLYTE</Specialization>
+	<Class>HERO_CLASS_BEASTMASTER</Class>
+	<Specialization>HERO_SPEC_BEATER</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_LUCK</SkillID>
+		<SkillID>HERO_SKILL_LEADERSHIP</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Dark_Acolyte2/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Dark_Acolyte2/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Inexhaustible.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Inferno/Beater2/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Inferno/Beater2/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Dungeon/Power_Bargain.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/UI/H5A1/Icons/Heroes/Portrets128x128/Thralsai.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Dungeon/Thralsai/HeroCharacterArena.xdb#xpointer(/Character)" />
@@ -49,21 +49,19 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Dungeon/Thralsai/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Dungeon/Thralsai/Bio.txt" />
-		<Offence>1</Offence>
-		<Defence>0</Defence>
-		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Offence>2</Offence>
+		<Defence>1</Defence>
+		<Spellpower>1</Spellpower>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_SORCERY</SkillID>
+				<SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_DARK_RITUAL</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs>
-			<Item>SPELL_FORGETFULNESS</Item>
+			<Item>SPELL_TELEPORT</Item>
 		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
@@ -76,7 +74,7 @@
 	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Dungeon.xdb#xpointer(/AdvMapHeroTraceSet)" />
 	<RaceTraitIcon />
 	<RaceTraitDescFileRef href="" />
-	<ScenarioHero>true</ScenarioHero>
+	<ScenarioHero>false</ScenarioHero>
 	<AdventureMusic />
 	<HideInEditor>false</HideInEditor>
 </AdvMapHeroShared>

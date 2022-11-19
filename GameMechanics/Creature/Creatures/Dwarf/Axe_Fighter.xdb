@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>3</AttackSkill>
-	<DefenceSkill>3</DefenceSkill>
-	<Shots>4</Shots>
+	<AttackSkill>16</AttackSkill>
+	<DefenceSkill>16</DefenceSkill>
+	<Shots>6</Shots>
 	<MinDamage>1</MinDamage>
-	<MaxDamage>3</MaxDamage>
+	<MaxDamage>2</MaxDamage>
 	<Speed>4</Speed>
 	<Initiative>9</Initiative>
 	<Flying>false</Flying>
-	<Health>12</Health>
-	<KnownSpells/>
+	<Health>18</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
@@ -35,11 +35,11 @@
 		<Gold>50</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Dwarf/Axe_Fighter.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Dwarf/Axe_Fighter.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dwarf/Axe_Fighter.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dwarf/Axe_Fighter.xdb#xpointer(/CreatureVisual)" />
 	<Range>-2</Range>
 	<BaseCreature>CREATURE_UNKNOWN</BaseCreature>
 	<Upgrades>

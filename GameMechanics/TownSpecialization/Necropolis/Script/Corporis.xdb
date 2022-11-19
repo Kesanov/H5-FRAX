@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="169">
-	<NameFileRef href="/Text/Game/Towns/Necropolis/Script/Corporis/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Necropolis/Script/Corporis/Biography.txt"/>
-	<Bonus>TOWN_BONUS_TIER2_CREATURE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_NECROMANCY</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>8</AttackSkill>
-	<DefenceSkill>10</DefenceSkill>
-	<Shots>4</Shots>
+	<AttackSkill>24</AttackSkill>
+	<DefenceSkill>24</DefenceSkill>
+	<Shots>6</Shots>
 	<MinDamage>12</MinDamage>
-	<MaxDamage>16</MaxDamage>
+	<MaxDamage>15</MaxDamage>
 	<Speed>4</Speed>
-	<Initiative>9</Initiative>
+	<Initiative>8</Initiative>
 	<Flying>false</Flying>
-	<Health>65</Health>
+	<Health>112</Health>
 	<KnownSpells>
 		<Item>
 			<Spell>SPELL_DEFLECT_ARROWS</Spell>
 			<Mastery>MASTERY_BASIC</Mastery>
-		</Item>	
+		</Item>
 		<Item>
 			<Spell>SPELL_BLESS</Spell>
-			<Mastery>MASTERY_EXPERT</Mastery>
+			<Mastery>MASTERY_BASIC</Mastery>
 		</Item>
 	</KnownSpells>
-	<SpellPoints>13</SpellPoints>
+	<SpellPoints>15</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>70</Exp>
@@ -41,14 +41,14 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>550</Gold>
+		<Gold>480</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Dwarf/Rune_Mage.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Dwarf/Rune_Mage.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dwarf/Rune_Mage.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dwarf/Rune_Mage.xdb#xpointer(/CreatureVisual)" />
 	<Range>-2</Range>
 	<BaseCreature>CREATURE_UNKNOWN</BaseCreature>
 	<Upgrades>
@@ -56,6 +56,7 @@
 		<Item>CREATURE_FLAME_KEEPER</Item>
 	</Upgrades>
 	<Abilities>
+		<Item>ABILITY_FIRE_PROOF_50</Item>
 		<Item>ABILITY_MARK_OF_FIRE</Item>
 	</Abilities>
 </Creature>

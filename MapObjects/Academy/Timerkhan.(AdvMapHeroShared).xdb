@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <AdvMapHeroShared>
-	<Model href="/Characters/Heroes/Academy/Timerkhan/Model.xdb#xpointer(/Model)" />
-	<AnimSet href="/Characters/Heroes/Academy/Timerkhan/AnimSet.xdb#xpointer(/AnimSet)" />
+	<Model href="/Characters/Heroes/Wizard_LOD.xdb#xpointer(/Model)" />
+	<AnimSet href="/Characters/Heroes/Wizard_LOD-adv.xdb#xpointer(/AnimSet)" />
 	<blockedTiles />
 	<holeTiles />
 	<activeTiles>
@@ -30,40 +30,39 @@
 	<Icon128 />
 	<InternalName>Timerkhan</InternalName>
 	<Class>HERO_CLASS_ELEMENTALIST</Class>
-	<Specialization />
+	<Specialization>HERO_SPEC_VESSEL_OF_ELRATH</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID>
+		<SkillID>HERO_SKILL_ARTIFICIER</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/Spellpower/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/Spellpower/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Haven/VesselOfElrath/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Haven/VesselOfElrath/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Skills/Sorcery_3.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Academy/Academy_Theodorus_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
-	<HeroCharacterArena href="/Characters/Heroes/Academy/Timerkhan/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee href="/Characters/Heroes/Academy/Timerkhan/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
-	<HeroCharacterAdventure href="/Characters/Heroes/Academy/Timerkhan/HeroCharacterAdventure.xdb#xpointer(/Character)" />
-	<HeroIndividualCamera href="/Characters/Heroes/Academy/Timerkhan/HeroIndividualCamera.xdb#xpointer(/Camera)" />
-	<CombatVisual href="/Characters/Heroes/Academy/Timerkhan/CombatVisual.xdb#xpointer(/CreatureVisual)" />
+	<HeroCharacterArena href="/Characters/Heroes/Wizard.(Character).xdb#xpointer(/Character)" />
+	<HeroCharacterArenaMelee />
+	<HeroCharacterAdventure href="/Characters/Heroes/Wizard_LOD.(Character).xdb#xpointer(/Character)" />
+	<HeroIndividualCamera />
+	<CombatVisual href="/GameMechanics/CreatureVisual/Heroes/Wizard.xdb#xpointer(/CreatureVisual)" />
 	<TownType>TOWN_ACADEMY</TownType>
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Academy/Theodorus/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Academy/Theodorus/Bio.txt" />
 		<Offence>0</Offence>
 		<Defence>1</Defence>
-		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Spellpower>3</Spellpower>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_LEARNING</SkillID>
+				<SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_CREATURES</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs>
-			<Item>SPELL_SUMMON_ELEMENTALS</Item>
+			<Item>SPELL_MASS_BLOOD_LUST</Item>
+			<Item>SPELL_MASS_BLESS</Item>
 		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

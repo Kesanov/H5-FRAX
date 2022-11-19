@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="43">
-	<NameFileRef href="/Text/Game/Towns/Dungeon/Random/Dolnur/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Dungeon/Random/Dolnur/Biography.txt"/>
-	<Bonus>TOWN_BONUS_EXTRA_ORE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_DUNGEON</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

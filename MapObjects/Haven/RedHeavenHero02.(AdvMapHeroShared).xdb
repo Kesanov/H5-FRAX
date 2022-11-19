@@ -30,14 +30,14 @@
 	<Icon128 />
 	<InternalName>RedHeavenHero02</InternalName>
 	<Class>HERO_CLASS_KNIGHT</Class>
-	<Specialization>HERO_SPEC_MALEDICTOR</Specialization>
+	<Specialization>HERO_SPEC_AVATAR_OF_DEATH</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_OFFENCE</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Maledictor3/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Maledictor3/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Disrupter.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/AvatarOfDeath6/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/AvatarOfDeath6/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Necropolis/AvatarOfDeath.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/UI/H5A1/Icons/Heroes/Portrets128x128/RedHaven_Lorenzo.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Haven/RedHeavenHero02/HeroCharacterArena.xdb#xpointer(/Character)" />
@@ -49,8 +49,8 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Haven/RedHeavenHero02/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Haven/RedHeavenHero02/Bio.txt" />
-		<Offence>2</Offence>
-		<Defence>1</Defence>
+		<Offence>3</Offence>
+		<Defence>0</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
 		<skills>
@@ -59,12 +59,8 @@
 				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_CURSES</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_WEAKNESS</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

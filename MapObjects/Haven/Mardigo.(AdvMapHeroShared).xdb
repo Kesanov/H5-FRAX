@@ -30,13 +30,13 @@
 	<Icon128 />
 	<InternalName>Mardigo</InternalName>
 	<Class>HERO_CLASS_KNIGHT</Class>
-	<Specialization />
+	<Specialization>HERO_SPEC_FOOTMEN</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_OFFENCE</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Haven/Infantry_Commander/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Haven/Infantry_Commander/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Haven/Infantry_Commander2/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Haven/Infantry_Commander2/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Haven/Infantry_Commander.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/UI/H5A1/Icons/Heroes/Portrets128x128/Lazlo.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
@@ -49,19 +49,17 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Haven/Mardigo/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Haven/Mardigo/Bio.txt" />
-		<Offence>2</Offence>
-		<Defence>1</Defence>
+		<Offence>3</Offence>
+		<Defence>0</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_TRAINING</SkillID>
+				<SkillID>HERO_SKILL_DEFENCE</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_FRENZY</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

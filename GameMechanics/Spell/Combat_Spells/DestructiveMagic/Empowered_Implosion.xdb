@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="1000093">
-	<NameFileRef href="/Text/Game/Spells/Combat/EmpoweredImplosion/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/EmpoweredImplosion/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Implosion.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Implosion.(Texture).xdb#xpointer(/Texture)"/>
-	<SpellBookPredictions/>
-	<CombatLogTexts/>
+	<NameFileRef href="/Text/Game/Spells/Combat/EmpoweredImplosion/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/EmpoweredImplosion/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Implosion.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Implosion.(Texture).xdb#xpointer(/Texture)" />
+	<SpellBookPredictions />
+	<CombatLogTexts />
 	<Level>5</Level>
 	<MagicSchool>MAGIC_SCHOOL_DESTRUCTIVE</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
 	<IsAimed>true</IsAimed>
-	<TrainedCost>50</TrainedCost>
+	<TrainedCost>94</TrainedCost>
 	<damage>
 		<Item>
 			<Base>1</Base>
@@ -29,7 +29,7 @@
 			<PerPower>1</PerPower>
 		</Item>
 	</damage>
-	<duration/>
+	<duration />
 	<sSpellCost>
 		<Wood>0</Wood>
 		<Ore>0</Ore>
@@ -43,5 +43,5 @@
 	<CanSelectDead>false</CanSelectDead>
 	<Target>TARGET_HOSTILE</Target>
 	<Element>ELEMENT_EARTH</Element>
-	<visuals/>
+	<visuals />
 </Spell>

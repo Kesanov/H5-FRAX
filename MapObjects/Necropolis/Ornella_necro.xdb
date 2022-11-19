@@ -35,7 +35,7 @@
 	<Specialization>HERO_SPEC_MALEDICTOR</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_DEFENCE</SkillID>
+		<SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Maledictor/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Maledictor/Description.txt" />
@@ -43,7 +43,7 @@
 	<FaceTexture href="/UI/H5A2/Icons/Heroes/Portrets128x128/Necropolis_Ornella.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Necropolis/Ornella_necro/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Necropolis/Ornella_necro/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Necropolis/Ornella_necro/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Necropolis/Ornella_necro/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Necropolis/Ornella_necro/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -51,8 +51,8 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Necropolis/OrnellaNecro/name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Necropolis/OrnellaNecro/Bio.txt" />
-		<Offence>1</Offence>
-		<Defence>2</Defence>
+		<Offence>2</Offence>
+		<Defence>1</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
 		<skills>
@@ -61,12 +61,8 @@
 				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_CURSES</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_WEAKNESS</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

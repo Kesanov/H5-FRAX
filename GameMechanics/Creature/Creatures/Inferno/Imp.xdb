@@ -1,22 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="36">
-	<AttackSkill>4</AttackSkill>
-	<DefenceSkill>2</DefenceSkill>
+	<AttackSkill>13</AttackSkill>
+	<DefenceSkill>13</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>1</MinDamage>
 	<MaxDamage>4</MaxDamage>
 	<Speed>6</Speed>
 	<Initiative>13</Initiative>
 	<Flying>false</Flying>
-	<Health>8</Health>
-	<KnownSpells>
-		<Item>
-			<Spell>SPELL_ABILITY_SYPHON_MANA</Spell>
-			<Mastery>MASTERY_ADVANCED</Mastery>
-		</Item>
-	</KnownSpells>
+	<Health>12</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
-	<SpellPoints1>0</SpellPoints1>
+	<SpellPoints1>1</SpellPoints1>
 	<SpellPoints2>1</SpellPoints2>
 	<Exp>13</Exp>
 	<Power>127</Power>
@@ -40,26 +35,27 @@
 		<Gold>50</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Inferno/Imp.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Inferno/Imp.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
+	<PatternAttack />
 	<flybySequence>
 		<Item>
 			<Name>first</Name>
 			<Script href="#n:inline(Script)" id="item_9efd94b7-879d-454b-8154-5fec10ded816">
 				<Script ObjectRecordID="3">
-					<FileName href="/scripts/creature-tutorials/Inferno/imp-first.lua"/>
-					<ScriptText/>
+					<FileName href="/scripts/creature-tutorials/Inferno/imp-first.lua" />
+					<ScriptText />
 				</Script>
 			</Script>
 		</Item>
 	</flybySequence>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Inferno/Imp.xdb#xpointer(/CreatureVisual)"/>
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Inferno/Imp.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_FAMILIAR</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_DEMONIC</Item>
 		<Item>ABILITY_SYPHON_MANA</Item>
+		<Item>ABILITY_INVISIBILITY</Item>
 	</Abilities>
 </Creature>

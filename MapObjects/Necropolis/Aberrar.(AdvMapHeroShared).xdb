@@ -50,22 +50,17 @@
 		<NameFileRef href="/Text/Game/Heroes/Persons/Necropolis/Aberrar/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Necropolis/Aberrar/Bio.txt" />
 		<Offence>1</Offence>
-		<Defence>0</Defence>
+		<Defence>1</Defence>
 		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
 				<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_WRATH</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_WASP_SWARM</Item>
-			<Item>SPELL_HASTE</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

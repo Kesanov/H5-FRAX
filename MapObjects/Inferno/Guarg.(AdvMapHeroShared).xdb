@@ -41,7 +41,7 @@
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Marbas_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall href="/Textures/Icons/Heroes/Inferno/Inferno_Marbas_128x128_64.(Texture).xdb#xpointer(/Texture)" />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/Guarg/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/Guarg/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/Guarg/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Inferno/Guarg/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Inferno/Guarg/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -59,11 +59,10 @@
 				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_MIND</Item>
-		</perkIDs>
+		<perkIDs />
 		<spellIDs>
-			<Item>SPELL_FORGETFULNESS</Item>
+			<Item>SPELL_MASS_FORGETFULNESS</Item>
+			<Item>SPELL_MASS_SLOW</Item>
 		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

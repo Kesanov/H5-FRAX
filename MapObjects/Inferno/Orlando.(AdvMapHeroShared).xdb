@@ -43,7 +43,7 @@
 	<FaceTexture href="/UI/H5A2/Icons/Heroes/Portrets128x128/Inferno_Nelech.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall href="/UI/H5A2/Icons/Heroes/Portrets128x128/Inferno_Nelech.(Texture).xdb#xpointer(/Texture)" />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/Orlando/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/Orlando/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/Orlando/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Inferno/Orlando/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Inferno/Orlando/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -54,7 +54,7 @@
 		<Offence>4</Offence>
 		<Defence>2</Defence>
 		<Spellpower>2</Spellpower>
-		<Knowledge>3</Knowledge>
+		<Knowledge>2</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>

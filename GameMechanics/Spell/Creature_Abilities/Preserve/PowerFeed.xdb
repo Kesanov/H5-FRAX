@@ -16,7 +16,7 @@
 	<Level>0</Level>
 	<MagicSchool>MAGIC_SCHOOL_SPECIAL</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
-	<TrainedCost>38</TrainedCost>
+	<TrainedCost>35</TrainedCost>
 	<damage>
 		<Item>
 			<Base>1</Base>

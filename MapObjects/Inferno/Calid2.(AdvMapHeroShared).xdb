@@ -41,7 +41,7 @@
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Calid2_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Inferno/Calid2/HeroCharacterArena.xdb#xpointer(/Character)" />
-	<HeroCharacterArenaMelee />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Inferno/Calid2/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Inferno/Calid2/HeroCharacterAdventure.xdb#xpointer(/Character)" />
 	<HeroIndividualCamera href="/Characters/Heroes/Inferno/Calid2/HeroIndividualCamera.xdb#xpointer(/Camera)" />
 	<CombatVisual href="/Characters/Heroes/Inferno/Calid2/CombatVisual.xdb#xpointer(/CreatureVisual)" />
@@ -52,19 +52,15 @@
 		<Offence>0</Offence>
 		<Defence>0</Defence>
 		<Spellpower>3</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Knowledge>4</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
 				<SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_DARK_RITUAL</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_STONE_SPIKES</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="-1">
-	<NameFileRef href="/Text/Game/Towns/DwarvenTown/Random/Eirik/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/DwarvenTown/Random/Eirik/Description.txt"/>
-	<Bonus>TOWN_BONUS_THIEVES_GUILD</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_FORTRESS</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

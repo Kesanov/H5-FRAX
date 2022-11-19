@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="54">
-	<NameFileRef href="/Text/Game/Towns/Dungeon/Script/Balnur/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Dungeon/Script/Balnur/Biography.txt"/>
-	<Bonus>TOWN_BONUS_GEMS</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_DUNGEON</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

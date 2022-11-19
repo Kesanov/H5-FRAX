@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>14</AttackSkill>
-	<DefenceSkill>15</DefenceSkill>
+	<AttackSkill>24</AttackSkill>
+	<DefenceSkill>24</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>10</MinDamage>
-	<MaxDamage>14</MaxDamage>
+	<MaxDamage>13</MaxDamage>
 	<Speed>6</Speed>
 	<Initiative>11</Initiative>
 	<Flying>false</Flying>
-	<Health>60</Health>
-	<KnownSpells/>
+	<Health>90</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
@@ -35,17 +35,18 @@
 		<Gold>500</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Stronghold/Chieftain.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Stronghold/Chieftain.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Orcs/3rd/OrcchiefChieftain.(CreatureVisual).xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Orcs/3rd/OrcchiefChieftain.(CreatureVisual).xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_ORCCHIEF_BUTCHER</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_DEMON_RAGED</Item>
-		<Item>ABILITY_PRESENCE_OF_COMMANDER</Item>
 		<Item>ABILITY_ORDER_OF_THE_CHIEF</Item>
+		<Item>ABILITY_PRESENCE_OF_COMMANDER</Item>
+		<Item>ABILITY_BRAVERY</Item>
 	</Abilities>
 </Creature>

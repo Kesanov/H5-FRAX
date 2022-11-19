@@ -52,9 +52,9 @@
 		<NameFileRef href="/Text/Game/Heroes/Persons/Necropolis/Arantir/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Necropolis/Arantir/Bio.txt" />
 		<Offence>1</Offence>
-		<Defence>0</Defence>
+		<Defence>1</Defence>
 		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
@@ -65,8 +65,6 @@
 			<Item>HERO_SKILL_NO_REST_FOR_THE_WICKED</Item>
 		</perkIDs>
 		<spellIDs>
-			<Item>SPELL_ANIMATE_DEAD</Item>
-			<Item>SPELL_WASP_SWARM</Item>
 		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

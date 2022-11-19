@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="1000032">
-	<AttackSkill>18</AttackSkill>
-	<DefenceSkill>18</DefenceSkill>
-	<Shots>5</Shots>
-	<MinDamage>16</MinDamage>
+	<AttackSkill>27</AttackSkill>
+	<DefenceSkill>27</DefenceSkill>
+	<Shots>7</Shots>
+	<MinDamage>17</MinDamage>
 	<MaxDamage>24</MaxDamage>
 	<Speed>4</Speed>
 	<Initiative>10</Initiative>
 	<Flying>false</Flying>
-	<Health>100</Health>
+	<Health>150</Health>
 	<KnownSpells>
 		<Item>
 			<Spell>SPELL_SLOW</Spell>
 			<Mastery>MASTERY_EXPERT</Mastery>
 		</Item>
 		<Item>
-			<Spell>SPELL_FORGETFULNESS</Spell>
+			<Spell>SPELL_DISRUPTING_RAY</Spell>
 			<Mastery>MASTERY_ADVANCED</Mastery>
 		</Item>
 		<Item>
@@ -23,7 +23,7 @@
 			<Mastery>MASTERY_ADVANCED</Mastery>
 		</Item>
 	</KnownSpells>
-	<SpellPoints>14</SpellPoints>
+	<SpellPoints>15</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>136</Exp>
@@ -48,11 +48,11 @@
 		<Gold>1300</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Dungeon/Matron.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Dungeon/Matron.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dungeon/Matron.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Dungeon/Matron.xdb#xpointer(/CreatureVisual)" />
 	<Range>-2</Range>
 	<BaseCreature>CREATURE_UNKNOWN</BaseCreature>
 	<Upgrades>
@@ -60,6 +60,7 @@
 		<Item>CREATURE_SHADOW_MISTRESS</Item>
 	</Upgrades>
 	<Abilities>
-		<Item>ABILITY_NO_MELEE_PENALTY</Item>
+		<Item>ABILITY_NO_ENEMY_RETALIATION</Item>
+		<Item>ABILITY_CURSING_ATTACK</Item>
 	</Abilities>
 </Creature>

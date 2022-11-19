@@ -35,7 +35,7 @@
 	<Specialization>HERO_SPEC_WEILDER_OF_FIRE</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
+		<SkillID>HERO_SKILL_LEARNING</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Academy/Weilder_of_Fire/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Academy/Weilder_of_Fire/Description.txt" />
@@ -53,8 +53,8 @@
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Haven/Alaric/Bio.txt" />
 		<Offence>1</Offence>
 		<Defence>0</Defence>
-		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Spellpower>3</Spellpower>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
@@ -65,8 +65,6 @@
 			<Item>HERO_SKILL_MASTER_OF_FIRE</Item>
 		</perkIDs>
 		<spellIDs>
-			<Item>SPELL_FIREBALL</Item>
-			<Item>SPELL_FORGETFULNESS</Item>
 		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

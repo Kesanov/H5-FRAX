@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell>
-	<NameFileRef href="RuneOfStunningName.txt"/>
-	<LongDescriptionFileRef href="RuneOfStunningDesc.txt"/>
-	<Texture href="/UI/H5A1/Icons/Magic/Runemagic/Runes128/Rune_of_Stunning.(Texture).xdb#xpointer(/Texture)"/>
-	<EffectTexture/>
-	<SpellBookPredictions/>
+	<NameFileRef href="RuneOfStunningName.txt" />
+	<LongDescriptionFileRef href="RuneOfStunningDesc.txt" />
+	<Texture href="/UI/H5A1/Icons/Magic/Runemagic/Runes128/Rune_of_Stunning.(Texture).xdb#xpointer(/Texture)" />
+	<EffectTexture />
+	<SpellBookPredictions />
 	<CombatLogTexts>
-		<Item href="StunAction.txt"/>
-		<Item href="Rune_Usage.txt"/>
+		<Item href="StunAction.txt" />
+		<Item href="Rune_Usage.txt" />
 	</CombatLogTexts>
 	<Level>3</Level>
 	<MagicSchool>MAGIC_SCHOOL_RUNIC</MagicSchool>
@@ -64,6 +64,6 @@
 	<Target>TARGET_FRIEND</Target>
 	<Element>ELEMENT_NONE</Element>
 	<visuals>
-		<Item href="RuneOfStunning.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="RuneOfStunning.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

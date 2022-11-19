@@ -33,7 +33,7 @@
 	<Specialization />
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_DEFENCE</SkillID>
+		<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/Clerics/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/Clerics/Description.txt" />
@@ -56,15 +56,11 @@
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
+				<SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_TOUGHNESS</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_HASTE</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

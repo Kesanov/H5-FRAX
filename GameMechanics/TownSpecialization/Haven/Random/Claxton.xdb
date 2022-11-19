@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="87">
-	<NameFileRef href="/Text/Game/Towns/Haven/Random/Claxton/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Haven/Random/Claxton/Biography.txt"/>
-	<Bonus>TOWN_BONUS_AMMO_CART</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_HEAVEN</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

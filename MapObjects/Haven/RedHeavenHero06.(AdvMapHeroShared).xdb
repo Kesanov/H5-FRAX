@@ -32,7 +32,7 @@
 	<Class>HERO_CLASS_KNIGHT</Class>
 	<Specialization>HERO_SPEC_GRIFFINS</Specialization>
 	<PrimarySkill>
-		<Mastery>MASTERY_ADVANCED</Mastery>
+		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_OFFENCE</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Haven/Griffon_Commander2/Name.txt" />
@@ -49,14 +49,17 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Haven/RedHeavenHero06/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Haven/RedHeavenHero06/Bio.txt" />
-		<Offence>2</Offence>
-		<Defence>1</Defence>
+		<Offence>3</Offence>
+		<Defence>0</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
-		<skills />
-		<perkIDs>
-			<Item>HERO_SKILL_FRENZY</Item>
-		</perkIDs>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_LEADERSHIP</SkillID>
+			</Item>
+		</skills>
+		<perkIDs />
 		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

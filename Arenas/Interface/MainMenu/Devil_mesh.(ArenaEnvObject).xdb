@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ArenaEnvObject>
-	<placement>0000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f</placement>
-	<Model href="Devil_mesh.xdb#xpointer(/Model)"/>
-	<AnimSet/>
-</ArenaEnvObject>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell>
-	<NameFileRef href="RuneOfElementalImmunityName.txt"/>
-	<LongDescriptionFileRef href="RuneOfElementalImmunityDesc.txt"/>
-	<Texture href="/UI/H5A1/Icons/Magic/Runemagic/Runes128/Rune_of_Elemental_Immunity.(Texture).xdb#xpointer(/Texture)"/>
-	<EffectTexture/>
-	<SpellBookPredictions/>
+	<NameFileRef href="RuneOfElementalImmunityName.txt" />
+	<LongDescriptionFileRef href="RuneOfElementalImmunityDesc.txt" />
+	<Texture href="/UI/H5A1/Icons/Magic/Runemagic/Runes128/Rune_of_Elemental_Immunity.(Texture).xdb#xpointer(/Texture)" />
+	<EffectTexture />
+	<SpellBookPredictions />
 	<CombatLogTexts>
-		<Item href="Rune_Usage.txt"/>
+		<Item href="Rune_Usage.txt" />
 	</CombatLogTexts>
 	<Level>2</Level>
 	<MagicSchool>MAGIC_SCHOOL_RUNIC</MagicSchool>
@@ -63,6 +63,6 @@
 	<Target>TARGET_FRIEND</Target>
 	<Element>ELEMENT_NONE</Element>
 	<visuals>
-		<Item href="RuneOfElementalImmunity.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="RuneOfElementalImmunity.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AdvMapTownCombat ObjectRecordID="1000007">
-	<walls/>
-	<ArenaDesc href="Crypt.(ArenaDesc).xdb#xpointer(/ArenaDesc)"/>
-	<ArenaMap href="/Scenes/CombatArenas/Crypt.xdb#xpointer(/AdventureFlybyScene)"/>
-	<GroundType>TT_DIRT</GroundType>
-</AdvMapTownCombat>

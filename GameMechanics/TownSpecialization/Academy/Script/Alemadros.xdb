@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="24">
-	<NameFileRef href="/Text/Game/Towns/Academy/Script/Alemadros/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Academy/Script/Alemadros/Biography.txt"/>
-	<Bonus>TOWN_BONUS_TIER2_CREATURE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_ACADEMY</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

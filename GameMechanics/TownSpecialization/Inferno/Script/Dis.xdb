@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization>
-	<NameFileRef href="/Text/Game/Towns/Inferno/Script/Dis/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Inferno/Script/Dis/Biography.txt"/>
-	<Bonus>TOWN_BONUS_TIER4_CREATURE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_INFERNO</TownType>
-	<RandomTown>TOWN_SCRIPT_ONLY</RandomTown>
-</TownSpecialization>

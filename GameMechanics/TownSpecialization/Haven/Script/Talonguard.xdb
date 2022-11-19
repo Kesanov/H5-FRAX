@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="213">
-	<NameFileRef href="Talonguard.txt"/>
-	<BiographyFileRef href=""/>
-	<Bonus>TOWN_NO_BONUS</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_HEAVEN</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

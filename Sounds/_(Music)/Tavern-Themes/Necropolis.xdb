@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Music ObjectRecordID="155">
-	<FileName>..\Music\Tavern-Themes\Tavern-Necropolis.ogg</FileName>
-	<FadeIn>2000</FadeIn>
-	<FadeOut>2000</FadeOut>
-	<MinPausedTime>1000</MinPausedTime>
-	<MaxPausedTime>10000</MaxPausedTime>
-</Music>

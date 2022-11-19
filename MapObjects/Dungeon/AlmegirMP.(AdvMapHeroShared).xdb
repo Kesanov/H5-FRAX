@@ -49,10 +49,10 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Dungeon/Almegir/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Dungeon/Almegir/Bio.txt" />
-		<Offence>1</Offence>
+		<Offence>2</Offence>
 		<Defence>0</Defence>
 		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
+		<Knowledge>1</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
@@ -63,7 +63,6 @@
 			<Item>HERO_SKILL_CHAOTIC_SPELLS</Item>
 		</perkIDs>
 		<spellIDs>
-			<Item>SPELL_PLAGUE</Item>
 		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

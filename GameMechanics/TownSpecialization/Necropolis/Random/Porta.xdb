@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TownSpecialization ObjectRecordID="157">
-	<NameFileRef href="/Text/Game/Towns/Necropolis/Random/Porta/Name.txt"/>
-	<BiographyFileRef href="/Text/Game/Towns/Necropolis/Random/Porta/Biography.txt"/>
-	<Bonus>TOWN_BONUS_EXTRA_ORE</Bonus>
-	<BonusDescriptionFileRef href=""/>
-	<TownType>TOWN_NECROMANCY</TownType>
-	<RandomTown>TOWN_RANDOM</RandomTown>
-</TownSpecialization>

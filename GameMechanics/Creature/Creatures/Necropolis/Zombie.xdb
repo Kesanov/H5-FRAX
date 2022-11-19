@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="72">
-	<AttackSkill>3</AttackSkill>
-	<DefenceSkill>2</DefenceSkill>
+	<AttackSkill>16</AttackSkill>
+	<DefenceSkill>16</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>2</MinDamage>
 	<MaxDamage>3</MaxDamage>
 	<Speed>5</Speed>
 	<Initiative>8</Initiative>
 	<Flying>false</Flying>
-	<Health>22</Health>
-	<KnownSpells/>
+	<Health>33</Health>
+	<KnownSpells />
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
@@ -35,17 +35,18 @@
 		<Gold>70</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Necropolis/Zombie.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Necropolis/Zombie.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Necropolis/Zombie.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Necropolis/Zombie.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_WALKING_DEAD</BaseCreature>
-	<Upgrades/>
+	<Upgrades />
 	<Abilities>
 		<Item>ABILITY_UNDEAD</Item>
 		<Item>ABILITY_ENRAGED</Item>
+		<Item>ABILITY_TAUNT</Item>
 		<Item>ABILITY_WEAKENING_STRIKE</Item>
 	</Abilities>
 </Creature>

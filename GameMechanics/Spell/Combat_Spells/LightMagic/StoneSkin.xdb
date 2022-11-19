@@ -1,52 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="4">
-	<NameFileRef href="/Text/Game/Spells/Combat/Stoneskin/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Stoneskin/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Stoneskin.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/StoneSkin.(Texture).xdb#xpointer(/Texture)"/>
+	<NameFileRef href="/Text/Game/Spells/Combat/Stoneskin/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Stoneskin/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Stoneskin.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/StoneSkin.(Texture).xdb#xpointer(/Texture)" />
 	<SpellBookPredictions>
-		<Item href="/Text/Game/Spells/Combat/Stoneskin/SpellBookPrediction.txt"/>
+		<Item href="/Text/Game/Spells/Combat/Stoneskin/SpellBookPrediction.txt" />
 	</SpellBookPredictions>
-	<CombatLogTexts/>
+	<CombatLogTexts />
 	<Level>1</Level>
 	<MagicSchool>MAGIC_SCHOOL_LIGHT</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
 	<IsAimed>true</IsAimed>
-	<TrainedCost>6</TrainedCost>
+	<TrainedCost>5</TrainedCost>
 	<damage>
 		<Item>
 			<Base>4</Base>
-			<PerPower>0.15</PerPower>
+			<PerPower>0.35</PerPower>
 		</Item>
 		<Item>
-			<Base>4</Base>
-			<PerPower>0.2</PerPower>
+			<Base>7</Base>
+			<PerPower>0.35</PerPower>
 		</Item>
 		<Item>
-			<Base>5</Base>
-			<PerPower>0.2</PerPower>
+			<Base>8</Base>
+			<PerPower>0.35</PerPower>
 		</Item>
 		<Item>
-			<Base>6</Base>
-			<PerPower>0.25</PerPower>
+			<Base>13</Base>
+			<PerPower>0.35</PerPower>
 		</Item>
 	</damage>
 	<duration>
 		<Item>
-			<Base>1</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 		<Item>
-			<Base>1</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 		<Item>
-			<Base>1</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 		<Item>
-			<Base>1</Base>
-			<PerPower>0.1</PerPower>
+			<Base>5.5</Base>
+			<PerPower>0</PerPower>
 		</Item>
 	</duration>
 	<sSpellCost>
@@ -58,13 +58,13 @@
 		<Gem>0</Gem>
 		<Gold>0</Gold>
 	</sSpellCost>
-	<IsAimed>true</IsAimed>		
+	<IsAimed>true</IsAimed>
 	<IsAreaAttack>false</IsAreaAttack>
 	<CanSelectDead>false</CanSelectDead>
 	<Target>TARGET_FRIEND</Target>
 	<Element>ELEMENT_NONE</Element>
-	<DamageIsElemental>true</DamageIsElemental>		
+	<DamageIsElemental>true</DamageIsElemental>
 	<visuals>
-		<Item href="StoneSkin.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="StoneSkin.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

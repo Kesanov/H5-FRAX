@@ -32,7 +32,7 @@
 	<Class>HERO_CLASS_NECROMANCERA</Class>
 	<Specialization />
 	<PrimarySkill>
-		<Mastery>MASTERY_ADVANCED</Mastery>
+		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_NECROMANCY</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/Skeletons/Name.txt" />
@@ -50,16 +50,17 @@
 		<NameFileRef href="/Text/Game/Heroes/Persons/Necropolis/Nimbus/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Necropolis/Nimbus/Bio.txt" />
 		<Offence>1</Offence>
-		<Defence>0</Defence>
+		<Defence>1</Defence>
 		<Spellpower>2</Spellpower>
-		<Knowledge>2</Knowledge>
-		<skills />
-		<perkIDs>
-			<Item>HERO_SKILL_NO_REST_FOR_THE_WICKED</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_WASP_SWARM</Item>
-		</spellIDs>
+		<Knowledge>1</Knowledge>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_LOGISTICS</SkillID>
+			</Item>
+		</skills>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

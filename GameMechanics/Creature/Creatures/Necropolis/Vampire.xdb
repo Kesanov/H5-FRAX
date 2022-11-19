@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="68">
-	<AttackSkill>6</AttackSkill>
-	<DefenceSkill>6</DefenceSkill>
+	<AttackSkill>21</AttackSkill>
+	<DefenceSkill>21</DefenceSkill>
 	<Shots>0</Shots>
-	<MinDamage>7</MinDamage>
-	<MaxDamage>9</MaxDamage>
+	<MinDamage>6</MinDamage>
+	<MaxDamage>8</MaxDamage>
 	<Speed>6</Speed>
 	<Initiative>11</Initiative>
 	<Flying>false</Flying>
-	<Health>34</Health>
-	<KnownSpells/>
-	<SpellPoints> </SpellPoints>
+	<Health>60</Health>
+	<KnownSpells />
+	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
 	<Exp>38</Exp>
@@ -35,11 +35,11 @@
 		<Gold>260</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
-	<MonsterShared href="/MapObjects/Necropolis/Vampire.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)"/>
+	<MonsterShared href="/MapObjects/Necropolis/Vampire.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
 	<CombatSize>1</CombatSize>
-	<PatternAttack/>
-	<flybySequence/>
-	<Visual href="/GameMechanics/CreatureVisual/Creatures/Necropolis/Vampire.xdb#xpointer(/CreatureVisual)"/>
+	<PatternAttack />
+	<flybySequence />
+	<Visual href="/GameMechanics/CreatureVisual/Creatures/Necropolis/Vampire.xdb#xpointer(/CreatureVisual)" />
 	<Range>0</Range>
 	<BaseCreature>CREATURE_UNKNOWN</BaseCreature>
 	<Upgrades>
@@ -47,8 +47,8 @@
 		<Item>CREATURE_NOSFERATU</Item>
 	</Upgrades>
 	<Abilities>
-		<Item>ABILITY_NO_ENEMY_RETALIATION</Item>
 		<Item>ABILITY_UNDEAD</Item>
+		<Item>ABILITY_NO_ENEMY_RETALIATION</Item>
 		<Item>ABILITY_LIFE_DRAIN</Item>
 	</Abilities>
 </Creature>

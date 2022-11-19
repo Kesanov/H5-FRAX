@@ -1,39 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spell ObjectRecordID="11">
-	<NameFileRef href="/Text/Game/Spells/Combat/Earthquake/Name.txt"/>
-	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Earthquake/Long_Description.txt"/>
-	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Earthquake.xdb#xpointer(/Texture)"/>
-	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Earthquake.(Texture).xdb#xpointer(/Texture)"/>
+	<NameFileRef href="/Text/Game/Spells/Combat/Earthquake/Name.txt" />
+	<LongDescriptionFileRef href="/Text/Game/Spells/Combat/Earthquake/Long_Description.txt" />
+	<Texture href="/Textures/SpellBook______2618/Spells/Spell_Earthquake.xdb#xpointer(/Texture)" />
+	<EffectTexture href="/UI/Common/Icons/Spell_Buff_Icons/Earthquake.(Texture).xdb#xpointer(/Texture)" />
 	<SpellBookPredictions>
-		<Item href="/Text/Game/Spells/Combat/Earthquake/SpellBookPrediction.txt"/>
+		<Item href="/Text/Game/Spells/Combat/Earthquake/SpellBookPrediction.txt" />
 	</SpellBookPredictions>
 	<CombatLogTexts>
-		<Item href="/Text/CombatLog/Spells/Earthquake.txt"/>
-		<Item href="/Text/CombatLog/CastSpellTargetedDamage.txt"/>
+		<Item href="/Text/CombatLog/Spells/Earthquake.txt" />
+		<Item href="/Text/CombatLog/CastSpellTargetedDamage.txt" />
 	</CombatLogTexts>
 	<Level>2</Level>
 	<MagicSchool>MAGIC_SCHOOL_SUMMONING</MagicSchool>
 	<RequiredHeroLevel>0</RequiredHeroLevel>
-	<TrainedCost>12</TrainedCost>
+	<TrainedCost>10</TrainedCost>
 	<damage>
 		<Item>
-			<Base>250</Base>
-			<PerPower>0</PerPower>
+			<Base>150</Base>
+			<PerPower>1</PerPower>
+		</Item>
+		<Item>
+			<Base>200</Base>
+			<PerPower>1</PerPower>
 		</Item>
 		<Item>
 			<Base>300</Base>
-			<PerPower>0</PerPower>
-		</Item>
-		<Item>
-			<Base>350</Base>
-			<PerPower>0</PerPower>
+			<PerPower>1</PerPower>
 		</Item>
 		<Item>
 			<Base>400</Base>
-			<PerPower>0</PerPower>
+			<PerPower>1</PerPower>
 		</Item>
 	</damage>
 	<duration>
+		<Item>
+			<Base>0</Base>
+			<PerPower>1</PerPower>
+		</Item>
 		<Item>
 			<Base>50</Base>
 			<PerPower>1</PerPower>
@@ -43,11 +47,7 @@
 			<PerPower>1</PerPower>
 		</Item>
 		<Item>
-			<Base>100</Base>
-			<PerPower>1</PerPower>
-		</Item>
-		<Item>
-			<Base>100</Base>
+			<Base>150</Base>
 			<PerPower>1</PerPower>
 		</Item>
 	</duration>
@@ -67,6 +67,6 @@
 	<Element>ELEMENT_NONE</Element>
 	<DamageIsElemental>true</DamageIsElemental>
 	<visuals>
-		<Item href="Earthquake.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+		<Item href="Earthquake.(SpellVisual).xdb#xpointer(/SpellVisual)" />
 	</visuals>
 </Spell>

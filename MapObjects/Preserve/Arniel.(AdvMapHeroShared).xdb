@@ -30,14 +30,14 @@
 	<Icon128 href="/UI/H5A2/Icons/Heroes/Portrets128x128/Sylvan_Tieru.(Texture).xdb#xpointer(/Texture)" />
 	<InternalName>Arniel</InternalName>
 	<Class>HERO_CLASS_WARDEN</Class>
-	<Specialization>HERO_SPEC_STORMCALLER</Specialization>
+	<Specialization>HERO_SPEC_DISRUPTER</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_AVENGER</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Fortress/Stormcaller/Name.txt"/>
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Fortress/Stormcaller/Description.txt"/>
-	<SpecializationIcon href="/UI/H5A1/Icons/Abilites/Heroes_Abillites/128x128/Stormcaller.(Texture).xdb#xpointer(/Texture)"/>
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Academy/Disrupter/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Academy/Disrupter/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Disrupter.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Preserve/Preserve_Arniel_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall href="" />
 	<HeroCharacterArena href="/Characters/Heroes/Preserve/Arniel/HeroCharacterArena.xdb#xpointer(/Character)" />
@@ -56,16 +56,11 @@
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</SkillID>
+				<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs>
-			<Item>HERO_SKILL_MASTER_OF_LIGHTNINGS</Item>
-		</perkIDs>
-		<spellIDs>
-			<Item>SPELL_DISRUPTING_RAY</Item>
-			<Item>SPELL_LIGHTNING_BOLT</Item>
-		</spellIDs>
+		<perkIDs />
+		<spellIDs />
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>
