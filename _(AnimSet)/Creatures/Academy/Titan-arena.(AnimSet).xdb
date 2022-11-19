@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimSet ObjectRecordID="295">
+	<animations>
+		<Item>
+			<Kind>attack00</Kind>
+			<Anim href="Titan-arena-attack00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>death</Kind>
+			<Anim href="Titan-arena-death.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>hit</Kind>
+			<Anim href="Titan-arena-hit.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>idle00</Kind>
+			<Anim href="Titan-arena-idle00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>move</Kind>
+			<Anim href="Titan-arena-move.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>rangeattack</Kind>
+			<Anim href="Titan-arena-rangeattack.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>happy</Kind>
+			<Anim href="Titan-arena-happy.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>specability</Kind>
+			<Anim href="Titan-arena-specability.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+		<Item>
+			<Kind>stir00</Kind>
+			<Anim href="Titan-arena-stir00.xdb#xpointer(/BasicSkelAnim)"/>
+		</Item>
+        <Item>
+            <Kind>cast</Kind>
+            <Anim href="Titan-arena-specability.xdb#xpointer(/BasicSkelAnim)"/>
+        </Item>
+	</animations>
+	<ExpSrcScene href="/models/Creatures/Academy/Titan.mb"/>
+	<ExpSrcClipFolder href="/Animations/Creatures/ACADEMY/Titan/Clip/"/>
+	<ExpRootTransform>Global</ExpRootTransform>
+</AnimSet>

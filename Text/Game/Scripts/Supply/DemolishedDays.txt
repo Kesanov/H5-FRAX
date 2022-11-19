@@ -1,0 +1,1 @@
+<color=red>This building will be demolished in <value=days> days.

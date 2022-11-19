@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spell ObjectRecordID="151">
+	<NameFileRef href="/Text/Game/Skills/Common/LightMagic/FireProtection/Name.txt"/>
+	<LongDescriptionFileRef href="/Text/Game/Skills/Common/LightMagic/FireProtection/Description.txt"/>
+	<Texture href="/Textures/HeroScreen/Feats/Demon_Lord/Demonic_FireProtection.xdb#xpointer(/Texture)"/>
+	<EffectTexture href="/Textures/HeroScreen/Feats/Demon_Lord/Demonic_FireProtection.xdb#xpointer(/Texture)"/>
+	<SpellBookPredictions/>
+	<CombatLogTexts/>
+	<Level>0</Level>
+	<MagicSchool>MAGIC_SCHOOL_SPECIAL</MagicSchool>
+	<RequiredHeroLevel>0</RequiredHeroLevel>
+	<IsAimed>false</IsAimed>
+	<TrainedCost>0</TrainedCost>
+	<damage/>
+	<duration/>
+	<sSpellCost>
+		<Wood>0</Wood>
+		<Ore>0</Ore>
+		<Mercury>0</Mercury>
+		<Crystal>0</Crystal>
+		<Sulfur>0</Sulfur>
+		<Gem>0</Gem>
+		<Gold>0</Gold>
+	</sSpellCost>
+	<IsAreaAttack>false</IsAreaAttack>
+	<CanSelectDead>false</CanSelectDead>
+	<Target>TARGET_FRIEND</Target>
+	<Element>ELEMENT_NONE</Element>
+	<visuals/>
+</Spell>

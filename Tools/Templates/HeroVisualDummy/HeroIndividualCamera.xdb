@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Camera>
+	<Name/>
+	<Pos>
+		<x>3.52568</x>
+		<y>-4.0297</y>
+		<z>1.49626</z>
+	</Pos>
+	<Rot>
+		<x>-5.74193</x>
+		<y>56.7048</y>
+		<z>0</z>
+	</Rot>
+	<Rod>5.88364</Rod>
+	<FOV>54.4316</FOV>
+	<ClipDistanceMin>1</ClipDistanceMin>
+	<ClipDistanceMax>500</ClipDistanceMax>
+	<SrcName/>
+	<RootJoint>camera_hero_screen</RootJoint>
+</Camera>
