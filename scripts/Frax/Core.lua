@@ -38,6 +38,12 @@ function Fx_IsThisAIPlayer(player)
 	return H55_PlayerStatus[player] == 1
 end
 
+function GivePlayerResource(player, hero, resource, amount)
+	if amount ~= 0 then
+		SetPlayerResource(player,resource,GetPlayerResource(player, resource) + amount,hero);
+	end
+end
+
 function Display(player, object, text)
 	-- if not Fx_IsThisAIPlayer(player) then
 	-- 	sleep(2)
@@ -119,8 +125,6 @@ function Fx_PerkCount(hero, perks)
 	return count
 end
 
-Fx_HeroUltimates = {}
-
 function Fx_GiveArtefacts(hero, artefacts)
 	for _, artefact in artefacts do
 		GiveArtefact(hero, artefact)
@@ -137,7 +141,7 @@ function Fx_OfferUltimates(player, hero)
 
 	if Fx_IsThisAIPlayer(player) then
 		local race = H55_GetHeroRaceNum(hero)
-		if not Fx_HeroUltimates[hero] and GetHeroLevel(hero) >= 15 then
+		if Fx_PerkCount(hero, Fx_Skills) >= 6 then
 			Fx_GiveUltimate(player, hero, Fx_UltimatesAI[race==8 and 4+random(10) or race==4 and 1+random(10) or 1+random(12)])
 		end
 		return
@@ -159,7 +163,6 @@ function Fx_OfferUltimates(player, hero)
 		Fx_ChooseUltimate(player, hero, skills[r1], skills[mod(r1 + r2, N)])
 		return 1
 	end
-	return nil
 end
 
 function Fx_ChooseUltimate(player, hero, s1, s2)
@@ -177,7 +180,6 @@ end
 function Fx_GiveUltimate(player, hero, skill)
 	LOG = {'Fx_GiveUltimate', player, hero, skill}
 
-	Fx_HeroUltimates[hero] = skill
 	Fx_PlayerUltimates[player][skill] = 1
 	local ultimate = Fx_Ultimates[skill]
 	GiveHeroSkill(hero, ultimate)
@@ -206,20 +208,6 @@ function Fx_GiveUltimate(player, hero, skill)
 		TeachHeroSpell(hero, SPELL_WARCRY_FEAR_MY_ROAR)
 		TeachHeroSpell(hero, SPELL_WARCRY_BATTLECRY)
 		TeachHeroSpell(hero, SPELL_WARCRY_SHOUT_OF_MANY)
-	elseif skill == SKILL_WAR_MACHINES then
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_CHARGE)
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_BERSERKING)
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_MAGIC_CONTROL)
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_EXORCISM)
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_ELEMENTAL_IMMUNITY)
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_STUNNING)
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_BATTLERAGE)
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_ETHEREALNESS)
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_REVIVE)
-		-- TeachHeroSpell(hero, SPELL_RUNE_OF_DRAGONFORM)
-	elseif skill == SKILL_DEFENCE then
-		sleep(1)
-		GiveHeroSkill(hero, SKILL_SEAL_OF_PROTECTION)
 	end
 end
 
@@ -244,7 +232,6 @@ function Fx_GetHeroDragonblood(hero)
 		amount = amount + 2 * (GetHeroSkillMastery(hero, SKILL_SUMMONING_MAGIC) == 3 or 0)
 		amount = amount + 2 * (GetHeroSkillMastery(hero, SKILL_DESTRUCTIVE_MAGIC) == 3 or 0)
 	end
-
 
 	if HasArtefact(hero, ARTIFACT_ELRATH_02, 0) then
 		local knowledge = GetHeroStat(hero,STAT_KNOWLEDGE)
@@ -272,16 +259,29 @@ function Fx_GetPlayerDragonblood(player)
 end
 
 
-function Fx_ResurrectArmy(player,hero,ci,side,baseperc)
-	LOG = {'Fx_ResurrectArmy', player, hero, ci, side, baseperc}
+function Fx_ResurrectArmy(player,hero,ci,side,baseperc,necroperc)
+	LOG = {'Fx_ResurrectArmy', player, hero, ci, side, baseperc, necroperc}
 
 	local stackscount = GetSavedCombatArmyCreaturesCount(ci,side)
 	for i = 0,stackscount-1,1 do
-		creature,cnt,died = GetSavedCombatArmyCreatureInfo(ci,side,i)
-		local resurrect = math.min(died, cnt*baseperc)
+		local creature,cnt,died = GetSavedCombatArmyCreatureInfo(ci,side,i)
+		local ttu = Fx_CreaturesInv[creature]
+
+		local resurrect = math.min(died, (died+cnt)*baseperc)
 		if resurrect >= 1 then
 			AddHeroCreatures(hero,creature,resurrect)
-			Display(player, hero, {"/Text/Game/Scripts/Resurrection.txt"; num=resurrect, tier=Fx_CreaturesInv[creature][2]})
+			Display(player, hero, {"/Text/Game/Scripts/Resurrection.txt"; num=resurrect, tier=ttu[2]})
+		end
+
+		if ttu[1] ~= Necropolis then
+			local growth = Fx_Growth[Necropolis][ttu[2]] / Fx_Growth[ttu[1]][ttu[2]]
+
+			resurrect = math.min((died - resurrect), (died - resurrect)*necroperc*growth)
+			if resurrect >= 1 then
+				AddHeroCreatures(hero,Fx_Creatures[Necropolis][ttu[2]][ttu[3]],resurrect, CREATURE_ORC_WARMONGER, 20)
+				-- TODO RAISE
+				Display(player, hero, {"/Text/Game/Scripts/Resurrection.txt"; num=resurrect, tier=ttu[2]})
+			end
 		end
 	end
 end
@@ -317,7 +317,7 @@ function Fx_SpecReinforce(player, hero, town, tier, coef)
 	if coef < 0.1 then return end
 	local level = GetHeroLevel(hero)
 	local multiplier = 0.6 + 0.4 * length(H55_GetPlayerTowns(player))
-	local growth = math.floor(multiplier*coef*level*Fx_CreaturesGrowthReal[town][tier]);
+	local growth = math.floor(multiplier*coef*level* Fx_Growth[town][tier]);
 	Fx_Reinforce(player, hero, town, tier, growth)
 end
 
@@ -378,16 +378,16 @@ end
 
 
 function Fx_HandleVictory(player, hero, ci, side)
-	LOG = {'Fx_HandleVictory', player, hero, ci}
+	LOG = {'Fx_HandleVictory', player, hero, ci, side}
 
 
 	---- RESOURCE ----
 	
 	if HasHeroSkill(hero, SKILL_FINE_RUNE) then
 		local remaining = 5
-		for resource, amount in Fx_Resources[hero] do
+		for resource, amount in Fx_Resources[player] do
 			local refund = math.min(remaining, math.max(0, amount - GetPlayerResource(player, resource)))
-			H55_GiveResources(player, resource, refund, hero)
+			GivePlayerResource(player, hero, resource, refund)
 			remaining = remaining - refund
 		end
 	end
@@ -396,8 +396,9 @@ function Fx_HandleVictory(player, hero, ci, side)
 
 	resource = resource + 2 * GetHeroSkillMastery(hero, SKILL_ACADEMY_AWARD)
 	resource = resource + 1 * (HasArtefact(hero,ARTIFACT_PIRATE04,1) or 0)
+	resource = resource + 1 * Fx_GovernorBonuses[player][SKILL_WAR_MACHINES]
 
-	if resource > 0 then H55_GiveResources(player, random(6), resource, hero) end
+	GivePlayerResource(player, hero, random(7), resource)
 
 
 	---- GOLD ----
@@ -405,9 +406,9 @@ function Fx_HandleVictory(player, hero, ci, side)
 	local gold = 0
 
 	gold = gold + (random(201) + 100) * (HasArtefact(hero,ARTIFACT_PIRATE02,1) or 0)
-	gold = gold + 300 * (Fx_GovernorBonuses[player][SKILL_LUCK] or 0)
+	gold = gold + 300 * Fx_GovernorBonuses[player][SKILL_LUCK]
 
-	if gold > 0 then H55_GiveResources(player, GOLD, gold, hero) end
+	GivePlayerResource(player, hero, GOLD, gold)
 
 
 	---- MANA ----
@@ -415,20 +416,20 @@ function Fx_HandleVictory(player, hero, ci, side)
 	local mana = 0.5 * GetHeroStat(hero, STAT_KNOWLEDGE)
 
 	mana = mana +  4 * (HasHeroWarMachine(hero, WAR_MACHINE_AMMO_CART) or 0)
-	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_BEGINNER_MAGIC_STICK) or 0)
-	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_BREASTPLATE_OF_PETRIFIED_WOOD) or 0)
-	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_CROWN_OF_MAGI) or 0)
-	mana = mana + 12 * (HasArtefact(hero, ARTIFACT_EIGHTFOLD) or 0)
-	mana = mana +  8 * (HasArtefact(hero, ARTIFACT_GEAR_03) or 0)
-	mana = mana + 12 * (HasArtefact(hero, ARTIFACT_MONK_01) or 0)
-	mana = mana +  4 * (HasArtefact(hero, ARTIFACT_MONK_02) or 0)
-	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_MONK_04) or 0)
-	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_ROBE_OF_MAGI) or 0)
-	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_RUNE_OF_FLAME) or 0)
-	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_AXE) or 0)
-	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_HARNESS) or 0)
-	mana = mana -  3 * (HasArtefact(hero, ARTIFACT_UPG_ST1) or 0)
-	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_UPG_ST2) or 0)
+	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_BEGINNER_MAGIC_STICK, 1) or 0)
+	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_BREASTPLATE_OF_PETRIFIED_WOOD, 1) or 0)
+	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_CROWN_OF_MAGI, 1) or 0)
+	mana = mana + 12 * (HasArtefact(hero, ARTIFACT_EIGHTFOLD, 1) or 0)
+	mana = mana +  8 * (HasArtefact(hero, ARTIFACT_GEAR_03, 1) or 0)
+	mana = mana + 12 * (HasArtefact(hero, ARTIFACT_MONK_01, 1) or 0)
+	mana = mana +  4 * (HasArtefact(hero, ARTIFACT_MONK_02, 1) or 0)
+	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_MONK_04, 1) or 0)
+	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_ROBE_OF_MAGI, 1) or 0)
+	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_RUNE_OF_FLAME, 1) or 0)
+	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_AXE, 1) or 0)
+	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_HARNESS, 1) or 0)
+	mana = mana -  3 * (HasArtefact(hero, ARTIFACT_UPG_ST1, 1) or 0)
+	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_UPG_ST2, 1) or 0)
 
 	ChangeHeroStat(hero, STAT_MANA_POINTS, mana)
 
@@ -437,23 +438,21 @@ function Fx_HandleVictory(player, hero, ci, side)
 
 	local movement = HasHeroSkill(hero,SKILL_RAISE_ARCHERS) and 100 or 0
 
-	movement = movement - 200 * (3 - GetHeroSkillMastery(hero,SKILL_RUSH)) * GetHeroSkillMastery(hero,SKILL_RUSH)
-	movement = movement - 200 * (3 - GetHeroSkillMastery(hero,SKILL_STAMINA)) * GetHeroSkillMastery(hero,SKILL_STAMINA)
+	movement = movement - 200 * (3 - GetHeroSkillMastery(hero,SKILL_RUSH)) * (HasHeroSkill(hero,SKILL_RUSH) or 0)
+	movement = movement - 200 * (3 - GetHeroSkillMastery(hero,SKILL_STAMINA)) * (HasHeroSkill(hero,SKILL_STAMINA) or 0)
 	movement = movement + 150 * (HasArtefact(hero,ARTIFACT_PIRATE05,1) or 0)
 	movement = movement + 150 * (HasArtefact(hero,ARTIFACT_GUARDIAN_02,1) or 0)
 	movement = movement + 500 * (HasArtefact(hero,ARTIFACT_PIRATE01,1) and IsHeroInBoat(hero) or 0)
 	movement = movement + 250 * (HasArtefact(hero,ARTIFACT_PIRATE06,1) and IsHeroInBoat(hero) or 0)
-	movement = movement + 100 * (Fx_GovernorBonuses[player][SKILL_LOGISTICS] or 0)
-
-	for cr, _ in Fx_HeroArmy(hero) do
-		if cr == CREATURE_CLERIC or cr == CREATURE_ORCCHIEF_CHIEFTAIN then
-			movement = movement + 100
-			break
-		end
-	end
+	movement = movement + 100 * Fx_GovernorBonuses[player][SKILL_LOGISTICS]
 
 	ChangeHeroStat(hero, STAT_MOVE_POINTS, movement)
 
+	---- experience ----
+
+	local experience = 500 * Fx_GovernorBonuses[player][SKILL_LEARNING]
+
+	ChangeHeroStat(hero, STAT_EXPERIENCE, experience)
 
 	---- DIPLOMACY ----
 
@@ -461,7 +460,7 @@ function Fx_HandleVictory(player, hero, ci, side)
 
 	join = join + 0.05 * GetHeroSkillMastery(hero, SKILL_DIPLOMACY)
 	join = join + 0.05 * (HasArtefact(hero, ARTIFACT_CROWN_OF_LEADER, 1) or 0)
-	join = join + 0.01 * (Fx_GovernorBonuses[player][SKILL_LEADERSHIP] or 0)
+	join = join + 0.01 * Fx_GovernorBonuses[player][SKILL_LEADERSHIP]
 
 	Fx_Diplomacy(player,hero,ci,1-side,join)
 
@@ -484,15 +483,22 @@ function Fx_HandleVictory(player, hero, ci, side)
 
 	resurrect = resurrect + 0.02 * GetHeroSkillMastery(hero,SKILL_NO_REST_FOR_THE_WICKED)
 	resurrect = resurrect + 0.04 * GetHeroSkillMastery(hero,SKILL_GUARDIAN_ANGEL)
+	resurrect = resurrect + 0.20 * GetHeroSkillMastery(hero,SKILL_SHATTER_SUMMONING_MAGIC)
 
-	resurrect = resurrect + 0.02 * (Fx_GovernorBonuses[player][SKILL_WAR_MACHINES] or 0)
+	for _, racial in {SKILL_ARTIFICIER, SKILL_AVENGER, SKILL_DEMONIC_RAGE, SKILL_GATING, SKILL_NECROMANCY, SKILL_RUNELORE} do
+		resurrect = resurrect + 0.01 * Fx_GovernorBonuses[player][racial]
+	end
 
 	if HasArtefact(hero,ARTIFACT_POTION03,1) then
 		RemoveArtefact(hero, ARTIFACT_POTION03)
 		resurrect = resurrect + 0.15
 	end
 
-	Fx_ResurrectArmy(player,hero,ci,side,resurrect)
+	local raise = 0.1 * GetHeroSkillMastery(hero, SKILL_NECROMANCY)
+	raise = raise + 0.1 * GetHeroSkillMastery(hero, SKILL_CHILLING_BONES)
+	raise = raise + 0.3 * GetHeroSkillMastery(hero, SKILL_HERALD_OF_DEATH)
+
+	Fx_ResurrectArmy(player,hero,ci,side,resurrect,raise)
 
 end
 
@@ -586,8 +592,6 @@ function Fx_HandleSpells(player, hero)
 	Fx_TeachSpellOnSkill(hero, SKILL_WEAKENING_STRIKE, SPELL_CURSE)
 	Fx_TeachSpellOnSkill(hero, SKILL_DEAD_LUCK, SPELL_FORGETFULNESS)
 	Fx_TeachSpellOnSkill(hero, SKILL_CUNNING_OF_THE_WOODS, SPELL_MASS_DISRUPTING_RAY)
-
-	Fx_TeachSpellOnSkill(hero, SKILL_PARIAH, SPELL_VAMPIRISM)
 end
 
 function Fx_HandleSpellsDaily(player, hero)
@@ -634,12 +638,10 @@ end
 function Fx_HandleStats(player, hero)
 	LOG = {'Fx_HandleStats', player, hero}
 
-	Fx_ChangeStatOnSkill(hero, SKILL_SHATTER_SUMMONING_MAGIC, STAT_DEFENCE, 10/3)
-	Fx_ChangeStatOnSkill(hero, SKILL_ABSOLUTE_LUCK, STAT_ATTACK, GetHeroStat(hero, STAT_LUCK) < 5 and -10/3 or 0)
+	Fx_ChangeStatOnSkill(hero, SKILL_ABSOLUTE_LUCK, STAT_ATTACK, -6/3)
 	Fx_ChangeStatOnSkill(hero, SKILL_ABSOLUTE_PROTECTION, STAT_DEFENCE, -6/3)
 	Fx_ChangeStatOnSkill(hero, SKILL_WEAKEN_SUMMONING, STAT_ATTACK, -6/3)
 	Fx_ChangeStatOnSkill(hero, SKILL_RETRIBUTION, STAT_MORALE, 5/3)
-	-- Fx_ChangeStatOnSkill(hero, SKILL_CORRUPT_DARK, STAT_HEALTH, 40/3)
 
 	Fx_ChangeStatOnSkill(hero, SKILL_CUNNING_OF_THE_WOODS, STAT_KNOWLEDGE, 2)
 	Fx_ChangeStatOnSkill(hero, SKILL_FOREST_RAGE, STAT_LUCK, 1)
@@ -663,28 +665,22 @@ function Fx_HandleStats(player, hero)
 		Fx_ChangeStatOnSkill(hero, SKILL_MIGHT_OVER_MAGIC, STAT_ATTACK, GetHeroStat(hero, STAT_SPELL_POWER)/2)
 	end
 
-	if not H55_NecropolisPhonebook[hero] then
-		Fx_ChangeStatOnSkill(hero, SKILL_CHILLING_BONES, STAT_DEFENCE, 4)
-		Fx_ChangeStatOnSkill(hero, SKILL_NECROMANCY, STAT_MORALE, 1)
-	end
-
-
 	local scale = 0
 
-	scale = 0.05 * Fx_GovernorBonuses[player][SKILL_OFFENCE]
-	ScaleStatOn(hero, SKILL_OFFENCE, STAT_ATTACK, scale)
+	scale = 1 + 0.05 * (Fx_GovernorBonuses[player][SKILL_OFFENCE] + Fx_GovernorBonuses[player][SKILL_RUSH])
+	ScaleStatOn(hero, SKILL_OFFENCE, STAT_ATTACK, scale - 1)
 
-	scale = 0.05 * Fx_GovernorBonuses[player][SKILL_DEFENCE]
-	scale = scale + scale * 0.2 * GetHeroSkillMastery(hero, SKILL_SEAL_OF_PROTECTION)
-	ScaleStatOn(hero, SKILL_DEFENCE, STAT_DEFENCE, scale)
+	scale = 1 + 0.05 * (Fx_GovernorBonuses[player][SKILL_DEFENCE] + Fx_GovernorBonuses[player][SKILL_STAMINA] + Fx_GovernorBonuses[player][SKILL_TRAINING])
+	scale = scale + scale * 0.5 / 3 * GetHeroSkillMastery(hero, SKILL_CORRUPT_DARK)
+	ScaleStatOn(hero, SKILL_DEFENCE, STAT_DEFENCE, scale - 1)
 
-	scale = 0.05 * Fx_GovernorBonuses[player][SKILL_INVOCATION]
+	scale = 1 + 0.05 * (Fx_GovernorBonuses[player][SKILL_INVOCATION] + Fx_GovernorBonuses[player][SKILL_SORCERY])
 	scale = scale + scale * 0.1 * GetHeroSkillMastery(hero, SKILL_INVOCATION)
 	scale = scale - scale * 0.2 * GetHeroSkillMastery(hero, SKILL_MIGHT_OVER_MAGIC) * (H55_ChieftainsPhonebook[hero] or 0)
-	ScaleStatOn(hero, SKILL_INVOCATION, STAT_SPELL_POWER, scale)
+	ScaleStatOn(hero, SKILL_INVOCATION, STAT_SPELL_POWER, scale - 1)
 
-	scale = 0.05 * Fx_GovernorBonuses[player][SKILL_FAITH]
-	ScaleStatOn(hero, SKILL_FAITH, STAT_KNOWLEDGE, scale)
+	scale = 1 + 0.05 * Fx_GovernorBonuses[player][SKILL_FAITH]
+	ScaleStatOn(hero, SKILL_FAITH, STAT_KNOWLEDGE, scale - 1)
 end
 
 function Fx_HandleEvents(player, hero)
@@ -701,7 +697,7 @@ function Fx_HandleEvents(player, hero)
 	end
 end
 
-function MixStacks()
+function DisabledMixStacks()
 	print("H55 Modifying Neutral stack sizes...")
 	-- BlockGame()
 
@@ -741,20 +737,12 @@ function MixStacks()
 	print("H55 Neutrals processed")
 end
 
-function Fx_HandleCurses(player, hero)
-	LOG = {'Fx_HandleCurses', player, hero}
+function Fx_HandleArtifacts(player, hero)
+	LOG = {'Fx_HandleArtifacts', player, hero}
 
 	if GetHeroSkillMastery(hero, SKILL_SHATTER_DARK_MAGIC) > Fx_Curses and not Fx_IsThisAIPlayer(player) then
 		Fx_Curses = GetHeroSkillMastery(hero, SKILL_SHATTER_DARK_MAGIC)
 	end
-	local curses = Fx_Curses - GetHeroSkillMastery(hero, SKILL_SHATTER_DARK_MAGIC)
-
-	Fx_ChangeStat(hero, STAT_MOVE_POINTS, -150*curses)
-end
-
-
-function Fx_HandleArtifacts(player, hero)
-	LOG = {'Fx_HandleArtifacts', player, hero}
 
 	if Fx_IsThisAIPlayer(player) then
 		if HasArtefact(hero, ARTIFACT_HELM_OF_CHAOS) then
@@ -777,6 +765,21 @@ function Fx_HandleArtifacts(player, hero)
 		-- weird behavior: value can be `nil`
 		if value and Update(Fx_Gifts[hero], artifact, 2) then
 			GiveArtefact(hero, artifact)
+		else
+			if value and not HasArtefact(hero, artifact) then
+				GiveArtifact(hero, artifact)
+				for _, badboy in (GetPlayerHeroes(player) or {}) do
+					if HasArtefact(badboy, artifact) then
+						RemoveArtefact(badboy, artifact)
+						sleep(1)
+						if Fx_Gifts[badboy][artifact] and not HasArtefact(badboy, artifact) then
+							GiveArtifact(badboy, artifact)
+						else
+							break
+						end
+					end
+				end
+			end
 		end
 	end
 end
@@ -807,13 +810,12 @@ function Fx_DailyEvents(player)
 	end
 		
 	for _, hero in (GetPlayerHeroes(player) or {}) do
-		Fx_HandleCurses(player, hero)
 		Fx_DailyReinforcements(player, hero)
 
 		local gold = 0
 
-		gold = gold + 0.5 * GetHeroSkillMastery(hero, SKILL_LORD_OF_UNDEAD) * Fx_CreaturesInArmy(hero, Necropolis, 1, nil)
-		gold = gold + 0.5 * GetHeroSkillMastery(hero, SKILL_GOBLIN_SUPPORT) * Fx_CreaturesInArmy(hero, Stronghold, 1, nil)
+		gold = gold + 0.5 * GetHeroSkillMastery(hero, SKILL_LORD_OF_UNDEAD) * Fx_CreaturesInArmy(hero, Necropolis, 1)
+		gold = gold + 0.5 * GetHeroSkillMastery(hero, SKILL_GOBLIN_SUPPORT) * Fx_CreaturesInArmy(hero, Stronghold, 1)
 
 		H55_GlobalDailyGoldPayout[player] = H55_GlobalDailyGoldPayout[player]+gold
 	end
@@ -823,14 +825,13 @@ function Fx_InstantEvents(player)
 	if Fx_Lock == 1 then return end
 
 	LOG = {'Fx_InstantEvents', player}
-	
-	local ungifted = 0
+
 	for _, hero in (GetPlayerHeroes(player) or {}) do
 		Fx_HandleStats(player, hero)
 		Fx_HandleSpells(player, hero)
 		Fx_HandleSpellsDaily(player, hero)
-		Fx_HandleArtifacts(player, hero)
 		Fx_HandleEvents(player, hero)
+		startThread(Fx_HandleArtifacts, player, hero)
 
 		local ci = GetLastSavedCombatIndex()
 		for side=0,1 do
@@ -839,18 +840,14 @@ function Fx_InstantEvents(player)
 			end
 		end
 
-		for artifact, value in Fx_Gifts[hero] do
-			ungifted = ungifted + (value and not HasArtefact(hero, artifact,0) or 0)
-		end
-
 	end
 
 	for _, hero in (GetPlayerHeroes(player) or {}) do
 		local cursed = Fx_Curses - GetHeroSkillMastery(hero, SKILL_SHATTER_DARK_MAGIC)
 		local badboy = cursed > 0 and not HasArtefact(hero, ARTIFACT_HELM_OF_CHAOS,1) or 0
 
-		Fx_ChangeStatOn(hero, SKILL_FAITH, STAT_MORALE, -1 * ungifted -2 * badboy)
-		Fx_ChangeStatOn(hero, SKILL_FAITH, STAT_LUCK, -1 * ungifted -2 * badboy)
+		Fx_ChangeStatOn(hero, SKILL_FAITH, STAT_MORALE, -2 * badboy)
+		Fx_ChangeStatOn(hero, SKILL_FAITH, STAT_LUCK, -2 * badboy)
 	end
 		
 	for resource = 0,6 do

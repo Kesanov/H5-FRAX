@@ -33,7 +33,7 @@
 	<Specialization>HERO_SPEC_HASTE</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
+		<SkillID>HERO_SKILL_DEFENCE</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Haven/Expediter/Name.txt" />
 	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Haven/Expediter/Description.txt" />
@@ -56,11 +56,15 @@
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID>
+				<SkillID>HERO_SKILL_LIGHT_MAGIC</SkillID>
 			</Item>
 		</skills>
-		<perkIDs />
-		<spellIDs />
+		<perkIDs>
+			<Item>HERO_SKILL_MASTER_OF_WRATH</Item>
+		</perkIDs>
+		<spellIDs>
+			<Item>SPELL_HASTE</Item>
+		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

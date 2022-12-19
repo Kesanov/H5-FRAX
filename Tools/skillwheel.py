@@ -1,3 +1,4 @@
+import shutil
 from collections import defaultdict
 from fileinput import filename
 from os import utime, walk
@@ -58,7 +59,7 @@ def skills():
 
 def duels():
     for hero, (tag, ult, skills) in DUELS.items():
-        path = f'Maps/DuelMode/Heroes/{hero}.xdb'
+        path = f'Frax/Maps/DuelMode/Heroes/{hero}.xdb'
         root = XDB.load(path)
 
         skillnames = [ULTIMATES[ult]] + list(skills)
@@ -108,6 +109,7 @@ def lua():
     for s, (name, text) in ultimate_text.items():
         file.write(f'  [SKILL_{s}] = {{ "{name}", "{text}" }},\n')
     file.write('}\n\n')
+    shutil.copy('scripts/Frax/Skills.lua', 'Frax/scripts/Frax/')
     
 
 
@@ -130,7 +132,7 @@ def classes():
     root.save('Frax/GameMechanics/RefTables/HeroClass.xdb')
 
 
-    for dirname, _, names in walk('MapObjects/'):
+    for dirname, _, names in walk('Frax/MapObjects/'):
         for filename in names:
             path = dirname + '/' + filename
             try:
@@ -206,8 +208,13 @@ def skillwheel():
         path = f'Tools/Templates/Skillwheel/Icon.(BackgroundSimpleScallingTexture).xdb'
         data = XDB.load(path)
 
+        href = root[name(skill)]['obj']['Texture'][3].atr['href']
+        size = '128' if is128x128(href) else '64'
+
         data['Texture'].atr['href'] = root[name(skill)]['obj']['Texture'][3].atr['href']
-        
+        data['Size']['x'].txt = size
+        data['Size']['y'].txt = size
+
         data.save(f'{SW}/Classes/{id}{ix}/Icon.(BackgroundSimpleScallingTexture).xdb')
 
         for i, namE in enumerate(('Attack', 'Defense', 'Spellpower', 'Knowledge')):
@@ -266,3 +273,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    # skillwheel()
+    # lua()

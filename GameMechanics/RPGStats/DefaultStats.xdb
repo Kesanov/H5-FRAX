@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <RPGStats ObjectRecordID="1">
 	<HeroInitiative>10</HeroInitiative>
 	<SpellInitiative>10</SpellInitiative>
@@ -269,7 +269,7 @@
 				<Bash_ProcFactor>2.5</Bash_ProcFactor>
 				<BattleFrenzyBoostFactor>1.6</BattleFrenzyBoostFactor>
 				<ChampionChargeMinimalDistance>1</ChampionChargeMinimalDistance>
-				<ChampionChargePattern href="/GameMechanics/Creature/Creatures/Haven/ChampionCharge.xdb#xpointer(/PatternAttack)" />
+				<ChampionChargePattern href="/GameMechanics/Creature/Creatures/Haven/ChampionCharge.xdb#xpointer(/PatternAttack)"/>
 				<PackDive_DelayBeforAttack>1</PackDive_DelayBeforAttack>
 				<PackDive_DamageMultiplier>1</PackDive_DamageMultiplier>
 				<Purger_ProcFactor>2</Purger_ProcFactor>
@@ -345,7 +345,7 @@
 				<HydraRegenerationMin>80</HydraRegenerationMin>
 				<HydraRegenerationMax>120</HydraRegenerationMax>
 				<RiderCharge_DefenceReducePerPathCell>0.08</RiderCharge_DefenceReducePerPathCell>
-				<AcidicHydraPattern href="/GameMechanics/Creature/Creatures/Dungeon/AcidBlood.xdb#xpointer(/PatternAttack)" />
+				<AcidicHydraPattern href="/GameMechanics/Creature/Creatures/Dungeon/AcidBlood.xdb#xpointer(/PatternAttack)"/>
 				<AuraOfBraveryMoraleMin>4</AuraOfBraveryMoraleMin>
 				<Invisibility_DurationInRounds>3</Invisibility_DurationInRounds>
 				<IncinerateCoef>1.5</IncinerateCoef>
@@ -364,7 +364,7 @@
 				<MarkOfFire_ProcFactor>10</MarkOfFire_ProcFactor>
 				<AntiGiantDefenceInc>8</AntiGiantDefenceInc>
 				<AntiGiantAttackInc>8</AntiGiantAttackInc>
-				<AvengingFlameEffect href="/GameMechanics/Spell/Creature_Abilities/Dwarf/AvangingFlame.(SpellVisual).xdb#xpointer(/SpellVisual)" />
+				<AvengingFlameEffect href="/GameMechanics/Spell/Creature_Abilities/Dwarf/AvangingFlame.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
 				<AvengingFlameCoef>6</AvengingFlameCoef>
 				<BearRoar_SmallCreaturesChanceMult>1</BearRoar_SmallCreaturesChanceMult>
 				<BearRoar_EffectDuration>20</BearRoar_EffectDuration>
@@ -461,15 +461,16 @@
 						<LevelDivisor>1</LevelDivisor>
 						<PerDividedLevel>2</PerDividedLevel>
 					</DemonHunter_RPBonusPerHeroLevel>
-					<Bonuses><Item>
+					<Bonuses>
+						<Item>
 							<Creature>CREATURE_GOBLIN</Creature>
 							<Bonus1>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -477,7 +478,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_WOUND</Item>
 									</Abilities>
@@ -488,7 +489,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_NO_ENEMY_RETALIATION</Item>
 									</Abilities>
@@ -497,7 +498,7 @@
 									<Type>DEMON_RAGE_BONUS_DISABLE_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_COWARDICE</Item>
 									</Abilities>
@@ -511,8 +512,8 @@
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -520,7 +521,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_HEXING_ATTACK</Item>
 									</Abilities>
@@ -531,7 +532,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_NO_ENEMY_RETALIATION</Item>
 									</Abilities>
@@ -540,7 +541,7 @@
 									<Type>DEMON_RAGE_BONUS_DISABLE_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_COWARDICE</Item>
 									</Abilities>
@@ -554,8 +555,8 @@
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -563,7 +564,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_AURA_OF_MAGIC_RESISTANCE</Item>
 									</Abilities>
@@ -574,7 +575,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_NO_ENEMY_RETALIATION</Item>
 									</Abilities>
@@ -583,7 +584,7 @@
 									<Type>DEMON_RAGE_BONUS_DISABLE_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_COWARDICE</Item>
 									</Abilities>
@@ -597,8 +598,8 @@
 									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
 									<IntParam>6</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -606,8 +607,8 @@
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>2</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -615,8 +616,8 @@
 									<Type>DEMON_RAGE_BONUS_ACCURACY</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus3>
 						</Item>
@@ -627,8 +628,8 @@
 									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
 									<IntParam>6</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -636,8 +637,8 @@
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>3</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -645,8 +646,8 @@
 									<Type>DEMON_RAGE_BONUS_ACCURACY</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus3>
 						</Item>
@@ -657,8 +658,8 @@
 									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
 									<IntParam>6</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -666,8 +667,8 @@
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>3</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -675,8 +676,8 @@
 									<Type>DEMON_RAGE_BONUS_ACCURACY</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus3>
 						</Item>
@@ -687,15 +688,15 @@
 									<Type>DEMON_RAGE_BONUS_SPEED</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -703,8 +704,8 @@
 									<Type>DEMON_RAGE_BONUS_DAMAGE</Type>
 									<IntParam>3</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -712,7 +713,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_BASH</Item>
 									</Abilities>
@@ -726,15 +727,15 @@
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -742,8 +743,8 @@
 									<Type>DEMON_RAGE_BONUS_DAMAGE</Type>
 									<IntParam>3</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -751,7 +752,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_BASH</Item>
 									</Abilities>
@@ -765,14 +766,14 @@
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_UNLIMITED_RETALIATION</Item>
 									</Abilities>
@@ -783,8 +784,8 @@
 									<Type>DEMON_RAGE_BONUS_DAMAGE</Type>
 									<IntParam>3</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -792,7 +793,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_BASH</Item>
 									</Abilities>
@@ -806,15 +807,15 @@
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_DEFENCE</Type>
 									<IntParam>2</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>									
 							</Bonus1>
 							<Bonus2>
@@ -822,8 +823,8 @@
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>16</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -831,8 +832,8 @@
 									<Type>DEMON_RAGE_BONUS_DEFENCE</Type>
 									<IntParam>10</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus3>
 						</Item>
@@ -843,15 +844,15 @@
 									<Type>DEMON_RAGE_BONUS_SPELLPOWER_MULT</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>1.2</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>								
 								<Item>
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>						
 							</Bonus1>
 							<Bonus2>
@@ -859,15 +860,15 @@
 									<Type>DEMON_RAGE_BONUS_SPELLPOWER_MULT</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>1.5</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>24</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -875,8 +876,8 @@
 									<Type>DEMON_RAGE_BONUS_SPELLPOWER_MULT</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>3</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus3>
 						</Item>
@@ -887,8 +888,8 @@
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>2</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -896,15 +897,15 @@
 									<Type>DEMON_RAGE_BONUS_SPELLPOWER_MULT</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>1.5</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>20</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -912,8 +913,8 @@
 									<Type>DEMON_RAGE_BONUS_SPELLPOWER_MULT</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>3</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus3>
 						</Item>
@@ -924,15 +925,15 @@
 									<Type>DEMON_RAGE_BONUS_SPEED</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -940,8 +941,8 @@
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>30</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -949,8 +950,8 @@
 									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
 									<IntParam>8</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>							
 							</Bonus3>
 						</Item>
@@ -961,15 +962,15 @@
 									<Type>DEMON_RAGE_BONUS_SPEED</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -977,8 +978,8 @@
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>30</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -986,8 +987,8 @@
 									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
 									<IntParam>8</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>	
 							</Bonus3>
 						</Item>
@@ -998,15 +999,15 @@
 									<Type>DEMON_RAGE_BONUS_SPEED</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
 									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -1014,8 +1015,8 @@
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
 									<IntParam>30</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -1023,8 +1024,8 @@
 									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
 									<IntParam>8</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>	
 							</Bonus3>
 						</Item>
@@ -1035,8 +1036,8 @@
 									<Type>DEMON_RAGE_BONUS_DAMAGE</Type>
 									<IntParam>5</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -1044,7 +1045,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_FRIGHT_AURA</Item>
 									</Abilities>
@@ -1055,7 +1056,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_FEAR</Item>
 										<Item>ABILITY_FRIGHT_AURA</Item>
@@ -1070,8 +1071,8 @@
 									<Type>DEMON_RAGE_BONUS_DAMAGE</Type>
 									<IntParam>5</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -1079,7 +1080,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_FRIGHT_AURA</Item>
 									</Abilities>
@@ -1090,7 +1091,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_FEAR</Item>
 										<Item>ABILITY_FRIGHT_AURA</Item>
@@ -1105,8 +1106,8 @@
 									<Type>DEMON_RAGE_BONUS_DAMAGE</Type>
 									<IntParam>5</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
-									<Abilities />
+									<Spells/>
+									<Abilities/>
 								</Item>
 							</Bonus1>
 							<Bonus2>
@@ -1114,7 +1115,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_FRIGHT_AURA</Item>
 									</Abilities>
@@ -1125,7 +1126,7 @@
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
 									<FloatParam>0</FloatParam>
-									<Spells />
+									<Spells/>
 									<Abilities>
 										<Item>ABILITY_FEAR</Item>
 										<Item>ABILITY_FRIGHT_AURA</Item>
@@ -1133,7 +1134,8 @@
 								</Item>
 							</Bonus3>
 						</Item>
-					<Item><Creature>CREATURE_PEASANT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MILITIAMAN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_LANDLORD</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_ARCHER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MARKSMAN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_LONGBOWMAN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_FOOTMAN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SWORDSMAN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_VINDICATOR</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_GRIFFIN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_ROYAL_GRIFFIN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BATTLE_GRIFFIN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_PRIEST</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_CLERIC</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_ZEALOT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_CAVALIER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_PALADIN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_CHAMPION</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_ANGEL</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_ARCHANGEL</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SERAPH</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_LIZARD_BITE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_FAMILIAR</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_IMP</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_QUASIT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_DEMON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_HORNED_DEMON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_HORNED_LEAPER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_HELL_HOUND</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_CERBERI</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_FIREBREATHER_HOUND</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SUCCUBUS</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_INFERNAL_SUCCUBUS</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SUCCUBUS_SEDUCER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_NIGHTMARE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_FRIGHTFUL_NIGHTMARE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_HELLMARE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_PIT_FIEND</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BALOR</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_PIT_SPAWN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_DEVIL</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_ARCHDEVIL</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_ARCH_DEMON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_SEARING_AURA</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SKELETON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SKELETON_ARCHER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SKELETON_WARRIOR</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WALKING_DEAD</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_ZOMBIE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_DISEASE_ZOMBIE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MANES</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_GHOST</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_POLTERGEIST</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_VAMPIRE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_VAMPIRE_LORD</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_NOSFERATU</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_LICH</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_DEMILICH</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_LICH_MASTER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WIGHT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WRAITH</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BANSHEE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BONE_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SHADOW_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_HORROR_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_WEAKENING_STRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_PIXIE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_ENTANGLING_ROOTS</Item><Item>ABILITY_NO_ENEMY_RETALIATION</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SPRITE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_ENTANGLING_ROOTS</Item><Item>ABILITY_NO_ENEMY_RETALIATION</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_DRYAD</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_ENTANGLING_ROOTS</Item><Item>ABILITY_NO_ENEMY_RETALIATION</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BLADE_JUGGLER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_ENTANGLING_ROOTS</Item><Item>ABILITY_NO_ENEMY_RETALIATION</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WAR_DANCER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_ENTANGLING_ROOTS</Item><Item>ABILITY_NO_ENEMY_RETALIATION</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BLADE_SINGER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_ENTANGLING_ROOTS</Item><Item>ABILITY_NO_ENEMY_RETALIATION</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WOOD_ELF</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_GRAND_ELF</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_SHARP_SHOOTER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_DRUID</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_DRUID_ELDER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_HIGH_DRUID</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_UNICORN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_WAR_UNICORN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_WHITE_UNICORN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_TREANT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_TREANT_GUARDIAN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_ANGER_TREANT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_GREEN_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_ENTANGLING_ROOTS</Item><Item>ABILITY_NO_ENEMY_RETALIATION</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_GOLD_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_ENTANGLING_ROOTS</Item><Item>ABILITY_NO_ENEMY_RETALIATION</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_RAINBOW_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_ENTANGLING_ROOTS</Item><Item>ABILITY_NO_ENEMY_RETALIATION</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_GREMLIN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_MASTER_GREMLIN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_GREMLIN_SABOTEUR</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_STONE_GARGOYLE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_STORMSTRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_OBSIDIAN_GARGOYLE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_STORMSTRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MARBLE_GARGOYLE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_STORMSTRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_IRON_GOLEM</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_STORMSTRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_STEEL_GOLEM</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_STORMSTRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_OBSIDIAN_GOLEM</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_STORMSTRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MAGI</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_ARCH_MAGI</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_COMBAT_MAGE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_GENIE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_STORMSTRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MASTER_GENIE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_STORMSTRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_DJINN_VIZIER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_STORMSTRIKE</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_RAKSHASA</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_RAKSHASA_RUKH</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_RAKSHASA_KSHATRI</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_GIANT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_TITAN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_STORM_LORD</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_SCOUT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_ASSASSIN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_STALKER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WITCH</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BLOOD_WITCH</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BLOOD_WITCH_2</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MINOTAUR</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MINOTAUR_KING</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MINOTAUR_CAPTAIN</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_RIDER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_RAVAGER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BLACK_RIDER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_INCORPOREAL</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_HYDRA</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_CHAOS_HYDRA</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_ACIDIC_HYDRA</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_MATRON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_MATRIARCH</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_SHADOW_MISTRESS</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_DEEP_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_BLACK_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_RED_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities /></Item></Bonus3></Item><Item><Creature>CREATURE_FIRE_ELEMENTAL</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WATER_ELEMENTAL</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_EARTH_ELEMENTAL</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_AIR_ELEMENTAL</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WOLF</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MUMMY</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_SNOW_APE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MANTICORE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_DEATH_KNIGHT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BLACK_KNIGHT</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_PHOENIX</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_AURA_OF_BRAVERY</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_DEFENDER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_STOUT_DEFENDER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_STONE_DEFENDER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_AXE_FIGHTER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_AXE_THROWER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_HARPOONER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BEAR_RIDER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BLACKBEAR_RIDER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WHITE_BEAR_RIDER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BROWLER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BERSERKER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_BATTLE_RAGER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_RUNE_MAGE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_FLAME_MAGE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_FLAME_KEEPER</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_THANE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_WARLORD</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_THUNDER_THANE</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_FIRE_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_MAGMA_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item><Item><Creature>CREATURE_LAVA_DRAGON</Creature><Bonus1><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_FLAMEWAVE</Item></Abilities></Item></Bonus1><Bonus2><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_HEXING_ATTACK</Item></Abilities></Item></Bonus2><Bonus3><Item><Type>DEMON_RAGE_BONUS_ABILITY</Type><IntParam>0</IntParam><FloatParam>0</FloatParam><Spells /><Abilities><Item>ABILITY_MAGMA_SHIELD</Item></Abilities></Item></Bonus3></Item></Bonuses><DamageAbsorbtionPerHeroSkill>
+					</Bonuses>
+					<DamageAbsorbtionPerHeroSkill>
 						<Item>0</Item>
 						<Item>0</Item>
 						<Item>0</Item>
@@ -1167,7 +1169,7 @@
 				<Brutality_ProcFactor>2</Brutality_ProcFactor>
 				<Taunt_ProcFactor>10</Taunt_ProcFactor>
 			</Stronghold>
-			<ConjuredPhoenix href="ConjuredPhoenix.xdb#xpointer(/RPGCombatUniqueCreatureStats)" />
+			<ConjuredPhoenix href="ConjuredPhoenix.xdb#xpointer(/RPGCombatUniqueCreatureStats)"/>
 			<DefenceBonusOnDefend>0.3</DefenceBonusOnDefend>
 			<Abilities>
 				<FireShield_Damage_Multiplier>0.3</FireShield_Damage_Multiplier>
@@ -1817,9 +1819,9 @@
 					</TransformTable>
 				</Necromancy>
 				<DeathTread>
-					<SpeedBonus>5</SpeedBonus>
+					<SpeedBonus>4</SpeedBonus>
 				</DeathTread>
-				<SpiritLink_HPForOneMana>200</SpiritLink_HPForOneMana>
+				<SpiritLink_HPForOneMana>10</SpiritLink_HPForOneMana>
 				<DeathScream_MoralePenalty>2</DeathScream_MoralePenalty>
 				<DeathScream_InitiativePenalty>0.10</DeathScream_InitiativePenalty>
 				<DarkEissary_DeathScreamMultiplier>2</DarkEissary_DeathScreamMultiplier>
@@ -1848,7 +1850,7 @@
 				<ImbueArrow_ATBDropOnCast>0</ImbueArrow_ATBDropOnCast>
 			</Ranger>
 			<Runemage>
-				<StrongRune_2ndUseCostMultiplier>2</StrongRune_2ndUseCostMultiplier>
+				<StrongRune_2ndUseCostMultiplier>5</StrongRune_2ndUseCostMultiplier>
 				<FineRune_ChanceToActivateRuneForFree>50</FineRune_ChanceToActivateRuneForFree>
 				<QuicknessOfMind_InitiativeBonus>1</QuicknessOfMind_InitiativeBonus>
 				<TapRunes_ManaRestorePerKnowledge>0.4</TapRunes_ManaRestorePerKnowledge>
@@ -2002,7 +2004,7 @@
 				<Reanimator_SpellpowerBonus>0</Reanimator_SpellpowerBonus>
 				<Reanimator_SpellpowerBonusLevelDivisor>2</Reanimator_SpellpowerBonusLevelDivisor>
 				<Reanimator_SpellpowerBonusPerLevel>1</Reanimator_SpellpowerBonusPerLevel>
-				<AvatarOfDeath_Creature href="AvatarOfDeath.xdb#xpointer(/RPGCombatUniqueCreatureStats)" />
+				<AvatarOfDeath_Creature href="AvatarOfDeath.xdb#xpointer(/RPGCombatUniqueCreatureStats)"/>
 				<AvatarOfDeath_ManaCostPerLevel>0</AvatarOfDeath_ManaCostPerLevel>
 			</Necromancer>
 			<Wizard>
@@ -2104,14 +2106,14 @@
 			<UnholyWordWaveSpeed>33</UnholyWordWaveSpeed>
 			<BossFirewallSpeed>10</BossFirewallSpeed>
 			<ArcaneCrystal>
-				<Object href="/GameMechanics/CreatureVisual/SpellSpawned/ArcaneCrystal.xdb#xpointer(/CreatureVisual)" />
+				<Object href="/GameMechanics/CreatureVisual/SpellSpawned/ArcaneCrystal.xdb#xpointer(/CreatureVisual)"/>
 				<Tier>1</Tier>
 				<Health>1</Health>
 				<Defence>0</Defence>
-				<ExplosionEffect href="/GameMechanics/SpellVisual/ArcaneCrystalExplosion.xdb#xpointer(/SpellVisual)" />
+				<ExplosionEffect href="/GameMechanics/SpellVisual/ArcaneCrystalExplosion.xdb#xpointer(/SpellVisual)"/>
 			</ArcaneCrystal>
 			<SummonHive>
-				<Object href="/GameMechanics/CreatureVisual/SpellSpawned/Hive.xdb#xpointer(/CreatureVisual)" />
+				<Object href="/GameMechanics/CreatureVisual/SpellSpawned/Hive.xdb#xpointer(/CreatureVisual)"/>
 				<Spell>
 					<Spell>SPELL_WASP_SWARM</Spell>
 					<Mastery>MASTERY_ADVANCED</Mastery>
@@ -2158,7 +2160,7 @@
 				<DefensePerCasterLevel>1</DefensePerCasterLevel>
 			</SummonHive>
 			<BladeBarrier>
-				<Object href="/GameMechanics/CreatureVisual/SpellSpawned/BladeBarrier.xdb#xpointer(/CreatureVisual)" />
+				<Object href="/GameMechanics/CreatureVisual/SpellSpawned/BladeBarrier.xdb#xpointer(/CreatureVisual)"/>
 				<ShieldStrength>1</ShieldStrength>
 				<RangedResistance>0.75</RangedResistance>
 				<MagicProof>0.75</MagicProof>
@@ -2548,48 +2550,48 @@
 	<CreatureSelection>
 		<Item>
 			<CreatureTown>TOWN_NO_TYPE</CreatureTown>
-			<SmallSelection href="/_(Model)/Creatures/Selection/Neutral/SelectionSmall.(Model).xdb#xpointer(/Model)" />
-			<BigSelection href="/_(Model)/Creatures/Selection/Neutral/Selection.(Model).xdb#xpointer(/Model)" />
+			<SmallSelection href="/_(Model)/Creatures/Selection/Neutral/SelectionSmall.(Model).xdb#xpointer(/Model)"/>
+			<BigSelection href="/_(Model)/Creatures/Selection/Neutral/Selection.(Model).xdb#xpointer(/Model)"/>
 		</Item>
 		<Item>
 			<CreatureTown>TOWN_HEAVEN</CreatureTown>
-			<SmallSelection href="/_(Model)/Creatures/Selection/Heaven/SelectionSmall.(Model).xdb#xpointer(/Model)" />
-			<BigSelection href="/_(Model)/Creatures/Selection/Heaven/Selection.(Model).xdb#xpointer(/Model)" />
+			<SmallSelection href="/_(Model)/Creatures/Selection/Heaven/SelectionSmall.(Model).xdb#xpointer(/Model)"/>
+			<BigSelection href="/_(Model)/Creatures/Selection/Heaven/Selection.(Model).xdb#xpointer(/Model)"/>
 		</Item>
 		<Item>
 			<CreatureTown>TOWN_PRESERVE</CreatureTown>
-			<SmallSelection href="/_(Model)/Creatures/Selection/Preserve/SelectionSmall.(Model).xdb#xpointer(/Model)" />
-			<BigSelection href="/_(Model)/Creatures/Selection/Preserve/Selection.(Model).xdb#xpointer(/Model)" />
+			<SmallSelection href="/_(Model)/Creatures/Selection/Preserve/SelectionSmall.(Model).xdb#xpointer(/Model)"/>
+			<BigSelection href="/_(Model)/Creatures/Selection/Preserve/Selection.(Model).xdb#xpointer(/Model)"/>
 		</Item>
 		<Item>
 			<CreatureTown>TOWN_ACADEMY</CreatureTown>
-			<SmallSelection href="/_(Model)/Creatures/Selection/Academy/SelectionSmall.(Model).xdb#xpointer(/Model)" />
-			<BigSelection href="/_(Model)/Creatures/Selection/Academy/Selection.(Model).xdb#xpointer(/Model)" />
+			<SmallSelection href="/_(Model)/Creatures/Selection/Academy/SelectionSmall.(Model).xdb#xpointer(/Model)"/>
+			<BigSelection href="/_(Model)/Creatures/Selection/Academy/Selection.(Model).xdb#xpointer(/Model)"/>
 		</Item>
 		<Item>
 			<CreatureTown>TOWN_DUNGEON</CreatureTown>
-			<SmallSelection href="/_(Model)/Creatures/Selection/Dungeon/SelectionSmall.(Model).xdb#xpointer(/Model)" />
-			<BigSelection href="/_(Model)/Creatures/Selection/Dungeon/Selection.(Model).xdb#xpointer(/Model)" />
+			<SmallSelection href="/_(Model)/Creatures/Selection/Dungeon/SelectionSmall.(Model).xdb#xpointer(/Model)"/>
+			<BigSelection href="/_(Model)/Creatures/Selection/Dungeon/Selection.(Model).xdb#xpointer(/Model)"/>
 		</Item>
 		<Item>
 			<CreatureTown>TOWN_NECROMANCY</CreatureTown>
-			<SmallSelection href="/_(Model)/Creatures/Selection/Necropolis/SelectionSmall.(Model).xdb#xpointer(/Model)" />
-			<BigSelection href="/_(Model)/Creatures/Selection/Necropolis/Selection.(Model).xdb#xpointer(/Model)" />
+			<SmallSelection href="/_(Model)/Creatures/Selection/Necropolis/SelectionSmall.(Model).xdb#xpointer(/Model)"/>
+			<BigSelection href="/_(Model)/Creatures/Selection/Necropolis/Selection.(Model).xdb#xpointer(/Model)"/>
 		</Item>
 		<Item>
 			<CreatureTown>TOWN_INFERNO</CreatureTown>
-			<SmallSelection href="/_(Model)/Creatures/Selection/Inferno/SelectionSmall.(Model).xdb#xpointer(/Model)" />
-			<BigSelection href="/_(Model)/Creatures/Selection/Inferno/Selection.(Model).xdb#xpointer(/Model)" />
+			<SmallSelection href="/_(Model)/Creatures/Selection/Inferno/SelectionSmall.(Model).xdb#xpointer(/Model)"/>
+			<BigSelection href="/_(Model)/Creatures/Selection/Inferno/Selection.(Model).xdb#xpointer(/Model)"/>
 		</Item>
 		<Item>
 			<CreatureTown>TOWN_FORTRESS</CreatureTown>
-			<SmallSelection href="/_(Model)/Creatures/Selection/Fortress/SelectionSmall.(Model).xdb#xpointer(/Model)" />
-			<BigSelection href="/_(Model)/Creatures/Selection/Fortress/Selection.(Model).xdb#xpointer(/Model)" />
+			<SmallSelection href="/_(Model)/Creatures/Selection/Fortress/SelectionSmall.(Model).xdb#xpointer(/Model)"/>
+			<BigSelection href="/_(Model)/Creatures/Selection/Fortress/Selection.(Model).xdb#xpointer(/Model)"/>
 		</Item>
 		<Item>
 			<CreatureTown>TOWN_STRONGHOLD</CreatureTown>
-			<SmallSelection href="/_(Model)/Creatures/Selection/Stronghold/SelectionSmall.xdb#xpointer(/Model)" />
-			<BigSelection href="/_(Model)/Creatures/Selection/Stronghold/Selection.xdb#xpointer(/Model)" />
+			<SmallSelection href="/_(Model)/Creatures/Selection/Stronghold/SelectionSmall.xdb#xpointer(/Model)"/>
+			<BigSelection href="/_(Model)/Creatures/Selection/Stronghold/Selection.xdb#xpointer(/Model)"/>
 		</Item>
 	</CreatureSelection>
 	<Banks>
@@ -11624,146 +11626,146 @@
 			<Variant1>
 				<HeroAttribute>HERO_ATTRIB_OFFENCE</HeroAttribute>
 				<Value>2</Value>
-				<Icon64 href="/Textures/HeroScreen/HeroParam/AttackPic.xdb#xpointer(/Texture)" />
-				<TextFileRef href="/UI/AdvSelectAttribBuildings/Arena/offence_text.txt" />
-				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/Arena/offense_tooltip.txt" />
+				<Icon64 href="/Textures/HeroScreen/HeroParam/AttackPic.xdb#xpointer(/Texture)"/>
+				<TextFileRef href="/UI/AdvSelectAttribBuildings/Arena/offence_text.txt"/>
+				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/Arena/offense_tooltip.txt"/>
 			</Variant1>
 			<Variant2>
 				<HeroAttribute>HERO_ATTRIB_DEFENCE</HeroAttribute>
 				<Value>2</Value>
-				<Icon64 href="/Textures/HeroScreen/HeroParam/DefensePic.xdb#xpointer(/Texture)" />
-				<TextFileRef href="/UI/AdvSelectAttribBuildings/Arena/defence_text.txt" />
-				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/Arena/defence_tooltip.txt" />
+				<Icon64 href="/Textures/HeroScreen/HeroParam/DefensePic.xdb#xpointer(/Texture)"/>
+				<TextFileRef href="/UI/AdvSelectAttribBuildings/Arena/defence_text.txt"/>
+				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/Arena/defence_tooltip.txt"/>
 			</Variant2>
-			<TitleFileRef href="/UI/AdvSelectAttribBuildings/Arena/Title_Text.txt" />
-			<TitleTooltipFileRef href="/UI/AdvSelectAttribBuildings/Arena/title_tooltip.txt" />
-			<ChoiceHeaderFileRef href="/UI/AdvSelectAttribBuildings/Arena/Choice_Header_Text.txt" />
-			<DescFileRef href="/UI/AdvSelectAttribBuildings/Arena/Description_Text.txt" />
+			<TitleFileRef href="/UI/AdvSelectAttribBuildings/Arena/Title_Text.txt"/>
+			<TitleTooltipFileRef href="/UI/AdvSelectAttribBuildings/Arena/title_tooltip.txt"/>
+			<ChoiceHeaderFileRef href="/UI/AdvSelectAttribBuildings/Arena/Choice_Header_Text.txt"/>
+			<DescFileRef href="/UI/AdvSelectAttribBuildings/Arena/Description_Text.txt"/>
 		</Item>
 		<Item>
 			<BuildingType>BUILDING_SCHOOL_OF_MAGIC</BuildingType>
 			<Variant1>
 				<HeroAttribute>HERO_ATTRIB_SPELLPOWER</HeroAttribute>
 				<Value>1</Value>
-				<Icon64 href="/Textures/HeroScreen/HeroParam/SpellPowerPic.xdb#xpointer(/Texture)" />
-				<TextFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/spell_power.txt" />
-				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/spell_power_tooltip.txt" />
+				<Icon64 href="/Textures/HeroScreen/HeroParam/SpellPowerPic.xdb#xpointer(/Texture)"/>
+				<TextFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/spell_power.txt"/>
+				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/spell_power_tooltip.txt"/>
 			</Variant1>
 			<Variant2>
 				<HeroAttribute>HERO_ATTRIB_KNOWLEDGE</HeroAttribute>
 				<Value>1</Value>
-				<Icon64 href="/Textures/HeroScreen/HeroParam/KnowledgePic.xdb#xpointer(/Texture)" />
-				<TextFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/knowledge.txt" />
-				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/knowledge_tooltip.txt" />
+				<Icon64 href="/Textures/HeroScreen/HeroParam/KnowledgePic.xdb#xpointer(/Texture)"/>
+				<TextFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/knowledge.txt"/>
+				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/knowledge_tooltip.txt"/>
 			</Variant2>
-			<TitleFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/Title_Text.txt" />
-			<TitleTooltipFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/title_tooltip.txt" />
-			<ChoiceHeaderFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/Choice_Header_Text.txt" />
-			<DescFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/Description_Text.txt" />
+			<TitleFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/Title_Text.txt"/>
+			<TitleTooltipFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/title_tooltip.txt"/>
+			<ChoiceHeaderFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/Choice_Header_Text.txt"/>
+			<DescFileRef href="/UI/AdvSelectAttribBuildings/SchoolOfMagic/Description_Text.txt"/>
 		</Item>
 		<Item>
 			<BuildingType>BUILDING_WAR_ACADEMY</BuildingType>
 			<Variant1>
 				<HeroAttribute>HERO_ATTRIB_OFFENCE</HeroAttribute>
 				<Value>1</Value>
-				<Icon64 href="/Textures/HeroScreen/HeroParam/AttackPic.xdb#xpointer(/Texture)" />
-				<TextFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/offence_text.txt" />
-				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/offense_tooltip.txt" />
+				<Icon64 href="/Textures/HeroScreen/HeroParam/AttackPic.xdb#xpointer(/Texture)"/>
+				<TextFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/offence_text.txt"/>
+				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/offense_tooltip.txt"/>
 			</Variant1>
 			<Variant2>
 				<HeroAttribute>HERO_ATTRIB_DEFENCE</HeroAttribute>
 				<Value>1</Value>
-				<Icon64 href="/Textures/HeroScreen/HeroParam/DefensePic.xdb#xpointer(/Texture)" />
-				<TextFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/defence_text.txt" />
-				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/defence_tooltip.txt" />
+				<Icon64 href="/Textures/HeroScreen/HeroParam/DefensePic.xdb#xpointer(/Texture)"/>
+				<TextFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/defence_text.txt"/>
+				<TooltipFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/defence_tooltip.txt"/>
 			</Variant2>
-			<TitleFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/Title_Text.txt" />
-			<TitleTooltipFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/title_tooltip.txt" />
-			<ChoiceHeaderFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/Choice_Header_Text.txt" />
-			<DescFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/Description_Text.txt" />
+			<TitleFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/Title_Text.txt"/>
+			<TitleTooltipFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/title_tooltip.txt"/>
+			<ChoiceHeaderFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/Choice_Header_Text.txt"/>
+			<DescFileRef href="/UI/AdvSelectAttribBuildings/WarAcademy/Description_Text.txt"/>
 		</Item>
 	</SelectAttributeBuildings>
 	<ArtifactSets>
 		<Sets>
 			<Item>
 				<Effect>ARTFSET_EFFECT_DRAGONISH</Effect>
-				<Artifacts />
-				<NameFileRef href="ArtifactSets/Dragonish_Name.txt" />
-				<DescriptionFileRef href="ArtifactSets/Dragonish_Desc.txt" />
+				<Artifacts/>
+				<NameFileRef href="ArtifactSets/Dragonish_Name.txt"/>
+				<DescriptionFileRef href="ArtifactSets/Dragonish_Desc.txt"/>
 				<CombinedDescriptionsFileRefs>
-					<Item href="" />
-					<Item href="ArtifactSets/Dragonish_Desc2.txt" />
-					<Item href="ArtifactSets/Dragonish_Desc2.txt" />
-					<Item href="ArtifactSets/Dragonish_Desc4.txt" />
-					<Item href="ArtifactSets/Dragonish_Desc4.txt" />
-					<Item href="ArtifactSets/Dragonish_Desc6.txt" />
-					<Item href="ArtifactSets/Dragonish_Desc6.txt" />
-					<Item href="ArtifactSets/Dragonish_Desc8.txt" />
+					<Item href=""/>
+					<Item href="ArtifactSets/Dragonish_Desc2.txt"/>
+					<Item href="ArtifactSets/Dragonish_Desc2.txt"/>
+					<Item href="ArtifactSets/Dragonish_Desc4.txt"/>
+					<Item href="ArtifactSets/Dragonish_Desc4.txt"/>
+					<Item href="ArtifactSets/Dragonish_Desc6.txt"/>
+					<Item href="ArtifactSets/Dragonish_Desc6.txt"/>
+					<Item href="ArtifactSets/Dragonish_Desc8.txt"/>
 				</CombinedDescriptionsFileRefs>
-				<CombinedHeroClassBonusesDescs />
+				<CombinedHeroClassBonusesDescs/>
 				<CombinedIcons>
-					<Item />
-					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dragon_Scale_Armor.xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 			<Item>
 				<Effect>ARTFSET_EFFECT_DWARVEN</Effect>
-				<Artifacts />
-				<NameFileRef href="ArtifactSets/Dwarven_Name.txt" />
-				<DescriptionFileRef href="ArtifactSets/Dwarven_Desc.txt" />
+				<Artifacts/>
+				<NameFileRef href="ArtifactSets/Dwarven_Name.txt"/>
+				<DescriptionFileRef href="ArtifactSets/Dwarven_Desc.txt"/>
 				<CombinedDescriptionsFileRefs>
-					<Item href="" />
-					<Item href="ArtifactSets/Dwarven_Desc2.txt" />
-					<Item href="ArtifactSets/Dwarven_Desc2.txt" />
-					<Item href="ArtifactSets/Dwarven_Desc4.txt" />
+					<Item href=""/>
+					<Item href="ArtifactSets/Dwarven_Desc2.txt"/>
+					<Item href="ArtifactSets/Dwarven_Desc2.txt"/>
+					<Item href="ArtifactSets/Dwarven_Desc4.txt"/>
 				</CombinedDescriptionsFileRefs>
 				<CombinedHeroClassBonusesDescs>
 					<Item>
 						<HeroClass>HERO_CLASS_NONE</HeroClass>
-						<BonusDescFileRef href="" />
+						<BonusDescFileRef href=""/>
 					</Item>
 					<Item>
 						<HeroClass>HERO_CLASS_RUNEMAGE</HeroClass>
-						<BonusDescFileRef href="ArtifactSets/Dwarven_Desc2_Runemage.txt" />
+						<BonusDescFileRef href="ArtifactSets/Dwarven_Desc2_Runemage.txt"/>
 					</Item>
 				</CombinedHeroClassBonusesDescs>
 				<CombinedIcons>
-					<Item />
-					<Item href="/Textures/HeroScreen/Artifacts/Dwarven_Mithral_Cuirass.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Dwarven_Mithral_Cuirass.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Dwarven_Mithral_Cuirass.xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dwarven_Mithral_Cuirass.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dwarven_Mithral_Cuirass.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Dwarven_Mithral_Cuirass.xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 			<Item>
 				<Effect>ARTFSET_EFFECT_LIONS</Effect>
-				<Artifacts />
-				<NameFileRef href="ArtifactSets/Lions_Name.txt" />
-				<DescriptionFileRef href="ArtifactSets/Lions_Desc.txt" />
+				<Artifacts/>
+				<NameFileRef href="ArtifactSets/Lions_Name.txt"/>
+				<DescriptionFileRef href="ArtifactSets/Lions_Desc.txt"/>
 				<CombinedDescriptionsFileRefs>
-					<Item href="" />
-					<Item href="" />
-					<Item href="ArtifactSets/Lions_Desc3.txt" />
+					<Item href=""/>
+					<Item href=""/>
+					<Item href="ArtifactSets/Lions_Desc3.txt"/>
 				</CombinedDescriptionsFileRefs>
 				<CombinedHeroClassBonusesDescs>
 					<Item>
 						<HeroClass>HERO_CLASS_NONE</HeroClass>
-						<BonusDescFileRef href="" />
+						<BonusDescFileRef href=""/>
 					</Item>
 					<Item>
 						<HeroClass>HERO_CLASS_KNIGHT</HeroClass>
-						<BonusDescFileRef href="ArtifactSets/Lions_Desc2_Knight.txt" />
+						<BonusDescFileRef href="ArtifactSets/Lions_Desc2_Knight.txt"/>
 					</Item>
 				</CombinedHeroClassBonusesDescs>
 				<CombinedIcons>
-					<Item />
-					<Item href="/Textures/HeroScreen/Artifacts/Lion_Hide_Cape.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Lion_Hide_Cape.xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/Textures/HeroScreen/Artifacts/Lion_Hide_Cape.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Lion_Hide_Cape.xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 			<Item>
@@ -11790,169 +11792,169 @@
 						<CombinesAtBackpack>false</CombinesAtBackpack>
 					</Item>
 				</Artifacts>
-				<NameFileRef href="ArtifactSets/Magis_Name.txt" />
-				<DescriptionFileRef />
-				<CombinedDescriptionsFileRefs />
-				<CombinedHeroClassBonusesDescs />
+				<NameFileRef href="ArtifactSets/Magis_Name.txt"/>
+				<DescriptionFileRef/>
+				<CombinedDescriptionsFileRefs/>
+				<CombinedHeroClassBonusesDescs/>
 				<CombinedIcons>
-					<Item />
-					<Item href="/Textures/HeroScreen/Artifacts/Staff_of_Magi.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Staff_of_Magi.xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Staff_of_Magi.xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/Textures/HeroScreen/Artifacts/Staff_of_Magi.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Staff_of_Magi.xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Staff_of_Magi.xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 			<Item>
 				<Effect>ARTFSET_EFFECT_NECROMANCERS</Effect>
-				<Artifacts />
-				<NameFileRef href="ArtifactSets/Necromancers_Name.txt" />
-				<DescriptionFileRef href="ArtifactSets/Necromancers_Desc.txt" />
+				<Artifacts/>
+				<NameFileRef href="ArtifactSets/Necromancers_Name.txt"/>
+				<DescriptionFileRef href="ArtifactSets/Necromancers_Desc.txt"/>
 				<CombinedDescriptionsFileRefs>
-					<Item href="" />
-					<Item href="ArtifactSets/Necromancers_Desc2.txt" />
-					<Item href="ArtifactSets/Necromancers_Desc2.txt" />
-					<Item href="ArtifactSets/Necromancers_Desc4.txt" />
+					<Item href=""/>
+					<Item href="ArtifactSets/Necromancers_Desc2.txt"/>
+					<Item href="ArtifactSets/Necromancers_Desc2.txt"/>
+					<Item href="ArtifactSets/Necromancers_Desc4.txt"/>
 				</CombinedDescriptionsFileRefs>
 				<CombinedHeroClassBonusesDescs>
 					<Item>
 						<HeroClass>HERO_CLASS_NONE</HeroClass>
-						<BonusDescFileRef href="" />
+						<BonusDescFileRef href=""/>
 					</Item>
 					<Item>
 						<HeroClass>HERO_CLASS_NECROMANCER</HeroClass>
-						<BonusDescFileRef href="ArtifactSets/Necromancers_Desc2_Necromancer.txt" />
+						<BonusDescFileRef href="ArtifactSets/Necromancers_Desc2_Necromancer.txt"/>
 					</Item>
 					<Item>
 						<HeroClass>HERO_CLASS_NECROMANCER</HeroClass>
-						<BonusDescFileRef href="ArtifactSets/Necromancers_Desc2_Necromancer.txt" />
+						<BonusDescFileRef href="ArtifactSets/Necromancers_Desc2_Necromancer.txt"/>
 					</Item>
 					<Item>
 						<HeroClass>HERO_CLASS_NECROMANCER</HeroClass>
-						<BonusDescFileRef href="ArtifactSets/Necromancers_Desc4_Necromancer.txt" />
+						<BonusDescFileRef href="ArtifactSets/Necromancers_Desc4_Necromancer.txt"/>
 					</Item>
 				</CombinedHeroClassBonusesDescs>
 				<CombinedIcons>
-					<Item />
-					<Item href="/Textures/HeroScreen/Artifacts/Necromancer_Pendant.(Texture).xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Necromancer_Pendant.(Texture).xdb#xpointer(/Texture)" />
-					<Item href="/Textures/HeroScreen/Artifacts/Necromancer_Pendant.(Texture).xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/Textures/HeroScreen/Artifacts/Necromancer_Pendant.(Texture).xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Necromancer_Pendant.(Texture).xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Artifacts/Necromancer_Pendant.(Texture).xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 			<Item>
 				<Effect>ARTFSET_EFFECT_EDUCATIONAL</Effect>
-				<Artifacts />
-				<NameFileRef href="ArtifactSets/Educational_Name.txt" />
-				<DescriptionFileRef href="ArtifactSets/Educational_Desc.txt" />
+				<Artifacts/>
+				<NameFileRef href="ArtifactSets/Educational_Name.txt"/>
+				<DescriptionFileRef href="ArtifactSets/Educational_Desc.txt"/>
 				<CombinedDescriptionsFileRefs>
-					<Item href="" />
-					<Item href="ArtifactSets/Educational_Desc2.txt" />
+					<Item href=""/>
+					<Item href="ArtifactSets/Educational_Desc2.txt"/>
 				</CombinedDescriptionsFileRefs>
-				<CombinedHeroClassBonusesDescs />
+				<CombinedHeroClassBonusesDescs/>
 				<CombinedIcons>
-					<Item />
-					<Item href="/Textures/HeroScreen/Artifacts/Helm_of_Enlightenment.xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/Textures/HeroScreen/Artifacts/Helm_of_Enlightenment.xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 			<Item>
 				<Effect>ARTFSET_EFFECT_HUNTERS</Effect>
-				<Artifacts />
-				<NameFileRef href="ArtifactSets/Hunters_Name.txt" />
-				<DescriptionFileRef href="ArtifactSets/Hunters_Desc.txt" />
+				<Artifacts/>
+				<NameFileRef href="ArtifactSets/Hunters_Name.txt"/>
+				<DescriptionFileRef href="ArtifactSets/Hunters_Desc.txt"/>
 				<CombinedDescriptionsFileRefs>
-					<Item href="" />
-					<Item href="ArtifactSets/Hunters_Desc2.txt" />
+					<Item href=""/>
+					<Item href="ArtifactSets/Hunters_Desc2.txt"/>
 				</CombinedDescriptionsFileRefs>
 				<CombinedHeroClassBonusesDescs>
 					<Item>
 						<HeroClass>HERO_CLASS_NONE</HeroClass>
-						<BonusDescFileRef href="" />
+						<BonusDescFileRef href=""/>
 					</Item>
 					<Item>
 						<HeroClass>HERO_CLASS_RANGER</HeroClass>
-						<BonusDescFileRef href="ArtifactSets/Hunters_Desc2_Ranger.txt" />
+						<BonusDescFileRef href="ArtifactSets/Hunters_Desc2_Ranger.txt"/>
 					</Item>
 				</CombinedHeroClassBonusesDescs>
 				<CombinedIcons>
-					<Item />
-					<Item href="/Textures/HeroScreen/Artifacts/Unicorn_Horn_Bow.xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/Textures/HeroScreen/Artifacts/Unicorn_Horn_Bow.xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 			<Item>
 				<Effect>ARTFSET_EFFECT_OGRES</Effect>
-				<Artifacts />
-				<NameFileRef href="ArtifactSets/Ogres_Name.txt" />
-				<DescriptionFileRef href="ArtifactSets/Ogres_Desc.txt" />
+				<Artifacts/>
+				<NameFileRef href="ArtifactSets/Ogres_Name.txt"/>
+				<DescriptionFileRef href="ArtifactSets/Ogres_Desc.txt"/>
 				<CombinedDescriptionsFileRefs>
-					<Item href="" />
-					<Item href="ArtifactSets/Ogres_Desc2.txt" />
+					<Item href=""/>
+					<Item href="ArtifactSets/Ogres_Desc2.txt"/>
 				</CombinedDescriptionsFileRefs>
 				<CombinedHeroClassBonusesDescs>
 					<Item>
 						<HeroClass>HERO_CLASS_NONE</HeroClass>
-						<BonusDescFileRef href="" />
+						<BonusDescFileRef href=""/>
 					</Item>
 					<Item>
 						<HeroClass>HERO_CLASS_BARBARIAN</HeroClass>
-						<BonusDescFileRef href="ArtifactSets/Ogres_Desc2_Barbarian.txt" />
+						<BonusDescFileRef href="ArtifactSets/Ogres_Desc2_Barbarian.txt"/>
 					</Item>
 				</CombinedHeroClassBonusesDescs>
 				<CombinedIcons>
-					<Item />
-					<Item href="/UI/H5A1/Icons/Artefacts/128x128/Ogre_Shield.(Texture).xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/UI/H5A1/Icons/Artefacts/128x128/Ogre_Shield.(Texture).xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 			<Item>
 				<Effect>ARTFSET_EFFECT_RUNIC</Effect>
-				<Artifacts />
-				<NameFileRef href="ArtifactSets/Runic_Name.txt" />
-				<DescriptionFileRef href="ArtifactSets/Runic_Desc.txt" />
+				<Artifacts/>
+				<NameFileRef href="ArtifactSets/Runic_Name.txt"/>
+				<DescriptionFileRef href="ArtifactSets/Runic_Desc.txt"/>
 				<CombinedDescriptionsFileRefs>
-					<Item href="" />
-					<Item href="ArtifactSets/Runic_Desc2.txt" />
+					<Item href=""/>
+					<Item href="ArtifactSets/Runic_Desc2.txt"/>
 				</CombinedDescriptionsFileRefs>
 				<CombinedHeroClassBonusesDescs>
 					<Item>
 						<HeroClass>HERO_CLASS_NONE</HeroClass>
-						<BonusDescFileRef href="" />
+						<BonusDescFileRef href=""/>
 					</Item>
 					<Item>
 						<HeroClass>HERO_CLASS_WARLOCK</HeroClass>
-						<BonusDescFileRef href="ArtifactSets/Runic_Desc2_Warlock.txt" />
+						<BonusDescFileRef href="ArtifactSets/Runic_Desc2_Warlock.txt"/>
 					</Item>
 				</CombinedHeroClassBonusesDescs>
 				<CombinedIcons>
-					<Item />
-					<Item href="/UI/H5A1/Icons/Artefacts/128x128/Runic_War_Axe.(Texture).xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/UI/H5A1/Icons/Artefacts/128x128/Runic_War_Axe.(Texture).xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 			<Item>
 				<Effect>ARTFSET_EFFECT_DEMONIC</Effect>
-				<Artifacts />
-				<NameFileRef href="ArtifactSets/Demonic_Name.txt" />
-				<DescriptionFileRef href="ArtifactSets/Demonic_Desc.txt" />
+				<Artifacts/>
+				<NameFileRef href="ArtifactSets/Demonic_Name.txt"/>
+				<DescriptionFileRef href="ArtifactSets/Demonic_Desc.txt"/>
 				<CombinedDescriptionsFileRefs>
-					<Item href="" />
-					<Item href="ArtifactSets/Demonic_Desc2.txt" />
+					<Item href=""/>
+					<Item href="ArtifactSets/Demonic_Desc2.txt"/>
 				</CombinedDescriptionsFileRefs>
 				<CombinedHeroClassBonusesDescs>
 					<Item>
 						<HeroClass>HERO_CLASS_NONE</HeroClass>
-						<BonusDescFileRef href="" />
+						<BonusDescFileRef href=""/>
 					</Item>
 					<Item>
 						<HeroClass>HERO_CLASS_DEMON_LORD</HeroClass>
-						<BonusDescFileRef href="ArtifactSets/Demonic_Desc2_Demonlord.txt" />
+						<BonusDescFileRef href="ArtifactSets/Demonic_Desc2_Demonlord.txt"/>
 					</Item>
 				</CombinedHeroClassBonusesDescs>
 				<CombinedIcons>
-					<Item />
-					<Item href="/Textures/HeroScreen/Artifacts/Helm_of_Chaos.xdb#xpointer(/Texture)" />
+					<Item/>
+					<Item href="/Textures/HeroScreen/Artifacts/Helm_of_Chaos.xdb#xpointer(/Texture)"/>
 				</CombinedIcons>
 			</Item>
 		</Sets>
 	</ArtifactSets>
 	<MonstersArmy>
-		<SmallSelection href="/_(Model)/Creatures/Selection/Neutral/SelectionSmall.(Model).xdb#xpointer(/Model)" />
-		<BigSelection href="/_(Model)/Creatures/Selection/Neutral/Selection.(Model).xdb#xpointer(/Model)" />
+		<SmallSelection href="/_(Model)/Creatures/Selection/Neutral/SelectionSmall.(Model).xdb#xpointer(/Model)"/>
+		<BigSelection href="/_(Model)/Creatures/Selection/Neutral/Selection.(Model).xdb#xpointer(/Model)"/>
 	</MonstersArmy>
 	<UpgradesParams>
 		<RegradeCostCoef>0.1</RegradeCostCoef>

@@ -13,30 +13,37 @@ def topprio(path):
 shutil.rmtree('Frax', ignore_errors=True)
 os.makedirs('Frax')
 
-zipfile.ZipFile('MMH55-Frame.pak', 'r').extractall('Frax/')
-zipfile.ZipFile('MMH55-Index.pak', 'r').extractall('Frax/')
-zipfile.ZipFile('MMH55-Texts-EN.pak', 'r').extractall('Frax/')
+folders = [ 'Frame', 'Index', 'Texts-EN', 'Skillwheel', 'Creaturepedia' ]
+for folder in tqdm(folders, desc='Extract H55 Files'):
+    zipfile.ZipFile(f'MMH55-{folder}.pak', 'r').extractall('Frax/')
+
+folders = [ 'NCF_601', 'NCF_620', 'NCF_625', 'NCF_634' ]
+for folder in tqdm(folders, desc='Extract Frax Files'):
+    zipfile.ZipFile(f'{folder}.pak', 'r').extractall('Frax/')
+
+folders = ['scripts', 'Characters', 'GameMechanics', 'MapObjects', 'Maps', 'Text', 'Textures', 'Tools', 'UI', 'README.txt']
+for folder in tqdm(folders, desc='Copy Frax Files'):
+   for path, _, files in os.walk(folder):
+       os.makedirs(f'Frax/{path}', exist_ok=True)
+       for file in files:
+           shutil.copy(f'{path}/{file}', f'Frax/{path}')
 
 skillwheel.main()
 bloodrage.main()
 creaturepedia.main()
 artifacts.main()
 
-folders = ['scripts', 'Characters', 'GameMechanics', 'MapObjects', 'Maps', 'Text', 'Tools', 'UI', 'README.txt']
-for folder in tqdm(folders[1:], desc='Copying Frax Files'):
-   for path, _, files in os.walk(folder):
-       os.makedirs(f'Frax/{path}', exist_ok=True)
-       for file in files:
-           shutil.copy(f'{path}/{file}', f'Frax/{path}')
+shutil.rmtree('Frax/scripts', ignore_errors=True)
 
-for dir, dirs, files in tqdm(os.walk('Frax'), desc='Giving Top Priority To Frax Files'):
+for dir, dirs, files in tqdm(os.walk('Frax'), desc='Make Frax Override H55 Files'):
     topprio(dir)
     for file in files:
         topprio(dir + '/' + file)
 
-# CREATE PAK ARCHIVE
+
 with zipfile.ZipFile('Frax.pak', 'w') as zip:
-   for path, _, files in tqdm(os.walk('Frax/'), desc='Zipping Files'):
+   os.chdir('Frax')
+   for path, _, files in tqdm(os.walk('.'), desc='Create Frax Archive'):
        for file in files:
            file_name = os.path.join(path, file)
            zip.write(file_name)

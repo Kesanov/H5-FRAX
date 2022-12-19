@@ -74,7 +74,7 @@
 	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Dungeon.xdb#xpointer(/AdvMapHeroTraceSet)" />
 	<RaceTraitIcon />
 	<RaceTraitDescFileRef href="" />
-	<ScenarioHero>false</ScenarioHero>
+	<ScenarioHero>true</ScenarioHero>
 	<AdventureMusic />
 	<HideInEditor>false</HideInEditor>
 </AdvMapHeroShared>

@@ -29,19 +29,19 @@
 	<FlyPassable>false</FlyPassable>
 	<AdventureSoundEffect />
 	<RazedStatic />
-	<Icon128 href="/UI/H5A2/Icons/Heroes/Portrets128x128/Haven_Alaric.(Texture).xdb#xpointer(/Texture)" />
+	<Icon128 />
 	<InternalName>Alaric</InternalName>
-	<Class>HERO_CLASS_HERETIC</Class>
-	<Specialization>HERO_SPEC_WEILDER_OF_FIRE</Specialization>
+	<Class>HERO_CLASS_KNIGHT</Class>
+	<Specialization>HERO_SPEC_HASTE</Specialization>
 	<PrimarySkill>
-		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_LEARNING</SkillID>
+		<Mastery>MASTERY_EXPERT</Mastery>
+		<SkillID>HERO_SKILL_OFFENCE</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Academy/Weilder_of_Fire/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Academy/Weilder_of_Fire/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Weilder_of_Fire.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Haven/Expediter/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Haven/Expediter/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Haven/Expediter.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/UI/H5A2/Icons/Heroes/Portrets128x128/Haven_Alaric.(Texture).xdb#xpointer(/Texture)" />
-	<FaceTextureSmall />
+	<FaceTextureSmall href="/UI/H5A2/Icons/Heroes/Portrets128x128/Haven_Alaric.(Texture).xdb#xpointer(/Texture)" />
 	<HeroCharacterArena href="/Characters/Heroes/Haven/Alaric/HeroCharacterArena.xdb#xpointer(/Character)" />
 	<HeroCharacterArenaMelee href="/Characters/Heroes/Haven/Alaric/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
 	<HeroCharacterAdventure href="/Characters/Heroes/Haven/Alaric/HeroCharacterAdventure.xdb#xpointer(/Character)" />
@@ -51,19 +51,23 @@
 	<Editable>
 		<NameFileRef href="/Text/Game/Heroes/Persons/Haven/Alaric/Name.txt" />
 		<BiographyFileRef href="/Text/Game/Heroes/Persons/Haven/Alaric/Bio.txt" />
-		<Offence>1</Offence>
+		<Offence>3</Offence>
 		<Defence>0</Defence>
-		<Spellpower>3</Spellpower>
-		<Knowledge>1</Knowledge>
+		<Spellpower>1</Spellpower>
+		<Knowledge>3</Knowledge>
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</SkillID>
+				<SkillID>HERO_SKILL_TRAINING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs />
-		<spellIDs />
-		<Ballista>false</Ballista>
+		<perkIDs>
+			<Item>HERO_SKILL_FRENZY</Item>
+		</perkIDs>
+		<spellIDs>
+			<Item>SPELL_HASTE</Item>
+		</spellIDs>
+		<Ballista>true</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>
 		<FavoriteEnemies />
@@ -75,8 +79,8 @@
 	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Haven.xdb#xpointer(/AdvMapHeroTraceSet)" />
 	<RaceTraitIcon />
 	<RaceTraitDescFileRef href="" />
-	<ScenarioHero>false</ScenarioHero>
-	<AdventureMusic />
+	<ScenarioHero>true</ScenarioHero>
+	<AdventureMusic href="/Sounds/_(Music)/AdvMap-Heroes/a1-Biara.xdb#xpointer(/Music)" />
 	<HideInEditor>false</HideInEditor>
 	<PresetMinimalAttributes>
 		<Offence>2</Offence>

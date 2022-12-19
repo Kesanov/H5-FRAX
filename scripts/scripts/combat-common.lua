@@ -1,1 +1,0 @@
-doFile("/scripts/common.lua")

@@ -11276,10 +11276,10 @@
 			<ID>HERO_SKILL_HERALD_OF_DEATH</ID>
 			<obj>
 				<Texture>
-					<Item href="/Textures/HeroScreen/Feats/Necromancer/SummoningMagic_HauntMine_grey.(Texture).xdb#xpointer(/Texture)"/>
-					<Item href="/Textures/HeroScreen/Feats/Necromancer/SummoningMagic_HauntMine.(Texture).xdb#xpointer(/Texture)"/>
-					<!-- <Item href="/Textures/HeroScreen/Feats/Necromancer/Lidership_HeraldOfDeath_grey.(Texture).xdb#xpointer(/Texture)"/>
-					<Item href="/Textures/HeroScreen/Feats/Necromancer/Lidership_HeraldOfDeath.(Texture).xdb#xpointer(/Texture)"/> -->
+<!--					<Item href="/Textures/HeroScreen/Feats/Necromancer/SummoningMagic_HauntMine_grey.(Texture).xdb#xpointer(/Texture)"/>-->
+<!--					<Item href="/Textures/HeroScreen/Feats/Necromancer/SummoningMagic_HauntMine.(Texture).xdb#xpointer(/Texture)"/>-->
+					<Item href="/Textures/HeroScreen/Feats/Necromancer/Lidership_HeraldOfDeath_grey.(Texture).xdb#xpointer(/Texture)"/>
+					<Item href="/Textures/HeroScreen/Feats/Necromancer/Lidership_HeraldOfDeath.(Texture).xdb#xpointer(/Texture)"/>
 				</Texture>
 				<CommonTexture/>
 				<NameFileRef>
@@ -26062,9 +26062,9 @@
 				<SkillType>SKILLTYPE_STANDART_PERK</SkillType>
 				<HeroClass>HERO_CLASS_NONE</HeroClass>
 				<spellBuffs>
-					<Item>SPELL_RUNE_OF_DRAGONFORM</Item>
-					<Item>SPELL_RUNE_OF_DRAGONFORM</Item>
-					<Item>SPELL_RUNE_OF_DRAGONFORM</Item>
+					<Item>SPELL_RUNE_OF_ELEMENTAL_IMMUNITY</Item>
+					<Item>SPELL_RUNE_OF_ELEMENTAL_IMMUNITY</Item>
+					<Item>SPELL_RUNE_OF_ELEMENTAL_IMMUNITY</Item>
 				</spellBuffs>
 				<BasicSkillID>HERO_SKILL_SHATTER_DARK_MAGIC</BasicSkillID>
 				<SkillPrerequisites/>
@@ -26576,7 +26576,7 @@
 				<spellBuffs>
 					<Item/>
 					<Item/>
-					<Item>SPELL_REGENERATION</Item>
+					<Item/>
 				</spellBuffs>
 				<BasicSkillID>HERO_SKILL_NONE</BasicSkillID>
 				<SkillPrerequisites/>

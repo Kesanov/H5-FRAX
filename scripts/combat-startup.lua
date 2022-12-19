@@ -152,13 +152,15 @@ function createTutorialAliases()
     ShowTutorialMessage = showMessage;
     HideTutorialMessage = clearMessage;
 end
+sleep(1)
 
 dofile("/scripts/H55-Combat.lua")
+dofile("/scripts/Frax/Combat.lua")
 
 function Prepare() end
 
 function DoPrepare()
-	C55_CombatPrepare()
+	Fx_CombatPrepare()
 	Prepare()
 	return nil
 end;
@@ -166,7 +168,7 @@ end;
 function Start() end
 
 function DoStart()
-	C55_CombatStart()
+	Fx_CombatStart()
 	Start()
 	return nil
 end;
@@ -209,7 +211,7 @@ end;
 
 function UnitMove(unitName)
 	local temp = nil	
-	C55_Combat(unitName)		
+	Fx_Combat(unitName)
 	if IsAttacker(unitName) then
 		temp = AttackerUnitMove(unitName)
 	elseif IsDefender(unitName) then
@@ -257,7 +259,7 @@ function DefenderUnitDeath(unitName)
 end
 
 function UnitDeath(unitName)
-	-- C55_CombatOnDeath(unitName)
+	Fx_CombatOnDeath(unitName)
 	if IsAttacker(unitName) then
 		AttackerUnitDeath(unitName)
 	elseif IsDefender(unitName) then
