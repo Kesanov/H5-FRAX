@@ -419,17 +419,20 @@ function Fx_HandleVictory(player, hero, ci, side)
 	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_BEGINNER_MAGIC_STICK, 1) or 0)
 	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_BREASTPLATE_OF_PETRIFIED_WOOD, 1) or 0)
 	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_CROWN_OF_MAGI, 1) or 0)
+	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_EARTHSLIDERS, 1) or 0)
+	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_EVERCOLD_ICICLE, 1) or 0)
 	mana = mana + 12 * (HasArtefact(hero, ARTIFACT_EIGHTFOLD, 1) or 0)
-	mana = mana +  8 * (HasArtefact(hero, ARTIFACT_GEAR_03, 1) or 0)
-	mana = mana + 12 * (HasArtefact(hero, ARTIFACT_MONK_01, 1) or 0)
+	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_GEAR_03, 1) or 0)
+	mana = mana + 10 * (HasArtefact(hero, ARTIFACT_MONK_01, 1) or 0)
 	mana = mana +  4 * (HasArtefact(hero, ARTIFACT_MONK_02, 1) or 0)
 	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_MONK_04, 1) or 0)
+	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_PHOENIX_FEATHER_CAPE, 1) or 0)
 	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_ROBE_OF_MAGI, 1) or 0)
 	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_RUNE_OF_FLAME, 1) or 0)
 	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_AXE, 1) or 0)
 	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_HARNESS, 1) or 0)
 	mana = mana -  3 * (HasArtefact(hero, ARTIFACT_UPG_ST1, 1) or 0)
-	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_UPG_ST2, 1) or 0)
+	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_UPG_ST2, 1) or 0)
 
 	ChangeHeroStat(hero, STAT_MANA_POINTS, mana)
 
@@ -496,7 +499,7 @@ function Fx_HandleVictory(player, hero, ci, side)
 
 	local raise = 0.1 * GetHeroSkillMastery(hero, SKILL_NECROMANCY)
 	raise = raise + 0.1 * GetHeroSkillMastery(hero, SKILL_CHILLING_BONES)
-	raise = raise + 0.3 * GetHeroSkillMastery(hero, SKILL_HERALD_OF_DEATH)
+	raise = raise + 0.4 * GetHeroSkillMastery(hero, SKILL_HERALD_OF_DEATH)
 
 	Fx_ResurrectArmy(player,hero,ci,side,resurrect,raise)
 
@@ -814,7 +817,6 @@ function Fx_DailyEvents(player)
 
 		local gold = 0
 
-		gold = gold + 0.5 * GetHeroSkillMastery(hero, SKILL_LORD_OF_UNDEAD) * Fx_CreaturesInArmy(hero, Necropolis, 1)
 		gold = gold + 0.5 * GetHeroSkillMastery(hero, SKILL_GOBLIN_SUPPORT) * Fx_CreaturesInArmy(hero, Stronghold, 1)
 
 		H55_GlobalDailyGoldPayout[player] = H55_GlobalDailyGoldPayout[player]+gold

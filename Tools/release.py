@@ -10,8 +10,7 @@ from tqdm import tqdm
 def topprio(path):
     os.utime(path, (int(3e9), int(3e9)))
 
-shutil.rmtree('Frax', ignore_errors=True)
-os.makedirs('Frax')
+os.makedirs('Frax', exist_ok=True)
 
 folders = [ 'Frame', 'Index', 'Texts-EN', 'Skillwheel', 'Creaturepedia' ]
 for folder in tqdm(folders, desc='Extract H55 Files'):
@@ -21,7 +20,7 @@ folders = [ 'NCF_601', 'NCF_620', 'NCF_625', 'NCF_634' ]
 for folder in tqdm(folders, desc='Extract Frax Files'):
     zipfile.ZipFile(f'{folder}.pak', 'r').extractall('Frax/')
 
-folders = ['scripts', 'Characters', 'GameMechanics', 'MapObjects', 'Maps', 'Text', 'Textures', 'Tools', 'UI', 'README.txt']
+folders = ['scripts', 'Characters', 'GameMechanics', 'MapObjects', 'Maps', 'Text', 'Textures', 'Tools', 'UI']
 for folder in tqdm(folders, desc='Copy Frax Files'):
    for path, _, files in os.walk(folder):
        os.makedirs(f'Frax/{path}', exist_ok=True)
@@ -33,9 +32,9 @@ bloodrage.main()
 creaturepedia.main()
 artifacts.main()
 
-shutil.rmtree('Frax/scripts', ignore_errors=True)
+# shutil.rmtree('Frax/scripts', ignore_errors=True)
 
-for dir, dirs, files in tqdm(os.walk('Frax'), desc='Make Frax Override H55 Files'):
+for dir, dirs, files in tqdm(list(os.walk('Frax')), desc='Make Frax Override H55 Files'):
     topprio(dir)
     for file in files:
         topprio(dir + '/' + file)
@@ -43,7 +42,15 @@ for dir, dirs, files in tqdm(os.walk('Frax'), desc='Make Frax Override H55 Files
 
 with zipfile.ZipFile('Frax.pak', 'w') as zip:
    os.chdir('Frax')
-   for path, _, files in tqdm(os.walk('.'), desc='Create Frax Archive'):
+   for path, _, files in tqdm(list(os.walk('.')), desc='Create Frax Archive'):
        for file in files:
            file_name = os.path.join(path, file)
            zip.write(file_name)
+os.chdir('..')
+with zipfile.ZipFile('Frax.zip', 'w') as zip:
+    zip.write('README.txt')
+    zip.write('Frax.pak')
+    zip.write('Frax.DUELIST-PACK.pak')
+
+
+shutil.rmtree('Frax', ignore_errors=True)

@@ -30,7 +30,7 @@ def main():
 
     # root.save('GameMechanics/Reftables/Artifacts.xdb')
 
-    
+    # TODO FIX MODELS
     for filename in tqdm(os.listdir('Frax/MapObjects/Artifacts/'), desc='Artis: Models'):
         if not os.path.isfile(filename): continue
         root = XDB.load(f'Frax/MapObjects/Artifacts/{filename}')
@@ -38,9 +38,9 @@ def main():
             root['Model'].atr['href'] = models[slots[root['ArtifactID'].txt]]
         root.save()
 
-    arts = {a['ID'].txt: a for a in XDB.load(f'GameMechanics/RefTables/Artifacts.xdb')[0]}
+    arts = {a['ID'].txt: a for a in XDB.load(f'GameMechanics/RefTables/Artifacts.Frax.xdb')[0]}
     data = XDB.load(f'Frax/GameMechanics/RefTables/Artifacts.xdb')
-    for art in tqdm(data[0], desc = 'Artis: Update'):
+    for art in tqdm(list(data[0]), desc = 'Artis: Update'):
         if art['ID'].txt in arts:
             art['obj'] = arts[art['ID'].txt]['obj']
     data.save()

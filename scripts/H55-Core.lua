@@ -3982,18 +3982,6 @@ function H55_InfoHeroManaRegen(hero)
 	end;
 	if HasHeroSkill(hero,PERK_MYSTICISM) then mana=mana*2 end;
 	--if HasHeroSkill(hero,KNIGHT_FEAT_PARIAH) then mana=mana+5 end;
-	if HasHeroSkill(hero,NECROMANCER_FEAT_TWILIGHT) then mana=mana+6 end;
-	if HasHeroSkill(hero,KNIGHT_FEAT_CASTER_CERTIFICATE) then mana=mana+4 end;
-	if HasArtefact(hero,ARTIFACT_MONK_01,1) then mana=mana+12 end;
-	if HasArtefact(hero,ARTIFACT_MONK_02,1) then mana=mana+4 end;
-	if HasArtefact(hero,ARTIFACT_GEAR_03,1) then mana=mana+8 end;
-	if HasArtefact(hero,ARTIFACT_ROBE_OF_MAGI,1) then mana=mana+6 end;	
-	if HasArtefact(hero,ARTIFACT_CROWN_OF_MAGI,1) then mana=mana+6 end;
-	if HasArtefact(hero,ARTIFACT_BREASTPLATE_OF_PETRIFIED_WOOD,1) then	mana=mana+2 end;
-	if HasArtefact(hero,ARTIFACT_EARTHSLIDERS,1) then mana=mana+2 end;
-	if HasArtefact(hero,ARTIFACT_PHOENIX_FEATHER_CAPE,1) then mana=mana+2 end;
-	if HasArtefact(hero,ARTIFACT_EVERCOLD_ICICLE,1) then mana=mana+2 end;	
-	if HasArtefact(hero,ARTIFACT_RUNIC_WAR_HARNESS,1) then mana=mana+5 end;
 	return mana;
 end;
 
@@ -6416,67 +6404,6 @@ function H55_DailyEvents(player)
 				end;				
 			end;
 		end;		
-		
-		------------------------------------------------------------------------------------------------------------------------------------------------
-		H55_DEBUG = {13,"ManaDaily",player,hero};--------------------------------------------------------------------------------------------------------
-		------------------------------------------------------------------------------------------------------------------------------------------------
-		
-		H55_DailyManaPayout[hero] = 0;
-
-		-- if HasHeroSkill(hero,KNIGHT_FEAT_PARIAH) then
-			-- H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 5;	
-		-- end;
-		-- if HasHeroSkill(hero,WARLOCK_FEAT_CHAOTIC_SPELLS) then
-			-- local rnd = random(11);
-			-- H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + rnd;	
-		-- end;
-
-		if HasArtefact(hero,ARTIFACT_RUNIC_WAR_HARNESS,1) and H55_RunicInterrupters[hero] ~= H55_Day then
-			H55_RunicWearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 5;
-		end;
-		if HasArtefact(hero,ARTIFACT_MONK_02,1) and H55_Monk02Interrupters[hero] ~= H55_Day then
-			H55_Monk02Wearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 4;			
-		end;
-		if HasArtefact(hero,ARTIFACT_ROBE_OF_MAGI,1) and H55_RobeInterrupters[hero] ~= H55_Day then
-			H55_RobeWearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 6;			
-		end;	
-		if HasArtefact(hero,ARTIFACT_CROWN_OF_MAGI,1) and H55_CrownInterrupters[hero] ~= H55_Day then
-			H55_CrownWearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 6;			
-		end;		
-		if HasArtefact(hero,ARTIFACT_MONK_01,1) and H55_Monk01Interrupters[hero] ~= H55_Day then
-			H55_Monk01Wearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 12;
-		end;
-		if HasArtefact(hero,ARTIFACT_GEAR_03,1) and H55_AlchemistInterrupters[hero] ~= H55_Day then
-			H55_AlchemistWearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 8;
-		end;
-		if HasArtefact(hero,ARTIFACT_BREASTPLATE_OF_PETRIFIED_WOOD,1) and H55_EldritchInterrupters[hero] ~= H55_Day then
-			H55_EldritchWearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 2;
-		end;
-		if HasArtefact(hero,ARTIFACT_PHOENIX_FEATHER_CAPE,1) and H55_EmberstoneInterrupters[hero] ~= H55_Day then
-			H55_EmberstoneWearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 2;
-		end;
-		if HasArtefact(hero,ARTIFACT_EVERCOLD_ICICLE,1) and H55_IcicleInterrupters[hero] ~= H55_Day then
-			H55_IcicleWearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 2;
-		end;
-		if HasArtefact(hero,ARTIFACT_EARTHSLIDERS,1) and H55_SlidersInterrupters[hero] ~= H55_Day then
-			H55_SlidersWearers[hero] = H55_Day;
-			H55_DailyManaPayout[hero] = H55_DailyManaPayout[hero] + 2;
-		end;		
-		if H55_DailyManaPayout[hero] >= 1 then
-			if HasHeroSkill(hero,PERK_DARK_RITUAL) then
-				H55_HeroManaTracker[hero] = H55_HeroManaTracker[hero] + H55_DailyManaPayout[hero];
-			end;
-			H55_ModifyMana(hero,H55_DailyManaPayout[hero],0);
-		end;
 
 		------------------------------------------------------------------------------------------------------------------------------------------------
 		H55_DEBUG = {14,"EconomicDaily",player,hero};-----------------------------------------------------------------------------------------------------

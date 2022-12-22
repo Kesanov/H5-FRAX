@@ -109,6 +109,7 @@ def lua():
     for s, (name, text) in ultimate_text.items():
         file.write(f'  [SKILL_{s}] = {{ "{name}", "{text}" }},\n')
     file.write('}\n\n')
+    file.close()
     shutil.copy('scripts/Frax/Skills.lua', 'Frax/scripts/Frax/')
     
 
@@ -135,16 +136,14 @@ def classes():
     for dirname, _, names in walk('Frax/MapObjects/'):
         for filename in names:
             path = dirname + '/' + filename
-            try:
-                data = XDB.load(path)
-                clss = data['Class'].txt[11:]
-                data['PrimarySkill']['Mastery'].txt = 'MASTERY_BASIC'
-                data['PrimarySkill']['SkillID'].txt = name(HEROES[clss][3])
+            data = XDB.load(path)
+            if data.tag != 'AdvMapHeroShared': continue
 
-                data.save()
-            except Exception as e:
-                print('ERROR:', filename, e)
-                # print(traceback.print_exc())
+            clss = data['Class'].txt[11:]
+            data['PrimarySkill']['Mastery'].txt = 'MASTERY_BASIC'
+            data['PrimarySkill']['SkillID'].txt = name(HEROES[clss][3])
+
+            data.save()
 
 
 def swname(name):
@@ -163,7 +162,7 @@ def swname(name):
     return name if name not in alias else alias[name]
 
 ultimate_text = {}
-SW = 'Frax/UI/Doc/SkillWheel'
+SW = 'UI/Doc/SkillWheel'
 def skillwheel():
     root = XDB.load('./GameMechanics/RefTables/Skills.xdb')
     root = {s['ID'].txt: s for s in root['objects']}
@@ -184,25 +183,30 @@ def skillwheel():
             pp['Name'].txt = f'{swname(skill)}_Perk{i}'
             pg['Children'][0].atr['href'] = f'PerkDesc{i}.(WindowTextView).xdb#xpointer(/WindowTextView)'
             so['szParam'][0].txt = f'{swname(skill)}_Perk{i}'
-            pb.save(f'{SW}/Skills/{skill}/PerkButton{i}.(WindowMSButtonShared).xdb')
-            pd.save(f'{SW}/Skills/{skill}/PerkDesc{i}.(WindowTextViewShared).xdb')
-            pp.save(f'{SW}/Skills/{skill}/PerkPage{i}.(WindowSimple).xdb')
-            pg.save(f'{SW}/Skills/{skill}/PerkPage{i}.(WindowSimpleShared).xdb')
-            so.save(f'{SW}/Skills/{skill}/SwitchOn{i}.(UISSendUIMessage).xdb')
+            pb.save(f'Frax/{SW}/Skills/{skill}/PerkButton{i}.(WindowMSButtonShared).xdb')
+            pd.save(f'Frax/{SW}/Skills/{skill}/PerkDesc{i}.(WindowTextViewShared).xdb')
+            pp.save(f'Frax/{SW}/Skills/{skill}/PerkPage{i}.(WindowSimple).xdb')
+            pg.save(f'Frax/{SW}/Skills/{skill}/PerkPage{i}.(WindowSimpleShared).xdb')
+            so.save(f'Frax/{SW}/Skills/{skill}/SwitchOn{i}.(UISSendUIMessage).xdb')
 
         
 
     # BUTTONS POSITIONS
     pb = XDB.load(f'Tools/Templates/Skillwheel/PerkButtonX.(WindowMSButton).xdb')
-    for i in range(12):
-        for j, (angle, dist) in enumerate(((20,190), (30,350), (20,350), (10,350), (30,300), (20,300), (10,300), (30,250), (20,250), (10,250))):
-            dist, angle = dist - 10, radians(angle - 5 + 360/12 * i)
-            for skill in (swname(s) for s in SKILLS):
+    for skill in (swname(s) for s in SKILLS):
+        for i in range(12):
+            for j, (angle, dist) in enumerate(((20,190), (30,350), (20,350), (10,350), (30,300), (20,300), (10,300), (30,250), (20,250), (10,250))):
+                dist, angle = dist - 10, radians(angle - 5 + 360/12 * i)
                 pb['Shared'].atr['href'] = f'/{SW}/Skills/{skill}/PerkButton{j}.(WindowMSButtonShared).xdb#xpointer(/WindowMSButtonShared)'
                 pb['Placement']['Position']['First']['x'].int = int(612 + sin(angle) * dist)
                 pb['Placement']['Position']['First']['y'].int = int(366 + cos(angle) * dist)
-                pb.save(f'{SW}/Skills/{skill}/P{i+1}/PerkButton{j}.(WindowMSButton).xdb')
-    
+                pb.save(f'Frax/{SW}/Skills/{skill}/P{i+1}/PerkButton{j}.(WindowMSButton).xdb')
+        for i in (13,14):
+            for j in range(10):
+                b = XDB.load(f'Tools/Templates/Skillwheel/P{i}/PerkButton{j}.(WindowMSButton).xdb')
+                b['Shared'].atr['href'] = f'/{SW}/Skills/{skill}/PerkButton{j}.(WindowMSButtonShared).xdb#xpointer(/WindowMSButtonShared)'
+                b.save(f'Frax/{SW}/Skills/{skill}/P{i}/PerkButton{j}.(WindowMSButton).xdb')
+
     # CLASSES
     for id, ix, probs, skill, _ in HEROES.values():
         path = f'Tools/Templates/Skillwheel/Icon.(BackgroundSimpleScallingTexture).xdb'
@@ -215,22 +219,22 @@ def skillwheel():
         data['Size']['x'].txt = size
         data['Size']['y'].txt = size
 
-        data.save(f'{SW}/Classes/{id}{ix}/Icon.(BackgroundSimpleScallingTexture).xdb')
+        data.save(f'Frax/{SW}/Classes/{id}{ix}/Icon.(BackgroundSimpleScallingTexture).xdb')
 
         for i, namE in enumerate(('Attack', 'Defense', 'Spellpower', 'Knowledge')):
             prob = probs[i] if i < 3 else 100 - probs[0] - probs[1] - probs[2]
-            write_txt(f'{SW}/Classes/{id}{ix}/PrimarySkills/Prob_{namE}.txt', f'{prob}<br><font size=15>%')
+            write_txt(f'Frax/{SW}/Classes/{id}{ix}/PrimarySkills/Prob_{namE}.txt', f'{prob}<br><font size=15>%')
 
     
     # CLASSES SKILL AVAILABILITY
     for id, ix, _, _, skills in HEROES.values():
-        tree = [f'{swname(s)}/P{i+1}/PerkButton{j}' for i, s in enumerate(skills) for j in range(ULTIMATES[s] == 'NONE', 10)]
+        tree = [f'{swname(s)}/P{i+1}/PerkButton{j}' for i, s in enumerate(skills) for j in range(10)]
         tree = [f'/{SW}/Skills/{t}.(WindowMSButton).xdb#xpointer(/WindowMSButton)' for t in tree]
         tree = [XDB.new('Item', [], {'href' : t}) for t in tree]
 
         data = XDB.load(f'Tools/Templates/Skillwheel/Class.(WindowSimpleShared).xdb')
-        data['Children'] = list(data['Children'])[:4] + tree
-        data.save(f'{SW}/Wheels/{id}{ix}.(WindowSimpleShared).xdb')
+        data['Children'] = list(data['Children']) + tree
+        data.save(f'Frax/{SW}/Wheels/{id}{ix}.(WindowSimpleShared).xdb')
 
     # SKILL ORDER
     pict = XDB.load(f'Tools/Templates/Skillwheel/X.(BackgroundSimpleScallingTexture).xdb')
@@ -249,7 +253,7 @@ def skillwheel():
         # SKILLS
         for ix, href in zip((1,2,3,4,7,5,8,6,9,0), (level + perks[:6] + ultim)):
             href = [h.atr['href'] for h in href]
-            path = f'{SW}/Skills/{swname(skill)}'
+            path = f'Frax/{SW}/Skills/{swname(skill)}'
 
             size = '128' if is128x128(href[0]) else '64'
             for xy in pict['Size']: 

@@ -52,6 +52,31 @@
         </obj>
     </Item>
     <Item>
+        <ID>ARTIFACT_WISPERING_RING</ID>
+        <obj>
+            <NameFileRef href="/Text/Game/Artifacts/Helm_of_Chaos/Name.txt" />
+            <DescriptionFileRef href="/Text/Game/Artifacts/Helm_of_Chaos/Description.txt" />
+            <Model />
+            <Type>ARTF_CLASS_RELIC</Type>
+            <Slot>HEAD</Slot>
+            <Icon href="/Textures/HeroScreen/Artifacts/Helm_of_Chaos.xdb#xpointer(/Texture)" />
+            <CostOfGold>-6666</CostOfGold>
+            <AIValue>0</AIValue>
+            <CanBeGeneratedToSell>false</CanBeGeneratedToSell>
+            <HeroStatsModif>
+                <Attack>0</Attack>
+                <Defence>0</Defence>
+                <Knowledge>0</Knowledge>
+                <SpellPower>0</SpellPower>
+                <Morale>0</Morale>
+                <Luck>0</Luck>
+            </HeroStatsModif>
+            <ArtifactShared href="/MapObjects/Artifacts/Helm_of_Chaos.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
+            <AvailableForPresets>true</AvailableForPresets>
+            <PresetPrice>0</PresetPrice>
+        </obj>
+    </Item>
+    <Item>
         <ID>ARTIFACT_HELM_OF_CHAOS</ID>
         <obj>
             <NameFileRef href="/Text/Game/Artifacts/Wispering_Ring/Name.txt"/>

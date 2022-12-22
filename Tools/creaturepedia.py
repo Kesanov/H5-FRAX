@@ -88,51 +88,46 @@ def creaturepedia():
         for filename in os.listdir(f'{path}/{town}') + thirds:
             if filename[-4:] != ".xdb": continue
             filepath = os.path.join(path, town, filename)
-            try:
-            # if True:
-                # LOAD DATA
-                data = XDB.load(filepath)
-                tier = data['CreatureTier'].int
-                upgr = 0 if data['BaseCreature'].txt == 'CREATURE_UNKNOWN' else 1 if u3 not in filepath else 2
-                if town == 'Neutrals':
-                    tier, upgr = neutrals[filename[:-4]]
-                
-                # STATISTICS
-                cost = [data['Cost']['Gold'].txt] + [f'{d.txt} {d.tag}' for d in data['Cost'] if d.txt != '0'][:-1]
-                stat = [nozero(data[s].txt) for s in stats] + [' + <br>'.join(cost)]
-                stat[2] += ' - ' + data['MaxDamage'].txt
-                stat[6] += ' | ' + nozero(data['SpellPoints1'].txt)
-                stat[8]  = f'{int(dps(data) * hp(data) / 50)}%'
 
-                filepath = f'Frax/UI/Doc/Creaturepedia/{townID}/T{tier}/{upgr}'
-                for ix, text in enumerate(stat):
-                    write_txt(f'{filepath}/s{ix+1}', text)
+            # LOAD DATA
+            data = XDB.load(filepath)
+            if data.tag != 'Creature': continue
+            tier = data['CreatureTier'].int
+            upgr = 0 if data['BaseCreature'].txt == 'CREATURE_UNKNOWN' else 1 if u3 not in filepath else 2
+            if town == 'Neutrals':
+                tier, upgr = neutrals[filename[:-4]]
 
-                # ABILITIES
-                abilities = [a.txt[8:] for a in data['Abilities']]
-                # LIVING
-                if not any(a in ('ELEMENTAL', 'UNDEAD', 'MECHANICAL') for a in abilities):
-                    abilities = ['FLESH_AND_BLOOD'] + abilities
-                # SHOOTER
-                if data['Shots'].txt != '0':
-                    abilities = abilities + ['SHOOTER']  
-                # CASTER           
-                if data['KnownSpells'].tree:
-                    spells = (f'{spellname[s["Spell"].txt[6:]]} ({s["Mastery"].txt[8:].capitalize()})' for s in data['KnownSpells'])
-                    copyfile(f'UI/Doc/Creaturepedia/Common/Abilities/CASTER/P{len(abilities)}.(WindowMSButton).xdb', f'{filepath}/C.(WindowMSButton).xdb')
-                    write_txt(f'{filepath}/C', caster_text + '\n'.join(spells))
-                caster_ability = XDB.new('Item', [], {'href': 'C.(WindowMSButton).xdb#xpointer(/WindowMSButton)'}) 
-                # OTHER
-                abilities = [f'/UI/Doc/Creaturepedia/Common/Abilities/{a}/P{i}.(WindowMSButton).xdb#xpointer(/WindowMSButton)' for i, a in enumerate(abilities)]
-                xdb = XDB.load(f'Tools/Templates/Creaturepedia/A.(WindowSimpleShared).xdb')
-                xdb['Children'] = XDB.new('Children', [XDB.new('Item', [], {'href': a}) for a in abilities] + [caster_ability])
-                xdb.save(f'{filepath}/A.(WindowSimpleShared).xdb')
+            # STATISTICS
+            cost = [data['Cost']['Gold'].txt] + [f'{d.txt} {d.tag}' for d in data['Cost'] if d.txt != '0'][:-1]
+            stat = [nozero(data[s].txt) for s in stats] + [' + <br>'.join(cost)]
+            stat[2] += ' - ' + data['MaxDamage'].txt
+            stat[6] += ' | ' + nozero(data['SpellPoints1'].txt)
+            stat[8]  = f'{int(dps(data) * hp(data) / 50)}%'
 
+            filepath = f'Frax/UI/Doc/Creaturepedia/{townID}/T{tier}/{upgr}'
+            for ix, text in enumerate(stat):
+                write_txt(f'{filepath}/s{ix+1}', text)
 
-
-            except Exception as e:
-                print('ERROR:', filename, e)
-                # print(traceback.print_exc())
+            # ABILITIES
+            abilities = [a.txt[8:] for a in data['Abilities']]
+            # LIVING
+            if not any(a in ('ELEMENTAL', 'UNDEAD', 'MECHANICAL') for a in abilities):
+                abilities = ['FLESH_AND_BLOOD'] + abilities
+            # SHOOTER
+            if data['Shots'].txt != '0':
+                abilities = abilities + ['SHOOTER']
+            # CASTER
+            if data['KnownSpells'].tree:
+                # TODO SIMPLIFY TEMPLATES
+                spells = (f'{spellname[s["Spell"].txt[6:]]} ({s["Mastery"].txt[8:].capitalize()})' for s in data['KnownSpells'])
+                copyfile(f'Tools/Templates/Creaturepedia/CASTER/P{len(abilities)}.(WindowMSButton).xdb', f'{filepath}/C.(WindowMSButton).xdb')
+                write_txt(f'{filepath}/C', caster_text + '\n'.join(spells))
+            caster_ability = XDB.new('Item', [], {'href': 'C.(WindowMSButton).xdb#xpointer(/WindowMSButton)'})
+            # OTHER
+            abilities = [f'/UI/Doc/Creaturepedia/Common/Abilities/{a}/P{i}.(WindowMSButton).xdb#xpointer(/WindowMSButton)' for i, a in enumerate(abilities)]
+            xdb = XDB.load(f'Tools/Templates/Creaturepedia/A.(WindowSimpleShared).xdb')
+            xdb['Children'] = XDB.new('Children', [XDB.new('Item', [], {'href': a}) for a in abilities] + [caster_ability])
+            xdb.save(f'{filepath}/A.(WindowSimpleShared).xdb')
                 
 
 def ability_positions():
