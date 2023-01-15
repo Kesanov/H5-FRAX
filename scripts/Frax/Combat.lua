@@ -1,43 +1,18 @@
 dofile('/scripts/Frax/Values.lua')
 dofile('/scripts/Frax/Tables.lua')
-
-Fx_MasterOfElements = { ['Bart'] = 1, ['Zehir'] = 1, ['Vaniel'] = 1 }
-Fx_Enrage = {
-	[CREATURE_FOOTMAN] = 1,
-	[CREATURE_SWORDSMAN] = 1,
-	[CREATURE_VINDICATOR] = 1,
-
-	[CREATURE_DEMON] = 1,
-	[CREATURE_HORNED_DEMON] = 1,
-	[CREATURE_HORNED_LEAPER] = 1,
-
-	[CREATURE_WALKING_DEAD] = 1,
-	[CREATURE_ZOMBIE] = 1,
-	[CREATURE_DISEASE_ZOMBIE] = 1,
-
-	[CREATURE_TREANT] = 1,
-	[CREATURE_TREANT_GUARDIAN] = 1,
-	[CREATURE_ANGER_TREANT] = 1,
-
-	[CREATURE_STONE_GARGOYLE] = 1,
-	[CREATURE_OBSIDIAN_GARGOYLE] = 1,
-	[CREATURE_MARBLE_GARGOYLE] = 1,
-
-	[CREATURE_RIDER] = 1,
-	[CREATURE_BEAR_RIDER] = 1,
-	[CREATURE_WHITE_BEAR_RIDER] = 1,
-
-	[CREATURE_ORC_WARRIOR] = 1,
-	[CREATURE_ORC_SLAYER] = 1,
-	[CREATURE_ORC_WARMONGER] = 1,
-}
+dofile('/scripts/Frax/Combat/_CombatVars.lua')
+dofile('/scripts/Frax/Combat/_CombatFunctions.lua')
+dofile('/scripts/Frax/Combat/CreatureAbilityTables.lua')
+dofile('/scripts/Frax/Combat/HeroSpecTables.lua')
+dofile('/scripts/Frax/Combat/OnUnitTurn.lua')
+dofile('/scripts/Frax/Combat/OnUnitDeath.lua')
 
 
 function Fx_CombatPrepare()
 
 end
 
-Fx_StackSize = {}
+
 function Fx_CombatStart()
 	for _, unit in GetUnits(ATTACKER, CREATURE) do
 		Fx_StackSize[unit] = GetCreatureNumber(unit)
@@ -47,74 +22,106 @@ function Fx_CombatStart()
 	end
 end
 
-Fx_Skip = 'None'
 function Fx_Combat(unit)
-	local attacker  = IsAttacker(unit)
-	local ammo_cart = exist((attacker and 'attacker' or 'defender')..'-warmachine-WAR_MACHINE_AMMO_CART')
-	
-	if Fx_Skip ~= 'None' then
-		Fx_Skip = 'None'
-		return 
-	end
+	local side = GetUnitSide(unit)
+	local hero = GetHero(side) and GetHeroName(GetHero(side)) or 'None'
+	local ennemy_hero = GetHero(1 - side) and GetHeroName(GetHero(1 - side)) or 'None'
+
+	Fx_PreviousUnit_Side = Fx_CurrentUnit_Side
+	Fx_PreviousUnit_Mana = Fx_CurrentUnit_Mana
+	Fx_PreviousUnit = Fx_CurrentUnit
+	Fx_PreviousUnitOnSide[Fx_PreviousUnit_Side] = Fx_PreviousUnit
+
+	Fx_CurrentUnit_Side = side
+	Fx_CurrentUnit_Mana = GetUnitManaPoints(unit)
+	Fx_CurrentUnit = unit
+
 
 	if IsCreature(unit) then
-		if GetUnitMaxManaPoints(unit) > 0 then
-			local mana = GetUnitMaxManaPoints(unit) * 0.1 * (ammo_cart and 2 or 1)
-			SetUnitManaPoints(unit, GetUnitManaPoints(unit) + (0.5 + mana))
-			Fx_Skip = unit
+		RestoreMana(unit)
+		local type = Fx_CreaturesInv[GetCreatureType(unit)]
+
+		if Fx_Spec_Name_15[hero] then
+			if type[1] == 5 and type[2] == 4 then
+				RestoreMana(unit)
+			end
+		end
+
+	end
+
+
+	if IsHero(unit) then
+
+	end
+	
+
+	local last_unit_used_mana = Fx_PreviousUnit_Mana - GetUnitManaPoints(Fx_PreviousUnit)
+	if last_unit_used_mana > 0 then
+		local hero_on_side = GetHero(Fx_PreviousUnit_Side) and GetHeroName(GetHero(Fx_PreviousUnit_Side)) or 'None'
+		local hero_other_side = GetHero(1 - Fx_PreviousUnit_Side) and GetHeroName(GetHero(1 - Fx_PreviousUnit_Side)) or 'None'
+
+		if Fx_Spec_Name_13[hero_other_side] then
+			SetUnitManaPoints(hero_other_side, GetUnitManaPoints(hero_other_side) + last_unit_used_mana)
+		end
+
+		if Fx_Spec_Name_14[hero_on_side] then
+			if Fx_PreviousUnit == GetHero(Fx_PreviousUnit_Side) then
+				SetUnitManaPoints(hero_other_side, math.max(0, GetUnitManaPoints(hero_other_side) - last_unit_used_mana))
+		end
+
+		if Fx_Spec_Name_15[hero_on_side] then
+			if IsCreature(Fx_PreviousUnit) then
+				local previous_creature_type = Fx_CreaturesInv[GetCreatureType(Fx_PreviousUnit)]
+				if previous_creature_type[1] == 5 and previous_creature_type[2] == 4 then
+					SetUnitManaPoints(hero_other_side, math.max(0, GetUnitManaPoints(hero_other_side) - last_unit_used_mana))
+				end
+			end
 		end
 	end
-end
 
-function DelayedSummonCreature(side, type, size, x, y, delay)
- 	if size < 1 then return end
-	function Summon(side, type, size, x, y, delay)
-		sleep(delay)
-		SummonCreature(side, type, size, x, y)
-	end
-	startThread(Summon, side, type, size, x, y, delay)
 end
 
 function Fx_CombatOnDeath(unit)
 	local side = GetUnitSide(unit)
 	local hero = GetHero(side) and GetHeroName(GetHero(side)) or 'None'
+	local ennemy_hero = GetHero(1 - side) and GetHeroName(GetHero(1 - side)) or 'None'
 	
 	if IsCreature(unit) then
-		local unitType = GetCreatureType(unit)
 		local x, y = GetUnitPosition(unit)
+		
 		if Fx_StackSize[unit] then
-			--- MASTER OF ELEMENTS ---
 			if Fx_MasterOfElements[hero] then
-				local type = Fx_CreaturesInv[unitType]
-				local size = 0.2 * Fx_StackSize[unit] * Fx_Growth[type[1]][type[2]] / Fx_Growth[9][1]
-				DelayedSummonCreature(side, 85 + math.random(4), size, x, y, 50)
+				OnUnitDeath_SummonElementals(side, unit, x, y)
+			end
+			if Fx_MasterOfDeath[hero] then
+				OnUnitDeath_ReviveIt(side, unit, x, y)
+			end
+			if Fx_Frenzy[hero] then
+				OnUnitDeath_BoostAtb(Fx_CurrentUnit)
+			end
+			if Fx_Spec_Name_01[hero] then
+				OnUnitDeath_SummonLastActor(side, unit, x, y)
+			end
+			if Fx_Spec_Name_07[ennemy_hero] then
+				OnUnitDeath_SummonUndead(1 - side, unit, x, y)
+			end
+			if Fx_Spec_Name_08[ennemy_hero] then
+				OnUnitDeath_SummonLastActor(1 - side, unit, x, y)
+			end
+			if Fx_Spec_Name_09[ennemy_hero] then
+				OnUnitDeath_KillerCastDash()
+			end
+			if Fx_Spec_Name_10[ennemy_hero] then
+				OnUnitDeath_BoostAtb(ennemy_hero)
+			end
+			if Fx_Spec_Name_11[ennemy_hero] then
+				OnUnitDeath_HeroCastSpell(ennemy_hero, Fx_CurrentUnit, SPELL_VAMPIRISM)
 			end
 
-			----- MASTER OF DEATH ---
-			--if Fx_MasterOfDeath[hero] then
-			--	local type = Fx_CreaturesInv[unitType]
-			--	local size = 0.2 * Fx_StackSize[unit]
-			--	DelayedSummonCreature(side, unitType, size, x, y, 50)
-			--end
-
-			----- FRENZY ---
-			--if Fx_Frenzy[hero] then
-			--	setATB(Fx_LastPlayed[1-side], 1)
-			--end
-
-			--- SOUL EATER ---
-			local ghosts = 0
-			for _, u in GetUnits(1 - side, CREATURE) do
-				if GetCreatureType(u) == CREATURE_POLTERGEIST and Fx_StackSize[u] then
-					ghosts = ghosts + 0.2 * GetCreatureNumber(u)
-				end
-			end
-			DelayedSummonCreature(1 - side, CREATURE_POLTERGEIST, ghosts, x, y, 50)
-
-			--- ENRAGE ---
+			
 			for _, u in GetUnits(1 - side, CREATURE) do
 				if Fx_Enrage[GetCreatureType(u)] then
-					setATB(u, 1)
+					OnUnitDeath_BoostAtb(u)
 				end
 			end
 
