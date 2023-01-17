@@ -6,7 +6,7 @@
 	<ATBBaseTime>100000</ATBBaseTime>
 	<RumorCost>100</RumorCost>
 	<adventure>
-		<BaseHeroMovement>2500</BaseHeroMovement>
+		<BaseHeroMovement>2800</BaseHeroMovement>
 		<BaseHeroLookRange>12</BaseHeroLookRange>
 		<MinCreatureSpeed>3</MinCreatureSpeed>
 		<MaxCreatureSpeed>8</MaxCreatureSpeed>
@@ -46,13 +46,13 @@
 				<Gold>20000</Gold>
 			</Item>
 			<Item>
-				<Wood>20</Wood>
-				<Ore>20</Ore>
-				<Mercury>10</Mercury>
-				<Crystal>10</Crystal>
-				<Sulfur>10</Sulfur>
-				<Gem>10</Gem>
-				<Gold>20000</Gold>
+				<Wood>15</Wood>
+				<Ore>15</Ore>
+				<Mercury>7</Mercury>
+				<Crystal>7</Crystal>
+				<Sulfur>7</Sulfur>
+				<Gem>7</Gem>
+				<Gold>15000</Gold>
 			</Item>
 			<Item>
 				<Wood>10</Wood>
@@ -147,7 +147,7 @@
 			<Scouting_VisibilityIncrease>12</Scouting_VisibilityIncrease>
 			<DisguiseAndReckon_VisibilityIncrease>0</DisguiseAndReckon_VisibilityIncrease>
 			<Intelligence_ManaPointsBonus>1.4</Intelligence_ManaPointsBonus>
-			<WarMachines_HealthBonusPerSkillTrained>100</WarMachines_HealthBonusPerSkillTrained>
+			<WarMachines_HealthBonusPerSkillTrained>5</WarMachines_HealthBonusPerSkillTrained>
 			<WarMachines_PerkSpecificHealthMultiplier>3</WarMachines_PerkSpecificHealthMultiplier>
 		</HeroSkills>
 		<TownBuildingBonuses>
@@ -172,7 +172,7 @@
 					<y>6</y>
 				</CellToPlaceNoFort>
 				<BaseCreatureToPlace>CREATURE_DEFENDER</BaseCreatureToPlace>
-				<CreaturesPerTownLevelPerMonth>5</CreaturesPerTownLevelPerMonth>
+				<CreaturesPerTownLevelPerMonth>4</CreaturesPerTownLevelPerMonth>
 			</Fortress_GuardPostStats>
 			<Fortress_BlazingAnvil_DefenderDefenceBonus>6</Fortress_BlazingAnvil_DefenderDefenceBonus>
 			<Fortress_BlazingAnvil_DefenderSpellPowerBonus>6</Fortress_BlazingAnvil_DefenderSpellPowerBonus>
@@ -328,7 +328,7 @@
 				<GremlinRepairPowerPreCreature>2</GremlinRepairPowerPreCreature>
 				<Dash_InitiativeFactor>2</Dash_InitiativeFactor>
 				<Dash_Duration>3</Dash_Duration>
-				<VulnerabilityDamageCoef>1.5</VulnerabilityDamageCoef>
+				<VulnerabilityDamageCoef>1.4</VulnerabilityDamageCoef>
 				<EnchantedObsidian_DamageToHealCoef>0.25</EnchantedObsidian_DamageToHealCoef>
 				<MagicMagnetism_DamageRedirectPercentPerWeeklyGrowth>5</MagicMagnetism_DamageRedirectPercentPerWeeklyGrowth>
 				<SabotageCoef>1</SabotageCoef>
@@ -342,7 +342,7 @@
 				<AssasinPoisonCounter>3</AssasinPoisonCounter>
 				<WhipStrikeSpellPower>10</WhipStrikeSpellPower>
 				<WhipStrike_ProcFactor>1</WhipStrike_ProcFactor>
-				<HydraRegenerationMin>40</HydraRegenerationMin>
+				<HydraRegenerationMin>30</HydraRegenerationMin>
 				<HydraRegenerationMax>60</HydraRegenerationMax>
 				<RiderCharge_DefenceReducePerPathCell>0.075</RiderCharge_DefenceReducePerPathCell>
 				<AcidicHydraPattern href="/GameMechanics/Creature/Creatures/Dungeon/AcidBlood.xdb#xpointer(/PatternAttack)"/>
@@ -480,8 +480,8 @@
 									</Abilities>
 								</Item>
 								<Item>
-									<Type>DEMON_RAGE_BONUS_DEFENCE</Type>
-									<IntParam>3</IntParam>
+									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
+									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -510,8 +510,8 @@
 							<Creature>CREATURE_GOBLIN_TRAPPER</Creature>
 							<Bonus1>
 								<Item>
-									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
-									<IntParam>2</IntParam>
+									<Type>DEMON_RAGE_BONUS_DEFENCE</Type>
+									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -526,13 +526,6 @@
 									<Abilities>
 										<Item>ABILITY_WOUND</Item>
 									</Abilities>
-								</Item>
-								<Item>
-									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
-									<IntParam>3</IntParam>
-									<FloatParam>0</FloatParam>
-									<Spells/>
-									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -551,21 +544,14 @@
 							<Creature>CREATURE_GOBLIN_DEFILER</Creature>
 							<Bonus1>
 								<Item>
-									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
-									<IntParam>2</IntParam>
+									<Type>DEMON_RAGE_BONUS_DEFENCE</Type>
+									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
 								</Item>
 							</Bonus1>
-							<Bonus2>
-								<Item>
-									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
-									<IntParam>3</IntParam>
-									<FloatParam>0</FloatParam>
-									<Spells/>
-									<Abilities/>
-								</Item>							
+							<Bonus2>						
 								<Item>
 									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
 									<IntParam>0</IntParam>
@@ -593,7 +579,7 @@
 							<Bonus1>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
-									<IntParam>6</IntParam>
+									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -602,7 +588,7 @@
 							<Bonus2>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
-									<IntParam>2</IntParam>
+									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -623,7 +609,7 @@
 							<Bonus1>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
-									<IntParam>6</IntParam>
+									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -632,7 +618,7 @@
 							<Bonus2>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
-									<IntParam>2</IntParam>
+									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -653,7 +639,7 @@
 							<Bonus1>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
-									<IntParam>6</IntParam>
+									<IntParam>4</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -662,7 +648,7 @@
 							<Bonus2>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
-									<IntParam>2</IntParam>
+									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -699,7 +685,7 @@
 							<Bonus2>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_DAMAGE</Type>
-									<IntParam>3</IntParam>
+									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -738,7 +724,7 @@
 							<Bonus2>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_DAMAGE</Type>
-									<IntParam>3</IntParam>
+									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -746,13 +732,11 @@
 							</Bonus2>
 							<Bonus3>
 								<Item>
-									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
-									<IntParam>0</IntParam>
+									<Type>DEMON_RAGE_BONUS_DEFENCE</Type>
+									<IntParam>8</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
-									<Abilities>
-										<Item>ABILITY_BASH</Item>
-									</Abilities>
+									<Abilities/>
 								</Item>
 							</Bonus3>
 						</Item>
@@ -788,7 +772,7 @@
 							<Bonus3>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_DEFENCE</Type>
-									<IntParam>10</IntParam>
+									<IntParam>8</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -804,19 +788,12 @@
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
-								</Item>
-								<Item>
-									<Type>DEMON_RAGE_BONUS_DEFENCE</Type>
-									<IntParam>2</IntParam>
-									<FloatParam>0</FloatParam>
-									<Spells/>
-									<Abilities/>
-								</Item>									
+								</Item>								
 							</Bonus1>
 							<Bonus2>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
-									<IntParam>8</IntParam>
+									<IntParam>5</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -824,8 +801,8 @@
 							</Bonus2>
 							<Bonus3>
 								<Item>
-									<Type>DEMON_RAGE_BONUS_DEFENCE</Type>
-									<IntParam>10</IntParam>
+									<Type>DEMON_RAGE_BONUS_ATTACK</Type>
+									<IntParam>8</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -860,7 +837,7 @@
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
-									<IntParam>10</IntParam>
+									<IntParam>5</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -880,8 +857,15 @@
 							<Creature>CREATURE_SHAMAN_HAG</Creature>
 							<Bonus1>
 								<Item>
+									<Type>DEMON_RAGE_BONUS_SPELLPOWER_MULT</Type>
+									<IntParam>0</IntParam>
+									<FloatParam>1.2</FloatParam>
+									<Spells/>
+									<Abilities/>
+								</Item>							
+								<Item>
 									<Type>DEMON_RAGE_BONUS_INITIATIVE</Type>
-									<IntParam>2</IntParam>
+									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -897,7 +881,7 @@
 								</Item>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
-									<IntParam>10</IntParam>
+									<IntParam>5</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -934,7 +918,7 @@
 							<Bonus2>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
-									<IntParam>12</IntParam>
+									<IntParam>5</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -971,7 +955,7 @@
 							<Bonus2>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
-									<IntParam>12</IntParam>
+									<IntParam>6</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -1008,7 +992,7 @@
 							<Bonus2>
 								<Item>
 									<Type>DEMON_RAGE_BONUS_HEALTH</Type>
-									<IntParam>15</IntParam>
+									<IntParam>8</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities/>
@@ -1037,13 +1021,11 @@
 							</Bonus1>
 							<Bonus2>
 								<Item>
-									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
-									<IntParam>0</IntParam>
+									<Type>DEMON_RAGE_BONUS_SPEED</Type>
+									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
-									<Abilities>
-										<Item>ABILITY_FRIGHT_AURA</Item>
-									</Abilities>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -1053,7 +1035,6 @@
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities>
-										<Item>ABILITY_FEAR</Item>
 										<Item>ABILITY_FRIGHT_AURA</Item>
 									</Abilities>
 								</Item>
@@ -1072,13 +1053,11 @@
 							</Bonus1>
 							<Bonus2>
 								<Item>
-									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
-									<IntParam>0</IntParam>
+									<Type>DEMON_RAGE_BONUS_SPEED</Type>
+									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
-									<Abilities>
-										<Item>ABILITY_FRIGHT_AURA</Item>
-									</Abilities>
+									<Abilities/>
 								</Item>
 							</Bonus2>
 							<Bonus3>
@@ -1088,7 +1067,6 @@
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities>
-										<Item>ABILITY_FEAR</Item>
 										<Item>ABILITY_FRIGHT_AURA</Item>
 									</Abilities>
 								</Item>
@@ -1107,14 +1085,12 @@
 							</Bonus1>
 							<Bonus2>
 								<Item>
-									<Type>DEMON_RAGE_BONUS_ABILITY</Type>
-									<IntParam>0</IntParam>
+									<Type>DEMON_RAGE_BONUS_SPEED</Type>
+									<IntParam>1</IntParam>
 									<FloatParam>0</FloatParam>
 									<Spells/>
-									<Abilities>
-										<Item>ABILITY_FRIGHT_AURA</Item>
-									</Abilities>
-								</Item>
+									<Abilities/>
+								</Item>						
 							</Bonus2>
 							<Bonus3>
 								<Item>
@@ -1123,7 +1099,6 @@
 									<FloatParam>0</FloatParam>
 									<Spells/>
 									<Abilities>
-										<Item>ABILITY_FEAR</Item>
 										<Item>ABILITY_FRIGHT_AURA</Item>
 									</Abilities>
 								</Item>
@@ -1180,10 +1155,10 @@
 				<HoldGround_DefendBonusMultiplier>2</HoldGround_DefendBonusMultiplier>
 				<HoldGround_TakeRootsBonusMultiplier>2</HoldGround_TakeRootsBonusMultiplier>
 				<Training>
-					<BasicDamageBonus>0.15</BasicDamageBonus>
-					<AdvancedDamageBonus>0.3</AdvancedDamageBonus>
-					<ExpertDamageBonus>0.45</ExpertDamageBonus>
-					<ExtraExpertDamageBonus>0.45</ExtraExpertDamageBonus>
+					<BasicDamageBonus>0.1</BasicDamageBonus>
+					<AdvancedDamageBonus>0.2</AdvancedDamageBonus>
+					<ExpertDamageBonus>0.3</ExpertDamageBonus>
+					<ExtraExpertDamageBonus>0.3</ExtraExpertDamageBonus>
 					<TrainingPointsPerWeek>7</TrainingPointsPerWeek>
 					<TrainingPointsPerWeek_Upgraded>20</TrainingPointsPerWeek_Upgraded>
 					<BaseCostMultiplier>2.2</BaseCostMultiplier>
@@ -1199,7 +1174,7 @@
 				<Prayer_InitiativeBonus>0.1</Prayer_InitiativeBonus>
 				<WhiteKnight_PrayerMultiplier>1.5</WhiteKnight_PrayerMultiplier>
 				<Encourage_ATBIncrease>0.4</Encourage_ATBIncrease>
-				<Retribution_DamageBonusPerMorale>0.02</Retribution_DamageBonusPerMorale>
+				<Retribution_DamageBonusPerMorale>0.04</Retribution_DamageBonusPerMorale>
 			</Knight>
 			<DemonLord>
 				<Gating>
@@ -1848,8 +1823,8 @@
 				<StrongRune_2ndUseCostMultiplier>2</StrongRune_2ndUseCostMultiplier>
 				<FineRune_ChanceToActivateRuneForFree>50</FineRune_ChanceToActivateRuneForFree>
 				<QuicknessOfMind_InitiativeBonus>0.25</QuicknessOfMind_InitiativeBonus>
-				<TapRunes_ManaRestorePerKnowledge>0.33</TapRunes_ManaRestorePerKnowledge>
-				<RunicAttunement_EffectDurationInRounds>1</RunicAttunement_EffectDurationInRounds>
+				<TapRunes_ManaRestorePerKnowledge>0.5</TapRunes_ManaRestorePerKnowledge>
+				<RunicAttunement_EffectDurationInRounds>2</RunicAttunement_EffectDurationInRounds>
 				<RunicAttunement_MoraleBonus>3</RunicAttunement_MoraleBonus>
 				<Offensive_MaxOffenseBonus>10</Offensive_MaxOffenseBonus>
 				<Defensive_MaxDefenseBonus>10</Defensive_MaxDefenseBonus>
@@ -1864,7 +1839,7 @@
 				<Preparation_RetaliateToNER>false</Preparation_RetaliateToNER>
 			</Runemage>
 			<Barbarian>
-				<PowerfullBlow_ChanceToCritical>1</PowerfullBlow_ChanceToCritical>
+				<PowerfullBlow_ChanceToCritical>0</PowerfullBlow_ChanceToCritical>
 				<PathOfWar_MovePointsBonus>200</PathOfWar_MovePointsBonus>
 				<LuckOfTheBarbarian_MagicProofPerLuck>0.25</LuckOfTheBarbarian_MagicProofPerLuck>
 				<StunningBlow_ATBDrop>0.2</StunningBlow_ATBDrop>

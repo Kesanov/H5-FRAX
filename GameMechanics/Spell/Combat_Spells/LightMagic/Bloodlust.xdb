@@ -15,20 +15,20 @@
 	<TrainedCost>7</TrainedCost>
 	<damage>
 		<Item>
-			<Base>4</Base>
+			<Base>5</Base>
 			<PerPower>0.15</PerPower>
 		</Item>
 		<Item>
-			<Base>4</Base>
-			<PerPower>0.2</PerPower>
-		</Item>
-		<Item>
-			<Base>5</Base>
+			<Base>6</Base>
 			<PerPower>0.2</PerPower>
 		</Item>
 		<Item>
 			<Base>6</Base>
 			<PerPower>0.25</PerPower>
+		</Item>
+		<Item>
+			<Base>6</Base>
+			<PerPower>0.33</PerPower>
 		</Item>
 	</damage>
 	<duration>

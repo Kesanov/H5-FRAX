@@ -25,11 +25,7 @@
 		<Item>
 			<Spell>SPELL_HASTE</Spell>
 			<Mastery>MASTERY_EXPERT</Mastery>
-		</Item>
-		<Item>
-			<Spell>SPELL_STONESKIN</Spell>
-			<Mastery>MASTERY_ADVANCED</Mastery>
-		</Item>			
+		</Item>		
 	</KnownSpells>
 	<SpellPoints>14</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>

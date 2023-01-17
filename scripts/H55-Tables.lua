@@ -80,7 +80,7 @@ H55_WarlocksPhonebook = {["Raelag"]=1,["Kastore"]=1,["Kelodin"]=1,["ShadwynMP"]=
 H55_EngineersPhonebook = {["Wulfstan"]=1,["Rolf"]=1,["Maximus"]=1,["Tazar"]=1,["Ufretin"]=1,["Skeggy"]=1};
 H55_RunemagesPhonebook = {["Hangvul"]=1,["KingTolghar"]=1,["Ingvar"]=1,["Bersy"]=1,["Ottar"]=1,["Una"]=1};
 H55_FlamekeepersPhonebook = {["Vilma"]=1,["Bart"]=1,["Hangvul2"]=1,["Brand"]=1,["Egil"]=1,["Vegeyr"]=1};
-H55_ChieftainsPhonebook = {["Hero1"]=1,["Hero4"]=1,["Hero5"]=1,["Hero6"]=1,["Hero8"]=1,["Hero9"]=1,["Gottai"]=1,["GottaiMP"]=1,["Crag"]=1,["Azar"]=1,["Kraal"]=1,["Kujin"]=1,["Kunyak"]=1,["Matewa"]=1,["Quroq"]=1};
+H55_ChieftainsPhonebook = {["Hero1"]=1,["Hero4"]=1,["Hero5"]=1,["Hero6"]=1,["Hero8"]=1,["Hero9"]=1,["Gottai"]=1,["GottaiMP"]=1,["Crag"]=1,["Azar"]=1,["Kraal"]=1,["Kunyak"]=1,["Matewa"]=1,["Quroq"]=1};
 H55_ShamansPhonebook = {["KujinMP"]=1,["Shiva"]=1,["Hero7"]=1,["Mokka"]=1,["Kujin"]=1};
 H55_WitchesPhonebook = {["Hero2"]=1,["Hero3"]=1,["Zouleika"]=1,["Erika"]=1};
 
@@ -493,7 +493,6 @@ H55_MajorArtifacts = {
 	ARTIFACT_NECKLACE_OF_POWER,	
 	ARTIFACT_DRAGON_SCALE_ARMOR,
 	ARTIFACT_NIGHTMARISH_RING,
-	ARTIFACT_BOOTS_OF_LEVITATION,
 	ARTIFACT_DRAGON_BONE_GRAVES,
 	ARTIFACT_LION_HIDE_CAPE,
 	ARTIFACT_CHAIN_MAIL_OF_ENLIGHTMENT,
@@ -531,13 +530,13 @@ H55_MajorArtifacts = {
 	ARTIFACT_EDGE_OF_BALANCE,
 	ARTIFACT_STEADFAST,
 	ARTIFACT_UPG_ST3,
+	ARTIFACT_BOOTS_OF_SPEED,
 	ARTIFACT_GEAR_06
 }; -- amount is 53
 
 H55_RelicArtifacts = {
 	ARTIFACT_PIRATE01,
 	ARTIFACT_RING_OF_UNSUMMONING,
-	ARTIFACT_BOOTS_OF_SPEED,
 	ARTIFACT_STAFF_OF_MAGI,
 	ARTIFACT_RING_OF_MACHINE_AFFINITY,
 	ARTIFACT_DWARVEN_MITHRAL_CUIRASS,
@@ -577,6 +576,7 @@ H55_RelicArtifacts = {
 	ARTIFACT_CROWN_OF_COURAGE,
 	ARTIFACT_TITANS_TRIDENT,
 	ARTIFACT_GEAR_04,
+	ARTIFACT_BOOTS_OF_LEVITATION,
 	ARTIFACT_HORN_OF_PLENTY
 }; --amount is 43
 

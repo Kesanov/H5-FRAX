@@ -47,10 +47,12 @@ C55_Creatures = {
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 function C55_PoundEnemy(side)
-    SetControlMode(side,MODE_AUTO);
-    sleep(1);
-    SetControlMode(side,MODE_MANUAL);
-    SetControlMode(side,MODE_NORMAL);
+	if GetHost(C55_Reverse[side]) ~= HUMAN then
+		SetControlMode(side,MODE_AUTO);
+		sleep(1);
+		SetControlMode(side,MODE_MANUAL);
+		SetControlMode(side,MODE_NORMAL);
+	end;
 end;
 
 function C55_BoostATB(unitName,side,faction,tier,qty1,qty2,qty3)
@@ -84,6 +86,7 @@ function C55_FreeSpecial(side,special,faction,tier)
 			if GetCreatureType(cr) == C55_Creatures[faction][tier][1] or 
 			   GetCreatureType(cr) == C55_Creatures[faction][tier][2] or 
 			   GetCreatureType(cr) == C55_Creatures[faction][tier][3] then
+				SetUnitManaPoints(cr,1);
 				UseCombatAbility(cr,special);
 				break;
 			end;
@@ -134,7 +137,9 @@ function C55_FreeMines(unitName,side,hero_id,atb,faction,tier)
 				setATB(unitName,0.99);
 				local mana = GetUnitManaPoints(hero_id);
 				local x,y = GetUnitPosition(cr);
-				if side == 0 then x=x+1 else x=x-1 end;
+				if GetHost(C55_Reverse[side]) ~= HUMAN then
+					if side == 0 then x=x+1 else x=x-1 end;
+				end;
 				if mana < 20 then SetUnitManaPoints(hero_id,20) end;
 				startThread(C55_ThreadedAreaSpell,hero_id,38,x,y);
 				repeat sleep(1) until C55_ThreadedAreaSpellDone[hero_id] == 1;
@@ -247,6 +252,9 @@ function C55_NeutralsMana(side)
 		if GetCreatureType(cr) == C55_Creatures[4][5][1] then
 		   SetUnitManaPoints(cr,0);
 		end;
+		if GetCreatureType(cr) == C55_Creatures[5][6][3] then
+		   SetUnitManaPoints(cr,0);
+		end;
 		if GetCreatureType(cr) == C55_Creatures[6][6][1] or 
 		   GetCreatureType(cr) == C55_Creatures[6][6][2] then
 		   SetUnitManaPoints(cr,0);
@@ -256,6 +264,23 @@ function C55_NeutralsMana(side)
 		end;
 		if GetCreatureType(cr) == C55_Creatures[8][4][1] then
 		   SetUnitManaPoints(cr,0);
+		end;
+		if GetHero(side) == nil then
+			if GetCreatureType(cr) == C55_Creatures[2][4][2] then
+			   SetUnitManaPoints(cr,14);
+			end;
+			if GetCreatureType(cr) == C55_Creatures[5][4][2] then
+			   SetUnitManaPoints(cr,18);
+			end;
+			if GetCreatureType(cr) == C55_Creatures[8][1][3] then
+			   SetUnitManaPoints(cr,0);
+			end;
+			if GetCreatureType(cr) == 86 then
+			   SetUnitManaPoints(cr,18);
+			end;
+			if GetCreatureType(cr) == 116 then
+			   SetUnitManaPoints(cr,14);
+			end;
 		end;
 	end;
 end;

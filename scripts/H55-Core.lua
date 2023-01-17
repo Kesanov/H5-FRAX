@@ -112,29 +112,48 @@ dofile("/scripts/H55-Settings.lua");
 H55_PlayerTeams = {};
 H55_PlayerStatus = {0,0,0,0,0,0,0,0};
 H55_PlayerFactions = {0,0,0,0,0,0,0,0};
-H55_AIStartResources = {10001,10501,10601,10701,10801,10901,11001,20001,20501,20601,20701,20801,20901,21001,30001,30501,30601,30701,30801,30901,31001,50001,50501,50601,50701,50801,50901,51001};
-H55_AIStartResourcesNormal = {10000,10500,10600,10700,10800,10900,11000,20000,20500,20600,20700,20800,20900,21000,30000,30500,30600,30700,30800,30900,31000,50000,50500,50600,50700,50800,50900,51000};
+
+H55_AIStartResources = {
+10001,10501,10601,10701,10801,10901,11001,
+15001,15501,15601,15701,15801,15901,16001,
+20001,20501,20601,20701,20801,20901,21001,
+30001,30501,30601,30701,30801,30901,31001
+--50001,50501,50601,50701,50801,50901,51001
+};
+
+H55_AIStartResourcesNormal = {
+10000,10500,10600,10700,10800,10900,11000,
+15000,15500,15600,15700,15800,15900,16000,
+20000,20500,20600,20700,20800,20900,21000,
+30000,30500,30600,30700,30800,30900,31000
+--50000,50500,50600,50700,50800,50900,51000
+};
+
 H55_AmountAIBankVisits = 0;
 H55_AmountCyclesAI = 0;
 H55_AIGoesNuclear = 0;
 
 H55_StartBonusGold = {
 10500,10600,10700,10800,10900,11000,
+15500,15600,15700,15800,15900,16000,
 20500,20600,20700,20800,20900,21000,
 30500,30600,30700,30800,30900,31000,
-50500,50600,50700,50800,50900,51000,
-10501,10601,10701,10801,10901,11001, 
+--50500,50600,50700,50800,50900,51000,
+10501,10601,10701,10801,10901,11001,
+15501,15601,15701,15801,15901,16001,
 20501,20601,20701,20801,20901,21001,
-30501,30601,30701,30801,30901,31001,
-50501,50601,50701,50801,50901,51001
+30501,30601,30701,30801,30901,31001
+--50501,50601,50701,50801,50901,51001
 };
 
 H55_StartBonusNormal = {18,19,20,21};
 H55_StartBonusHard = {13,14,15,16};
+H55_StartBonusHeroic = {10,11,12,13};
 H55_StartBonusImpossible = {8,9,10,11};
 
 H55_StartBonusNormalWO = {33,34,35,36};
 H55_StartBonusHardWO = {23,24,25,26};
+H55_StartBonusHeroicWO = {18,19,20,21};
 H55_StartBonusImpossibleWO = {13,14,15,16};
 
 --Neutrals
@@ -205,6 +224,12 @@ H55_SiegeWorkshopsOwned = {}; H55_WeeklySiegeWorkshopResQty = {};
 H55_DwarvenNetworkOwners = {};
 H55_NetworkSkillAmount = {0,0,0,0,0,0,0,0};
 
+--Battle Counts
+
+H55_InitHeroBattleCount = {};
+H55_BattlesVerified = {};
+H55_WeeklyBattleCounts = {};
+
 --Skills
 
 H55_HeroPositionTracker = {};
@@ -217,10 +242,12 @@ H55_OccultismPowerOwners = {};
 H55_AmmoCartPowerOwners = {};
 H55_SecretsPowerOwners = {};
 H55_InsightsPowerOwners = {};
+--H55_TwistedPowerOwners = {};
 H55_StaminaPowerOwners = {};
 H55_TribalPowerOwners = {};
 H55_LearningPowerOwners = {}; H55_BLearningPowerOwners = {};
-H55_NecroLeadPowerOwners = {};
+--H55_NecroLeadPowerOwners = {};
+--H55_RunelorePowerOwners = {};
 H55_VoicePowerOwners = {};
 H55_OverkillOwners = {};
 H55_DemonicFlameOwners = {};
@@ -269,6 +296,9 @@ H55_FireResistanceOwners = {};
 H55_PariahOwners = {};
 H55_PariahPenaltyOwners = {};
 H55_DeadlyColdOwners = {};
+H55_OffensiveFormationOwners = {};
+H55_DefensiveFormationOwners = {};
+H55_WarCryLearningOwners = {};
 
 H55_WeakenDarkOwners = {}; H55_WeakenLightOwners = {}; H55_WeakenDestructiveOwners = {}; H55_WeakenSummoningOwners = {};
 H55_DetainDarkOwners = {}; H55_DetainLightOwners = {}; H55_DetainDestructiveOwners = {}; H55_DetainSummoningOwners = {};
@@ -348,9 +378,12 @@ H55_FountainStudent = {};
 H55_PrimalAltarStudent = {};
 H55_BrotherhoodStudent = {};
 H55_PileSkullsStudent = {};
---H55_NecroAmplifyStudent = {};
 H55_SacrificialPitStudent = {};
 H55_LoomStudent = {};
+H55_GuardPostStudent = {};
+H55_AvengerStudent = {};
+H55_StoneworksStudent = {};
+H55_SlaveMarketStudent = {};
 
 for i, town in GetObjectNamesByType("TOWN") do
 	H55_HallIntrigueStudent[town] = {};
@@ -359,15 +392,15 @@ for i, town in GetObjectNamesByType("TOWN") do
 	H55_BrotherhoodStudent[town] = {};
 	H55_PileSkullsStudent[town] = {};
 	H55_LoomStudent[town] = {};
-	--H55_NecroAmplifyStudent[town] = {};
 	H55_SacrificialPitStudent[town] = {};
+	H55_GuardPostStudent[town] = {};
+	H55_AvengerStudent[town] = {};
+	H55_StoneworksStudent[town] = {};
 end;
 
 H55_HallTrialStudent = {}; H55_HallCourageStudent = {}; H55_HallMightStudent = {};
+H55_ShrineTrialStudent = {}; H55_ShrineCourageStudent = {}; H55_ShrineMightStudent = {};
 H55_WalkerHutStudent = {};
-H55_ElementalAltarStudent = {};
-H55_RunicChapelStudent = {};
-H55_HorrorHallStudent = {};
 
 --Artifacts
 
@@ -377,7 +410,7 @@ H55_PathfinderExpReceived = {};
 H55_ValorExpReceived = {};
 H55_AfterBattleMovement = {};
 H55_MovePaybackReceived = {};
-H55_PeltMoveReceived = {}; H55_BootsMoveReceived = {}; H55_GuardianMoveReceived = {};
+H55_HeraldMoveReceived = {}; H55_BootsMoveReceived = {}; H55_GuardianMoveReceived = {};
 H55_HatMoveReceived = {}; H55_NecklaceMoveReceived = {};
 H55_WarPathMoveReceived = {};
 H55_AfterBattleGold = {};
@@ -405,7 +438,6 @@ H55_DailyManaPayout = {};
 
 H55_FlatResurrectionBaseK = {30,30,30,130,130,300,300};
 H55_FlatResurrectionScaleK = {10,10,10,10,10,10,30};
-
 H55_FlatResurrectionBaseD = {30,30,30,130,130,300,300};
 H55_FlatResurrectionScaleD = {10,10,10,10,10,10,30};
 
@@ -455,6 +487,7 @@ H55_CrystalMoraleReceived = {};
 
 H55_WeeklyRecruitsTable = {};
 H55_WeeklyReinforceTable = {};
+H55_WeeklyLogTroopsTable = {};
 H55_InfernalLoomTable = {};
 H55_DefendUsTable = {};
 H55_SpoilsReceived = {};
@@ -493,6 +526,16 @@ end;
 
 function H55_UpdateMapType()
 	H55_MapType = H55_GetMapType();
+end;
+
+function H55_NotWulfstanMission()
+	local answer = 1;
+	local map = GetMapDataPath();
+	if map == "Maps/Scenario/A1C2M4/" or map == "Maps/Scenario/A1C2M5/" then 
+		--"Maps/Scenario/A1C2M3/";
+		 answer = 0;
+	end;
+	return answer;
 end;
 
 function H55_GetDistance(object1,object2)
@@ -1048,41 +1091,56 @@ function H55_BuildMyTowns(player)
 	end;
 end;
 
-function H55_ResetSignQueue(player)
-	sleep(1);
-	H55_Sign_Queue[player] = 0;
-end;
-
 function H55_ProtectedSign(message,object,player,sleeptime,messagetime)
-	repeat sleep(1); until H55_Sign_Queue[player] == 0;
-	H55_Sign_Queue[player] = 1;
-	ShowFlyingSign({message},object,player,messagetime);
-	sleep(sleeptime);
-	startThread(H55_ResetSignQueue,player); 
+	while 1 do
+		if H55_Sign_Queue[player] == 0 then
+			H55_Sign_Queue[player] = 1;
+			ShowFlyingSign({message},object,player,messagetime);
+			sleep(sleeptime);
+			H55_Sign_Queue[player] = 0;
+			break;
+		end;
+		sleep(H55_MsgDelay);
+	end;
 end;
 
 function H55_ProtectedSignAdd(message,amount,object,player,sleeptime,messagetime)
-	repeat sleep(1); until H55_Sign_Queue[player] == 0;
-	H55_Sign_Queue[player] = 1;
-	ShowFlyingSign({message; num=amount},object,player,messagetime);
-	sleep(sleeptime);
-	startThread(H55_ResetSignQueue,player); 
+	while 1 do
+		if H55_Sign_Queue[player] == 0 then
+			H55_Sign_Queue[player] = 1;
+			ShowFlyingSign({message; num=amount},object,player,messagetime);
+			sleep(sleeptime);
+			H55_Sign_Queue[player] = 0;
+			break;
+		end;
+		sleep(H55_MsgDelay);
+	end;
 end;
 
 function H55_ProtectedSignPrisoners(message,amount,tier,object,player,sleeptime,messagetime)
-	repeat sleep(1); until H55_Sign_Queue[player] == 0;
-	H55_Sign_Queue[player] = 1;
-	ShowFlyingSign({message; num=amount, level=tier},object,player,messagetime);
-	sleep(sleeptime);
-	startThread(H55_ResetSignQueue,player); 
+	while 1 do
+		if H55_Sign_Queue[player] == 0 then
+			H55_Sign_Queue[player] = 1;
+			ShowFlyingSign({message; num=amount, level=tier},object,player,messagetime);
+			sleep(sleeptime);
+			H55_Sign_Queue[player] = 0;
+			break;
+		end;
+		sleep(H55_MsgDelay);
+	end;
 end;
 
 function H55_ProtectedSignSpell(message,spellid,object,player,sleeptime,messagetime)
-	repeat sleep(1); until H55_Sign_Queue[player] == 0;
-	H55_Sign_Queue[player] = 1;
-	ShowFlyingSign({message; name=spellid},object,player,messagetime);
-	sleep(sleeptime);
-	startThread(H55_ResetSignQueue,player); 
+	while 1 do
+		if H55_Sign_Queue[player] == 0 then
+			H55_Sign_Queue[player] = 1;
+			ShowFlyingSign({message; name=spellid},object,player,messagetime);
+			sleep(sleeptime);
+			H55_Sign_Queue[player] = 0;
+			break;
+		end;
+		sleep(H55_MsgDelay);
+	end;
 end;
 
 function H55_CancelMixing()
@@ -1670,6 +1728,16 @@ function H55_IsThisAIPlayer(player)
 	end;
 	return answer;
 end;
+
+-- function H55_GetAmountHumanPlayers()
+	-- local answer = 0;
+	-- for i=1,8 do
+		-- if H55_PlayerStatus[i] == 0 then
+			-- answer = answer + 1;
+		-- end;
+	-- end;
+	-- return answer;
+-- end;
 
 function H55_GetAllHeroes()
 	local all = {};
@@ -2679,7 +2747,7 @@ function H55_GetPlayerDragonblood(player)
 			if hero == "Thant" and race == 4 then limit = limit + 10 end;
 			if hero == "Melodia" and race == 2 then limit = limit + 10 end;
 			if hero == "Emilia" and race == 5 then limit = limit + 10 end;
-			if hero == "Xerxon" and race == 4 then limit = limit + 10 end;		
+			if hero == "Xerxon" and race == 4 then limit = limit + 8 end;		
 			if hero == "Kunyak" and race == 8 then limit = limit + 10 end;		
 			if hero == "KingTolghar" and race == 7 then limit = limit + 10 end;
 			if hero == "Calid2" and race == 3 then limit = limit + 10 end;	
@@ -2728,7 +2796,7 @@ function H55_GetPlayerDragonblood(player)
 			if hero == "Thant" and race == 4 then amount = amount + 10 end;
 			if hero == "Melodia" and race == 2 then amount = amount + 10 end;
 			if hero == "Emilia" and race == 5 then amount = amount + 10 end;
-			if hero == "Xerxon" and race == 4 then amount = amount + 10 end;		
+			if hero == "Xerxon" and race == 4 then amount = amount + 8 end;		
 			if hero == "Kunyak" and race == 8 then amount = amount + 10 end;		
 			if hero == "KingTolghar" and race == 7 then amount = amount + 10 end;
 			if hero == "Calid2" and race == 3 then amount = amount + 10 end;	
@@ -2785,7 +2853,7 @@ function H55_GetHeroDragonblood(hero)
 		if hero == "Thant" and race == 4 then limit = limit + 10 end;
 		if hero == "Melodia" and race == 2 then limit = limit + 10 end;
 		if hero == "Emilia" and race == 5 then limit = limit + 10 end;
-		if hero == "Xerxon" and race == 4 then limit = limit + 10 end;		
+		if hero == "Xerxon" and race == 4 then limit = limit + 8 end;		
 		if hero == "Kunyak" and race == 8 then limit = limit + 10 end;		
 		if hero == "KingTolghar" and race == 7 then limit = limit + 10 end;
 		if hero == "Calid2" and race == 3 then limit = limit + 10 end;	
@@ -2832,7 +2900,7 @@ function H55_GetHeroDragonblood(hero)
 		if hero == "Thant" and race == 4 then amount = amount + 10 end;
 		if hero == "Melodia" and race == 2 then amount = amount + 10 end;
 		if hero == "Emilia" and race == 5 then amount = amount + 10 end;
-		if hero == "Xerxon" and race == 4 then amount = amount + 10 end;
+		if hero == "Xerxon" and race == 4 then amount = amount + 8 end;
 		if hero == "Kunyak" and race == 8 then amount = amount + 10 end;	
 		if hero == "KingTolghar" and race == 7 then amount = amount + 10 end;
 		if hero == "Calid2" and race == 3 then amount = amount + 10 end;
@@ -2929,6 +2997,15 @@ function H55_GetInsightsPowerLeveled(hero)
 	end;
 	return power;
 end;
+
+-- function H55_GetTwistedPowerLeveled(hero)
+	-- local power = 0;	
+	-- if HasHeroSkill(hero,RANGER_FEAT_INSIGHTS) then
+		-- local level = GetHeroLevel(hero);
+		-- power = math.floor(level/5);
+	-- end;
+	-- return power;
+-- end;
 
 function H55_GetStaminaPowerLeveled(hero)
 	local power = 0;	
@@ -3392,8 +3469,8 @@ function H55_GetMedicReq(hero)
 	local answer = 0;
 	if H55_GetHeroRaceNum(hero) ~= 4 then
 		if 	HasHeroSkill(hero,PERK_TOUGHNESS) or 
-			HasHeroSkill(hero,PERK_FIRST_AID) or 
-			HasHeroSkill(hero,PERK_PATHFINDING) then
+			HasHeroSkill(hero,PERK_FIRST_AID) then 
+			--HasHeroSkill(hero,PERK_PATHFINDING) then
 			answer = 1;
 		end;
 	end;
@@ -3557,6 +3634,51 @@ function H55_WeeklyRecruits(hero,player,unupgraded_id,coef,tier)
 			end;
 		end;
 		H55_WeeklyRecruitsTable[hero] = 1;
+	end;
+end;
+			
+function H55_WeeklyLogTroops(hero,player)
+	local week = GetDate(WEEK)-1;
+	local battles = H55_WeeklyBattleCounts[hero][week];
+	if battles >= 1 then
+		local faction = H55_GetHeroRaceNum(hero);
+		local tier = GetHeroSkillMastery(hero,SKILL_LOGISTICS);
+		local weeklygrowth = H55_CreaturesGrowth[faction][tier];
+		local u1,u2,u3 = H55_Creatures[faction][tier][2],H55_Creatures[faction][tier][3],H55_Creatures[faction][tier][1];
+		local bonus = 1;
+		if H55_SlaveMarketStudent[hero] == 1 then bonus = bonus + 0.5 end;
+		local growth = math.round(bonus*(battles*(weeklygrowth/10)));
+		local units = H55_ArmyInfoSimple(hero);
+		if growth >= 1 then
+			for i = 0,6 do
+				if (units[i] == u1) and (H55_WeeklyLogTroopsTable[hero] ~= 1) then
+					AddHeroCreatures(hero,u1,growth);
+					H55_WeeklyLogTroopsTable[hero] = 1;
+					if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+						startThread(H55_ProtectedSignAdd,"/Text/Game/Scripts/Reinforcements.txt",growth,hero,player,H55_MsgSleep,H55_MsgTime);
+					end;
+				elseif (units[i] == u2) and (H55_WeeklyLogTroopsTable[hero] ~= 1) then	
+					AddHeroCreatures(hero,u2,growth);
+					H55_WeeklyLogTroopsTable[hero] = 1;
+					if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then 
+						startThread(H55_ProtectedSignAdd,"/Text/Game/Scripts/Reinforcements.txt",growth,hero,player,H55_MsgSleep,H55_MsgTime);
+					end;
+				elseif (units[i] == u3) and (H55_WeeklyLogTroopsTable[hero] ~= 1) then	
+					AddHeroCreatures(hero,u3,growth);
+					H55_WeeklyLogTroopsTable[hero] = 1;
+					if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then 
+						startThread(H55_ProtectedSignAdd,"/Text/Game/Scripts/Reinforcements.txt",growth,hero,player,H55_MsgSleep,H55_MsgTime);
+					end;
+				end;
+			end;
+			if H55_WeeklyLogTroopsTable[hero] ~= 1 then
+				AddHeroCreatures(hero,u3,growth);
+				H55_WeeklyLogTroopsTable[hero] = 1;
+				if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then 
+					startThread(H55_ProtectedSignAdd,"/Text/Game/Scripts/Reinforcements.txt",growth,hero,player,H55_MsgSleep,H55_MsgTime);
+				end;			
+			end;
+		end;
 	end;
 end;
 
@@ -4817,7 +4939,10 @@ function H55_TeleportNow(hero,town)
 	local movepoints = GetHeroStat(hero,STAT_MOVE_POINTS);
 	print(town);
 	local x,y,z=H55_GetTownActiveTile(town);
-	if H55_IsAnyHeroInGateTile(town,x,y,z) == 1 then
+	if IsHeroInBoat(hero) then
+		ShowFlyingSign("/Text/Game/Scripts/TownPortal/TP_InBoat.txt", hero, player, 5);
+		H55_EndSpinlock(hero);	
+	elseif H55_IsAnyHeroInGateTile(town,x,y,z) == 1 then
 		ShowFlyingSign("/Text/Game/Scripts/TownPortal/TP_GateFull.txt", hero, player, 5);
 		H55_EndSpinlock(hero);
 	else
@@ -5093,7 +5218,7 @@ end;
 function H55_ConvertNowAI(town,player,playerrace)
 	local towntype = H55_GetTownRaceID(playerrace);
 	local townrace = H55_GetTownRace(town);
-
+	
 	local tavern = GetTownBuildingLevel(town,TOWN_BUILDING_TAVERN);
 	local marketplace = GetTownBuildingLevel(town,TOWN_BUILDING_MARKETPLACE);
 	local blacksmith = GetTownBuildingLevel(town,TOWN_BUILDING_BLACKSMITH);				
@@ -5484,7 +5609,13 @@ function H55_WeeklyEvents(player)
 	if heroes ~= nil then
 		
 		for i,hero in heroes do
+			if HasHeroSkill(hero,SKILL_LOGISTICS) then
+				H55_WeeklyLogTroops(hero,player);
+			end;
+		end;
 		
+		for i,hero in heroes do
+			
 			if hero == "ShadwynMP" then H55_WeeklyRecruits("ShadwynMP",player,CREATURE_MATRON,0.08,6);
 			elseif hero == "GodricMP" then H55_WeeklyRecruits("GodricMP",player,CREATURE_PRIEST,0.13,5);
 			elseif hero == "Davius" then H55_WeeklyRecruits("Davius",player,CREATURE_RAKSHASA,0.08,6);
@@ -5492,10 +5623,10 @@ function H55_WeeklyEvents(player)
 			elseif hero == "Ufretin" then H55_WeeklyRecruits("Ufretin",player,CREATURE_THANE,0.08,6);
 			elseif hero == "Vidomina" then H55_WeeklyRecruits("Vidomina",player,CREATURE_LICH,0.13,5);
 			elseif hero == "Pelt" then H55_WeeklyRecruits("Pelt",player,CREATURE_WIGHT,0.08,6);
-			--elseif hero == "Mephala" then H55_WeeklyRecruits("Mephala",player,CREATURE_TREANT,0.1,6) end;
-			--elseif hero == "ThralsaiMP" then H55_WeeklyRecruits("ThralsaiMP",player,CREATURE_HYDRA,0.1,5) end;
+			elseif hero == "ThralsaiMP" then H55_WeeklyRecruits("ThralsaiMP",player,CREATURE_HYDRA,0.1,5);
+			--elseif hero == "Mephala" then H55_WeeklyRecruits("Mephala",player,CREATURE_TREANT,0.1,6);
 			--elseif hero == "Cyrus" then H55_WeeklyRecruits("Cyrus",player,CREATURE_GENIE,0.16,5);
-			--elseif hero == "Ash" then H55_WeeklyRecruits("Ash",player,CREATURE_NIGHTMARE,0.13,5);			
+			--elseif hero == "Ash" then H55_WeeklyRecruits("Ash",player,CREATURE_NIGHTMARE,0.13,5);
 			
 			--elseif hero == "Straker" then H55_WeeklyReinforce("Straker",player,32,153,31,0.6);
 			--elseif hero == "Isher" then H55_WeeklyReinforce("Isher",player,62,161,61,0.22);
@@ -6217,6 +6348,7 @@ function H55_ResetWeeklyEvents()
 
 	H55_WeeklyRecruitsTable = {};
 	H55_WeeklyReinforceTable = {};
+	H55_WeeklyLogTroopsTable = {};
 	H55_InfernalLoomTable = {};
 	
 	H55_ArtWoodReceived = {};
@@ -6307,7 +6439,7 @@ function H55_AdjustGovernorDefense(hero,town)
 			end;	
 		elseif townrace == 7 then
 			local fort = GetTownBuildingLevel(town,TOWN_BUILDING_FORT);
-			local shrine = GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1);
+		    local shrine = GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1);
 			local guild = GetTownBuildingLevel(town,TOWN_BUILDING_MAGIC_GUILD);
 			if fort > H55_CastleDefenseOwners[hero] then
 				ChangeHeroStat(hero,STAT_DEFENCE,(fort-H55_CastleDefenseOwners[hero]));
@@ -6396,9 +6528,9 @@ function H55_AdjustGovernorDefense(hero,town)
 				ChangeHeroStat(hero,STAT_DEFENCE,(fort-H55_CastleDefenseOwners[hero]));
 				H55_CastleDefenseOwners[hero] = fort;
 			end;
-			if altar > H55_SpecialAttackOwners[hero] then
-				ChangeHeroStat(hero,STAT_ATTACK,(altar-H55_SpecialAttackOwners[hero]));
-				H55_SpecialAttackOwners[hero] = altar;
+			if altar > H55_SpecialKnowledgeOwners[hero] then
+				ChangeHeroStat(hero,STAT_KNOWLEDGE,(altar-H55_SpecialKnowledgeOwners[hero]));
+				H55_SpecialKnowledgeOwners[hero] = altar;
 			end;
 			if guild > H55_MageGuildBonusOwners[hero] then
 				ChangeHeroStat(hero,STAT_SPELL_POWER,(guild-H55_MageGuildBonusOwners[hero]));
@@ -7279,6 +7411,44 @@ function H55_ContinuesEvent(player)
 		
 			--local level = GetHeroLevel(hero);	
 			
+			--Battle Counter
+
+			if H55_InitHeroBattleCount[hero] == nil then
+				H55_WeeklyBattleCounts[hero] = {};
+				H55_BattlesVerified[hero] = {};
+				H55_InitHeroBattleCount[hero] = 1;
+			end;
+			if H55_WeeklyBattleCounts[hero][H55_Week] == nil then
+				H55_WeeklyBattleCounts[hero][H55_Week] = 0;	
+			end;
+			if H55_BattlesVerified[hero][ci] == nil then		
+				if GetSavedCombatArmyHero(ci,1)==hero then
+					H55_WeeklyBattleCounts[hero][H55_Week] = H55_WeeklyBattleCounts[hero][H55_Week] + 1;
+					H55_BattlesVerified[hero][ci] = 1;
+				else
+					H55_BattlesVerified[hero][ci] = 1;
+				end;
+			end;
+			
+			-- if H55_InitHeroBattleCount[hero] == nil then
+				-- H55_WeeklyBattleCounts[hero] = {};
+				-- H55_BattlesVerified[hero] = {};
+				-- H55_InitHeroBattleCount[hero] = 1;
+			-- end;
+			-- if H55_BattlesVerified[hero][ci] == nil then		
+				-- if GetSavedCombatArmyHero(ci,1)==hero then
+					-- if H55_WeeklyBattleCounts[hero][H55_Week] == nil then
+						-- H55_WeeklyBattleCounts[hero][H55_Week] = 1;
+						-- H55_BattlesVerified[hero][ci] = 1;
+					-- else
+						-- H55_WeeklyBattleCounts[hero][H55_Week] = H55_WeeklyBattleCounts[hero][H55_Week] + 1;
+						-- H55_BattlesVerified[hero][ci] = 1;
+					-- end;
+				-- else
+					-- H55_BattlesVerified[hero][ci] = 1;
+				-- end;
+			-- end;		
+					
 			--Dark ritual
 			
 			if HasHeroSkill(hero,PERK_DARK_RITUAL) then 
@@ -7367,66 +7537,152 @@ function H55_ContinuesEvent(player)
 			------------------------------------------------------------------------------------------------------------------------------------------------
 			H55_DEBUG = {18,"TownGain",player,hero};------------------------------------------------------------------------------------------------------
 			------------------------------------------------------------------------------------------------------------------------------------------------
-			
+	
 			if H55_ShamansPhonebook[hero] == 1 or H55_WitchesPhonebook[hero] == 1 then
 				if strongholdtowns ~= nil then
 					for i, town in strongholdtowns do
-						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) >= 1) and H55_HallTrialStudent[hero] ~= 1 then
-							if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
-								ChangeHeroStat(hero,STAT_DEFENCE,2);						
-								H55_HallTrialStudent[hero]=1;
-								if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
-									startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+						if GetObjectOwner(town) == player then
+							if (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) >= 1) and H55_HallTrialStudent[hero] ~= 1 then
+								if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
+									ChangeHeroStat(hero,STAT_DEFENCE,2);						
+									H55_HallTrialStudent[hero]=1;
+									if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+										startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+									end;
+								end;
+							end;
+							if (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) >= 2) and H55_HallCourageStudent[hero] ~= 1 then
+								if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
+									ChangeHeroStat(hero,STAT_DEFENCE,2);						
+									H55_HallCourageStudent[hero]=1;
+									if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+										startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+									end;
+								end;
+							end;
+							if (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) == 3) and H55_HallMightStudent[hero] ~= 1 then
+								if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then						
+									ChangeHeroStat(hero,STAT_DEFENCE,2);						
+									H55_HallMightStudent[hero]=1;
+									if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+										startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+									end;
+								end;
+							end;
+							if (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_3) == 1) and H55_WalkerHutStudent[hero] ~= 1 then
+								if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then						
+									ChangeHeroStat(hero,STAT_DEFENCE,2);						
+									H55_WalkerHutStudent[hero]=1;
+									if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+										startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+									end;
+								end;
+							end;						
+							if (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_4) == 1) and H55_PileSkullsStudent[town][hero] ~= 1 then
+								if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
+									ChangeHeroStat(hero,STAT_KNOWLEDGE,1);						
+									H55_PileSkullsStudent[town][hero]=1;
+									if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+										startThread(H55_ProtectedSign,"/Text/Game/Scripts/Knowledge.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+									end;
 								end;
 							end;
 						end;
-						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) >= 2) and H55_HallCourageStudent[hero] ~= 1 then
-							if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
-								ChangeHeroStat(hero,STAT_DEFENCE,2);						
-								H55_HallCourageStudent[hero]=1;
-								if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
-									startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+					end;
+				end;
+			end;		
+			if H55_FortressPhonebook[hero] == 1 and H55_NotWulfstanMission() == 1 then --and H55_Governors[hero] == nil
+				if HasHeroSkill(hero,HERO_SKILL_RUNELORE) then
+					if fortresstowns ~= nil then
+						for i, town in fortresstowns do
+							if GetObjectOwner(town) == player then
+								if (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) >= 1) and H55_ShrineTrialStudent[hero] ~= 1 then
+									if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
+										ChangeHeroStat(hero,STAT_SPELL_POWER,1);						
+										H55_ShrineTrialStudent[hero]=1;
+										if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+											startThread(H55_ProtectedSign,"/Text/Game/Scripts/Spellpower.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+										end;
+									end;
+								end;
+								if (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) >= 2) and H55_ShrineCourageStudent[hero] ~= 1 then
+									if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
+										ChangeHeroStat(hero,STAT_SPELL_POWER,1);						
+										H55_ShrineCourageStudent[hero]=1;
+										if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+											startThread(H55_ProtectedSign,"/Text/Game/Scripts/Spellpower.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+										end;
+									end;
+								end;
+								if (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) == 3) and H55_ShrineMightStudent[hero] ~= 1 then
+									if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then						
+										ChangeHeroStat(hero,STAT_SPELL_POWER,1);						
+										H55_ShrineMightStudent[hero]=1;
+										if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+											startThread(H55_ProtectedSign,"/Text/Game/Scripts/Spellpower.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+										end;
+									end;
 								end;
 							end;
 						end;
-						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) == 3) and H55_HallMightStudent[hero] ~= 1 then
-							if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then						
-								ChangeHeroStat(hero,STAT_DEFENCE,2);						
-								H55_HallMightStudent[hero]=1;
-								if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
-									startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
-								end;
-							end;
-						end;
-						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_3) == 1) and H55_WalkerHutStudent[hero] ~= 1 then
-							if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then						
-								ChangeHeroStat(hero,STAT_DEFENCE,2);						
-								H55_WalkerHutStudent[hero]=1;
-								if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
-									startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
-								end;
-							end;
+					end;
+				else
+					if H55_ShrineTrialStudent[hero] == 1 then
+						ChangeHeroStat(hero,STAT_SPELL_POWER,-1);
+						H55_ShrineTrialStudent[hero] = 0;
+						if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+							startThread(H55_ProtectedSign,"/Text/Game/Scripts/RunicShrine.txt",hero,player,H55_MsgSleep,H55_MsgTime);
 						end;						
-						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_4) == 1) and H55_PileSkullsStudent[town][hero] ~= 1 then
-							if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
-								ChangeHeroStat(hero,STAT_KNOWLEDGE,1);						
-								H55_PileSkullsStudent[town][hero]=1;
-								if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
-									startThread(H55_ProtectedSign,"/Text/Game/Scripts/Knowledge.txt",hero,player,H55_MsgSleep,H55_MsgTime);
-								end;
-							end;
-						end;						
+					end;
+					if H55_ShrineCourageStudent[hero] == 1 then
+						ChangeHeroStat(hero,STAT_SPELL_POWER,-1);
+						H55_ShrineCourageStudent[hero] = 0;
+					end;
+					if H55_ShrineMightStudent[hero] == 1 then
+						ChangeHeroStat(hero,STAT_SPELL_POWER,-1);
+						H55_ShrineMightStudent[hero] = 0;
 					end;
 				end;
 			end;
-			if H55_OverlordsPhonebook[hero] == 1 then
+			if H55_FortressPhonebook[hero] == 1 then
+				if fortresstowns ~= nil then
+					for i, town in fortresstowns do
+						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_3) == 2) and H55_GuardPostStudent[town][hero] ~= 1 then
+							ChangeHeroStat(hero,STAT_DEFENCE,1);						
+							H55_GuardPostStudent[town][hero]=1;
+							if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+							end;
+						end;
+						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_4) == 1) and H55_StoneworksStudent[town][hero] ~= 1 then
+							if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then						
+								ChangeHeroStat(hero,STAT_EXPERIENCE,1000);	
+								H55_StoneworksStudent[town][hero]=1;
+								if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+									startThread(H55_ProtectedSign,"/Text/Game/Scripts/Stoneworks.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+								end;
+							end;
+						end;
+					end;
+				end;
+			end;
+			if H55_StrongholdPhonebook[hero] == 1 then
+				if strongholdtowns ~= nil then
+					for i, town in strongholdtowns do
+						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_5) == 2) and H55_SlaveMarketStudent[hero] ~= 1 then										
+							H55_SlaveMarketStudent[hero]=1;
+						end;
+					end;
+				end;
+			end;
+			if H55_OverlordsPhonebook[hero] == 1 or H55_TrickstersPhonebook[hero] == 1 then
 				if dungeontowns ~= nil then
 					for i, town in dungeontowns do
 						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_6) == 1) and H55_HallIntrigueStudent[town][hero] ~= 1 then
 							if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
-								ChangeHeroStat(hero,STAT_DEFENCE,1);						
+								ChangeHeroStat(hero,STAT_KNOWLEDGE,1);						
 								H55_HallIntrigueStudent[town][hero]=1;
-								if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
+								if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
 									startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
 								end;
 							end;
@@ -7434,38 +7690,42 @@ function H55_ContinuesEvent(player)
 					end;
 				end;
 			end;
-			if H55_TrickstersPhonebook[hero] == 1 then
-				if dungeontowns ~= nil then
-					for i, town in dungeontowns do
-						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_6) == 1) and H55_HallIntrigueStudent[town][hero] ~= 1 then
-							if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then
-								ChangeHeroStat(hero,STAT_KNOWLEDGE,1);						
-								H55_HallIntrigueStudent[town][hero]=1;
-								if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
-									startThread(H55_ProtectedSign,"/Text/Game/Scripts/Knowledge.txt",hero,player,H55_MsgSleep,H55_MsgTime);
-								end;
-							end;
-						end;
-						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) == 1) and H55_ElementalAltarStudent[hero] ~= 1 then
-							ChangeHeroStat(hero,STAT_MORALE,1);						
-							H55_ElementalAltarStudent[hero]=1;
-							if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
-								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Morale.txt",hero,player,H55_MsgSleep,H55_MsgTime);
-							end;
-						end;
-					end;
-				end;
-			end;
-			if H55_TrickstersPhonebook[hero] == 1 or H55_OverlordsPhonebook[hero] == 1 then
+			if H55_DungeonPhonebook[hero] == 1 then
 				if dungeontowns ~= nil then
 					for i, town in dungeontowns do
 						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) == 2) and H55_PrimalAltarStudent[town][hero] ~= 1 then
 							ChangeHeroStat(hero,STAT_ATTACK,1);						
 							H55_PrimalAltarStudent[town][hero]=1;
-							if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
+							if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
 								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Attack.txt",hero,player,H55_MsgSleep,H55_MsgTime);
 							end;
 						end;
+					end;
+				end;
+			end;
+			if H55_AvengersPhonebook[hero] == 1 then
+				if sylvantowns ~= nil then
+					for i, town in sylvantowns do
+						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_0) == 1) and H55_AvengerStudent[town][hero] ~= 1 then
+							ChangeHeroStat(hero,STAT_KNOWLEDGE,1);					
+							H55_AvengerStudent[town][hero]=1;
+							if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Knowledge.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+							end;
+						end;						
+					end;
+				end;
+			end;
+			if H55_RangersPhonebook[hero] == 1 or H55_DruidsPhonebook[hero] == 1 then
+				if sylvantowns ~= nil then
+					for i, town in sylvantowns do
+						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_0) == 2) and H55_BrotherhoodStudent[town][hero] ~= 1 then
+							ChangeHeroStat(hero,STAT_ATTACK,1);						
+							H55_BrotherhoodStudent[town][hero]=1;
+							if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Attack.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+							end;
+						end;						
 					end;
 				end;
 			end;
@@ -7473,25 +7733,12 @@ function H55_ContinuesEvent(player)
 				if sylvantowns ~= nil then
 					for i, town in sylvantowns do
 						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_2) == 2) and H55_FountainStudent[town][hero] ~= 1 then
-							ChangeHeroStat(hero,STAT_SPELL_POWER,1);						
+							ChangeHeroStat(hero,STAT_SPELL_POWER,1);					
 							H55_FountainStudent[town][hero]=1;
-							if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
+							if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
 								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Spellpower.txt",hero,player,H55_MsgSleep,H55_MsgTime);
 							end;
-						end;
-					end;
-				end;
-			end;
-			if H55_RangersPhonebook[hero] == 1 then
-				if sylvantowns ~= nil then
-					for i, town in sylvantowns do
-						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_0) == 2) and H55_BrotherhoodStudent[town][hero] ~= 1 then
-							ChangeHeroStat(hero,STAT_DEFENCE,1);						
-							H55_BrotherhoodStudent[town][hero]=1;
-							if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
-								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
-							end;
-						end;
+						end;						
 					end;
 				end;
 			end;
@@ -7501,7 +7748,7 @@ function H55_ContinuesEvent(player)
 						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) == 1) and H55_LoomStudent[town][hero] ~= 1 then
 							ChangeHeroStat(hero,STAT_DEFENCE,1);						
 							H55_LoomStudent[town][hero]=1;
-							if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
+							if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
 								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
 							end;
 						end;
@@ -7514,21 +7761,21 @@ function H55_ContinuesEvent(player)
 						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_1) == 1) and H55_LoomStudent[town][hero] ~= 1 then
 							ChangeHeroStat(hero,STAT_KNOWLEDGE,1);						
 							H55_LoomStudent[town][hero]=1;
-							if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
-								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Defense.txt",hero,player,H55_MsgSleep,H55_MsgTime);
+							if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
+								startThread(H55_ProtectedSign,"/Text/Game/Scripts/Knowledge.txt",hero,player,H55_MsgSleep,H55_MsgTime);
 							end;
 						end;
 					end;
 				end;
 			end;		
-			if H55_GetHeroRaceNum(hero) == 3 then
+			if H55_InfernoPhonebook[hero] == 1 then
 				if infernotowns ~= nil then
 					for i, town in infernotowns do
 						if GetObjectOwner(town) == player and (GetTownBuildingLevel(town,TOWN_BUILDING_SPECIAL_5) == 1) and H55_SacrificialPitStudent[town][hero] ~= 1 then
 							if H55_GetDistance(hero,town) <= 6 or H55_InterfacingTown[hero] == town then						
 								ChangeHeroStat(hero,STAT_EXPERIENCE,2500);						
 								H55_SacrificialPitStudent[town][hero]=1;
-								if H55_IsThisAIPlayer(player) ~= 1 and H55_GetDistance(hero,town) ~= 0 then
+								if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then
 									startThread(H55_ProtectedSign,"/Text/Game/Scripts/SacrificePit.txt",hero,player,H55_MsgSleep,H55_MsgTime);
 								end;
 							end;
@@ -7909,8 +8156,8 @@ function H55_ContinuesEvent(player)
 				H55_BootsPenaltyOwners[hero] = 1;
 			end;
 			if HasArtefact(hero,24,1) == nil and (H55_BootsPenaltyOwners[hero] == 1) then
-				ChangeHeroStat(hero,STAT_MOVE_POINTS,-750);			
-				H55_BootsPenaltyOwners[hero] = 0;				
+				ChangeHeroStat(hero,STAT_MOVE_POINTS,-500);			
+				H55_BootsPenaltyOwners[hero] = 0;			
 			end;
 			
 			--Mana interruption checks
@@ -7973,7 +8220,7 @@ function H55_ContinuesEvent(player)
 			--Movepotion
 
 			if H55_RPGPotions == 1 and H55_MovePotionDrinkers[hero] == 1 and GetHeroStat(hero,STAT_MOVE_POINTS) <= 100 then
-				ChangeHeroStat(hero,STAT_MOVE_POINTS,2500);
+				ChangeHeroStat(hero,STAT_MOVE_POINTS,2800);
 				H55_MovePotionDrinkers[hero] = 0;
 				if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then 
 					startThread(H55_ProtectedSign,"/Text/Game/Scripts/Movepotion.txt",hero,player,H55_MsgSleep,H55_MsgTime);
@@ -8628,7 +8875,7 @@ function H55_ContinuesEvent(player)
 			if hero == "Arniel" and GetHeroLevel(hero) >= 10 and KnowHeroSpell(hero,SPELL_EMPOWERED_LIGHTNING_BOLT) == nil then
 				TeachHeroSpell(hero,SPELL_EMPOWERED_LIGHTNING_BOLT);			
 			end;
-			if hero == "Arniel" and GetHeroLevel(hero) >= 30 and KnowHeroSpell(hero,SPELL_EMPOWERED_CHAIN_LIGHTNING) == nil then
+			if hero == "Arniel" and GetHeroLevel(hero) >= 25 and KnowHeroSpell(hero,SPELL_EMPOWERED_CHAIN_LIGHTNING) == nil then
 				TeachHeroSpell(hero,SPELL_EMPOWERED_CHAIN_LIGHTNING);			
 			end;			
 
@@ -8731,6 +8978,10 @@ function H55_ContinuesEvent(player)
 				ChangeHeroStat(hero,STAT_ATTACK,2);
 				H55_StartMoraleReceived[hero] = 1;
 			end;
+			if hero == "Pelt" and H55_StartMoraleReceived[hero] ~= 1 then
+				ChangeHeroStat(hero,STAT_ATTACK,2);
+				H55_StartMoraleReceived[hero] = 1;
+			end;
 			if hero == "Mephala" and H55_StartMoraleReceived[hero] ~= 1 then
 				ChangeHeroStat(hero,STAT_DEFENCE,2);
 				H55_StartMoraleReceived[hero] = 1;
@@ -8765,10 +9016,10 @@ function H55_ContinuesEvent(player)
 				H55_GiveAidKit(player,hero,ARTIFACT_MEDICAL03);
 				H55_VitalityOwners[hero] = 1;
 			end;
-			if HasHeroSkill(hero,PERK_PATHFINDING) and H55_NecropolisPhonebook[hero] == nil and H55_AcademyPhonebook[hero] == nil and HasArtefact(hero,ARTIFACT_MEDICAL04,0) == nil and H55_ExplorerAidOwners[hero] ~= 1 then
-				H55_GiveAidKit(player,hero,ARTIFACT_MEDICAL04);
-				H55_ExplorerAidOwners[hero] = 1;
-			end;		
+			-- if HasHeroSkill(hero,PERK_PATHFINDING) and H55_NecropolisPhonebook[hero] == nil and H55_AcademyPhonebook[hero] == nil and HasArtefact(hero,ARTIFACT_MEDICAL04,0) == nil and H55_ExplorerAidOwners[hero] ~= 1 then
+				-- H55_GiveAidKit(player,hero,ARTIFACT_MEDICAL04);
+				-- H55_ExplorerAidOwners[hero] = 1;
+			-- end;		
 			if HasHeroSkill(hero,DEMON_FEAT_WEAKENING_STRIKE) and H55_NecropolisPhonebook[hero] == nil and H55_AcademyPhonebook[hero] == nil and HasArtefact(hero,ARTIFACT_GEAR_02,0) == nil and H55_DarkHealOwners[hero] ~= 1 then
 				H55_GiveAidKit(player,hero,ARTIFACT_GEAR_02);
 				H55_DarkHealOwners[hero] = 1;
@@ -9096,13 +9347,22 @@ function H55_ContinuesEvent(player)
 			end;		
 			if HasHeroSkill(hero,RANGER_FEAT_CUNNING_OF_THE_WOODS) and (H55_KnowYourEnemyOwners[hero] ~= 1) then
 				H55_KnowYourEnemyOwners[hero] = 1;
-				ChangeHeroStat(hero,STAT_KNOWLEDGE,1);
+				ChangeHeroStat(hero,STAT_KNOWLEDGE,2);
 				if H55_MapType ~= "Campaign" and H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then startThread(H55_ProtectedSign,"/Text/Game/Scripts/Knowledge.txt",hero,player,H55_MsgSleep,H55_MsgTime) end;
 			end;
 			if HasHeroSkill(hero,RANGER_FEAT_CUNNING_OF_THE_WOODS) == nil and (H55_KnowYourEnemyOwners[hero] == 1) then
 				H55_KnowYourEnemyOwners[hero] = 0;
-				ChangeHeroStat(hero,STAT_KNOWLEDGE,-1);
+				ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
 			end;
+			if (HasHeroSkill(hero,HERO_SKILL_WARCRY_LEARNING) ~= nil) and (H55_WarCryLearningOwners[hero] ~= 1) then
+				H55_WarCryLearningOwners[hero] = 1;
+				ChangeHeroStat(hero,STAT_KNOWLEDGE,2);
+				if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then ShowFlyingSign("/Text/Game/Scripts/Knowledge.txt",hero,player,5) end;
+			end;
+			if (HasHeroSkill(hero,HERO_SKILL_WARCRY_LEARNING) == nil) and (H55_WarCryLearningOwners[hero] == 1) then
+				H55_WarCryLearningOwners[hero] = 0;
+				ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
+			end;			
 			if HasHeroSkill(hero,DEMON_FEAT_WEAKENING_STRIKE) and (H55_WeakenStrikeOwners[hero] ~= 1) then
 				H55_WeakenStrikeOwners[hero] = 1;
 				ChangeHeroStat(hero,STAT_KNOWLEDGE,2);
@@ -9152,7 +9412,25 @@ function H55_ContinuesEvent(player)
 				H55_ExpertTrainerOwners[hero] = 0;
 				ChangeHeroStat(hero,STAT_ATTACK,-2);
 				ChangeHeroStat(hero,STAT_DEFENCE,-2);
+			end;
+			if (HasHeroSkill(hero,HERO_SKILL_OFFENSIVE_FORMATION) ~= nil) and (H55_OffensiveFormationOwners[hero] ~= 1) then
+				H55_OffensiveFormationOwners[hero] = 1;
+				ChangeHeroStat(hero,STAT_ATTACK,2);
+				if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then ShowFlyingSign("/Text/Game/Scripts/Attack.txt",hero,player,5) end;
+			end;
+			if (HasHeroSkill(hero,HERO_SKILL_OFFENSIVE_FORMATION) == nil) and (H55_OffensiveFormationOwners[hero] == 1) then
+				H55_OffensiveFormationOwners[hero] = 0;
+				ChangeHeroStat(hero,STAT_ATTACK,-2);
 			end;			
+			if (HasHeroSkill(hero,HERO_SKILL_DEFENSIVE_FORMATION) ~= nil) and (H55_DefensiveFormationOwners[hero] ~= 1) then
+				H55_DefensiveFormationOwners[hero] = 1;
+				ChangeHeroStat(hero,STAT_DEFENCE,2);
+				if H55_IsThisAIPlayer(player) ~= 1 and H55_IsHeroInAnyTown(hero) == 0 then ShowFlyingSign("/Text/Game/Scripts/Defense.txt",hero,player,5) end;
+			end;
+			if (HasHeroSkill(hero,HERO_SKILL_DEFENSIVE_FORMATION) == nil) and (H55_DefensiveFormationOwners[hero] == 1) then
+				H55_DefensiveFormationOwners[hero] = 0;
+				ChangeHeroStat(hero,STAT_DEFENCE,-2);
+			end;
 			if HasHeroSkill(hero,RANGER_FEAT_LAST_STAND) and (H55_LastStandOwners[hero] ~= 1) then
 				H55_LastStandOwners[hero] = 1;
 				ChangeHeroStat(hero,STAT_DEFENCE,2);
@@ -9258,6 +9536,29 @@ function H55_ContinuesEvent(player)
 					H55_InsightsPowerOwners[hero] = power;
 				end;
 			end;
+			
+			--TWISTED AVENGER
+			
+			-- if HasHeroSkill(hero,HERO_SKILL_STRONG_RUNE) and H55_TwistedPowerOwners[hero] == nil then
+				-- H55_TwistedPowerOwners[hero] = 0;
+			-- end;
+			-- if HasHeroSkill(hero,HERO_SKILL_STRONG_RUNE) == nil and H55_TwistedPowerOwners[hero] ~= nil then
+				-- if H55_TwistedPowerOwners[hero] > 0 then
+					-- ChangeHeroStat(hero,STAT_SPELL_POWER,-H55_TwistedPowerOwners[hero]);
+					-- H55_TwistedPowerOwners[hero] = nil;
+				-- end;
+			-- end;
+			-- if H55_TwistedPowerOwners[hero] ~= nil then
+				-- local power = H55_GetTwistedPowerLeveled(hero);
+				-- if H55_TwistedPowerOwners[hero] < power then
+					-- ChangeHeroStat(hero,STAT_SPELL_POWER,(power-H55_TwistedPowerOwners[hero]));
+					-- H55_TwistedPowerOwners[hero] = power;
+				-- end;
+				-- if H55_TwistedPowerOwners[hero] > power then
+					-- ChangeHeroStat(hero,STAT_SPELL_POWER,-(H55_TwistedPowerOwners[hero]-power));
+					-- H55_TwistedPowerOwners[hero] = power;
+				-- end;
+			-- end;			
 			
 			--SECRETS
 			
@@ -9377,46 +9678,69 @@ function H55_ContinuesEvent(player)
 			end;
 			if HasHeroSkill(hero,HERO_SKILL_BARBARIAN_LEARNING) == nil and H55_BLearningPowerOwners[hero] ~= nil then
 				if H55_BLearningPowerOwners[hero] > 0 then
-					ChangeHeroStat(hero,STAT_KNOWLEDGE,-H55_BLearningPowerOwners[hero]);
+					ChangeHeroStat(hero,STAT_DEFENCE,-H55_BLearningPowerOwners[hero]);
 					H55_BLearningPowerOwners[hero] = nil;
 				end;
 			end;
 			if H55_BLearningPowerOwners[hero] ~= nil then
 				local power = GetHeroSkillMastery(hero,HERO_SKILL_BARBARIAN_LEARNING); --H55_GetBLearningPower(hero);
 				if H55_BLearningPowerOwners[hero] < power then
-					ChangeHeroStat(hero,STAT_KNOWLEDGE,(power-H55_BLearningPowerOwners[hero]));
+					ChangeHeroStat(hero,STAT_DEFENCE,(power-H55_BLearningPowerOwners[hero]));
 					H55_BLearningPowerOwners[hero] = power;
 				end;
 				if H55_BLearningPowerOwners[hero] > power then
-					ChangeHeroStat(hero,STAT_KNOWLEDGE,-(H55_BLearningPowerOwners[hero]-power));
+					ChangeHeroStat(hero,STAT_DEFENCE,-(H55_BLearningPowerOwners[hero]-power));
 					H55_BLearningPowerOwners[hero] = power;
 				end;
 			end;
 			
+			--RUNELORE
+			
+			-- if HasHeroSkill(hero,HERO_SKILL_RUNELORE) and H55_RunelorePowerOwners[hero] == nil then
+				-- H55_RunelorePowerOwners[hero] = 0;
+			-- end;
+			-- if HasHeroSkill(hero,HERO_SKILL_RUNELORE) == nil and H55_RunelorePowerOwners[hero] ~= nil then
+				-- if H55_RunelorePowerOwners[hero] > 0 then
+					-- ChangeHeroStat(hero,STAT_SPELL_POWER,-H55_RunelorePowerOwners[hero]);
+					-- H55_RunelorePowerOwners[hero] = nil;
+				-- end;
+			-- end;
+			-- if H55_RunelorePowerOwners[hero] ~= nil then
+				-- local power = GetHeroSkillMastery(hero,HERO_SKILL_RUNELORE); --H55_GetRunelorePower(hero);
+				-- if H55_RunelorePowerOwners[hero] < power then
+					-- ChangeHeroStat(hero,STAT_SPELL_POWER,(power-H55_RunelorePowerOwners[hero]));
+					-- H55_RunelorePowerOwners[hero] = power;
+				-- end;
+				-- if H55_RunelorePowerOwners[hero] > power then
+					-- ChangeHeroStat(hero,STAT_SPELL_POWER,-(H55_RunelorePowerOwners[hero]-power));
+					-- H55_RunelorePowerOwners[hero] = power;
+				-- end;
+			-- end;
+			
 			--NECRO LEADERSHIP
 			
-			if H55_NecropolisPhonebook[hero] == 1 then
-				if HasHeroSkill(hero,SKILL_LEADERSHIP) and H55_NecroLeadPowerOwners[hero] == nil then
-					H55_NecroLeadPowerOwners[hero] = 0;
-				end;
-				if HasHeroSkill(hero,SKILL_LEADERSHIP) == nil and H55_NecroLeadPowerOwners[hero] ~= nil then
-					if H55_NecroLeadPowerOwners[hero] > 0 then
-						ChangeHeroStat(hero,STAT_ATTACK,-H55_NecroLeadPowerOwners[hero]);
-						H55_NecroLeadPowerOwners[hero] = nil;
-					end;
-				end;
-				if H55_NecroLeadPowerOwners[hero] ~= nil then
-					local power = H55_GetNecroLeadPower(hero);
-					if H55_NecroLeadPowerOwners[hero] < power then
-						ChangeHeroStat(hero,STAT_ATTACK,(power-H55_NecroLeadPowerOwners[hero]));
-						H55_NecroLeadPowerOwners[hero] = power;
-					end;
-					if H55_NecroLeadPowerOwners[hero] > power then
-						ChangeHeroStat(hero,STAT_ATTACK,-(H55_NecroLeadPowerOwners[hero]-power));
-						H55_NecroLeadPowerOwners[hero] = power;
-					end;
-				end;
-			end;
+			-- if H55_NecropolisPhonebook[hero] == 1 then
+				-- if HasHeroSkill(hero,SKILL_LEADERSHIP) and H55_NecroLeadPowerOwners[hero] == nil then
+					-- H55_NecroLeadPowerOwners[hero] = 0;
+				-- end;
+				-- if HasHeroSkill(hero,SKILL_LEADERSHIP) == nil and H55_NecroLeadPowerOwners[hero] ~= nil then
+					-- if H55_NecroLeadPowerOwners[hero] > 0 then
+						-- ChangeHeroStat(hero,STAT_ATTACK,-H55_NecroLeadPowerOwners[hero]);
+						-- H55_NecroLeadPowerOwners[hero] = nil;
+					-- end;
+				-- end;
+				-- if H55_NecroLeadPowerOwners[hero] ~= nil then
+					-- local power = H55_GetNecroLeadPower(hero);
+					-- if H55_NecroLeadPowerOwners[hero] < power then
+						-- ChangeHeroStat(hero,STAT_ATTACK,(power-H55_NecroLeadPowerOwners[hero]));
+						-- H55_NecroLeadPowerOwners[hero] = power;
+					-- end;
+					-- if H55_NecroLeadPowerOwners[hero] > power then
+						-- ChangeHeroStat(hero,STAT_ATTACK,-(H55_NecroLeadPowerOwners[hero]-power));
+						-- H55_NecroLeadPowerOwners[hero] = power;
+					-- end;
+				-- end;
+			-- end;
 			
 			--SHOUTING
 			
@@ -9733,18 +10057,18 @@ function H55_ContinuesEvent(player)
 			
 			--Med Kits
 			
-			if HasArtefact(hero,ARTIFACT_GEAR_02,1) == nil and H55_RefuseCIResurrectT3[hero] == ci and (GetSavedCombatArmyHero(ci,1)==hero) then
-				H55_RefuseAgainCIResurrectT3[hero] = ci;
-			end;			
-			if HasArtefact(hero,ARTIFACT_GEAR_02,1) and H55_RefuseCIResurrectT3[hero] == ci and (GetSavedCombatArmyHero(ci,1)==hero) and H55_RefuseAgainCIResurrectT3[hero] ~= ci and (H55_CIResurrectT3[hero] ~= ci) and (H55_GetHeroRaceNum(hero) ~= 5) and H55_GetDarkMedicReq(hero) == 1 then
-				startThread(H55_ResurrectArmy,player,hero,ci,3,8,0.3,STAT_KNOWLEDGE);
-				H55_CIResurrectT3[hero] = ci;
-			end;
-			if HasArtefact(hero,ARTIFACT_MEDICAL04,1) == nil and H55_RefuseCIResurrectT2[hero] == ci and (GetSavedCombatArmyHero(ci,1)==hero) then
+			-- if HasArtefact(hero,ARTIFACT_MEDICAL04,1) == nil and H55_RefuseCIResurrectT3[hero] == ci and (GetSavedCombatArmyHero(ci,1)==hero) then
+				-- H55_RefuseAgainCIResurrectT3[hero] = ci;
+			-- end;			
+			-- if HasArtefact(hero,ARTIFACT_MEDICAL04,1) and H55_RefuseCIResurrectT3[hero] == ci and (GetSavedCombatArmyHero(ci,1)==hero) and H55_RefuseAgainCIResurrectT3[hero] ~= ci and (H55_CIResurrectT3[hero] ~= ci) and (H55_GetHeroRaceNum(hero) ~= 5) and H55_GetDarkMedicReq(hero) == 1 then
+				-- startThread(H55_ResurrectArmy,player,hero,ci,3,8,0.3,STAT_DEFENCE);
+				-- H55_CIResurrectT3[hero] = ci;
+			-- end;
+			if HasArtefact(hero,ARTIFACT_GEAR_02,1) == nil and H55_RefuseCIResurrectT2[hero] == ci and (GetSavedCombatArmyHero(ci,1)==hero) then
 				H55_RefuseAgainCIResurrectT2[hero] = ci;
 			end;
-			if HasArtefact(hero,ARTIFACT_MEDICAL04,1) and H55_RefuseCIResurrectT2[hero] == ci and (GetSavedCombatArmyHero(ci,1)==hero) and H55_RefuseAgainCIResurrectT2[hero] ~= ci and (H55_CIResurrectT2[hero] ~= ci) and (H55_GetHeroRaceNum(hero) ~= 5) and H55_GetMedicReq(hero) == 1 then
-				startThread(H55_ResurrectArmy,player,hero,ci,2,6,0.3,STAT_DEFENCE);
+			if HasArtefact(hero,ARTIFACT_GEAR_02,1) and H55_RefuseCIResurrectT2[hero] == ci and (GetSavedCombatArmyHero(ci,1)==hero) and H55_RefuseAgainCIResurrectT2[hero] ~= ci and (H55_CIResurrectT2[hero] ~= ci) and (H55_GetHeroRaceNum(hero) ~= 5) and H55_GetMedicReq(hero) == 1 then
+				startThread(H55_ResurrectArmy,player,hero,ci,2,6,0.3,STAT_KNOWLEDGE);
 				H55_CIResurrectT2[hero] = ci;
 			end;
 			if HasArtefact(hero,ARTIFACT_MEDICAL03,1) == nil and H55_RefuseCIResurrectT1[hero] == ci and (GetSavedCombatArmyHero(ci,1)==hero) then
@@ -9814,23 +10138,23 @@ function H55_ContinuesEvent(player)
 			if H55_IsThisAIPlayer(player) ~= 1 then
 				if IsHeroInBoat(hero) then
 					if HasHeroSkill(hero,HERO_SKILL_SNATCH) == nil and (H55_MovePaybackReceived[hero] ~= ci) and (GetSavedCombatArmyHero(ci,1)==hero) then	
-						if hero == "Pelt" or HasArtefact(hero,ARTIFACT_PIRATE01,1) or HasArtefact(hero,ARTIFACT_PIRATE06,1) then						
+						if HasHeroSkill(hero,NECROMANCER_FEAT_HERALD_OF_DEATH) or HasArtefact(hero,ARTIFACT_PIRATE01,1) or HasArtefact(hero,ARTIFACT_PIRATE06,1) then						
 							H55_AfterBattleMovement[hero] = H55_AfterBattleMovement[hero] + 100;
 							H55_MovePaybackReceived[hero] = ci;
 						end;
 					end;
 				else
 					if HasHeroSkill(hero,HERO_SKILL_SNATCH) == nil and (H55_MovePaybackReceived[hero] ~= ci) and (GetSavedCombatArmyHero(ci,1)==hero) then
-						if hero == "Pelt" or HasArtefact(hero,ARTIFACT_PIRATE05,1) or HasArtefact(hero,ARTIFACT_GUARDIAN_02,1) then	
+						if HasHeroSkill(hero,NECROMANCER_FEAT_HERALD_OF_DEATH) or HasArtefact(hero,ARTIFACT_PIRATE05,1) or HasArtefact(hero,ARTIFACT_GUARDIAN_02,1) then	
 							H55_AfterBattleMovement[hero] = H55_AfterBattleMovement[hero] + 100;
 							H55_MovePaybackReceived[hero] = ci;
 						end;
 					end;
 				end;
 				if IsHeroInBoat(hero) then
-					if hero == "Pelt" and (H55_PeltMoveReceived[hero] ~= ci) and (GetSavedCombatArmyHero(ci,1)==hero) then
+					if HasHeroSkill(hero,NECROMANCER_FEAT_HERALD_OF_DEATH) and (H55_HeraldMoveReceived[hero] ~= ci) and (GetSavedCombatArmyHero(ci,1)==hero) then
 						H55_AfterBattleMovement[hero] = H55_AfterBattleMovement[hero] + 100;
-						H55_PeltMoveReceived[hero] = ci;			
+						H55_HeraldMoveReceived[hero] = ci;			
 					end;				
 					if HasArtefact(hero,ARTIFACT_PIRATE01,1) and (H55_HatMoveReceived[hero] ~= ci) and (GetSavedCombatArmyHero(ci,1)==hero) then
 						H55_AfterBattleMovement[hero] = H55_AfterBattleMovement[hero] + 500;
@@ -9848,9 +10172,9 @@ function H55_ContinuesEvent(player)
 						H55_GuardianMoveReceived[hero] = ci;
 					end;			
 				else
-					if hero == "Pelt" and (H55_PeltMoveReceived[hero] ~= ci) and (GetSavedCombatArmyHero(ci,1)==hero) then
+					if HasHeroSkill(hero,NECROMANCER_FEAT_HERALD_OF_DEATH) and (H55_HeraldMoveReceived[hero] ~= ci) and (GetSavedCombatArmyHero(ci,1)==hero) then
 						H55_AfterBattleMovement[hero] = H55_AfterBattleMovement[hero] + 100;
-						H55_PeltMoveReceived[hero] = ci;			
+						H55_HeraldMoveReceived[hero] = ci;			
 					end;				
 					if HasArtefact(hero,ARTIFACT_PIRATE05,1) and (H55_BootsMoveReceived[hero] ~= ci) and (GetSavedCombatArmyHero(ci,1)==hero) then
 						H55_AfterBattleMovement[hero] = H55_AfterBattleMovement[hero] + 100;
@@ -10014,6 +10338,10 @@ function H55_CamFixTooManySkills(player,hero)
 			local power = H55_GetInsightsPowerLeveled(hero);
 			ChangeHeroStat(hero,STAT_SPELL_POWER,-power);
 		end;
+		-- if HasHeroSkill(hero,HERO_SKILL_STRONG_RUNE) then
+			-- local power = H55_GetTwistedPowerLeveled(hero);
+			-- ChangeHeroStat(hero,STAT_SPELL_POWER,-power);
+		-- end;
 		if HasHeroSkill(hero,WARLOCK_FEAT_SECRETS_OF_DESTRUCTION) then
 			local power = H55_GetSecretsPowerLeveled(hero);
 			ChangeHeroStat(hero,STAT_KNOWLEDGE,-power);
@@ -10024,7 +10352,7 @@ function H55_CamFixTooManySkills(player,hero)
 		end;	
 		if HasHeroSkill(hero,HERO_SKILL_BARBARIAN_LEARNING) then
 			local power = GetHeroSkillMastery(hero,HERO_SKILL_BARBARIAN_LEARNING);
-			ChangeHeroStat(hero,STAT_KNOWLEDGE,-power);
+			ChangeHeroStat(hero,STAT_DEFENCE,-power);
 		end;
 		if HasHeroSkill(hero,PERK_CATAPULT) then
 			local power = H55_GetAmmoCartPowerRebalanced(hero);
@@ -10034,10 +10362,14 @@ function H55_CamFixTooManySkills(player,hero)
 			local power = H55_GetTribalPower(hero);
 			ChangeHeroStat(hero,STAT_SPELL_POWER,-power);
 		end;
-		if HasHeroSkill(hero,SKILL_LEADERSHIP) and H55_GetHeroRaceNum(hero) == 5 then
-			local power = H55_GetNecroLeadPower(hero);
-			ChangeHeroStat(hero,STAT_ATTACK,-power);
-		end;
+		-- if HasHeroSkill(hero,SKILL_LEADERSHIP) and H55_GetHeroRaceNum(hero) == 5 then
+			-- local power = H55_GetNecroLeadPower(hero);
+			-- ChangeHeroStat(hero,STAT_ATTACK,-power);
+		-- end;
+		-- if HasHeroSkill(hero,HERO_SKILL_RUNELORE) then
+			-- local power = GetHeroSkillMastery(hero,HERO_SKILL_RUNELORE);
+			-- ChangeHeroStat(hero,STAT_SPELL_POWER,-power);
+		-- end;		
 		-- if HasHeroSkill(hero,KNIGHT_FEAT_PARIAH) and H55_GetHeroRaceNum(hero) == 5 then
 			-- ChangeHeroStat(hero,STAT_LUCK,1);
 		-- end;
@@ -10071,6 +10403,9 @@ function H55_CamFixTooManySkills(player,hero)
 		if H55_ChieftainsPhonebook[hero] == 1 and HasHeroSkill(hero,WARLOCK_FEAT_LUCKY_SPELLS) then
 			ChangeHeroStat(hero,STAT_SPELL_POWER,-10);
 		end;
+		if HasHeroSkill(hero,HERO_SKILL_WARCRY_LEARNING) then
+			ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
+		end; 
 		if HasHeroSkill(hero,HERO_SKILL_DETAIN_DARK) then
 			ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
 		end; 	
@@ -10109,12 +10444,12 @@ function H55_CamFixTooManySkills(player,hero)
 			-- ChangeHeroStat(hero,STAT_DEFENCE,-1);
 			-- ChangeHeroStat(hero,STAT_SPELL_POWER,-1);
 			-- ChangeHeroStat(hero,STAT_KNOWLEDGE,-1);
-		-- end;	
+		-- end;
 		if HasHeroSkill(hero,WARLOCK_FEAT_ELITE_CASTERS) then
 			ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
-		end;		
+		end;
 		if HasHeroSkill(hero,RANGER_FEAT_CUNNING_OF_THE_WOODS) then
-			ChangeHeroStat(hero,STAT_KNOWLEDGE,-1);
+			ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
 		end;
 		if HasHeroSkill(hero,DEMON_FEAT_WEAKENING_STRIKE) then
 			ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
@@ -10128,7 +10463,13 @@ function H55_CamFixTooManySkills(player,hero)
 		if HasHeroSkill(hero,PERK_EXPERT_TRAINER) then
 			ChangeHeroStat(hero,STAT_ATTACK,-2);
 			ChangeHeroStat(hero,STAT_DEFENCE,-2);
-		end;			
+		end;
+		if HasHeroSkill(hero,HERO_SKILL_OFFENSIVE_FORMATION) then
+			ChangeHeroStat(hero,STAT_ATTACK,-2);
+		end;
+		if HasHeroSkill(hero,HERO_SKILL_DEFENSIVE_FORMATION) then
+			ChangeHeroStat(hero,STAT_DEFENCE,-2);
+		end;
 		if HasHeroSkill(hero,RANGER_FEAT_LAST_STAND) then
 			ChangeHeroStat(hero,STAT_DEFENCE,-2);
 		end;			
@@ -10144,52 +10485,47 @@ function H55_CamFixTooManySkills(player,hero)
 		if HasHeroSkill(hero,HERO_SKILL_VOICE) and HasHeroSkill(hero,HERO_SKILL_EMPATHY) then
 			ChangeHeroStat(hero,STAT_MORALE,2);
 		end;
-		if (H55_GetDragonishSetCount(hero) == 8) then
-			ChangeHeroStat(hero,STAT_SPELL_POWER,-2);
-			ChangeHeroStat(hero,STAT_DEFENCE,-2);
-			ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
-			ChangeHeroStat(hero,STAT_ATTACK,-2);
-		end;
-		if (H55_GetDragonishSetCount(hero) >= 4) and (H55_GetDragonishSetCount(hero) <= 7) then
-			ChangeHeroStat(hero,STAT_SPELL_POWER,-2);
-			ChangeHeroStat(hero,STAT_DEFENCE,-2);
-			ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
-			ChangeHeroStat(hero,STAT_ATTACK,-2);
-		end;
+
 		if (H55_GetSarIssusSetCount(hero) == 4) then
 			ChangeHeroStat(hero,STAT_SPELL_POWER,-4);					
+		end;		
+		if (H55_GetDragonishSetCount(hero) == 8) then
+			ChangeHeroStat(hero,STAT_SPELL_POWER,-4);
+			ChangeHeroStat(hero,STAT_DEFENCE,-4);
+			ChangeHeroStat(hero,STAT_KNOWLEDGE,-4);
+			ChangeHeroStat(hero,STAT_ATTACK,-4);
+		elseif (H55_GetDragonishSetCount(hero) >= 4) and (H55_GetDragonishSetCount(hero) <= 7) then
+			ChangeHeroStat(hero,STAT_SPELL_POWER,-2);
+			ChangeHeroStat(hero,STAT_DEFENCE,-2);
+			ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
+			ChangeHeroStat(hero,STAT_ATTACK,-2);
 		end;
 		if (H55_GetNecroSetCount(hero) == 6) then
-			ChangeHeroStat(hero,STAT_SPELL_POWER,-6);					
-		end;
-		if (H55_GetNecroSetCount(hero) >= 3) and (H55_GetNecroSetCount(hero) <= 5) then
+			ChangeHeroStat(hero,STAT_SPELL_POWER,-12);					
+		elseif (H55_GetNecroSetCount(hero) >= 3) and (H55_GetNecroSetCount(hero) <= 5) then
 			ChangeHeroStat(hero,STAT_SPELL_POWER,-6);				
 		end;
 		if (H55_GetPirateSetCount(hero) == 6) then
-			ChangeHeroStat(hero,STAT_ATTACK,-6);					
-		end;
-		if (H55_GetPirateSetCount(hero) >= 3) and (H55_GetNecroSetCount(hero) <= 5) then
+			ChangeHeroStat(hero,STAT_ATTACK,-12);			
+		elseif (H55_GetPirateSetCount(hero) >= 3) and (H55_GetPirateSetCount(hero) <= 5) then
 			ChangeHeroStat(hero,STAT_ATTACK,-6);				
 		end;					
 		if (H55_GetDwarvenSetCount(hero) == 4) then
-			ChangeHeroStat(hero,STAT_DEFENCE,-4);					
-		end;
-		if (H55_GetDwarvenSetCount(hero) == 2)  or (H55_GetDwarvenSetCount(hero) == 3) then
+			ChangeHeroStat(hero,STAT_DEFENCE,-8);					
+		elseif (H55_GetDwarvenSetCount(hero) == 2)  or (H55_GetDwarvenSetCount(hero) == 3) then
 			ChangeHeroStat(hero,STAT_DEFENCE,-4);				
 		end;		
 		if (H55_GetMonkSetCount(hero) == 5) then
-			ChangeHeroStat(hero,STAT_SPELL_POWER,-4);				
-		end;
-		if (H55_GetMonkSetCount(hero) == 3) or (H55_GetMonkSetCount(hero) == 4) then
+			ChangeHeroStat(hero,STAT_SPELL_POWER,-8);				
+		elseif (H55_GetMonkSetCount(hero) == 3) or (H55_GetMonkSetCount(hero) == 4) then
 			ChangeHeroStat(hero,STAT_SPELL_POWER,-4);
 		end;
 		if (H55_GetGuardianSetCount(hero) == 4) then
-			ChangeHeroStat(hero,STAT_SPELL_POWER,-1);
-			ChangeHeroStat(hero,STAT_DEFENCE,-1);
-			ChangeHeroStat(hero,STAT_KNOWLEDGE,-1);
-			ChangeHeroStat(hero,STAT_ATTACK,-1);								
-		end;
-		if (H55_GetGuardianSetCount(hero) == 2) or (H55_GetGuardianSetCount(hero) == 3) then
+			ChangeHeroStat(hero,STAT_SPELL_POWER,-2);
+			ChangeHeroStat(hero,STAT_DEFENCE,-2);
+			ChangeHeroStat(hero,STAT_KNOWLEDGE,-2);
+			ChangeHeroStat(hero,STAT_ATTACK,-2);								
+		elseif (H55_GetGuardianSetCount(hero) == 2) or (H55_GetGuardianSetCount(hero) == 3) then
 			ChangeHeroStat(hero,STAT_SPELL_POWER,-1);
 			ChangeHeroStat(hero,STAT_DEFENCE,-1);
 			ChangeHeroStat(hero,STAT_KNOWLEDGE,-1);

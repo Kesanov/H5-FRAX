@@ -12,11 +12,11 @@
 	<KnownSpells>
 		<Item>
 			<Spell>SPELL_HASTE</Spell>
-			<Mastery>MASTERY_EXPERT</Mastery>
+			<Mastery>MASTERY_ADVANCED</Mastery>
 		</Item>
 		<Item>
 			<Spell>SPELL_BLESS</Spell>
-			<Mastery>MASTERY_EXPERT</Mastery>
+			<Mastery>MASTERY_ADVANCED</Mastery>
 		</Item>
 		<Item>
 			<Spell>SPELL_STONESKIN</Spell>

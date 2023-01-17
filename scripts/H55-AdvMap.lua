@@ -174,6 +174,8 @@ H55_DemonTowerArmies = {};
 H55_ForestTowers = GetObjectNamesByType("BUILDING_LEAN_TO");
 H55_ForestTowersQty = table.length(H55_ForestTowers);
 H55_ForestTowerArmies = {};
+-- H55_Sanctuaries = GetObjectNamesByType("BUILDING_SANCTUARY");
+-- H55_SanctuariesQty = table.length(H55_Sanctuaries);
 
 --Mines
 
@@ -355,27 +357,24 @@ function H55_PrepareAdvMap()
 					local choseres = 0;			
 					local choseartifact = 0;
 					if table.contains(H55_StartBonusGold,goldtoken) then
-						-- H55_GiveResourcesSilent(i,6,2500);
 						chosegold = 1;
 						somebodygold = 1;					
 						if H55_Difficulty == 0 then 
 							SetPlayerResource(i,6,30000);
+						elseif H55_Difficulty == 2 then
+							SetPlayerResource(i,6,15000);							
 						elseif H55_Difficulty == 3 then
 							SetPlayerResource(i,6,10000);
 						else
 							SetPlayerResource(i,6,20000);
-						end;			
-						-- if heroes ~= nil then
-							-- H55_ArtifactStartBonus(heroes[0]);
-						-- end;
+						end;
 					end;
 					if chosegold == 0 then
 						if H55_Difficulty == 0 then 
 							if table.contains(H55_StartBonusNormalWO,woodtoken) then
 								SetPlayerResource(i,0,30);
 								choseres = 1;
-								somebodyres = 1;	
-								-- if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;
+								somebodyres = 1;
 							end;
 							if table.contains(H55_StartBonusNormalWO,oretoken) then
 								SetPlayerResource(i,1,30);			
@@ -384,32 +383,56 @@ function H55_PrepareAdvMap()
 								SetPlayerResource(i,2,15);
 								choseres = 1;
 								somebodyres = 1;
-								-- if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
 							end;
 							if table.contains(H55_StartBonusNormal,crystaltoken) then
 								SetPlayerResource(i,3,15);
 								choseres = 1;
-								somebodyres = 1;
-								-- if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
+								somebodyres = 1;	
 							end;
 							if table.contains(H55_StartBonusNormal,sulphurtoken) then
 								SetPlayerResource(i,4,15);
 								choseres = 1;
 								somebodyres = 1;
-								-- if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
 							end;
 							if table.contains(H55_StartBonusNormal,gemtoken) then
 								SetPlayerResource(i,5,15);
 								choseres = 1;
 								somebodyres = 1;
-								-- if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
 							end;
+						elseif H55_Difficulty == 2 then
+							if table.contains(H55_StartBonusHeroicWO,woodtoken) then
+								SetPlayerResource(i,0,15);
+								choseres = 1;
+								somebodyres = 1;
+							end;
+							if table.contains(H55_StartBonusHeroicWO,oretoken) then
+								SetPlayerResource(i,1,15);		
+							end;
+							if table.contains(H55_StartBonusHeroic,mercurytoken) then
+								SetPlayerResource(i,2,7);
+								choseres = 1;
+								somebodyres = 1;
+							end;
+							if table.contains(H55_StartBonusHeroic,crystaltoken) then
+								SetPlayerResource(i,3,7);
+								choseres = 1;
+								somebodyres = 1;								
+							end;
+							if table.contains(H55_StartBonusHeroic,sulphurtoken) then
+								SetPlayerResource(i,4,7);
+								choseres = 1;
+								somebodyres = 1;
+							end;
+							if table.contains(H55_StartBonusHeroic,gemtoken) then
+								SetPlayerResource(i,5,7);
+								choseres = 1;
+								somebodyres = 1;	
+							end;							
 						elseif H55_Difficulty == 3 then
 							if table.contains(H55_StartBonusImpossibleWO,woodtoken) then
 								SetPlayerResource(i,0,10);
 								choseres = 1;
 								somebodyres = 1;
-								-- if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
 							end;
 							if table.contains(H55_StartBonusImpossibleWO,oretoken) then
 								SetPlayerResource(i,1,10);		
@@ -418,31 +441,27 @@ function H55_PrepareAdvMap()
 								SetPlayerResource(i,2,5);
 								choseres = 1;
 								somebodyres = 1;
-								-- if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
 							end;
 							if table.contains(H55_StartBonusImpossible,crystaltoken) then
 								SetPlayerResource(i,3,5);
 								choseres = 1;
-								-- if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
+								somebodyres = 1;								
 							end;
 							if table.contains(H55_StartBonusImpossible,sulphurtoken) then
 								SetPlayerResource(i,4,5);
 								choseres = 1;
 								somebodyres = 1;
-								--if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
 							end;
 							if table.contains(H55_StartBonusImpossible,gemtoken) then
 								SetPlayerResource(i,5,5);
 								choseres = 1;
 								somebodyres = 1;
-								--if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
 							end;
 						else
 							if table.contains(H55_StartBonusHardWO,woodtoken) then
 								SetPlayerResource(i,0,20);
 								choseres = 1;
-								somebodyres = 1;
-								--if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
+								somebodyres = 1;	
 							end;
 							if table.contains(H55_StartBonusHardWO,oretoken) then
 								SetPlayerResource(i,1,20);				
@@ -450,26 +469,22 @@ function H55_PrepareAdvMap()
 							if table.contains(H55_StartBonusHard,mercurytoken) then
 								SetPlayerResource(i,2,10);
 								choseres = 1;
-								somebodyres = 1;
-								--if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
+								somebodyres = 1;	
 							end;
 							if table.contains(H55_StartBonusHard,crystaltoken) then
 								SetPlayerResource(i,3,10);
 								choseres = 1;
-								somebodyres = 1;
-								--if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;	
+								somebodyres = 1;	
 							end;
 							if table.contains(H55_StartBonusHard,sulphurtoken) then
 								SetPlayerResource(i,4,10);
 								choseres = 1;
-								somebodyres = 1;
-								--if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;							
+								somebodyres = 1;						
 							end;
 							if table.contains(H55_StartBonusHard,gemtoken) then
 								SetPlayerResource(i,5,10);
 								choseres = 1;
-								somebodyres = 1;
-								--if heroes ~= nil then H55_ArtifactStartBonus(heroes[0]) end;					
+								somebodyres = 1;				
 							end;
 						end;
 					end;
@@ -610,8 +625,8 @@ function H55_PrepareAdvMap()
 					if fc == 1 then			
 						if hero == "Nicolai" then
 							H55_MakeStartArmy(hero,fc,5,2,0,0);
-						elseif hero == "Sarge" then
-							H55_MakeStartArmy(hero,fc,6,1,0,0);
+						-- elseif hero == "Sarge" then
+							-- H55_MakeStartArmy(hero,fc,6,1,0,0);
 						elseif hero == "GodricMP" then
 							H55_MakeStartArmy(hero,fc,5,2,0,0);
 						elseif hero == "RedHeavenHero06" then
@@ -720,7 +735,7 @@ function H55_PrepareAdvMap()
 
 					if fc == 6 then
 						if hero == "Agbeth" then
-							H55_MakeStartArmy(hero,fc,5,2,0,0);				
+							H55_MakeStartArmy(hero,fc,4,40,0,0);			
 						elseif hero == "Eruina" then
 							H55_MakeStartArmy(hero,fc,6,1,0,0);
 						elseif hero == "ShadwynMP" then
@@ -1255,7 +1270,7 @@ function H55_PrepareAdvMap()
 			H55_SkeletonChoices[skeleton][1] = random(3)+1;
 			H55_SkeletonChoices[skeleton][2] = random(12)+1;
 			H55_SkeletonChoices[skeleton][3] = random(table.length(H55_MinorArtifacts))+1;
-			H55_SkeletonChoices[skeleton][4] = random(3);		
+			H55_SkeletonChoices[skeleton][4] = random(3);	
 			H55_SkeletonChoices[skeleton][5] = random(4)+2;
 			-- H55_SkeletonChoices[skeleton][6] = random(100)+1;
 			-- H55_SkeletonChoices[skeleton][7] = random(100)+1;
@@ -1283,7 +1298,7 @@ function H55_PrepareAdvMap()
 			end;
 			H55_CryptArmies[crypt][27] = random(7)+1;
 			H55_CryptArmies[crypt][28] = random(11)+1;
-			H55_CryptArmies[crypt][29] = random(12)+1;
+			H55_CryptArmies[crypt][29] = random(12)+1;	
 			SetObjectEnabled(crypt,nil);
 			Trigger(OBJECT_TOUCH_TRIGGER,crypt,"H55_CryptVisit");
 		end;
@@ -1322,6 +1337,11 @@ function H55_PrepareAdvMap()
 			H55_ForestTowerArmies[ForestTower][27] = random(7)+1;
 			H55_ForestTowerArmies[ForestTower][28] = random(8)+1;
 			H55_ForestTowerArmies[ForestTower][29] = random(9)+1;
+			if  H55_ForestTowerArmies[ForestTower][16] == 3 and
+				H55_ForestTowerArmies[ForestTower][17] == 3 and
+				H55_ForestTowerArmies[ForestTower][22] == 3 then
+				H55_ForestTowerArmies[ForestTower][16] = 2;
+			end;
 			SetObjectEnabled(ForestTower,nil);
 			Trigger(OBJECT_TOUCH_TRIGGER,ForestTower,"H55_ForestTowerVisit");
 		end;
@@ -1337,7 +1357,7 @@ function H55_PrepareAdvMap()
 			end;
 			for i = 21,26 do
 				H55_StoneVaultArmies[StoneVault][i] = random(2)+1+(i-21);
-			end;
+			end;		
 			H55_StoneVaultArmies[StoneVault][27] = random(7)+1;
 			H55_StoneVaultArmies[StoneVault][28] = random(8)+1;
 			H55_StoneVaultArmies[StoneVault][29] = random(9)+1;
@@ -1379,6 +1399,16 @@ function H55_PrepareAdvMap()
 			H55_DwarvenTreasureArmies[DwarvenTreasure][27] = random(7)+1;
 			H55_DwarvenTreasureArmies[DwarvenTreasure][28] = random(8)+1;
 			H55_DwarvenTreasureArmies[DwarvenTreasure][29] = random(9)+1;
+			if 	H55_DwarvenTreasureArmies[DwarvenTreasure][15] == 2 and
+				H55_DwarvenTreasureArmies[DwarvenTreasure][16] == 2 and
+				H55_DwarvenTreasureArmies[DwarvenTreasure][21] == 2 then
+				H55_DwarvenTreasureArmies[DwarvenTreasure][15] = 1;
+			end;
+			if 	H55_DwarvenTreasureArmies[DwarvenTreasure][15] == 2 and
+				H55_DwarvenTreasureArmies[DwarvenTreasure][16] == 2 and
+				H55_DwarvenTreasureArmies[DwarvenTreasure][22] == 2 then
+				H55_DwarvenTreasureArmies[DwarvenTreasure][15] = 1;
+			end;				
 			SetObjectEnabled(DwarvenTreasure,nil);
 			Trigger(OBJECT_TOUCH_TRIGGER,DwarvenTreasure,"H55_DwarvenTreasureVisit");
 		end;
@@ -1397,7 +1427,7 @@ function H55_PrepareAdvMap()
 			end;
 			H55_WitchTempleArmies[WitchTemple][27] = random(7)+1;
 			H55_WitchTempleArmies[WitchTemple][28] = random(8)+1;
-			H55_WitchTempleArmies[WitchTemple][29] = random(9)+1;
+			H55_WitchTempleArmies[WitchTemple][29] = random(9)+1;			
 			SetObjectEnabled(WitchTemple,nil);
 			Trigger(OBJECT_TOUCH_TRIGGER,WitchTemple,"H55_WitchTempleVisit");
 		end;
@@ -1417,6 +1447,11 @@ function H55_PrepareAdvMap()
 			H55_ThicketArmies[Thicket][27] = random(7)+1;
 			H55_ThicketArmies[Thicket][28] = random(8)+1;
 			H55_ThicketArmies[Thicket][29] = random(9)+1;
+			if  H55_ThicketArmies[Thicket][16] == 3 and
+				H55_ThicketArmies[Thicket][17] == 3 and
+				H55_ThicketArmies[Thicket][22] == 3 then
+				H55_ThicketArmies[Thicket][16] = 2;
+			end;				
 			SetObjectEnabled(Thicket,nil);
 			Trigger(OBJECT_TOUCH_TRIGGER,Thicket,"H55_ThicketVisit");
 		end;
@@ -1455,6 +1490,16 @@ function H55_PrepareAdvMap()
 			H55_OrcTunnelArmies[OrcTunnel][27] = random(7)+1;
 			H55_OrcTunnelArmies[OrcTunnel][28] = random(8)+1;
 			H55_OrcTunnelArmies[OrcTunnel][29] = random(9)+1;
+			if 	H55_OrcTunnelArmies[OrcTunnel][15] == 2 and
+				H55_OrcTunnelArmies[OrcTunnel][16] == 2 and
+				H55_OrcTunnelArmies[OrcTunnel][21] == 2 then
+				H55_OrcTunnelArmies[OrcTunnel][15] = 1;
+			end;
+			if 	H55_OrcTunnelArmies[OrcTunnel][15] == 2 and
+				H55_OrcTunnelArmies[OrcTunnel][16] == 2 and
+				H55_OrcTunnelArmies[OrcTunnel][22] == 2 then
+				H55_OrcTunnelArmies[OrcTunnel][15] = 1;
+			end;	
 			SetObjectEnabled(OrcTunnel,nil);
 			Trigger(OBJECT_TOUCH_TRIGGER,OrcTunnel,"H55_OrcTunnelVisit");
 		end;
@@ -1502,7 +1547,7 @@ function H55_PrepareAdvMap()
 				H55_AbandonedMineArmies[AbandonedMine][27] = random(7)+1;
 				H55_AbandonedMineArmies[AbandonedMine][28] = random(8)+1;
 				H55_AbandonedMineArmies[AbandonedMine][29] = random(9)+1;
-				H55_AbandonedMineArmies[AbandonedMine][30] = random(8)+1;
+				H55_AbandonedMineArmies[AbandonedMine][30] = random(8)+1;				
 				SetObjectEnabled(AbandonedMine,nil);
 				Trigger(OBJECT_TOUCH_TRIGGER,AbandonedMine,"H55_AbandonedMineVisit");
 			end;
@@ -1524,6 +1569,16 @@ function H55_PrepareAdvMap()
 			H55_UnkemptArmies[Unkempt][28] = random(8)+1;
 			H55_UnkemptArmies[Unkempt][29] = random(9)+1;
 			H55_UnkemptArmies[Unkempt][30] = random(8)+1;
+			if H55_UnkemptArmies[Unkempt][15] == 2 and
+				H55_UnkemptArmies[Unkempt][16] == 2 and
+				H55_UnkemptArmies[Unkempt][21] == 2 then
+				H55_UnkemptArmies[Unkempt][15] = 1;
+			end;
+			if H55_UnkemptArmies[Unkempt][15] == 2 and
+				H55_UnkemptArmies[Unkempt][16] == 2 and
+				H55_UnkemptArmies[Unkempt][22] == 2 then
+				H55_UnkemptArmies[Unkempt][15] = 1;
+			end;
 			SetObjectEnabled(Unkempt,nil);
 			Trigger(OBJECT_TOUCH_TRIGGER,Unkempt,"H55_UnkemptVisit");
 		end;
@@ -2570,6 +2625,7 @@ function H55_MagiHutAccept(hero,building)
 					local x,y,z=H55_GetTownActiveTile(town);
 					MoveCameraForPlayers(GetPlayerFilter(player),x,y,z,50,math.pi/2,1,1,1,1);
 					sleep(4);
+					H55_EndDoorSpin[hero] = 0;
 					QuestionBoxForPlayers(GetPlayerFilter(player),"/Text/Game/Scripts/TownPortal/DD_VisitQuestion.txt",
 					"H55_InterfaceNow('"..hero.."','"..town.."')","H55_UnlockNextDoor('"..hero.."')");
 					repeat sleep(1); until H55_EndDoorSpin[hero] == 1;
@@ -4205,25 +4261,20 @@ function H55_WagonVisit(hero,bank)
 				H55_BankPlayerLastVisit[player][bank] = day;	
 				MarkObjectAsVisited(bank,hero);	
 			elseif rndevent == 4 or rndevent == 5 or rndevent == 6 then
+				if H55_MapType == "RMG" and rndrestype == 0 then rndrestype = 1 end;
 				Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndInteract,x,y,z);
 				H55_GiveResources(player,rndrestype,rndamount,hero);
 				H55_BankLastVisit[bank] = day;
 				H55_BankPlayerLastVisit[player][bank] = day;	
 				MarkObjectAsVisited(bank,hero);	
 			elseif rndevent == 7 then
-				-- if H55_RPGPotions == 1 and H55_IsThisAIPlayer(player) ~= 1 then
-					-- GiveArtefact(hero,ARTIFACT_FREIDA);
-					-- ShowFlyingSign("/Text/Game/Scripts/Banks/Giveartifact.txt",hero,player,5);
-					-- H55_BankLastVisit[bank] = day;
-					-- H55_BankPlayerLastVisit[player][bank] = day;	
-					-- MarkObjectAsVisited(bank,hero);
-				-- else
+				local skew = rndrestype;
+				if H55_MapType == "RMG" then skew = 1 end;
 				Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndInteract,x,y,z);
-				H55_GiveResources(player,rndrestype,rndamount,hero);
+				H55_GiveResources(player,skew,rndamount,hero);
 				H55_BankLastVisit[bank] = day;
 				H55_BankPlayerLastVisit[player][bank] = day;	
-				MarkObjectAsVisited(bank,hero);	
-				--end;
+				MarkObjectAsVisited(bank,hero);
 			elseif rndevent == 8 then
 				if H55_IsThisAIPlayer(player) == 1 then 
 					H55_WagonWin03(hero,1);
@@ -4380,19 +4431,13 @@ function H55_SkeletonVisit(hero,bank)
 				H55_BankPlayerLastVisit[player][bank] = day;	
 				MarkObjectAsVisited(bank,hero);	
 			elseif rndevent == 8 then
-				-- if H55_RPGPotions == 1 and H55_IsThisAIPlayer(player) ~= 1 then
-					-- GiveArtefact(hero,ARTIFACT_FREIDA);
-					-- ShowFlyingSign("/Text/Game/Scripts/Banks/Giveartifact.txt",hero,player,5);
-					-- H55_BankLastVisit[bank] = day;
-					-- H55_BankPlayerLastVisit[player][bank] = day;	
-					-- MarkObjectAsVisited(bank,hero);
-				-- else
-					Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndInteract,x,y,z);
-					H55_GiveResources(player,rndrestype,rndamount,hero);
-					H55_BankLastVisit[bank] = day;
-					H55_BankPlayerLastVisit[player][bank] = day;	
-					MarkObjectAsVisited(bank,hero);	
-				--end;
+				local skew = rndrestype;
+				if H55_MapType == "RMG" then skew = 1 end;			
+				Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndInteract,x,y,z);
+				H55_GiveResources(player,skew,rndamount,hero);
+				H55_BankLastVisit[bank] = day;
+				H55_BankPlayerLastVisit[player][bank] = day;	
+				MarkObjectAsVisited(bank,hero);	
 			elseif rndevent == 9 then
 				Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndInteract,x,y,z);
 				H55_GoldReward(hero,0.1);	
@@ -4578,7 +4623,7 @@ function H55_CryptVisit(hero,bank)
 					"/Arenas/CombatArena/FinalCombat/Bank_Crypt.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
-					StartCombat(hero,nil,4,t05a,cnt05,t05a,cnt05,t05b,cnt05,t05b,cnt05,nil,"H55_CryptWin",
+					StartCombat(hero,nil,5,t05a,cnt05,t05a,cnt05,t03b,cnt03,t03b,cnt03,t03a,cnt03,nil,"H55_CryptWin",
 					"/Arenas/CombatArena/FinalCombat/Bank_Crypt.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 12 then
@@ -4600,7 +4645,7 @@ function H55_CryptVisit(hero,bank)
 					"/Arenas/CombatArena/FinalCombat/Bank_Crypt.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,3,t07a,cnt07,t07a,cnt07,t07b,cnt07,nil,"H55_CryptWin",
+					StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t07b,cnt07,t07b,cnt07,nil,"H55_CryptWin",
 					"/Arenas/CombatArena/FinalCombat/Bank_Crypt.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
@@ -4733,7 +4778,7 @@ function H55_StoneVaultVisit(hero,bank)
 					StartCombat(hero,nil,6,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,nil,"H55_StoneVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Demon.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,5,t04a,cnt04,t04a,cnt04,t04b,cnt04,t04b,cnt04,t04a,cnt04,nil,"H55_StoneVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Demon.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t04a,cnt04,t04a,cnt04,t04b,cnt04,t03b,cnt03,t03a,cnt03,nil,"H55_StoneVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Demon.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
 					StartCombat(hero,nil,4,t05a,cnt05,t05a,cnt05,t05b,cnt05,t05b,cnt05,nil,"H55_StoneVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Demon.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -4753,7 +4798,7 @@ function H55_StoneVaultVisit(hero,bank)
 					StartCombat(hero,nil,7,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,t07a,cnt07,nil,"H55_StoneVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Demon.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,3,t07a,cnt07,t07a,cnt07,t07b,cnt07,nil,"H55_StoneVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Demon.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t07b,cnt07,t07b,cnt07,nil,"H55_StoneVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Demon.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
 					StartCombat(hero,nil,4,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,nil,"H55_StoneVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Demon.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -4869,7 +4914,7 @@ function H55_MageVaultVisit(hero,bank)
 					StartCombat(hero,nil,6,t02a,cnt02,t02a,cnt02,t02b,cnt02,t02b,cnt02,t02a,cnt02,t02b,cnt02,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat02 == 11 then
-					StartCombat(hero,nil,6,t03a,cnt03,t03a,cnt03,t03b,cnt03,t03b,cnt03,t03a,cnt03,t01b,cnt01,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);   
+					StartCombat(hero,nil,5,t03a,cnt03,t03a,cnt03,t03b,cnt03,t03b,cnt03,t03a,cnt03,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);   
 				end;			
 			end;
 			if H55_BankDay > 112 and H55_BankDay <= 224 then
@@ -4883,13 +4928,13 @@ function H55_MageVaultVisit(hero,bank)
 					StartCombat(hero,nil,6,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,5,t04a,cnt04,t04a,cnt04,t04b,cnt04,t04b,cnt04,t04a,cnt04,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t04a,cnt04,t03a,cnt03,t04b,cnt04,t03b,cnt03,t03a,cnt03,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
 					StartCombat(hero,nil,4,t05a,cnt05,t05a,cnt05,t05b,cnt05,t05b,cnt05,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 12 then
-					StartCombat(hero,nil,6,t01a,cntcr,t01a,cntcr,t01b,cntcr,t01b,cntcr,t01a,cntcr,t04a,cnt04,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,6,t01a,cntcr,t01a,cntcr,t01b,cntcr,t01b,cntcr,t01a,cntcr,t01a,cntcr,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;				
 			end;
 			if H55_BankDay > 224 then
@@ -4903,10 +4948,10 @@ function H55_MageVaultVisit(hero,bank)
 					StartCombat(hero,nil,7,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,t07a,cnt07,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t07b,cnt07,t04a,cnt04,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t06b,cnt06,t06a,cnt06,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
-					StartCombat(hero,nil,5,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,t04a,cnt04,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,t06a,cnt06,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 12 then
 					StartCombat(hero,nil,6,t02a,cntcr,t02a,cntcr,t02b,cntcr,t02b,cntcr,t02a,cntcr,t02b,cntcr,nil,"H55_MageVaultWin","/Arenas/CombatArena/FinalCombat/Bank_Artifact.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5016,7 +5061,7 @@ function H55_DwarvenTreasureVisit(hero,bank)
 					StartCombat(hero,nil,5,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,nil,"H55_DwarvenTreasureWin","/Arenas/CombatArena/FinalCombat/Bank_Dwarf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat02 == 10 then
-					StartCombat(hero,nil,6,t02a,cnt02,t02a,cnt02,t02b,cnt02,t01b,cnt01,t01b,cnt01,t01a,cnt01,nil,"H55_DwarvenTreasureWin","/Arenas/CombatArena/FinalCombat/Bank_Dwarf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,6,t01a,cnt01,t01a,cnt01,t01b,cnt01,t01b,cnt01,t01b,cnt01,t01a,cnt01,nil,"H55_DwarvenTreasureWin","/Arenas/CombatArena/FinalCombat/Bank_Dwarf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat02 == 11 then
 					StartCombat(hero,nil,5,t03a,cnt03,t03a,cnt03,t03b,cnt03,t03b,cnt03,t03a,cnt03,nil,"H55_DwarvenTreasureWin","/Arenas/CombatArena/FinalCombat/Bank_Dwarf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5036,7 +5081,7 @@ function H55_DwarvenTreasureVisit(hero,bank)
 					StartCombat(hero,nil,6,t04a,cnt04,t04a,cnt04,t04b,cnt04,t04b,cnt04,t04a,cnt04,t04b,cnt04,nil,"H55_DwarvenTreasureWin","/Arenas/CombatArena/FinalCombat/Bank_Dwarf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
-					StartCombat(hero,nil,4,t05a,cnt05,t05a,cnt05,t05b,cnt05,t05b,cnt05,nil,"H55_DwarvenTreasureWin","/Arenas/CombatArena/FinalCombat/Bank_Dwarf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t05a,cnt05,t05a,cnt05,t03b,cnt03,t03b,cnt03,t03b,cnt03,nil,"H55_DwarvenTreasureWin","/Arenas/CombatArena/FinalCombat/Bank_Dwarf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 12 then
 					StartCombat(hero,nil,6,t01a,cntcr,t01a,cntcr,t01b,cntcr,t01b,cntcr,t01a,cntcr,t01b,cntcr,nil,"H55_DwarvenTreasureWin","/Arenas/CombatArena/FinalCombat/Bank_Dwarf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5166,10 +5211,10 @@ function H55_WitchTempleVisit(hero,bank)
 					StartCombat(hero,nil,5,t01a,cnt01,t02a,cnt02,t03a,cnt03,t06a,cnt06,t05a,cnt05,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat02 == 10 then
-					StartCombat(hero,nil,6,t02a,cnt02,t02a,cnt02,t02b,cnt02,t02b,cnt02,t02a,cnt02,t02b,cnt02,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t02a,cnt02,t02a,cnt02,t02b,cnt02,t02b,cnt02,t02a,cnt02,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat02 == 11 then
-					StartCombat(hero,nil,6,t03a,cnt03,t03a,cnt03,t03b,cnt03,t03b,cnt03,t03a,cnt03,t02b,cnt02,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,6,t03a,cnt03,t03a,cnt03,t03b,cnt03,t03b,cnt03,t03a,cnt03,t03b,cnt03,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;			
 			end;
 			if H55_BankDay > 112 and H55_BankDay <= 224 then
@@ -5183,13 +5228,13 @@ function H55_WitchTempleVisit(hero,bank)
 					StartCombat(hero,nil,6,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,5,t04a,cnt04,t04a,cnt04,t04b,cnt04,t04b,cnt04,t02a,cnt02,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t04a,cnt04,t04a,cnt04,t04b,cnt04,t04b,cnt04,t04a,cnt04,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
-					StartCombat(hero,nil,5,t05a,cnt05,t05a,cnt05,t05b,cnt05,t05b,cnt05,t02a,cnt02,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t05a,cnt05,t05a,cnt05,t05b,cnt05,t05b,cnt05,t05a,cnt05,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 12 then
-					StartCombat(hero,nil,5,t01a,cntcr,t01a,cntcr,t01b,cntcr,t01b,cntcr,t02a,cntcr,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t01a,cntcr,t01a,cntcr,t01b,cntcr,t01b,cntcr,t01a,cntcr,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;				
 			end;
 			if H55_BankDay > 224 then
@@ -5206,7 +5251,7 @@ function H55_WitchTempleVisit(hero,bank)
 					StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t07b,cnt07,t06a,cnt06,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
-					StartCombat(hero,nil,4,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t05b,cnt05,t05a,cnt05,t06a,cnt06,t06b,cnt06,t06b,cnt06,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 12 then
 					StartCombat(hero,nil,6,t02a,cntcr,t02a,cntcr,t02b,cntcr,t02b,cntcr,t02a,cntcr,t02b,cntcr,nil,"H55_WitchTempleWin","/Arenas/CombatArena/FinalCombat/Bank_Witch.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5302,7 +5347,7 @@ function H55_ThicketVisit(hero,bank)
 					StartCombat(hero,nil,6,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,5,t04a,cnt04,t04a,cnt04,t04b,cnt04,t04b,cnt04,t04a,cnt04,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,4,t04a,cnt04,t04b,cnt04,t05b,cnt05,t06a,cnt06,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
 					StartCombat(hero,nil,4,t05a,cnt05,t05a,cnt05,t05b,cnt05,t05b,cnt05,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5322,10 +5367,10 @@ function H55_ThicketVisit(hero,bank)
 					StartCombat(hero,nil,7,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,t07a,cnt07,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,3,t07a,cnt07,t07a,cnt07,t07b,cnt07,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t07b,cnt07,t06b,cnt06,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
-					StartCombat(hero,nil,4,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,t06a,cnt06,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 12 then
 					StartCombat(hero,nil,6,t02a,cntcr,t02a,cntcr,t02b,cntcr,t02b,cntcr,t02a,cntcr,t02b,cntcr,nil,"H55_ThicketWin","/Arenas/CombatArena/FinalCombat/Bank_Treant.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5452,7 +5497,7 @@ function H55_ForestTowerVisit(hero,bank)
 					StartCombat(hero,nil,6,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,nil,"H55_ForestTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Elf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,5,t04a,cnt04,t04a,cnt04,t04b,cnt04,t04b,cnt04,t06a,cnt06,nil,"H55_ForestTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Elf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t04a,cnt04,t04a,cnt04,t04b,cnt04,t06b,cnt06,t06a,cnt06,nil,"H55_ForestTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Elf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
 					StartCombat(hero,nil,5,t05a,cnt05,t05a,cnt05,t05b,cnt05,t05b,cnt05,t06a,cnt06,nil,"H55_ForestTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Elf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5475,7 +5520,7 @@ function H55_ForestTowerVisit(hero,bank)
 					StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t07b,cnt07,t06a,cnt06,nil,"H55_ForestTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Elf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
-					StartCombat(hero,nil,4,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,t04b,cnt04,nil,"H55_ForestTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Elf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,t04b,cnt04,nil,"H55_ForestTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Elf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 12 then
 					StartCombat(hero,nil,6,t02a,cntcr,t02a,cntcr,t02b,cntcr,t02b,cntcr,t02a,cntcr,t06b,cnt05,nil,"H55_ForestTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Elf.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5574,7 +5619,7 @@ function H55_PyramidVisit(hero,bank)
 					StartCombat(hero,nil,5,t04a,cnt04,t04a,cnt04,t04b,cnt04,t04b,cnt04,t04a,cnt04,nil,"H55_PyramidWin","/Arenas/CombatArena/FinalCombat/Bank_Pyramid.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
-					StartCombat(hero,nil,4,t05a,cnt05,t05a,cnt05,t05b,cnt05,t05b,cnt05,nil,"H55_PyramidWin","/Arenas/CombatArena/FinalCombat/Bank_Pyramid.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,5,t05a,cnt05,t05a,cnt05,t04b,cnt04,t04b,cnt04,t04a,cnt04,nil,"H55_PyramidWin","/Arenas/CombatArena/FinalCombat/Bank_Pyramid.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 12 then
 					StartCombat(hero,nil,6,t01a,cntcr,t01a,cntcr,t01b,cntcr,t01b,cntcr,t01a,cntcr,t01b,cntcr,nil,"H55_PyramidWin","/Arenas/CombatArena/FinalCombat/Bank_Pyramid.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5591,7 +5636,7 @@ function H55_PyramidVisit(hero,bank)
 					StartCombat(hero,nil,7,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,t07a,cnt07,nil,"H55_PyramidWin","/Arenas/CombatArena/FinalCombat/Bank_Pyramid.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,3,t07a,cnt07,t07a,cnt07,t07b,cnt07,nil,"H55_PyramidWin","/Arenas/CombatArena/FinalCombat/Bank_Pyramid.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t07b,cnt07,t07b,cnt07,nil,"H55_PyramidWin","/Arenas/CombatArena/FinalCombat/Bank_Pyramid.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
 					StartCombat(hero,nil,4,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,nil,"H55_PyramidWin","/Arenas/CombatArena/FinalCombat/Bank_Pyramid.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5741,7 +5786,7 @@ function H55_OrcTunnelVisit(hero,bank)
 					StartCombat(hero,nil,7,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,t07a,cnt07,nil,"H55_OrcTunnelWin","/Arenas/CombatArena/FinalCombat/Bank_Orc.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;
 				if combat03 == 10 then
-					StartCombat(hero,nil,3,t07a,cnt07,t07a,cnt07,t07b,cnt07,nil,"H55_OrcTunnelWin","/Arenas/CombatArena/FinalCombat/Bank_Orc.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+					StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t07b,cnt07,t07b,cnt07,nil,"H55_OrcTunnelWin","/Arenas/CombatArena/FinalCombat/Bank_Orc.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 				end;	
 				if combat03 == 11 then
 					StartCombat(hero,nil,4,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,nil,"H55_OrcTunnelWin","/Arenas/CombatArena/FinalCombat/Bank_Orc.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
@@ -5861,7 +5906,7 @@ function H55_DemonTowerVisit(hero,bank)
 						StartCombat(hero,nil,7,t01a,cnt01,t02a,cnt02,t03a,cnt03,t04a,cnt04,t05a,cnt05,t06a,cnt06,t07a,cnt07,nil,"H55_DemonTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Urgash.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 					end;
 					if combat03 == 10 then
-						StartCombat(hero,nil,3,t07a,cnt07,t07a,cnt07,t07b,cnt07,nil,"H55_DemonTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Urgash.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
+						StartCombat(hero,nil,4,t07a,cnt07,t07a,cnt07,t07b,cnt07,t07b,cnt07,nil,"H55_DemonTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Urgash.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);
 					end;	
 					if combat03 == 11 then
 						StartCombat(hero,nil,4,t06a,cnt06,t06a,cnt06,t06b,cnt06,t06b,cnt06,nil,"H55_DemonTowerWin","/Arenas/CombatArena/FinalCombat/Bank_Urgash.(AdvMapTownCombat).xdb#xpointer(/AdvMapTownCombat)",1);

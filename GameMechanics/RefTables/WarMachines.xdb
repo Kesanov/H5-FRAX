@@ -99,7 +99,7 @@
 				<WarMachine ObjectRecordID="30">
 					<Shots>0</Shots>
 					<Initiative>12</Initiative>
-					<Health>1200</Health>
+					<Health>1500</Health>
 					<Range>0</Range>
 					<spellIDs/>
 					<MagicElement>
@@ -193,7 +193,7 @@
 				<WarMachine ObjectRecordID="32">
 					<Shots>0</Shots>
 					<Initiative>10</Initiative>
-					<Health>100</Health>
+					<Health>150</Health>
 					<Range>0</Range>
 					<spellIDs/>
 					<MagicElement>

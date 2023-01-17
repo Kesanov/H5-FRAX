@@ -14,6 +14,10 @@
 			<Spell>SPELL_DISPEL</Spell>
 			<Mastery>MASTERY_EXPERT</Mastery>
 		</Item>
+		<Item>
+			<Spell>SPELL_STONESKIN</Spell>
+			<Mastery>MASTERY_NONE</Mastery>
+		</Item>
 	</KnownSpells>
 	<SpellPoints>40</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>

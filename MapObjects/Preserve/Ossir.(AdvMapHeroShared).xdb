@@ -32,7 +32,7 @@
 	<Class>HERO_CLASS_RANGERA</Class>
 	<Specialization>HERO_SPEC_ELVES</Specialization>
 	<PrimarySkill>
-		<Mastery>MASTERY_ADVANCED</Mastery>
+		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_LOGISTICS</SkillID>
 	</PrimarySkill>
 	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Preserve/Hunter/Name.txt" />
@@ -53,9 +53,14 @@
 		<Defence>1</Defence>
 		<Spellpower>1</Spellpower>
 		<Knowledge>1</Knowledge>
-		<skills />
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_LUCK</SkillID>
+			</Item>
+		</skills>
 		<perkIDs>
-			<Item>HERO_SKILL_PATHFINDING</Item>
+			<Item>HERO_SKILL_LUCKY_STRIKE</Item>
 		</perkIDs>
 		<spellIDs />
 		<Ballista>false</Ballista>

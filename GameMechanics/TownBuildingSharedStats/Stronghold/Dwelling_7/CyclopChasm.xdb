@@ -14,7 +14,9 @@
 		<Gold>9000</Gold>
 	</Cost>
 	<ModObjectName>Dwelling_7</ModObjectName>
-	<dependencies/>
+	<dependencies>
+		<Item href="/GameMechanics/TownBuildingSharedStats/Stronghold/Dwelling_5/ChamberOfWrath.xdb#xpointer(/TownBuildingSharedStats)"/>
+	</dependencies>
 	<Creature>CREATURE_CYCLOP</Creature>
 	<Creature2>CREATURE_UNKNOWN</Creature2>
 	<DevLevelNeeded>15</DevLevelNeeded>

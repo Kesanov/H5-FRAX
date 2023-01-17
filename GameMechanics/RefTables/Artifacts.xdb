@@ -607,11 +607,11 @@
 				<NameFileRef href="/Text/Game/Artifacts/BootsOfSpeed/Name.txt"/>
 				<DescriptionFileRef href="/Text/Game/Artifacts/BootsOfSpeed/Description.txt"/>
 				<Model href="/_(Model)/Artefacts/Boots_of_Speed.(Model).xdb#xpointer(/Model)"/>
-				<Type>ARTF_CLASS_RELIC</Type>
+				<Type>ARTF_CLASS_MAJOR</Type>
 				<Slot>FEET</Slot>
 				<Icon href="/Textures/HeroScreen/Artifacts/Boots_of_Speed.xdb#xpointer(/Texture)"/>
-				<CostOfGold>36000</CostOfGold>
-				<AIValue>18000</AIValue>
+				<CostOfGold>24000</CostOfGold>
+				<AIValue>12000</AIValue>
 				<CanBeGeneratedToSell>true</CanBeGeneratedToSell>
 				<HeroStatsModif>
 					<Attack>0</Attack>
@@ -1360,8 +1360,8 @@
 				<Type>ARTF_CLASS_RELIC</Type>
 				<Slot>FEET</Slot>
 				<Icon href="/Textures/HeroScreen/Artifacts/Boots_of_Levitation.(Texture).xdb#xpointer(/Texture)"/>
-				<CostOfGold>24000</CostOfGold>
-				<AIValue>12000</AIValue>
+				<CostOfGold>36000</CostOfGold>
+				<AIValue>18000</AIValue>
 				<CanBeGeneratedToSell>true</CanBeGeneratedToSell>
 				<HeroStatsModif>
 					<Attack>0</Attack>

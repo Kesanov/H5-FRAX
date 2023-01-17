@@ -35,8 +35,8 @@
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_GATING</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Inferno/Furious/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Inferno/Furious/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Inferno/Furious4/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Inferno/Furious4/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Inferno/Furious.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Inferno/Inferno_Agrael_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall href="/Textures/Icons/Heroes/Inferno/Inferno_Agrael_128x128_64.(Texture).xdb#xpointer(/Texture)" />

@@ -6,11 +6,11 @@
 	<Health_PerLevel>10</Health_PerLevel>
 	<Health_PerKnowledge>0</Health_PerKnowledge>
 	<DamageMin>0</DamageMin>
-	<DamageMin_PerPower>4</DamageMin_PerPower>
-	<DamageMin_PerLevel>4</DamageMin_PerLevel>
+	<DamageMin_PerPower>5</DamageMin_PerPower>
+	<DamageMin_PerLevel>5</DamageMin_PerLevel>
 	<DamageMax>0</DamageMax>
-	<DamageMax_PerPower>5</DamageMax_PerPower>
-	<DamageMax_PerLevel>6</DamageMax_PerLevel>
+	<DamageMax_PerPower>6</DamageMax_PerPower>
+	<DamageMax_PerLevel>7</DamageMax_PerLevel>
 	<Offence>4</Offence>
 	<Offence_PerPower>1</Offence_PerPower>
 	<Offence_PerLevel>0</Offence_PerLevel>

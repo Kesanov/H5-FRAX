@@ -12,7 +12,7 @@
 	<KnownSpells>
 		<Item>
 			<Spell>SPELL_SLOW</Spell>
-			<Mastery>MASTERY_EXPERT</Mastery>
+			<Mastery>MASTERY_ADVANCED</Mastery>
 		</Item>
 		<Item>
 			<Spell>SPELL_WEAKNESS</Spell>

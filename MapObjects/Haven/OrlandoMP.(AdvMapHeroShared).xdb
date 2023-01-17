@@ -32,14 +32,14 @@
 	<Icon128 href="/UI/H5A2/Icons/Heroes/Portrets128x128/Haven_Orlando.xdb#xpointer(/Texture)" />
 	<InternalName>OrlandoMP</InternalName>
 	<Class>HERO_CLASS_HERETIC</Class>
-	<Specialization />
+	<Specialization>HERO_SPEC_POISONER</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_ADVANCED</Mastery>
 		<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Added/Griffins/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Added/Griffins/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Radiant.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Poisoner3/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Poisoner3/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Dungeon/Poisoner.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/UI/H5A2/Icons/Heroes/Portrets128x128/Haven_Orlando.xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Haven/OrlandoMP/HeroCharacterArena.xdb#xpointer(/Character)" />
@@ -62,7 +62,6 @@
 		<spellIDs>
 			<Item>SPELL_FORGETFULNESS</Item>
 			<Item>SPELL_PLAGUE</Item>
-			<Item>SPELL_VAMPIRISM</Item>
 		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>

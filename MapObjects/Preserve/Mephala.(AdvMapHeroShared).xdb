@@ -56,7 +56,7 @@
 		<skills>
 			<Item>
 				<Mastery>MASTERY_BASIC</Mastery>
-				<SkillID>HERO_SKILL_TRAINING</SkillID>
+				<SkillID>HERO_SKILL_DEFENCE</SkillID>
 			</Item>
 		</skills>
 		<perkIDs>
