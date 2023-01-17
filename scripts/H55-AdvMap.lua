@@ -3922,128 +3922,14 @@ function H55_WitchVisit(hero,hut)
 	local player = GetObjectOwner(hero);
 	if H55_IsThisAIPlayer(player) == 1 then
 		print("H55 AI Visits Witch Hut!");
-	elseif table.contains(H55_WHVisited[hut],hero) then
+	elseif H55_WHVisited[hut][hero] then
 			ShowFlyingSign("/Text/Game/Scripts/Witch/Already.txt",hero,player,5);
 	else
-		local choice1 = H55_WHChoice1[hut];
-		local classtype = H55_GetHeroClass(hero);
-		local heroskills = 0;
-		for i,s in H55_WitchSkills do
-	 		if HasHeroSkill(hero, s) then
-				heroskills = heroskills+1;
-		    end
-		end;
-		if heroskills > 7 then
-			heroskills = "Full"
-		else
-			heroskills = ""..heroskills
-		end		
-		for i=1,H55_ClassesCount do
-			if classtype == H55_ClassesNames[i] then
-				local mastery1 = GetHeroSkillMastery(hero,H55_WitchSkills[H55_WitchSelect[i][choice1]]);				
-				if (mastery1 == 0 and heroskills == "Full" ) or mastery1 == 3 then
-					H55_WitchVisit2nd(hero,hut,heroskills);
-				elseif mastery1 <= 2 then
-					QuestionBoxForPlayers(GetPlayerFilter(player),{"/Text/Game/Scripts/Witch/Questionone.txt";
-					mastery=H55_WitchMasteryText[mastery1],skill=H55_WitchSkillText[H55_WitchSelect[i][choice1]]},
-					"H55_WitchAccept01('"..hero.."','"..hut.."')","H55_WitchRefuse01('"..hero.."','"..hut.."','"..heroskills.."')");
-				end;
-				break;
-			end;
-			
-		end;
+		if Fx_WitchVisit(player, hero, hut) then
+			H55_WHVisited[hut][hero] = 1
+			MarkObjectAsVisited(hero, hut)
+		end
 	end;
-end;
-
-function H55_WitchAccept01(hero,hut)
-	local player = GetObjectOwner(hero);
-	local classtype = H55_GetHeroClass(hero);
-	local choice1 = H55_WHChoice1[hut];
-	local visits = table.length(H55_WHVisited[hut])
-	local currentvisitor = table.length(H55_WHVisited[hut])+1
-	local x,y,z = GetObjectPosition(hut);
-	for i=1,H55_ClassesCount do
-		if classtype == H55_ClassesNames[i] then
-			GiveHeroSkill(hero,H55_WitchSkills[H55_WitchSelect[i][choice1]]);
-			H55_WHVisited[hut][currentvisitor] = hero;
-			Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndWitch,x,y,z);
-			MarkObjectAsVisited(hut,hero);
-			break;
-		end;
-	end;
-end;
-
-function H55_WitchVisit2nd(hero,hut,heroskills)
-	local player = GetObjectOwner(hero);
-	local choice2 = H55_WHChoice2[hut];
-	local classtype = H55_GetHeroClass(hero);
-	local price = 2000;
-	for i=1,H55_ClassesCount do
-		if classtype == H55_ClassesNames[i] then
-			local mastery2 = GetHeroSkillMastery(hero,H55_WitchSkills[H55_WitchSelect[i][choice2]]);
-			if (mastery2 == 0 and heroskills == "Full" ) or mastery2 == 3 then
-				ShowFlyingSign("/Text/Game/Scripts/Witch/Already.txt",hero,player,5);	
-			elseif mastery2 <= 2 then
-				QuestionBoxForPlayers(GetPlayerFilter(player),{"/Text/Game/Scripts/Witch/Questiononealt.txt";
-				gold=price,mastery=H55_WitchMasteryText[mastery2],skill=H55_WitchSkillText[H55_WitchSelect[i][choice2]]},
-				"H55_WitchAccept02('"..hero.."','"..hut.."')","H55_WitchRefuse02('"..hero.."')");				
-			end;
-			break;
-		end;
-	end;
-end;
-
-function H55_WitchRefuse01(hero,hut,heroskills)
-	local player = GetObjectOwner(hero);
-	local choice2 = H55_WHChoice2[hut];
-	local classtype = H55_GetHeroClass(hero);
-	local price = 2000;
-	for i=1,H55_ClassesCount do
-		if classtype == H55_ClassesNames[i] then
-			local mastery2 = GetHeroSkillMastery(hero,H55_WitchSkills[H55_WitchSelect[i][choice2]]);
-			if mastery2 == 0 and heroskills == "Full" then
-				ShowFlyingSign("/Text/Game/Scripts/Witch/Already.txt",hero,player,5);
-			elseif mastery2 <= 2 then
-				QuestionBoxForPlayers(GetPlayerFilter(player),{"/Text/Game/Scripts/Witch/Questiontwo.txt";
-				gold=price,mastery=H55_WitchMasteryText[mastery2], skill=H55_WitchSkillText[H55_WitchSelect[i][choice2]]},
-				"H55_WitchAccept02('"..hero.."','"..hut.."')","H55_WitchRefuse02('"..hero.."')");
-			elseif mastery2 == 3 then
-				ShowFlyingSign("/Text/Game/Scripts/Witch/Nooffer.txt",hero,player,5);
-			end;
-			break;
-		end;
-	end;
-end;
-	
-function H55_WitchAccept02(hero,hut)
-		print("H55_WitchAccept02")
-	local player = GetObjectOwner(hero);
-	local classtype = H55_GetHeroClass(hero);
-	local choice2 = H55_WHChoice2[hut];
-	local visits = table.length(H55_WHVisited[hut])
-	local currentvisitor = table.length(H55_WHVisited[hut])+1
-	local x,y,z = GetObjectPosition(hut);
-	local money = GetPlayerResource(player,6);
-	if money >= 2000 then
-		for i=1,H55_ClassesCount do
-			if classtype == H55_ClassesNames[i] then
-				GiveHeroSkill(hero,H55_WitchSkills[H55_WitchSelect[i][choice2]]);
-				H55_WHVisited[hut][currentvisitor] = hero;
-				Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndWitch,x,y,z);
-				MarkObjectAsVisited(hut,hero);
-				H55_TakeResources(player,6,2000,hero);
-				break;
-			end;
-		end;	
-	else
-		ShowFlyingSign("/Text/Game/Scripts/Witch/Nogold.txt",hero,player,5);
-	end;
-end;
-
-function H55_WitchRefuse02(hero)
-	print("H55_WitchRefuse02")
-	local player = GetObjectOwner(hero);
-	ShowFlyingSign("/Text/Game/Scripts/Witch/Nooffer.txt",hero,player,5);
 end;
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -8092,59 +7978,6 @@ function H55_StaticShantiriAward(hero)
 	Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndArtifact,x,y,z);	
 	if H55_IsThisAIPlayer(player) ~= 1 then 
 		startThread(H55_ProtectedSign,"/Text/Game/Scripts/Banks/Giveartifact.txt",hero,player,H55_MsgSleep,H55_MsgTime);
-	end;
-end;
-
-function H55_PrisonersReward(hero,multiplier,maxtier)
-	local player = GetObjectOwner(hero);
-	local tier = (maxtier-3)+random(4);
-	--local tier = random(maxtier)+1;
-	local faction = H55_GetPlayerRace(player);
-	if H55_PrisonersAdjustToHeroRace == 1 then
-		faction = H55_GetHeroRaceNum(hero);
-	end;
-	local randomize = 0.8+((random(20)+1)/100);
-	local amount = math.round(randomize*(multiplier*H55_CreaturesGrowthReal[faction][tier]));
-	--local amount = random(4)+(multiplier*H55_CreaturesGrowthReal[faction][tier]);	
-	-- if HasHeroSkill(hero,PERK_LUCKY_STRIKE) then
-		-- local lucky = 1+(0.1+((random(20)+1)/100));
-		-- amount = math.round(amount*lucky);
-	-- end;
-	local units = H55_ArmyInfoSimple(hero);
-	local released = 0;	
-	local x,y,z = GetObjectPosition(hero);
-	for i = 0,6 do
-		if units[i] == H55_Creatures[faction][tier][2] and released == 0 then
-			AddHeroCreatures(hero,H55_Creatures[faction][tier][2],amount);
-			if H55_IsThisAIPlayer(player) ~= 1 then startThread(H55_ProtectedSignPrisoners,"/Text/Game/Scripts/Banks/Prisoners.txt",amount,tier,hero,player,H55_MsgSleep,H55_MsgTime)  end;
-			Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndArmy,x,y,z);	
-			released = 1;
-		end;
-		if units[i] == H55_Creatures[faction][tier][3] and released == 0 then
-			AddHeroCreatures(hero,H55_Creatures[faction][tier][3],amount);
-			if H55_IsThisAIPlayer(player) ~= 1 then startThread(H55_ProtectedSignPrisoners,"/Text/Game/Scripts/Banks/Prisoners.txt",amount,tier,hero,player,H55_MsgSleep,H55_MsgTime)  end;
-			Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndArmy,x,y,z);	
-			released = 1;
-		end;
-		if units[i] == H55_Creatures[faction][tier][1] and released == 0 then
-			AddHeroCreatures(hero,H55_Creatures[faction][tier][1],amount);
-			if H55_IsThisAIPlayer(player) ~= 1 then startThread(H55_ProtectedSignPrisoners,"/Text/Game/Scripts/Banks/Prisoners.txt",amount,tier,hero,player,H55_MsgSleep,H55_MsgTime)  end;
-			Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndArmy,x,y,z);	
-			released = 1;
-		end;
-	end;
-	if released == 0 then
-		for i = 0,6 do
-			if (units[i] == 0 or units[i] == nil) and released == 0 then
-				AddHeroCreatures(hero,H55_Creatures[faction][tier][1],amount);
-				if H55_IsThisAIPlayer(player) ~= 1 then startThread(H55_ProtectedSignPrisoners,"/Text/Game/Scripts/Banks/Prisoners.txt",amount,tier,hero,player,H55_MsgSleep,H55_MsgTime)  end;
-				Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndArmy,x,y,z);	
-				released = 1;
-			end;	
-		end;
-	end;
-	if H55_IsThisAIPlayer(player) ~= 1 then
-		sleep(4);
 	end;
 end;
 

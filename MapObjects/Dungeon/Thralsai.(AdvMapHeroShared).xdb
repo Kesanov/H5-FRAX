@@ -59,7 +59,9 @@
 				<SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID>
 			</Item>
 		</skills>
-		<perkIDs />
+		<spellIDs>
+			<Item>SPELL_ABILITY_MAGIC_BOND</Item>
+		</spellIDs>
 		<spellIDs>
 			<Item>SPELL_TELEPORT</Item>
 		</spellIDs>

@@ -10,12 +10,12 @@
 
 H55_TownGateEnabled = 1; --Activates Town Gate, allows teleportation of heroes to any town (0 = deactivated).
 
-H55_TownConvEnabled = 0; --Activates Town and Dwelling Conversion (0 = deactivated)
+H55_TownConvEnabled = 1; --Activates Town and Dwelling Conversion (0 = deactivated)
 H55_AmountExtraTownsDwellings = 1; --Allows to increase amount of allowed conversions for dwellings and towns (1 = balanced like RC3, zero can also be used).
 
 --Town Conversion, Governance and Mine Control are always disabled in the campaign and scenario maps, since those maps were not designed for this mechanism and would have bugs/balance issues.
 
-H55_GovernanceEnabled = 0; --Allows the creation of governor heroes (0 = deactivated).
+H55_GovernanceEnabled = 1; --Allows the creation of governor heroes (0 = deactivated).
 H55_GovernorExpCoef = 1; --Multiplier for experience gain of governors (do not set to zero) Example: 1.2 = 20% more, 0.8 = 20% less.
 
 H55_MineControl = 0; --Allows players to easily guard mines with self-sustaining armies (0 = deactivated).
@@ -79,7 +79,7 @@ H55_NegativeArtifacts = 1; --Set to 0 to disable secret negative artifacts from 
 H55_MoonDiscQuest = 0; --Set to 1 to activate moondisc combo-artifact quest on all maps, NOT RECOMMENDED, copy/paste this setting only to maps that are suitable.
 H55_MoonDiscOnARMGMaps = 1; --Set to 0 to disable moondisc combo-artifact quests on ARMG maps.
 
-H55_RPGPotions = 0; --Set to 1 to enable potions on multiplayer and rmg maps, by default potions can be bought from trading posts in Scenarios and Campaign maps.
+H55_RPGPotions = 1; --Set to 1 to enable potions on multiplayer and rmg maps, by default potions can be bought from trading posts in Scenarios and Campaign maps.
 
 --If set to 1 potions will also be for sale at trading posts on multiplayer+ARMG maps, costs for movement potions are significantly higher on multiplayer+ARMG maps, resurrection potions cannot be bought.
 

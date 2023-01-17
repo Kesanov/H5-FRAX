@@ -37,10 +37,9 @@ def skills():
 
 
     for skillname, skill in data.items():
-        skill['obj']['SkillPrerequisites'] = []
-        skill['obj']['SkillType'].txt = 'SKILLTYPE_DISABLED' 
-        if skillname == 'HERO_SKILL_SEAL_OF_PROTECTION':
-             skill['obj']['SkillType'].txt = 'SKILLTYPE_STANDART_PERK'
+        if skillname[11:] not in ['ELEMENTAL_VISION', 'ABSOLUTE_CHAINS']:
+            skill['obj']['SkillPrerequisites'] = []
+            skill['obj']['SkillType'].txt = 'SKILLTYPE_DISABLED'
 
     for skill, perks in SKILLS.items():
         data[name(skill)]['obj']['SkillType'].txt = 'SKILLTYPE_SKILL'
@@ -53,6 +52,8 @@ def skills():
             perk2['obj']['BasicSkillID'].txt = name(skill)
             perk1['obj']['SkillPrerequisites'] = []
             perk2['obj']['SkillPrerequisites'] = deps2
+
+            # TODO Ultimate Dependencies
     
     
     root.save('Frax/GameMechanics/RefTables/Skills.xdb')
@@ -135,6 +136,7 @@ def classes():
 
     for dirname, _, names in walk('Frax/MapObjects/'):
         for filename in names:
+            if filename[:-4] != '.xdb': continue
             path = dirname + '/' + filename
             data = XDB.load(path)
             if data.tag != 'AdvMapHeroShared': continue

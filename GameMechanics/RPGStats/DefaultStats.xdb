@@ -359,11 +359,11 @@
 				<Wound_SpeedDecrease>0.4</Wound_SpeedDecrease>
 				<Wound_InitiativeDecrease>0.3</Wound_InitiativeDecrease>
 				<Wound_ProcFactor>1.5</Wound_ProcFactor>
-				<MarkOfFire_EffectDurationInRounds>100</MarkOfFire_EffectDurationInRounds>
+				<MarkOfFire_EffectDurationInRounds>10</MarkOfFire_EffectDurationInRounds>
 				<MarkOfFire_FireDamageMultiplier>1.5</MarkOfFire_FireDamageMultiplier>
 				<MarkOfFire_ProcFactor>10</MarkOfFire_ProcFactor>
-				<AntiGiantDefenceInc>8</AntiGiantDefenceInc>
-				<AntiGiantAttackInc>8</AntiGiantAttackInc>
+				<AntiGiantDefenceInc>10</AntiGiantDefenceInc>
+				<AntiGiantAttackInc>10</AntiGiantAttackInc>
 				<AvengingFlameEffect href="/GameMechanics/Spell/Creature_Abilities/Dwarf/AvangingFlame.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
 				<AvengingFlameCoef>6</AvengingFlameCoef>
 				<BearRoar_SmallCreaturesChanceMult>1</BearRoar_SmallCreaturesChanceMult>
@@ -373,14 +373,14 @@
 				<BearRoar_ProcFactor>2</BearRoar_ProcFactor>
 				<HarpoonStrike_DamageBonus>0</HarpoonStrike_DamageBonus>
 				<HarpoonStrike_WorksOnLargeCreatures>true</HarpoonStrike_WorksOnLargeCreatures>
-				<LiquidFlameBreath_DamagePerCreature>10</LiquidFlameBreath_DamagePerCreature>
-				<LiquidFlameBreath_MinDuration>2</LiquidFlameBreath_MinDuration>
-				<LiquidFlameBreath_MaxDuration>2</LiquidFlameBreath_MaxDuration>
+				<LiquidFlameBreath_DamagePerCreature>50</LiquidFlameBreath_DamagePerCreature>
+				<LiquidFlameBreath_MinDuration>5</LiquidFlameBreath_MinDuration>
+				<LiquidFlameBreath_MaxDuration>5</LiquidFlameBreath_MaxDuration>
 				<PreparedPosition_DefenceBonus>15</PreparedPosition_DefenceBonus>
 				<BattleRage_InitiativeBonus>2</BattleRage_InitiativeBonus>
 				<BattleRage_AttackBonus>0</BattleRage_AttackBonus>
-				<BattleRage_EffectDuration>3</BattleRage_EffectDuration>
-				<FlameWave_WaveLength>5</FlameWave_WaveLength>
+				<BattleRage_EffectDuration>0</BattleRage_EffectDuration>
+				<FlameWave_WaveLength>6</FlameWave_WaveLength>
 				<FlameWave_ProcFactor>2.5</FlameWave_ProcFactor>
 				<FlameWave_WaveSpeed>15</FlameWave_WaveSpeed>
 				<Flamestrike_DamageMultipiler>1.2</Flamestrike_DamageMultipiler>
@@ -1172,8 +1172,8 @@
 			<ConjuredPhoenix href="ConjuredPhoenix.xdb#xpointer(/RPGCombatUniqueCreatureStats)"/>
 			<DefenceBonusOnDefend>0.3</DefenceBonusOnDefend>
 			<Abilities>
-				<FireShield_Damage_Multiplier>0.3</FireShield_Damage_Multiplier>
-				<MagmaShield_Damage_Multiplier>0.4</MagmaShield_Damage_Multiplier>
+				<FireShield_Damage_Multiplier>0.5</FireShield_Damage_Multiplier>
+				<MagmaShield_Damage_Multiplier>1.0</MagmaShield_Damage_Multiplier>
 			</Abilities>
 		</Creatures>
 		<HeroSkills>
@@ -1182,13 +1182,13 @@
 					<SpeedBonus>3</SpeedBonus>
 					<NativeTerrain>TT_DIRT</NativeTerrain>
 				</RoadHome>
-				<HoldGround_DefendBonusMultiplier>2.2</HoldGround_DefendBonusMultiplier>
+				<HoldGround_DefendBonusMultiplier>1.7</HoldGround_DefendBonusMultiplier>
 				<HoldGround_TakeRootsBonusMultiplier>2.2</HoldGround_TakeRootsBonusMultiplier>
 				<Training>
 					<BasicDamageBonus>0.2</BasicDamageBonus>
 					<AdvancedDamageBonus>0.4</AdvancedDamageBonus>
 					<ExpertDamageBonus>0.6</ExpertDamageBonus>
-					<ExtraExpertDamageBonus>0.6</ExtraExpertDamageBonus>
+					<ExtraExpertDamageBonus>2.0</ExtraExpertDamageBonus>
 					<TrainingPointsPerWeek>7</TrainingPointsPerWeek>
 					<TrainingPointsPerWeek_Upgraded>20</TrainingPointsPerWeek_Upgraded>
 					<BaseCostMultiplier>2.2</BaseCostMultiplier>
@@ -2012,7 +2012,7 @@
 				<Radiant_MirrorProbPerLevel>0</Radiant_MirrorProbPerLevel>
 				<Disrupter_Damage>0</Disrupter_Damage>
 				<Disrupter_DamageLevelDivisor>1</Disrupter_DamageLevelDivisor>
-				<Disrupter_DamagePerLevel>20</Disrupter_DamagePerLevel>
+				<Disrupter_DamagePerLevel>12</Disrupter_DamagePerLevel>
 				<TimeShiftStopFactor>0.05</TimeShiftStopFactor>
 				<TimeShiftBonusATBPerLevel>0.5</TimeShiftBonusATBPerLevel>
 				<FeatherMage_InitiativeBonusBase>0.1</FeatherMage_InitiativeBonusBase>
@@ -2215,7 +2215,7 @@
 				<RallingCry_Duration>4</RallingCry_Duration>
 				<CallOfBlood_RPPerCasterLevel>20</CallOfBlood_RPPerCasterLevel>
 				<WordOfTheChief_ATBBonusBase>0</WordOfTheChief_ATBBonusBase>
-				<WordOfTheChief_ATBBonusPerCasterLevel>0.03</WordOfTheChief_ATBBonusPerCasterLevel>
+				<WordOfTheChief_ATBBonusPerCasterLevel>-0.01</WordOfTheChief_ATBBonusPerCasterLevel>
 				<WordOfTheChief_RPBonus>25</WordOfTheChief_RPBonus>
 				<Battlecry_SpeedBonus>
 					<Base>3</Base>

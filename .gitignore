@@ -1,4 +1,5 @@
 index.bin
+__pycache__
 *.zip
 *.pak
 data*

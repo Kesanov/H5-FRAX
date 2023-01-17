@@ -2530,11 +2530,12 @@ function H55_IndexArtifacts()
 	if H55_RPGPotions == 1 then
 		table.inject(H55_MinorArtifactsUsed,ARTIFACT_POTION01);
 		table.inject(H55_MajorArtifactsUsed,ARTIFACT_POTION02);
-		--table.inject(H55_RelicArtifactsUsed,ARTIFACT_POTION03);
+		table.inject(H55_RelicArtifactsUsed,ARTIFACT_POTION03);
 	end;
 	if H55_MapType == "Campaign" then
 		table.inject(H55_MinorArtifactsUsed,ARTIFACT_POTION01);
 		table.inject(H55_MajorArtifactsUsed,ARTIFACT_POTION02);
+		table.inject(H55_RelicArtifactsUsed,ARTIFACT_POTION03);
 	end;
 	H55_ArtifactsIndexed = 1;
 	print("H55 Day 2 Artifacts indexation complete!")
@@ -2559,7 +2560,7 @@ function H55_GetRaceElementalTypeID(player,cityrace)
 	local elemtype = 87;
 	if cityrace == 1 and H55_FireSwitch[player] == 1 then elemtype = 85;
 	elseif cityrace == 1 then elemtype = 113;
-	elseif cityrace == 5 then elemtype = 114;
+	elseif cityrace == 5 then elemtype = 116;
 	elseif cityrace == 8 and H55_WolfSwitch[player] == 1 then elemtype = 113;	
 	elseif cityrace == 8 then elemtype = 87; 
 	elseif cityrace == 6 then elemtype = 115;
@@ -7346,6 +7347,8 @@ function H55_ContinuesEvent(player)
 			end;
 			if H55_RPGPotions == 1 and H55_MapType ~= "Campaign" and H55_IsThisAIPlayer(player) ~= 1 and H55_StartPotionOwners[hero] ~= 1 and H55_StartPotionGlobalOwners[player] ~= 1 then
 				GiveArtefact(hero,ARTIFACT_POTION01);
+				GiveArtefact(hero,ARTIFACT_POTION02);
+				GiveArtefact(hero,ARTIFACT_POTION03);
 				H55_StartPotionOwners[hero] = 1;
 				H55_StartPotionGlobalOwners[player] = 1;
 			end;

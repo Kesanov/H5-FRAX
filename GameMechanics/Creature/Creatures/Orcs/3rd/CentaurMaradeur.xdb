@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>16</AttackSkill>
-	<DefenceSkill>16</DefenceSkill>
+	<AttackSkill>15</AttackSkill>
+	<DefenceSkill>15</DefenceSkill>
 	<Shots>7</Shots>
 	<MinDamage>3</MinDamage>
 	<MaxDamage>5</MaxDamage>
@@ -32,7 +32,7 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>90</Gold>
+		<Gold>101</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
 	<MonsterShared href="/MapObjects/Stronghold/Centaur_Marauder.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />
@@ -46,7 +46,6 @@
 	<Abilities>
 		<Item>ABILITY_DEMON_RAGED</Item>
 		<Item>ABILITY_RANGED_RETALIATE</Item>
-		<Item>ABILITY_UNLIMITED_RETALIATION</Item>
 		<Item>ABILITY_HOLD_GROUND</Item>
 	</Abilities>
 </Creature>

@@ -32,13 +32,13 @@
 	<Icon128 href="/UI/H5A2/Icons/Heroes/Portrets128x128/Stronghold_Urghat.(Texture).xdb#xpointer(/Texture)" />
 	<InternalName>Hero2</InternalName>
 	<Class>HERO_CLASS_WARLOCKB</Class>
-	<Specialization>HERO_SPEC_BLOODDRINKER</Specialization>
+	<Specialization>HERO_SPEC_DARK_ACOLYTE</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_SHATTER_DARK_MAGIC</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Stronghold/Blooddrinker/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Stronghold/Blooddrinker/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Dark_Acolyte5/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Dark_Acolyte5/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Mentor.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/UI/H5A2/Icons/Heroes/Portrets128x128/Stronghold_Urghat.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
@@ -62,7 +62,9 @@
 			</Item>
 		</skills>
 		<perkIDs />
-		<spellIDs />
+		<spellIDs>
+			<Item>SPELL_ABILITY_DARK_RITUAL</Item>
+		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

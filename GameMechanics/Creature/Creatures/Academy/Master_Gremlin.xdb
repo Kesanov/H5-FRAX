@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="1000038">
-	<AttackSkill>13</AttackSkill>
-	<DefenceSkill>13</DefenceSkill>
+	<AttackSkill>10</AttackSkill>
+	<DefenceSkill>10</DefenceSkill>
 	<Shots>9</Shots>
 	<MinDamage>1</MinDamage>
 	<MaxDamage>2</MaxDamage>
@@ -32,7 +32,7 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>45</Gold>
+		<Gold>60</Gold>
 	</Cost>
 	<PresetPrice>0</PresetPrice>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>

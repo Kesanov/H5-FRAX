@@ -3040,8 +3040,8 @@
 				<SkillType>SKILLTYPE_SPECIAL_PERK</SkillType>
 				<HeroClass>HERO_CLASS_NONE</HeroClass>
 				<spellBuffs>
-					<Item></Item>
-					<Item>SPELL_DEMON_RAGE_LEVEL_2</Item>
+					<Item/>
+					<Item/>
 					<Item>SPELL_DEMON_RAGE_LEVEL_2</Item>
 				</spellBuffs>
 				<BasicSkillID>HERO_SKILL_SORCERY</BasicSkillID>
@@ -5543,7 +5543,7 @@
 					<Item>
 						<Class>HERO_CLASS_WARLOCK</Class>
 						<dependenciesIDs>
-							<Item>HERO_SKILL_EMPOWERED_SPELLS</Item>
+							<Item>HERO_SKILL_INVOCATION</Item>
 						</dependenciesIDs>
 					</Item>
 				</SkillPrerequisites>					
@@ -19039,9 +19039,9 @@
 				<SkillType>SKILLTYPE_SPECIAL_PERK</SkillType>
 				<HeroClass>HERO_CLASS_NONE</HeroClass>
 				<spellBuffs>
-					<Item>SPELL_DEMON_RAGE_LEVEL_2</Item>
-					<Item>SPELL_DEMON_RAGE_LEVEL_2</Item>
-					<Item>SPELL_DEMON_RAGE_LEVEL_2</Item>
+					<Item>SPELL_DEMON_RAGE_LEVEL_1</Item>
+					<Item>SPELL_DEMON_RAGE_LEVEL_1</Item>
+					<Item>SPELL_DEMON_RAGE_LEVEL_1</Item>
 				</spellBuffs>
 				<BasicSkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</BasicSkillID>
 				<SkillPrerequisites>
@@ -19882,7 +19882,14 @@
 				<HeroClass>HERO_CLASS_NONE</HeroClass>
 				<spellBuffs/>
 				<BasicSkillID>HERO_SKILL_INVOCATION</BasicSkillID>
-				<SkillPrerequisites/>
+				<SkillPrerequisites>
+					<Item>
+						<Class>HERO_CLASS_WARLOCK</Class>
+						<dependenciesIDs>
+							<Item>HERO_SKILL_ELEMENTAL_VISION</Item>
+						</dependenciesIDs>
+					</Item>
+				</SkillPrerequisites>
 				<AIRacesValues>
 					<Haven>
 						<CommanderValue>1000</CommanderValue>
@@ -25696,9 +25703,9 @@
 				<SkillType>SKILLTYPE_SKILL</SkillType>
 				<HeroClass>HERO_CLASS_NONE</HeroClass>
 				<spellBuffs>
-					<Item>SPELL_DEMON_RAGE_LEVEL_2</Item>
-					<Item>SPELL_DEMON_RAGE_LEVEL_2</Item>
-					<Item>SPELL_DEMON_RAGE_LEVEL_2</Item>
+					<Item/>
+					<Item/>
+					<Item>SPELL_DEMON_RAGE_LEVEL_1</Item>
 				</spellBuffs>
 				<BasicSkillID>HERO_SKILL_NONE</BasicSkillID>
 				<SkillPrerequisites/>

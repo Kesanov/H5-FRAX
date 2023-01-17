@@ -1,3 +1,12 @@
+Haven = 1
+Sylvan = 2
+Inferno = 3
+Necropolis = 4
+Academy = 5
+Dungeon = 6
+Fortress = 7
+Stronghold = 8
+
 ARTIFACT_WISPERING_RING = 66
 ARTIFACT_HELM_OF_CHAOS = 65
 

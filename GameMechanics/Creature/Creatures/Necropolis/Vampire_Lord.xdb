@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="74">
-	<AttackSkill>21</AttackSkill>
-	<DefenceSkill>21</DefenceSkill>
+	<AttackSkill>25</AttackSkill>
+	<DefenceSkill>25</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>7</MinDamage>
 	<MaxDamage>11</MaxDamage>
@@ -13,7 +13,7 @@
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
-	<Exp>58</Exp>
+	<Exp>75</Exp>
 	<Power>720</Power>
 	<TimeToCommand>10</TimeToCommand>
 	<CreatureTier>4</CreatureTier>
@@ -32,7 +32,7 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>380</Gold>
+		<Gold>375</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
 	<MonsterShared href="/MapObjects/Necropolis/Vampire_Lord.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />

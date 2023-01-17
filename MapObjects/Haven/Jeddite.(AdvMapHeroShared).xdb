@@ -37,8 +37,8 @@
 		<Mastery>MASTERY_BASIC</Mastery>
 		<SkillID>HERO_SKILL_LEARNING</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Empiric2/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Empiric2/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Empiric/Name.2.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Empiric/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Necropolis/Empiric.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Academy/Academy_Jeddite_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />

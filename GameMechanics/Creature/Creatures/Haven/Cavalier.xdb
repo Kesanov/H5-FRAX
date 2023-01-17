@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="12">
-	<AttackSkill>27</AttackSkill>
-	<DefenceSkill>27</DefenceSkill>
+	<AttackSkill>35</AttackSkill>
+	<DefenceSkill>35</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>20</MinDamage>
 	<MaxDamage>30</MaxDamage>
@@ -13,7 +13,7 @@
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
-	<Exp>115</Exp>
+	<Exp>201</Exp>
 	<Power>2185</Power>
 	<TimeToCommand>10</TimeToCommand>
 	<CreatureTier>6</CreatureTier>
@@ -32,7 +32,7 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>1300</Gold>
+		<Gold>1003</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
 	<MonsterShared href="/MapObjects/Haven/Cavalier.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />

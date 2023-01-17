@@ -60,7 +60,9 @@
 			</Item>
 		</skills>
 		<perkIDs />
-		<spellIDs />
+		<spellIDs>
+			<Item>SPELL_ABILITY_MAGIC_BOND</Item>
+		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

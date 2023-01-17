@@ -57,15 +57,6 @@ IsUtilityExe = GiveHeroBattleBonus and 1 or 0
 NumPlayers = 8
 NumStats = 8
 
-Haven = 1
-Sylvan = 2
-Inferno = 3
-Necropolis = 4
-Academy = 5
-Dungeon = 6
-Fortress = 7
-Stronghold = 8
-
 LOG = {}
 
 Fx_Curses = 0
@@ -97,11 +88,11 @@ end
 function Fx_ChangeStatOn(hero, skill, stat, amount)
 	Fx_ChangeStat(hero, stat, amount - (Fx_Stats[stat][hero][skill] or 0))
 	Fx_Stats[stat][hero][skill] = amount
-
 end
 
 function ScaleStatOn(hero, skill, stat, amount)
-	Fx_ChangeStatOn(hero, skill, stat, amount * (GetHeroStat(hero, stat) - (Fx_Stats[stat][hero][skill] or 0)))
+	local base = math.max(GetHeroLevel(hero)/2, GetHeroStat(hero, stat) - (Fx_Stats[stat][hero][skill] or 0))
+	Fx_ChangeStatOn(hero, skill, stat, base * amount)
 end
 
 function Fx_ChangeStatOnSkill(hero, skill, stat, amount)
@@ -149,7 +140,7 @@ function Fx_OfferUltimates(player, hero)
 
 	local skills, count = {}, 0
 	for _, skill in Fx_Skills do
-		if GetHeroSkillMastery(hero, skill) + Fx_PerkCount(hero, Fx_Perks[skill]) >= 5 then
+		if GetHeroSkillMastery(hero, skill) == 3 and Fx_PerkCount(hero, Fx_Perks[skill]) == 3 then
 			count = count + 1
 			if not Fx_PlayerUltimates[player][skill] then
 				skills[length(skills)] = skill
@@ -158,7 +149,7 @@ function Fx_OfferUltimates(player, hero)
 	end
 
 	local N = length(skills)
-	if count >= 5 and N >= 2 then
+	if count >= 4 and N >= 2 then
 		local r1, r2 = random(N), 1+random(N-1)
 		Fx_ChooseUltimate(player, hero, skills[r1], skills[mod(r1 + r2, N)])
 		return 1
@@ -250,6 +241,37 @@ function Fx_GetHeroDragonblood(hero)
 	return amount
 end
 
+function Fx_PrisonersReward(hero,multiplier,maxtier)
+	local player = GetObjectOwner(hero)
+	for creature, amount in Fx_HeroArmy(hero) do
+		local ttu = Fx_CreaturesInv[creature]
+		local growth = Fx_Growth[ttu[1]][ttu[2]]
+		if random(2) == 0 and amount > growth*2 then  -- TODO Make the randomness sensible
+			amount = multiplier*growth
+			AddHeroCreatures(hero,creature,amount)
+			if H55_IsThisAIPlayer(player) ~= 1 then 
+				local x,y,z = GetObjectPosition(hero)
+				startThread(H55_ProtectedSignPrisoners,"/Text/Game/Scripts/Banks/Prisoners.txt",amount,ttu[2],hero,player,H55_MsgSleep,H55_MsgTime)
+				Play3DSoundForPlayers(GetPlayerFilter(player), H55_SndArmy,x,y,z)
+				break
+			end
+		end
+	end
+	if H55_IsThisAIPlayer(player) ~= 1 then
+		sleep(4)
+	end
+end
+
+function Fx_WitchVisit(player, hero, hut)
+	for _, skill in Fx_Skills do
+		if GetHeroSkillMastery(hero, skill) >= 1 and GetHeroSkillMastery(hero, skill) < 3 then
+			GiveHeroSkill(hero, skill)
+			ShowFlyingSign("/Text/Game/Scripts/Witch/Visited.txt",hero,player,5)
+			return 1
+		end
+	end
+end
+
 function Fx_GetPlayerDragonblood(player)
 	local dragonblood = 0
 	for i,hero in (GetPlayerHeroes(player) or {}) do
@@ -267,7 +289,7 @@ function Fx_ResurrectArmy(player,hero,ci,side,baseperc,necroperc)
 		local creature,cnt,died = GetSavedCombatArmyCreatureInfo(ci,side,i)
 		local ttu = Fx_CreaturesInv[creature]
 
-		local resurrect = math.min(died, (died+cnt)*baseperc)
+		local resurrect = math.round(math.min(died, cnt*baseperc))
 		if resurrect >= 1 then
 			AddHeroCreatures(hero,creature,resurrect)
 			Display(player, hero, {"/Text/Game/Scripts/Resurrection.txt"; num=resurrect, tier=ttu[2]})
@@ -276,9 +298,9 @@ function Fx_ResurrectArmy(player,hero,ci,side,baseperc,necroperc)
 		if ttu[1] ~= Necropolis then
 			local growth = Fx_Growth[Necropolis][ttu[2]] / Fx_Growth[ttu[1]][ttu[2]]
 
-			resurrect = math.min((died - resurrect), (died - resurrect)*necroperc*growth)
+			resurrect = math.round(math.min((died - resurrect), (died - resurrect)*necroperc*growth))
 			if resurrect >= 1 then
-				AddHeroCreatures(hero,Fx_Creatures[Necropolis][ttu[2]][ttu[3]],resurrect, CREATURE_ORC_WARMONGER, 20)
+				AddHeroCreatures(hero,Fx_Creatures[Necropolis][ttu[2]][ttu[3]],resurrect)
 				-- TODO RAISE
 				Display(player, hero, {"/Text/Game/Scripts/Resurrection.txt"; num=resurrect, tier=ttu[2]})
 			end
@@ -314,10 +336,8 @@ end
 function Fx_SpecReinforce(player, hero, town, tier, coef)
 	LOG = { 'Fx_SpecReinforce', player, hero, town, tier, coef}
 
-	if coef < 0.1 then return end
-	local level = GetHeroLevel(hero)
 	local multiplier = 0.6 + 0.4 * length(H55_GetPlayerTowns(player))
-	local growth = math.floor(multiplier*coef*level* Fx_Growth[town][tier]);
+	local growth = math.floor(multiplier*coef* Fx_Growth[town][tier]);
 	Fx_Reinforce(player, hero, town, tier, growth)
 end
 
@@ -332,7 +352,7 @@ function Fx_DailyReinforcements(player, hero)
 end
 
 function Fx_WeeklyReinforcements(player, hero)
-	local N = 0.07
+	local N = 0.07 * GetHeroLevel(hero)
 
 	Fx_SpecReinforce(player, hero, Stronghold, 1, N * (hero == "Hero9" or 0))
 	Fx_SpecReinforce(player, hero, Haven, 1, N * (hero == "Nathaniel" or 0))
@@ -366,7 +386,6 @@ function Fx_WeeklyReinforcements(player, hero)
 	Fx_SpecReinforce(player, hero, Inferno, 7, N * (hero == "Harkenraz" or 0))
 	Fx_SpecReinforce(player, hero, Stronghold, 7, N * (hero == "GottaiMP" or 0))
 
-	-- TODO exploding corpses ..
 	local town = H55_GetHeroRaceNum(hero)
 	if HasHeroSkill(hero,SKILL_LORD_OF_UNDEAD) then
 		Fx_Reinforce(player, hero, town, 1, GetHeroStat(hero, STAT_KNOWLEDGE))
@@ -413,28 +432,29 @@ function Fx_HandleVictory(player, hero, ci, side)
 
 	---- MANA ----
 
-	local mana = 0.5 * GetHeroStat(hero, STAT_KNOWLEDGE)
+	local mana = HasHeroWarMachine(hero, WAR_MACHINE_AMMO_CART) and 6 or 2
 
-	mana = mana +  4 * (HasHeroWarMachine(hero, WAR_MACHINE_AMMO_CART) or 0)
-	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_BEGINNER_MAGIC_STICK, 1) or 0)
-	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_BREASTPLATE_OF_PETRIFIED_WOOD, 1) or 0)
-	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_CROWN_OF_MAGI, 1) or 0)
-	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_EARTHSLIDERS, 1) or 0)
-	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_EVERCOLD_ICICLE, 1) or 0)
-	mana = mana + 12 * (HasArtefact(hero, ARTIFACT_EIGHTFOLD, 1) or 0)
-	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_GEAR_03, 1) or 0)
-	mana = mana + 10 * (HasArtefact(hero, ARTIFACT_MONK_01, 1) or 0)
-	mana = mana +  4 * (HasArtefact(hero, ARTIFACT_MONK_02, 1) or 0)
-	mana = mana +  3 * (HasArtefact(hero, ARTIFACT_MONK_04, 1) or 0)
-	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_PHOENIX_FEATHER_CAPE, 1) or 0)
-	mana = mana +  6 * (HasArtefact(hero, ARTIFACT_ROBE_OF_MAGI, 1) or 0)
-	mana = mana +  2 * (HasArtefact(hero, ARTIFACT_RUNE_OF_FLAME, 1) or 0)
-	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_AXE, 1) or 0)
-	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_HARNESS, 1) or 0)
-	mana = mana -  3 * (HasArtefact(hero, ARTIFACT_UPG_ST1, 1) or 0)
-	mana = mana +  5 * (HasArtefact(hero, ARTIFACT_UPG_ST2, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_BEGINNER_MAGIC_STICK, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_BREASTPLATE_OF_PETRIFIED_WOOD, 1) or 0)
+	mana = mana + 2 * (HasArtefact(hero, ARTIFACT_CROWN_OF_MAGI, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_EARTHSLIDERS, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_EVERCOLD_ICICLE, 1) or 0)
+	mana = mana + 2 * (HasArtefact(hero, ARTIFACT_EIGHTFOLD, 1) or 0)
+	mana = mana + 2 * (HasArtefact(hero, ARTIFACT_GEAR_03, 1) or 0)
+	mana = mana + 3 * (HasArtefact(hero, ARTIFACT_MONK_01, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_MONK_02, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_MONK_03, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_MONK_04, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_PHOENIX_FEATHER_CAPE, 1) or 0)
+	mana = mana + 2 * (HasArtefact(hero, ARTIFACT_ROBE_OF_MAGI, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_RUNE_OF_FLAME, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_AXE, 1) or 0)
+	mana = mana + 1 * (HasArtefact(hero, ARTIFACT_RUNIC_WAR_HARNESS, 1) or 0)
+	mana = mana - 1 * (HasArtefact(hero, ARTIFACT_UPG_ST1, 1) or 0)
+	mana = mana + 2 * (HasArtefact(hero, ARTIFACT_UPG_ST2, 1) or 0)
 
-	ChangeHeroStat(hero, STAT_MANA_POINTS, mana)
+	
+	ChangeHeroStat(hero, STAT_MANA_POINTS, mana/2 * (2 + GetHeroStat(hero, STAT_KNOWLEDGE)))
 
 
 	---- MOVEMENT ----
@@ -470,7 +490,7 @@ function Fx_HandleVictory(player, hero, ci, side)
 
 	---- RESURRECTION ----
 
-	local resurrect = (hero == "Jeddite" or hero == "Kraal") and 0.05 or 0
+	local resurrect = 0
 
 	resurrect = resurrect + 0.02 * (HasArtefact(hero,ARTIFACT_LIFE_01,1) or 0)
 	resurrect = resurrect + 0.03 * (HasArtefact(hero,ARTIFACT_LIFE_02,1) or 0)
@@ -500,6 +520,7 @@ function Fx_HandleVictory(player, hero, ci, side)
 	local raise = 0.1 * GetHeroSkillMastery(hero, SKILL_NECROMANCY)
 	raise = raise + 0.1 * GetHeroSkillMastery(hero, SKILL_CHILLING_BONES)
 	raise = raise + 0.4 * GetHeroSkillMastery(hero, SKILL_HERALD_OF_DEATH)
+	-- raise = raise + 0.05 * (HasArtefact(hero, ARTIFACT_NECRO) or 0) -- TODO
 
 	Fx_ResurrectArmy(player,hero,ci,side,resurrect,raise)
 
@@ -689,14 +710,45 @@ end
 function Fx_HandleEvents(player, hero)
 	LOG = {'Fx_HandleEvents', player, hero}
 
-	if HasHeroSkill(hero, SKILL_DARK_RITUAL) and GetHeroStat(hero, STAT_MOVE_POINTS) == 0 and (Fx_DarkRitual[hero] or 0) >= 3000 then
-		ChangeHeroStat(hero,STAT_MOVE_POINTS,1500)
+	if GetHeroStat(hero, STAT_MOVE_POINTS) == 0 and (Fx_DarkRitual[hero] or 0) >= 3000 then
+		ChangeHeroStat(hero,STAT_MOVE_POINTS,1500 * (hero == "Arniel" or hero == "Hero2" and 20 or 1))
 	end
 
 	Fx_DarkRitual[hero] = GetHeroStat(hero, STAT_MOVE_POINTS)
-	if HasArtefact(hero, ARTIFACT_POTION01, 1) and GetHeroStat(hero,STAT_MOVE_POINTS) <= 100 then
+	if HasArtefact(hero, ARTIFACT_POTION02, 1) and GetHeroStat(hero,STAT_MOVE_POINTS) <= 100 then
 		ChangeHeroStat(hero,STAT_MOVE_POINTS,1500)
+		RemoveArtefact(hero, ARTIFACT_POTION02)
+	end
+	if HasArtefact(hero, ARTIFACT_POTION01, 1) and GetHeroStat(hero,STAT_MANA_POINTS) <= 2*GetHeroStat(hero, STAT_KNOWLEDGE) then
+		ChangeHeroStat(hero,STAT_MANA_POINTS,9999)
 		RemoveArtefact(hero, ARTIFACT_POTION01)
+	end
+	
+	local race = H55_GetHeroRaceNum(hero)
+	local army = Fx_HeroArmy(hero)
+	for creature, amount in army  do
+		local tt = Fx_CreaturesInv[creature]
+		if creature == CREATURE_PHOENIX and not HasHeroSkill(hero, SKILL_MASTER_OF_CREATURES) then
+			ChangeHeroStat(hero, STAT_MANA_POINTS, -999)
+		end
+		if creature == CREATURE_SNOW_APE and not HasHeroSkill(hero, SKILL_RUNIC_ARMOR) then
+			ChangeHeroStat(hero, STAT_MANA_POINTS, -999)
+		end
+		if creature == CREATURE_BLACK_KNIGHT and not HasHeroSkill(hero, SKILL_SHATTER_LIGHT_MAGIC) then
+			ChangeHeroStat(hero, STAT_MANA_POINTS, -999)
+		end
+		if tt[1] == race and tt[2] == 6 and HasHeroSkill(hero, SKILL_MASTER_OF_CREATURES)then
+			RemoveHeroCreatures(hero, creature, amount)
+			AddHeroCreatures(hero, CREATURE_PHOENIX, amount)
+		end
+		if tt[1] == race and tt[2] == 6 and HasHeroSkill(hero, SKILL_RUNIC_ARMOR) then
+			RemoveHeroCreatures(hero, creature, amount)
+			AddHeroCreatures(hero, CREATURE_SNOW_APE, amount)
+		end
+		if tt[1] == race and tt[2] == 6 and HasHeroSkill(hero, SKILL_SHATTER_LIGHT_MAGIC) then
+			RemoveHeroCreatures(hero, creature, amount)
+			AddHeroCreatures(hero, CREATURE_BLACK_KNIGHT, amount)
+		end
 	end
 end
 
@@ -743,7 +795,7 @@ end
 function Fx_HandleArtifacts(player, hero)
 	LOG = {'Fx_HandleArtifacts', player, hero}
 
-	if GetHeroSkillMastery(hero, SKILL_SHATTER_DARK_MAGIC) > Fx_Curses and not Fx_IsThisAIPlayer(player) then
+	if GetHeroSkillMastery(hero, SKILL_SHATTER_DARK_MAGIC) > Fx_Curses and not Fx_IsThisAIPlayer(player) and GetHeroLevel(hero) > 1 then
 		Fx_Curses = GetHeroSkillMastery(hero, SKILL_SHATTER_DARK_MAGIC)
 	end
 
@@ -801,7 +853,7 @@ function Fx_DailyEvents(player)
 	for _, skill in Fx_Skills do
 		local bonus = 0
 		for _, hero in (GetPlayerHeroes(player) or {}) do
-			bonus = bonus + (H55_Governors[hero] and GetHeroSkillMastery(hero,skill) or 0)
+			bonus = bonus + (H55_Governors[hero] and GetHeroSkillMastery(hero,skill) == 3 or 0)
 		end
 		Fx_GovernorBonuses[player][skill] = bonus
 	end
@@ -860,3 +912,4 @@ end
 
 H55_GetHeroDragonblood = Fx_GetHeroDragonblood
 H55_GetPlayerDragonblood = Fx_GetPlayerDragonblood
+H55_PrisonersReward = Fx_PrisonersReward

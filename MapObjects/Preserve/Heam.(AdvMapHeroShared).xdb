@@ -64,7 +64,9 @@
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>
-		<FavoriteEnemies />
+		<FavoriteEnemies>
+			<Item>CREATURE_DEVIL</Item>
+		</FavoriteEnemies>
 	</Editable>
 	<ArrowButtonState>0</ArrowButtonState>
 	<Decal />

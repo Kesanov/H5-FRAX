@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>24</AttackSkill>
-	<DefenceSkill>24</DefenceSkill>
+	<AttackSkill>30</AttackSkill>
+	<DefenceSkill>30</DefenceSkill>
 	<Shots>6</Shots>
 	<MinDamage>12</MinDamage>
 	<MaxDamage>15</MaxDamage>
@@ -22,7 +22,7 @@
 	<SpellPoints>15</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
-	<Exp>70</Exp>
+	<Exp>119</Exp>
 	<Power>932</Power>
 	<TimeToCommand>15</TimeToCommand>
 	<CreatureTier>5</CreatureTier>
@@ -41,7 +41,7 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>480</Gold>
+		<Gold>593</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
 	<MonsterShared href="/MapObjects/Dwarf/Rune_Mage.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />

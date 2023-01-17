@@ -39,40 +39,15 @@
             <AIValue>0</AIValue>
             <CanBeGeneratedToSell>false</CanBeGeneratedToSell>
             <HeroStatsModif>
-                <Attack>0</Attack>
-                <Defence>0</Defence>
+                <Attack>-1</Attack>
+                <Defence>-1</Defence>
                 <Knowledge>0</Knowledge>
                 <SpellPower>0</SpellPower>
                 <Morale>0</Morale>
                 <Luck>0</Luck>
             </HeroStatsModif>
             <ArtifactShared href="/MapObjects/Artifacts/Helm_of_Chaos.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)"/>
-            <AvailableForPresets>true</AvailableForPresets>
-            <PresetPrice>0</PresetPrice>
-        </obj>
-    </Item>
-    <Item>
-        <ID>ARTIFACT_WISPERING_RING</ID>
-        <obj>
-            <NameFileRef href="/Text/Game/Artifacts/Helm_of_Chaos/Name.txt" />
-            <DescriptionFileRef href="/Text/Game/Artifacts/Helm_of_Chaos/Description.txt" />
-            <Model />
-            <Type>ARTF_CLASS_RELIC</Type>
-            <Slot>HEAD</Slot>
-            <Icon href="/Textures/HeroScreen/Artifacts/Helm_of_Chaos.xdb#xpointer(/Texture)" />
-            <CostOfGold>-6666</CostOfGold>
-            <AIValue>0</AIValue>
-            <CanBeGeneratedToSell>false</CanBeGeneratedToSell>
-            <HeroStatsModif>
-                <Attack>0</Attack>
-                <Defence>0</Defence>
-                <Knowledge>0</Knowledge>
-                <SpellPower>0</SpellPower>
-                <Morale>0</Morale>
-                <Luck>0</Luck>
-            </HeroStatsModif>
-            <ArtifactShared href="/MapObjects/Artifacts/Helm_of_Chaos.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)" />
-            <AvailableForPresets>true</AvailableForPresets>
+            <AvailableForPresets>false</AvailableForPresets>
             <PresetPrice>0</PresetPrice>
         </obj>
     </Item>
@@ -128,6 +103,106 @@
     </Item>
     <!-- ======================== RESSURRECTION ========================== -->
     <Item>
+        <ID>ARTIFACT_LIFE_01</ID>
+        <obj>
+            <NameFileRef href="/Text/Game/Artifacts/Life_01/Name.txt"/>
+            <DescriptionFileRef href="/Text/Game/Artifacts/Life_01/Description.txt"/>
+            <Model href="/_(Model)/TerrainObjects/Water/SeaChest.(Model).xdb#xpointer(/Model)"/>
+            <Type>ARTF_CLASS_MINOR</Type>
+            <Slot>FINGER</Slot>
+            <Icon href="/Textures/HeroScreen/Artifacts/Life01.xdb#xpointer(/Texture)"/>
+            <CostOfGold>8000</CostOfGold>
+            <AIValue>4000</AIValue>
+            <CanBeGeneratedToSell>true</CanBeGeneratedToSell>
+            <HeroStatsModif>
+                <Attack>0</Attack>
+                <Defence>0</Defence>
+                <Knowledge>1</Knowledge>
+                <SpellPower>0</SpellPower>
+                <Morale>0</Morale>
+                <Luck>0</Luck>
+            </HeroStatsModif>
+            <ArtifactShared href="/MapObjects/Artifacts/ring_of_haste.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)"/>
+            <AvailableForPresets>true</AvailableForPresets>
+            <PresetPrice>0</PresetPrice>
+        </obj>
+    </Item>	
+    <Item>
+        <ID>ARTIFACT_LIFE_02</ID>
+        <obj>
+            <NameFileRef href="/Text/Game/Artifacts/Life_02/Name.txt"/>
+            <DescriptionFileRef href="/Text/Game/Artifacts/Life_02/Description.txt"/>
+            <Model href="/_(Model)/TerrainObjects/Water/SeaChest.(Model).xdb#xpointer(/Model)"/>
+            <Type>ARTF_CLASS_MINOR</Type>
+            <Slot>FINGER</Slot>
+            <Icon href="/Textures/HeroScreen/Artifacts/Life02.xdb#xpointer(/Texture)"/>
+            <CostOfGold>12000</CostOfGold>
+            <AIValue>6000</AIValue>
+            <CanBeGeneratedToSell>true</CanBeGeneratedToSell>
+            <HeroStatsModif>
+                <Attack>0</Attack>
+                <Defence>0</Defence>
+                <Knowledge>0</Knowledge>
+                <SpellPower>1</SpellPower>
+                <Morale>0</Morale>
+                <Luck>0</Luck>
+            </HeroStatsModif>
+            <ArtifactShared href="/MapObjects/Artifacts/Life02.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)"/>
+            <AvailableForPresets>true</AvailableForPresets>
+            <PresetPrice>0</PresetPrice>
+        </obj>
+    </Item>
+    <Item>
+        <ID>ARTIFACT_LIFE_03</ID>
+        <obj>
+            <NameFileRef href="/Text/Game/Artifacts/Life_03/Name.txt"/>
+            <DescriptionFileRef href="/Text/Game/Artifacts/Life_03/Description.txt"/>
+            <Model href="/_(Model)/TerrainObjects/Water/SeaChest.(Model).xdb#xpointer(/Model)"/>
+            <Type>ARTF_CLASS_MINOR</Type>
+            <Slot>NECK</Slot>
+            <Icon href="/Textures/HeroScreen/Artifacts/Life03.xdb#xpointer(/Texture)"/>
+            <CostOfGold>12000</CostOfGold>
+            <AIValue>6000</AIValue>
+            <CanBeGeneratedToSell>true</CanBeGeneratedToSell>
+            <HeroStatsModif>
+                <Attack>0</Attack>
+                <Defence>0</Defence>
+                <Knowledge>0</Knowledge>
+                <SpellPower>1</SpellPower>
+                <Morale>0</Morale>
+                <Luck>0</Luck>
+            </HeroStatsModif>
+            <ArtifactShared href="/MapObjects/Artifacts/Life03.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)"/>
+            <AvailableForPresets>true</AvailableForPresets>
+            <PresetPrice>0</PresetPrice>
+        </obj>
+    </Item>
+    <Item>
+        <ID>ARTIFACT_LIFE_04</ID>
+        <obj>
+            <NameFileRef href="/Text/Game/Artifacts/Life_04/Name.txt"/>
+            <DescriptionFileRef href="/Text/Game/Artifacts/Life_04/Description.txt"/>
+            <Model href="/_(Model)/TerrainObjects/Water/SeaChest.(Model).xdb#xpointer(/Model)"/>
+            <Type>ARTF_CLASS_MAJOR</Type>
+            <Slot>SHOULDERS</Slot>
+            <Icon href="/Textures/HeroScreen/Artifacts/Life04.xdb#xpointer(/Texture)"/>
+            <CostOfGold>20000</CostOfGold>
+            <AIValue>10000</AIValue>
+            <CanBeGeneratedToSell>true</CanBeGeneratedToSell>
+            <HeroStatsModif>
+                <Attack>0</Attack>
+                <Defence>1</Defence>
+                <Knowledge>1</Knowledge>
+                <SpellPower>0</SpellPower>
+                <Morale>0</Morale>
+                <Luck>0</Luck>
+            </HeroStatsModif>
+            <ArtifactShared href="/MapObjects/Artifacts/Life04.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)"/>
+            <AvailableForPresets>true</AvailableForPresets>
+            <PresetPrice>0</PresetPrice>
+        </obj>
+    </Item>	
+    <Item>
         <ID>ARTIFACT_MEDICAL01</ID>
         <obj>
             <NameFileRef href="/Text/Game/Artifacts/Medical_01/Name.txt"/>
@@ -141,7 +216,7 @@
             <CanBeGeneratedToSell>true</CanBeGeneratedToSell>
             <HeroStatsModif>
                 <Attack>0</Attack>
-                <Defence>4</Defence>
+                <Defence>2</Defence>
                 <Knowledge>0</Knowledge>
                 <SpellPower>0</SpellPower>
                 <Morale>0</Morale>
@@ -167,8 +242,8 @@
             <HeroStatsModif>
                 <Attack>0</Attack>
                 <Defence>0</Defence>
-                <Knowledge>1</Knowledge>
-                <SpellPower>1</SpellPower>
+                <Knowledge>0</Knowledge>
+                <SpellPower>2</SpellPower>
                 <Morale>0</Morale>
                 <Luck>0</Luck>
             </HeroStatsModif>
@@ -227,6 +302,31 @@
             <PresetPrice>0</PresetPrice>
         </obj>
     </Item>
+    <Item>
+        <ID>ARTIFACT_GEAR_02</ID>
+        <obj>
+            <NameFileRef href="/Text/Game/Artifacts/Gear_02/Name.txt"/>
+            <DescriptionFileRef href="/Text/Game/Artifacts/Gear_02/Description.txt"/>
+            <Model href="/_(Model)/TerrainObjects/Water/SeaChest.(Model).xdb#xpointer(/Model)"/>
+            <Type>ARTF_CLASS_MINOR</Type>
+            <Slot>MISCSLOT1</Slot>
+            <Icon href="/Textures/HeroScreen/Artifacts/Gear02.xdb#xpointer(/Texture)"/>
+            <CostOfGold>0</CostOfGold>
+            <AIValue>0</AIValue>
+            <CanBeGeneratedToSell>false</CanBeGeneratedToSell>
+            <HeroStatsModif>
+                <Attack>0</Attack>
+                <Defence>0</Defence>
+                <Knowledge>0</Knowledge>
+                <SpellPower>0</SpellPower>
+                <Morale>0</Morale>
+                <Luck>0</Luck>
+            </HeroStatsModif>
+            <ArtifactShared href="/MapObjects/Artifacts/Gear02.(AdvMapArtifactShared).xdb#xpointer(/AdvMapArtifactShared)"/>
+            <AvailableForPresets>true</AvailableForPresets>
+            <PresetPrice>0</PresetPrice>
+        </obj>
+    </Item>	
     <!-- ======================== POTIONS ========================== -->
     <Item>
         <ID>ARTIFACT_POTION01</ID>
@@ -237,7 +337,7 @@
             <Type>ARTF_CLASS_MINOR</Type>
             <Slot>MISCSLOT1</Slot>
             <Icon href="/Textures/HeroScreen/Artifacts/Potion01.xdb#xpointer(/Texture)"/>
-            <CostOfGold>8000</CostOfGold>
+            <CostOfGold>5000</CostOfGold>
             <AIValue>0</AIValue>
             <CanBeGeneratedToSell>false</CanBeGeneratedToSell>
             <HeroStatsModif>
@@ -262,7 +362,7 @@
             <Type>ARTF_CLASS_MAJOR</Type>
             <Slot>MISCSLOT1</Slot>
             <Icon href="/Textures/HeroScreen/Artifacts/Potion02.xdb#xpointer(/Texture)"/>
-            <CostOfGold>16000</CostOfGold>
+            <CostOfGold>7000</CostOfGold>
             <AIValue>0</AIValue>
             <CanBeGeneratedToSell>false</CanBeGeneratedToSell>
             <HeroStatsModif>
@@ -287,7 +387,7 @@
             <Type>ARTF_CLASS_RELIC</Type>
             <Slot>MISCSLOT1</Slot>
             <Icon href="/Textures/HeroScreen/Artifacts/Potion03.xdb#xpointer(/Texture)"/>
-            <CostOfGold>28000</CostOfGold>
+            <CostOfGold>9000</CostOfGold>
             <AIValue>0</AIValue>
             <CanBeGeneratedToSell>false</CanBeGeneratedToSell>
             <HeroStatsModif>

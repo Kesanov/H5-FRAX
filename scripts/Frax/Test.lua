@@ -1,3 +1,5 @@
+hero1 = GetPlayerHeroes(1)[0]
+
 function Fx_GiveAllArtefacts(hero)
 	for i = 1,200 do
 		GiveArtefact(hero, i)

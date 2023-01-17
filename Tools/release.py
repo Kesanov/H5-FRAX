@@ -12,7 +12,12 @@ def topprio(path):
 
 os.makedirs('Frax', exist_ok=True)
 
-folders = [ 'Frame', 'Index', 'Texts-EN', 'Skillwheel', 'Creaturepedia' ]
+with zipfile.ZipFile('data.pak') as data:
+    for name in data.namelist():
+        if name.startswith('MapObjects/Artifacts'):
+            data.extract(name, 'Frax')
+
+folders = [ 'Frame', 'Index', 'Texts-EN', 'Skillwheel', 'Creaturepedia', 'PhoenixVision']
 for folder in tqdm(folders, desc='Extract H55 Files'):
     zipfile.ZipFile(f'MMH55-{folder}.pak', 'r').extractall('Frax/')
 
@@ -20,7 +25,7 @@ folders = [ 'NCF_601', 'NCF_620', 'NCF_625', 'NCF_634' ]
 for folder in tqdm(folders, desc='Extract Frax Files'):
     zipfile.ZipFile(f'{folder}.pak', 'r').extractall('Frax/')
 
-folders = ['scripts', 'Characters', 'GameMechanics', 'MapObjects', 'Maps', 'Text', 'Textures', 'Tools', 'UI']
+folders = ['scripts', 'Characters', 'GameMechanics', 'MapObjects', 'Maps', 'Text', 'Textures', 'Tools', 'UI', '_(AnimSet)']
 for folder in tqdm(folders, desc='Copy Frax Files'):
    for path, _, files in os.walk(folder):
        os.makedirs(f'Frax/{path}', exist_ok=True)
@@ -31,7 +36,7 @@ skillwheel.main()
 bloodrage.main()
 creaturepedia.main()
 artifacts.main()
-
+           
 # shutil.rmtree('Frax/scripts', ignore_errors=True)
 
 for dir, dirs, files in tqdm(list(os.walk('Frax')), desc='Make Frax Override H55 Files'):

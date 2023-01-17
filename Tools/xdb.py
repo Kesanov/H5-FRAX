@@ -26,7 +26,10 @@ class XDB:
 
     @classmethod
     def load(Self, path):
-        return Self(ET.parse(path).getroot(), path)
+        try:
+            return Self(ET.parse(path).getroot(), path)
+        except:
+            raise Exception('Error loading: ' + path)
 
     def save(self, path=None, encoding='UTF-8'):
         path = path or self.path

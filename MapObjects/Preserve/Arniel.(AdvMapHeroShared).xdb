@@ -30,13 +30,13 @@
 	<Icon128 href="/UI/H5A2/Icons/Heroes/Portrets128x128/Sylvan_Tieru.(Texture).xdb#xpointer(/Texture)" />
 	<InternalName>Arniel</InternalName>
 	<Class>HERO_CLASS_WARDEN</Class>
-	<Specialization>HERO_SPEC_DISRUPTER</Specialization>
+	<Specialization>HERO_SPEC_DARK_ACOLYTE</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_AVENGER</SkillID>
+		<SkillID>HERO_SKILL_SHATTER_DARK_MAGIC</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Academy/Disrupter/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Academy/Disrupter/Description.txt" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Dark_Acolyte6/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Dungeon/Dark_Acolyte6/Description.txt" />
 	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Disrupter.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Preserve/Preserve_Arniel_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall href="" />
@@ -60,7 +60,9 @@
 			</Item>
 		</skills>
 		<perkIDs />
-		<spellIDs />
+		<spellIDs>
+			<Item>SPELL_ABILITY_DARK_RITUAL</Item>
+		</spellIDs>
 		<Ballista>false</Ballista>
 		<FirstAidTent>false</FirstAidTent>
 		<AmmoCart>false</AmmoCart>

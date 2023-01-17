@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="1000013">
-	<AttackSkill>27</AttackSkill>
-	<DefenceSkill>27</DefenceSkill>
+	<AttackSkill>35</AttackSkill>
+	<DefenceSkill>35</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>10</MinDamage>
 	<MaxDamage>18</MaxDamage>
@@ -13,7 +13,7 @@
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
-	<Exp>100</Exp>
+	<Exp>201</Exp>
 	<Power>1917</Power>
 	<TimeToCommand>10</TimeToCommand>
 	<CreatureTier>6</CreatureTier>
@@ -32,7 +32,7 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>1100</Gold>
+		<Gold>1003</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
 	<MonsterShared href="/MapObjects/Preserve/Treant.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />

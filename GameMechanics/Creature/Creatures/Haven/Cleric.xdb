@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Creature ObjectRecordID="11">
-	<AttackSkill>24</AttackSkill>
-	<DefenceSkill>24</DefenceSkill>
+	<AttackSkill>30</AttackSkill>
+	<DefenceSkill>30</DefenceSkill>
 	<Shots>7</Shots>
 	<MinDamage>15</MinDamage>
 	<MaxDamage>19</MaxDamage>
@@ -34,7 +34,7 @@
 	<SpellPoints>15</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
-	<Exp>95</Exp>
+	<Exp>142</Exp>
 	<Power>1520</Power>
 	<TimeToCommand>15</TimeToCommand>
 	<CreatureTier>5</CreatureTier>
@@ -53,7 +53,7 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>820</Gold>
+		<Gold>711</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
 	<MonsterShared href="/MapObjects/Haven/Cleric.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />

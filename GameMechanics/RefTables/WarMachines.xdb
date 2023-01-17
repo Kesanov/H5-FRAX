@@ -78,18 +78,18 @@
 						<Item>20</Item>
 					</Defense>
 					<MinDamageFactor>
-						<Item>6</Item>
-						<Item>6</Item>
-						<Item>6</Item>
-						<Item>6</Item>
-						<Item>6</Item>
+						<Item>5</Item>
+						<Item>5</Item>
+						<Item>5</Item>
+						<Item>5</Item>
+						<Item>5</Item>
 					</MinDamageFactor>
 					<MaxDamageFactor>
-						<Item>6</Item>
-						<Item>6</Item>
-						<Item>6</Item>
-						<Item>6</Item>
-						<Item>6</Item>
+						<Item>5</Item>
+						<Item>5</Item>
+						<Item>5</Item>
+						<Item>5</Item>
+						<Item>5</Item>
 					</MaxDamageFactor>
 					<PresetPrice>250</PresetPrice>
 				</WarMachine>
@@ -152,7 +152,7 @@
 			<Obj href="#n:inline(WarMachine)" id="item_9f5e94d7-770d-44c8-9b64-03dc4472504e">
 				<WarMachine ObjectRecordID="31">
 					<Shots>4</Shots>
-					<Initiative>10</Initiative>
+					<Initiative>13</Initiative>
 					<Health>500</Health>
 					<Range>0</Range>
 					<Knowledge>0</Knowledge>

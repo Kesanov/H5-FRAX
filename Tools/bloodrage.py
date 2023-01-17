@@ -55,7 +55,7 @@ def frax(tier, town):
 def main():
     root = XDB.load('GameMechanics/RPGStats/DefaultStats.xdb')
     
-    bonuses = [creature(c, [['FLAMEWAVE'], ['HEXING_ATTACK'], frax(ix+1, t)]) for t, css in creatures.items() for ix, cs in enumerate(css) for c in cs if t != 'Stronghold']
+    bonuses = [creature(c, [['FLAMEWAVE', 'FIRE_SHIELD'], ['HEXING_ATTACK'], frax(ix+1, t)]) for t, css in creatures.items() for ix, cs in enumerate(css) for c in cs if t != 'Stronghold']
 
     root['combat']['Creatures']['Stronghold']['DemonRage']['Bonuses'] = list(root['combat']['Creatures']['Stronghold']['DemonRage']['Bonuses']) + bonuses
 

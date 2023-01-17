@@ -32,14 +32,14 @@
 	<Icon128 />
 	<InternalName>Mokka</InternalName>
 	<Class>HERO_CLASS_SHAMAN</Class>
-	<Specialization>HERO_SPEC_DISRUPTER</Specialization>
+	<Specialization>HERO_SPEC_BLOODDRINKER</Specialization>
 	<PrimarySkill>
 		<Mastery>MASTERY_BASIC</Mastery>
-		<SkillID>HERO_SKILL_DARK_MAGIC</SkillID>
+		<SkillID>HERO_SKILL_SHATTER_DARK_MAGIC</SkillID>
 	</PrimarySkill>
-	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Academy/Disrupter3/Name.txt" />
-	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Academy/Disrupter3/Description.txt" />
-	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Disrupter.xdb#xpointer(/Texture)" />
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Stronghold/Blooddrinker/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Stronghold/Blooddrinker/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Academy/Mentor.xdb#xpointer(/Texture)" />
 	<FaceTexture href="/Textures/Icons/Heroes/Stronghold/Stronghold_Mokka_128x128.(Texture).xdb#xpointer(/Texture)" />
 	<FaceTextureSmall />
 	<HeroCharacterArena href="/Characters/Heroes/Stronghold/Mokka/HeroCharacterArena.xdb#xpointer(/Character)" />

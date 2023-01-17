@@ -102,7 +102,7 @@ def creaturepedia():
             stat = [nozero(data[s].txt) for s in stats] + [' + <br>'.join(cost)]
             stat[2] += ' - ' + data['MaxDamage'].txt
             stat[6] += ' | ' + nozero(data['SpellPoints1'].txt)
-            stat[8]  = f'{int(dps(data) * hp(data) / 50)}%'
+            stat[8]  = f'{int(dps(data)/3)} | {int(hp(data)/3)}'
 
             filepath = f'Frax/UI/Doc/Creaturepedia/{townID}/T{tier}/{upgr}'
             for ix, text in enumerate(stat):

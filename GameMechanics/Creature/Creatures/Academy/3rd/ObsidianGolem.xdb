@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>19</AttackSkill>
-	<DefenceSkill>19</DefenceSkill>
+	<AttackSkill>20</AttackSkill>
+	<DefenceSkill>20</DefenceSkill>
 	<Shots>0</Shots>
 	<MinDamage>5</MinDamage>
 	<MaxDamage>7</MaxDamage>
@@ -13,7 +13,7 @@
 	<SpellPoints>0</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
-	<Exp>34</Exp>
+	<Exp>36</Exp>
 	<Power>355</Power>
 	<TimeToCommand>10</TimeToCommand>
 	<CreatureTier>3</CreatureTier>
@@ -32,7 +32,7 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>175</Gold>
+		<Gold>181</Gold>
 	</Cost>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
 	<MonsterShared href="/MapObjects/Academy/Obsidian_Golem.(AdvMapMonsterShared).xdb#xpointer(/AdvMapMonsterShared)" />

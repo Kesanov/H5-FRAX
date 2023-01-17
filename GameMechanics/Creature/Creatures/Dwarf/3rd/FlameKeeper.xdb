@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Creature>
-	<AttackSkill>24</AttackSkill>
-	<DefenceSkill>24</DefenceSkill>
+	<AttackSkill>30</AttackSkill>
+	<DefenceSkill>30</DefenceSkill>
 	<Shots>6</Shots>
 	<MinDamage>17</MinDamage>
 	<MaxDamage>20</MaxDamage>
@@ -22,7 +22,7 @@
 	<SpellPoints>15</SpellPoints>
 	<SpellPoints1>0</SpellPoints1>
 	<SpellPoints2>0</SpellPoints2>
-	<Exp>100</Exp>
+	<Exp>142</Exp>
 	<Power>1329</Power>
 	<TimeToCommand>10</TimeToCommand>
 	<CreatureTier>5</CreatureTier>
@@ -41,7 +41,7 @@
 		<Crystal>0</Crystal>
 		<Sulfur>0</Sulfur>
 		<Gem>0</Gem>
-		<Gold>720</Gold>
+		<Gold>711</Gold>
 	</Cost>
 	<PresetPrice>0</PresetPrice>
 	<SubjectOfRandomGeneration>true</SubjectOfRandomGeneration>
