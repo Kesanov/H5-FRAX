@@ -1,4 +1,6 @@
 index.bin
+.vs
+.idea
 __pycache__
 *.zip
 *.pak
