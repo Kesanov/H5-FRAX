@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AdvMapHero ObjectRecordID="-1">
+	<Pos>
+		<x>10</x>
+		<y>10</y>
+		<z>0</z>
+	</Pos>
+	<Rot>6.20429</Rot>
+	<Floor>0</Floor>
+	<Name>Ving - Wing Commander</Name>
+	<CombatScript />
+	<pointLights />
+	<Shared href="/MapObjects/Haven/RedHeavenHero02.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)" />
+	<PlayerID>PLAYER_1</PlayerID>
+	<Experience>500000</Experience>
+	<armySlots>
+		<Item>
+			<Creature>CREATURE_MILITIAMAN</Creature>
+			<Count>735</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MARKSMAN</Creature>
+			<Count>360</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SWORDSMAN</Creature>
+			<Count>300</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ROYAL_GRIFFIN</Creature>
+			<Count>120</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_CLERIC</Creature>
+			<Count>72</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_PALADIN</Creature>
+			<Count>40</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ARCHANGEL</Creature>
+			<Count>20</Count>
+		</Item>
+	</armySlots>
+	<artifactIDs />
+	<isUntransferable />
+	<Editable>
+		<NameFileRef href="" />
+		<BiographyFileRef href="" />
+		<Offence>20</Offence>
+		<Defence>12</Defence>
+		<Spellpower>12</Spellpower>
+		<Knowledge>5</Knowledge>
+		<skills><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_EMPATHY</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DARK_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_LEADERSHIP</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_TRAINING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DEFENCE</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_OFFENCE</SkillID></Item></skills><perkIDs><Item>HERO_SKILL_MASTER_OF_SICKNESS</Item><Item>HERO_SKILL_PARIAH</Item><Item>HERO_SKILL_MASTER_OF_CURSES</Item><Item>HERO_SKILL_ENCOURAGE</Item><Item>HERO_SKILL_PRAYER</Item><Item>HERO_SKILL_RECRUITMENT</Item><Item>HERO_SKILL_STUNNING_BLOW</Item><Item>HERO_SKILL_POWERFULL_BLOW</Item><Item>HERO_SKILL_HOLY_CHARGE</Item><Item>HERO_SKILL_POWER_OF_HASTE</Item><Item>HERO_SKILL_TELEPORT_ASSAULT</Item><Item>HERO_SKILL_SNATCH</Item><Item>HERO_SKILL_LAST_STAND</Item><Item>HERO_SKILL_EVASION</Item><Item>HERO_SKILL_PROTECTION</Item><Item>HERO_SKILL_OFFENSIVE_FORMATION</Item><Item>HERO_SKILL_ARCHERY</Item><Item>HERO_SKILL_FAST_AND_FURIOUS</Item></perkIDs><spellIDs><Item>SPELL_PLAGUE</Item><Item>SPELL_CURSE</Item><Item>SPELL_WEAKNESS</Item><Item>SPELL_SLOW</Item><Item>SPELL_DISRUPTING_RAY</Item><Item>SPELL_ANIMATE_DEAD</Item><Item>SPELL_SORROW</Item><Item>SPELL_TELEPORT</Item><Item>SPELL_PHANTOM</Item><Item>SPELL_UNHOLY_WORD</Item><Item>SPELL_BERSERK</Item><Item>SPELL_VAMPIRISM</Item></spellIDs><Ballista>true</Ballista>
+		<FirstAidTent>true</FirstAidTent>
+		<AmmoCart>true</AmmoCart>
+		<FavoriteEnemies />
+		<TalismanLevel>0</TalismanLevel>
+	</Editable>
+	<OverrideMask>32</OverrideMask>
+	<PrimarySkillMastery>MASTERY_EXPERT</PrimarySkillMastery>
+	<LossTrigger>
+		<Action>
+			<FunctionName />
+		</Action>
+	</LossTrigger>
+	<AllowQuickCombat>true</AllowQuickCombat>
+	<Textures>
+		<Icon128x128 />
+		<Icon64x64 />
+		<RoundedFace />
+		<LeftFace />
+		<RightFace />
+	</Textures>
+	<PresetPrice>0</PresetPrice>
+	<BannedRaces />
+</AdvMapHero>

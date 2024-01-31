@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AdvMapHero ObjectRecordID="1003601">
+	<Pos>
+		<x>26</x>
+		<y>26</y>
+		<z>0</z>
+	</Pos>
+	<Rot>0</Rot>
+	<Floor>0</Floor>
+	<Name />
+	<CombatScript />
+	<pointLights />
+	<Shared href="/MapObjects/Preserve/Diraya.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)" />
+	<PlayerID>PLAYER_3</PlayerID>
+	<Experience>500000</Experience>
+	<armySlots>
+		<Item>
+			<Creature>CREATURE_DRYAD</Creature>
+			<Count>360</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_WAR_DANCER</Creature>
+			<Count>270</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SHARP_SHOOTER</Creature>
+			<Count>210</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DRUID_ELDER</Creature>
+			<Count>108</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_WHITE_UNICORN</Creature>
+			<Count>72</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_TREANT_GUARDIAN</Creature>
+			<Count>50</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_GOLD_DRAGON</Creature>
+			<Count>20</Count>
+		</Item>
+	</armySlots>
+	<artifactIDs />
+	<isUntransferable />
+	<Editable>
+		<NameFileRef href="" />
+		<BiographyFileRef href="" />
+		<Offence>5</Offence>
+		<Defence>10</Defence>
+		<Spellpower>20</Spellpower>
+		<Knowledge>15</Knowledge>
+		<skills><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_MYSTICISM</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_LEARNING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SORCERY</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SHATTER_DARK_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DEFENCE</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_OFFENCE</SkillID></Item></skills><perkIDs><Item>HERO_SKILL_SUN_FIRE</Item><Item>HERO_SKILL_FIRE_AFFINITY</Item><Item>HERO_SKILL_ELEMENTAL_BALANCE</Item><Item>HERO_SKILL_SCOUTING</Item><Item>HERO_SKILL_QUICKNESS_OF_MIND</Item><Item>HERO_SKILL_INTELLIGENCE</Item><Item>HERO_SKILL_MAGIC_BOND</Item><Item>HERO_SKILL_ELITE_CASTERS</Item><Item>HERO_SKILL_DARK_RITUAL</Item><Item>HERO_SKILL_DETAIN_SUMMONING</Item><Item>HERO_SKILL_BARBARIAN_FOG_VEIL</Item><Item>HERO_SKILL_DETAIN_DESTRUCTIVE</Item><Item>HERO_SKILL_LAST_STAND</Item><Item>HERO_SKILL_EVASION</Item><Item>HERO_SKILL_PROTECTION</Item><Item>HERO_SKILL_TACTICS</Item><Item>HERO_SKILL_CHILLING_STEEL</Item><Item>HERO_SKILL_FAST_AND_FURIOUS</Item></perkIDs><spellIDs><Item>SPELL_WASP_SWARM</Item><Item>SPELL_LAND_MINE</Item><Item>SPELL_ARCANE_CRYSTAL</Item><Item>SPELL_EARTHQUAKE</Item><Item>SPELL_MAGIC_FIST</Item><Item>SPELL_ANTI_MAGIC</Item><Item>SPELL_BLADE_BARRIER</Item><Item>SPELL_SUMMON_HIVE</Item><Item>SPELL_FIREWALL</Item><Item>SPELL_HYPNOTIZE</Item><Item>SPELL_CONJURE_PHOENIX</Item></spellIDs><Ballista>true</Ballista>
+		<FirstAidTent>true</FirstAidTent>
+		<AmmoCart>true</AmmoCart>
+		<FavoriteEnemies />
+		<TalismanLevel>0</TalismanLevel>
+	</Editable>
+	<OverrideMask>32</OverrideMask>
+	<PrimarySkillMastery>MASTERY_EXPERT</PrimarySkillMastery>
+	<LossTrigger>
+		<Action>
+			<FunctionName />
+		</Action>
+	</LossTrigger>
+	<AllowQuickCombat>true</AllowQuickCombat>
+	<Textures>
+		<Icon128x128 />
+		<Icon64x64 />
+		<RoundedFace />
+		<LeftFace />
+		<RightFace />
+	</Textures>
+	<PresetPrice>0</PresetPrice>
+	<BannedRaces />
+</AdvMapHero>

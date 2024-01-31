@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AdvMapHero ObjectRecordID="-1">
+	<Pos>
+		<x>14</x>
+		<y>14</y>
+		<z>0</z>
+	</Pos>
+	<Rot>6.24368</Rot>
+	<Floor>0</Floor>
+	<Name>Jeddite</Name>
+	<CombatScript />
+	<pointLights />
+	<Shared href="/MapObjects/Haven/Markal.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)" />
+	<PlayerID>PLAYER_1</PlayerID>
+	<Experience>500000</Experience>
+	<armySlots>
+		<Item>
+			<Creature>CREATURE_LANDLORD</Creature>
+			<Count>735</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_LONGBOWMAN</Creature>
+			<Count>360</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_VINDICATOR</Creature>
+			<Count>300</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_BATTLE_GRIFFIN</Creature>
+			<Count>120</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ZEALOT</Creature>
+			<Count>72</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_CHAMPION</Creature>
+			<Count>40</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SERAPH</Creature>
+			<Count>20</Count>
+		</Item>
+	</armySlots>
+	<artifactIDs />
+	<isUntransferable />
+	<Editable>
+		<NameFileRef href="" />
+		<BiographyFileRef href="" />
+		<Offence>12</Offence>
+		<Defence>5</Defence>
+		<Spellpower>20</Spellpower>
+		<Knowledge>12</Knowledge>
+		<skills><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_WEAKEN_DESTRUCTIVE</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DARK_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_LEARNING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SORCERY</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_EXPERT_TRAINER</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_OFFENCE</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID></Item></skills><perkIDs><Item>HERO_SKILL_MASTER_OF_SICKNESS</Item><Item>HERO_SKILL_PARIAH</Item><Item>HERO_SKILL_MASTER_OF_CURSES</Item><Item>HERO_SKILL_SCOUTING</Item><Item>HERO_SKILL_QUICKNESS_OF_MIND</Item><Item>HERO_SKILL_INTELLIGENCE</Item><Item>HERO_SKILL_MAGIC_BOND</Item><Item>HERO_SKILL_ELITE_CASTERS</Item><Item>HERO_SKILL_DARK_RITUAL</Item><Item>HERO_SKILL_TOUGHNESS</Item><Item>HERO_SKILL_PREPARATION</Item><Item>HERO_SKILL_RESISTANCE</Item><Item>HERO_SKILL_OFFENSIVE_FORMATION</Item><Item>HERO_SKILL_ARCHERY</Item><Item>HERO_SKILL_FAST_AND_FURIOUS</Item><Item>HERO_SKILL_POWER_OF_HASTE</Item><Item>HERO_SKILL_TELEPORT_ASSAULT</Item><Item>HERO_SKILL_SNATCH</Item></perkIDs><spellIDs><Item>SPELL_PLAGUE</Item><Item>SPELL_CURSE</Item><Item>SPELL_WEAKNESS</Item><Item>SPELL_SLOW</Item><Item>SPELL_DISRUPTING_RAY</Item><Item>SPELL_ANIMATE_DEAD</Item><Item>SPELL_SORROW</Item><Item>SPELL_TELEPORT</Item><Item>SPELL_PHANTOM</Item><Item>SPELL_UNHOLY_WORD</Item><Item>SPELL_BERSERK</Item><Item>SPELL_VAMPIRISM</Item></spellIDs><Ballista>true</Ballista>
+		<FirstAidTent>true</FirstAidTent>
+		<AmmoCart>true</AmmoCart>
+		<FavoriteEnemies />
+		<TalismanLevel>0</TalismanLevel>
+	</Editable>
+	<OverrideMask>32</OverrideMask>
+	<PrimarySkillMastery>MASTERY_EXPERT</PrimarySkillMastery>
+	<LossTrigger>
+		<Action>
+			<FunctionName />
+		</Action>
+	</LossTrigger>
+	<AllowQuickCombat>true</AllowQuickCombat>
+	<Textures>
+		<Icon128x128 />
+		<Icon64x64 />
+		<RoundedFace />
+		<LeftFace />
+		<RightFace />
+	</Textures>
+	<PresetPrice>0</PresetPrice>
+	<BannedRaces />
+</AdvMapHero>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AdvMapHero ObjectRecordID="1003602">
+	<Pos>
+		<x>28</x>
+		<y>28</y>
+		<z>0</z>
+	</Pos>
+	<Rot>0</Rot>
+	<Floor>0</Floor>
+	<Name />
+	<CombatScript />
+	<pointLights />
+	<Shared href="/MapObjects/Necropolis/Xerxon.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)" />
+	<PlayerID>PLAYER_4</PlayerID>
+	<Experience>500000</Experience>
+	<armySlots>
+		<Item>
+			<Creature>CREATURE_SKELETON_ARCHER</Creature>
+			<Count>690</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ZOMBIE</Creature>
+			<Count>450</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_GHOST</Creature>
+			<Count>270</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_VAMPIRE_LORD</Creature>
+			<Count>120</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DEMILICH</Creature>
+			<Count>72</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DEATH_KNIGHT</Creature>
+			<Count>40</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_SHADOW_DRAGON</Creature>
+			<Count>30</Count>
+		</Item>
+	</armySlots>
+	<artifactIDs />
+	<isUntransferable />
+	<Editable>
+		<NameFileRef href="" />
+		<BiographyFileRef href="" />
+		<Offence>17</Offence>
+		<Defence>17</Defence>
+		<Spellpower>10</Spellpower>
+		<Knowledge>5</Knowledge>
+		<skills><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_WEAKEN_LIGHT</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DARK_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_LEARNING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DEFENCE</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SHATTER_DARK_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_OFFENCE</SkillID></Item></skills><perkIDs><Item>HERO_SKILL_MASTER_OF_SICKNESS</Item><Item>HERO_SKILL_PARIAH</Item><Item>HERO_SKILL_MASTER_OF_CURSES</Item><Item>HERO_SKILL_SCHOLAR</Item><Item>HERO_SKILL_MENTORING</Item><Item>HERO_SKILL_SCOUTING</Item><Item>HERO_SKILL_LAST_STAND</Item><Item>HERO_SKILL_EVASION</Item><Item>HERO_SKILL_PROTECTION</Item><Item>HERO_SKILL_DETAIN_DARK</Item><Item>HERO_SKILL_BARBARIAN_SOIL_BURN</Item><Item>HERO_SKILL_DETAIN_LIGHT</Item><Item>HERO_SKILL_POWER_OF_HASTE</Item><Item>HERO_SKILL_TELEPORT_ASSAULT</Item><Item>HERO_SKILL_SNATCH</Item><Item>HERO_SKILL_TACTICS</Item><Item>HERO_SKILL_CHILLING_STEEL</Item><Item>HERO_SKILL_FAST_AND_FURIOUS</Item></perkIDs><spellIDs><Item>SPELL_PLAGUE</Item><Item>SPELL_CURSE</Item><Item>SPELL_WEAKNESS</Item><Item>SPELL_SLOW</Item><Item>SPELL_DISRUPTING_RAY</Item><Item>SPELL_ANIMATE_DEAD</Item><Item>SPELL_SORROW</Item><Item>SPELL_TELEPORT</Item><Item>SPELL_PHANTOM</Item><Item>SPELL_UNHOLY_WORD</Item><Item>SPELL_BERSERK</Item><Item>SPELL_VAMPIRISM</Item></spellIDs><Ballista>true</Ballista>
+		<FirstAidTent>true</FirstAidTent>
+		<AmmoCart>true</AmmoCart>
+		<FavoriteEnemies />
+		<TalismanLevel>0</TalismanLevel>
+	</Editable>
+	<OverrideMask>32</OverrideMask>
+	<PrimarySkillMastery>MASTERY_EXPERT</PrimarySkillMastery>
+	<LossTrigger>
+		<Action>
+			<FunctionName />
+		</Action>
+	</LossTrigger>
+	<AllowQuickCombat>true</AllowQuickCombat>
+	<Textures>
+		<Icon128x128 />
+		<Icon64x64 />
+		<RoundedFace />
+		<LeftFace />
+		<RightFace />
+	</Textures>
+	<PresetPrice>0</PresetPrice>
+	<BannedRaces />
+</AdvMapHero>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AdvMapHero ObjectRecordID="1003610">
+	<Pos>
+		<x>44</x>
+		<y>44</y>
+		<z>0</z>
+	</Pos>
+	<Rot>0</Rot>
+	<Floor>0</Floor>
+	<Name />
+	<CombatScript />
+	<pointLights />
+	<Shared href="/MapObjects/Dungeon/Inagost.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)" />
+	<PlayerID>PLAYER_6</PlayerID>
+	<Experience>500000</Experience>
+	<armySlots>
+		<Item>
+			<Creature>CREATURE_ASSASSIN</Creature>
+			<Count>210</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_BLOOD_WITCH</Creature>
+			<Count>150</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MINOTAUR_KING</Creature>
+			<Count>180</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_RAVAGER</Creature>
+			<Count>96</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_CHAOS_HYDRA</Creature>
+			<Count>72</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MATRIARCH</Creature>
+			<Count>40</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_BLACK_DRAGON</Creature>
+			<Count>20</Count>
+		</Item>
+	</armySlots>
+	<artifactIDs />
+	<isUntransferable />
+	<Editable>
+		<NameFileRef href="" />
+		<BiographyFileRef href="" />
+		<Offence>7</Offence>
+		<Defence>5</Defence>
+		<Spellpower>25</Spellpower>
+		<Knowledge>12</Knowledge>
+		<skills><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SHATTER_DESTRUCTIVE_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DESTRUCTIVE_MAGIC</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SORCERY</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_INVOCATION</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DEFENCE</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_OFFENCE</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_EXPERT_TRAINER</SkillID></Item></skills><perkIDs><Item>HERO_SKILL_DEADLY_COLD</Item><Item>HERO_SKILL_MASTER_OF_ICE</Item><Item>HERO_SKILL_ANCIENT_SMITHY</Item><Item>HERO_SKILL_MAGIC_BOND</Item><Item>HERO_SKILL_ELITE_CASTERS</Item><Item>HERO_SKILL_DARK_RITUAL</Item><Item>HERO_SKILL_SPIRIT_LINK</Item><Item>HERO_SKILL_DISTRACT</Item><Item>HERO_SKILL_ARCANE_TRAINING</Item><Item>HERO_SKILL_LAST_STAND</Item><Item>HERO_SKILL_EVASION</Item><Item>HERO_SKILL_PROTECTION</Item><Item>HERO_SKILL_OFFENSIVE_FORMATION</Item><Item>HERO_SKILL_ARCHERY</Item><Item>HERO_SKILL_FAST_AND_FURIOUS</Item><Item>HERO_SKILL_TOUGHNESS</Item><Item>HERO_SKILL_PREPARATION</Item><Item>HERO_SKILL_RESISTANCE</Item></perkIDs><spellIDs><Item>SPELL_STONE_SPIKES</Item><Item>SPELL_ICE_BOLT</Item><Item>SPELL_METEOR_SHOWER</Item><Item>SPELL_LIGHTNING_BOLT</Item><Item>SPELL_FIREBALL</Item><Item>SPELL_FROST_RING</Item><Item>SPELL_ARMAGEDDON</Item><Item>SPELL_IMPLOSION</Item><Item>SPELL_DEEP_FREEZE</Item><Item>SPELL_CHAIN_LIGHTNING</Item></spellIDs><Ballista>true</Ballista>
+		<FirstAidTent>true</FirstAidTent>
+		<AmmoCart>true</AmmoCart>
+		<FavoriteEnemies />
+		<TalismanLevel>0</TalismanLevel>
+	</Editable>
+	<OverrideMask>32</OverrideMask>
+	<PrimarySkillMastery>MASTERY_EXPERT</PrimarySkillMastery>
+	<LossTrigger>
+		<Action>
+			<FunctionName />
+		</Action>
+	</LossTrigger>
+	<AllowQuickCombat>true</AllowQuickCombat>
+	<Textures>
+		<Icon128x128 />
+		<Icon64x64 />
+		<RoundedFace />
+		<LeftFace />
+		<RightFace />
+	</Textures>
+	<PresetPrice>0</PresetPrice>
+	<BannedRaces />
+</AdvMapHero>

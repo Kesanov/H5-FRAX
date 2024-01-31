@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spell>
+	<NameFileRef href="/Text/Game/Spells/Creature_Abilities/War_Machines/FirstAid/Name.txt"/>
+	<LongDescriptionFileRef href="/Text/Game/Spells/Creature_Abilities/War_Machines/FirstAid/Long_Description.txt"/>
+	<Texture href="/Textures/Effects/Test/SpellTest_FirstAid_Heal.xdb#xpointer(/Texture)"/>
+	<EffectTexture/>
+	<SpellBookPredictions/>
+	<CombatLogTexts>
+		<Item href="/Text/CombatLog/Spells/EffectFirstAidTentLastAid.txt"/>
+		<Item href="/Text/CombatLog/Spells/EffectFirstAidTentHeal.txt"/>
+	</CombatLogTexts>
+	<Level>0</Level>
+	<MagicSchool>MAGIC_SCHOOL_SPECIAL</MagicSchool>
+	<RequiredHeroLevel>0</RequiredHeroLevel>
+	<IsAimed>true</IsAimed>
+	<TrainedCost>0</TrainedCost>
+	<damage/>
+	<duration/>
+	<sSpellCost>
+		<Wood>0</Wood>
+		<Ore>0</Ore>
+		<Mercury>0</Mercury>
+		<Crystal>0</Crystal>
+		<Sulfur>0</Sulfur>
+		<Gem>0</Gem>
+		<Gold>0</Gold>
+	</sSpellCost>
+	<IsAreaAttack>false</IsAreaAttack>
+	<CanSelectDead>false</CanSelectDead>
+	<Target>TARGET_NEUTRAL</Target>
+	<Element>ELEMENT_NONE</Element>
+	<visuals>
+		<Item href="FirstAidTentPlague.(SpellVisual).xdb#xpointer(/SpellVisual)"/>
+	</visuals>
+</Spell>

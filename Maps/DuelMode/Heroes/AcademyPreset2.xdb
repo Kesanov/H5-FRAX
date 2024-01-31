@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AdvMapHero ObjectRecordID="1003606">
+	<Pos>
+		<x>36</x>
+		<y>36</y>
+		<z>0</z>
+	</Pos>
+	<Rot>0</Rot>
+	<Floor>0</Floor>
+	<Name />
+	<CombatScript />
+	<pointLights />
+	<Shared href="/MapObjects/Academy/Timerkhan.(AdvMapHeroShared).xdb#xpointer(/AdvMapHeroShared)" />
+	<PlayerID>PLAYER_5</PlayerID>
+	<Experience>500000</Experience>
+	<armySlots>
+		<Item>
+			<Creature>CREATURE_MASTER_GREMLIN</Creature>
+			<Count>600</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_MARBLE_GARGOYLE</Creature>
+			<Count>420</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_OBSIDIAN_GOLEM</Creature>
+			<Count>270</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_ARCH_MAGI</Creature>
+			<Count>120</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_DJINN_VIZIER</Creature>
+			<Count>96</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_RAKSHASA_KSHATRI</Creature>
+			<Count>40</Count>
+		</Item>
+		<Item>
+			<Creature>CREATURE_TITAN</Creature>
+			<Count>20</Count>
+		</Item>
+	</armySlots>
+	<artifactIDs />
+	<isUntransferable />
+	<Editable>
+		<NameFileRef href="" />
+		<BiographyFileRef href="" />
+		<Offence>2</Offence>
+		<Defence>17</Defence>
+		<Spellpower>15</Spellpower>
+		<Knowledge>15</Knowledge>
+		<skills><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_WEAKEN_LIGHT</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_WARCRY_LEARNING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_LEARNING</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_SORCERY</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_DEFENCE</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_ARTIFICIER</SkillID></Item><Item><Mastery>MASTERY_EXPERT</Mastery><SkillID>HERO_SKILL_EXPERT_TRAINER</SkillID></Item></skills><perkIDs><Item>HERO_SKILL_POWER_OF_HASTE</Item><Item>HERO_SKILL_TELEPORT_ASSAULT</Item><Item>HERO_SKILL_SNATCH</Item><Item>HERO_SKILL_SCOUTING</Item><Item>HERO_SKILL_QUICKNESS_OF_MIND</Item><Item>HERO_SKILL_INTELLIGENCE</Item><Item>HERO_SKILL_MAGIC_BOND</Item><Item>HERO_SKILL_ELITE_CASTERS</Item><Item>HERO_SKILL_DARK_RITUAL</Item><Item>HERO_SKILL_LAST_STAND</Item><Item>HERO_SKILL_EVASION</Item><Item>HERO_SKILL_PROTECTION</Item><Item>HERO_SKILL_MELT_ARTIFACT</Item><Item>HERO_SKILL_MAGIC_MIRROR</Item><Item>HERO_SKILL_ARTIFICIAL_GLORY</Item><Item>HERO_SKILL_TOUGHNESS</Item><Item>HERO_SKILL_PREPARATION</Item><Item>HERO_SKILL_POWER_OF_STONE</Item></perkIDs><spellIDs /><Ballista>true</Ballista>
+		<FirstAidTent>true</FirstAidTent>
+		<AmmoCart>true</AmmoCart>
+		<FavoriteEnemies />
+		<TalismanLevel>0</TalismanLevel>
+	</Editable>
+	<OverrideMask>32</OverrideMask>
+	<PrimarySkillMastery>MASTERY_EXPERT</PrimarySkillMastery>
+	<LossTrigger>
+		<Action>
+			<FunctionName />
+		</Action>
+	</LossTrigger>
+	<AllowQuickCombat>true</AllowQuickCombat>
+	<Textures>
+		<Icon128x128 />
+		<Icon64x64 />
+		<RoundedFace />
+		<LeftFace />
+		<RightFace />
+	</Textures>
+	<PresetPrice>0</PresetPrice>
+	<BannedRaces />
+</AdvMapHero>

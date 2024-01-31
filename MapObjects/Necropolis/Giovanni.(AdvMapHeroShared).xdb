@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AdvMapHeroShared>
+	<Model href="/Characters/Heroes/Necropolis/Giovanni/Model.xdb#xpointer(/Model)" />
+	<AnimSet href="/Characters/Heroes/Necropolis/Giovanni/AnimSet.xdb#xpointer(/AnimSet)" />
+	<blockedTiles />
+	<holeTiles />
+	<activeTiles>
+		<Item>
+			<x>0</x>
+			<y>0</y>
+		</Item>
+	</activeTiles>
+	<passableTiles />
+	<PossessionMarkerTile>
+		<x>0</x>
+		<y>0</y>
+	</PossessionMarkerTile>
+	<Effect />
+	<EffectWhenOwned />
+	<messagesFileRef />
+	<WaterBased>false</WaterBased>
+	<ApplyHeroTrace>false</ApplyHeroTrace>
+	<SoundEffect />
+	<flybyMessageFileRef href="" />
+	<ObjectTypeFileRef href="/Text/Visibility_Types/Units.txt" />
+	<TerrainAligned>false</TerrainAligned>
+	<FlyPassable>true</FlyPassable>
+	<AdventureSoundEffect />
+	<RazedStatic />
+	<Icon128 />
+	<InternalName>Giovanni</InternalName>
+	<Class>HERO_CLASS_NECROMANCERA</Class>
+	<Specialization>HERO_SPEC_SOULHUNTER</Specialization>
+	<PrimarySkill>
+		<Mastery>MASTERY_BASIC</Mastery>
+		<SkillID>HERO_SKILL_NECROMANCY</SkillID>
+	</PrimarySkill>
+	<SpecializationNameFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Soulhunter/Name.txt" />
+	<SpecializationDescFileRef href="/Text/Game/Heroes/Specializations/Necropolis/Soulhunter/Description.txt" />
+	<SpecializationIcon href="/Textures/HeroScreen/Specializations/Necropolis/Soulhunter.xdb#xpointer(/Texture)" />
+	<FaceTexture href="/UI/H5A1/Icons/Heroes/Portrets128x128/Giovanni.(Texture).xdb#xpointer(/Texture)" />
+	<FaceTextureSmall />
+	<HeroCharacterArena href="/Characters/Heroes/Necropolis/Giovanni/HeroCharacterArena.xdb#xpointer(/Character)" />
+	<HeroCharacterArenaMelee href="/Characters/Heroes/Necropolis/Giovanni/HeroCharacterArenaMelee.xdb#xpointer(/Character)" />
+	<HeroCharacterAdventure href="/Characters/Heroes/Necropolis/Giovanni/HeroCharacterAdventure.xdb#xpointer(/Character)" />
+	<HeroIndividualCamera href="/Characters/Heroes/Necropolis/Giovanni/HeroIndividualCamera.xdb#xpointer(/Camera)" />
+	<CombatVisual href="/Characters/Heroes/Necropolis/Giovanni/CombatVisual.xdb#xpointer(/CreatureVisual)" />
+	<TownType>TOWN_NECROMANCY</TownType>
+	<Editable>
+		<NameFileRef href="/Text/Game/Heroes/Persons/Necropolis/Giovanni/name.txt" />
+		<BiographyFileRef href="/Text/Game/Heroes/Persons/Necropolis/Giovanni/Bio.txt" />
+		<Offence>1</Offence>
+		<Defence>0</Defence>
+		<Spellpower>2</Spellpower>
+		<Knowledge>2</Knowledge>
+		<skills>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_SUMMONING_MAGIC</SkillID>
+			</Item>
+			<Item>
+				<Mastery>MASTERY_BASIC</Mastery>
+				<SkillID>HERO_SKILL_OFFENCE</SkillID>
+			</Item>
+		</skills>
+		<perkIDs />
+		<spellIDs />
+		<Ballista>false</Ballista>
+		<FirstAidTent>false</FirstAidTent>
+		<AmmoCart>false</AmmoCart>
+		<FavoriteEnemies />
+	</Editable>
+	<ArrowButtonState>0</ArrowButtonState>
+	<Decal />
+	<Selection href="/_(Model)/Heroes/Necromancer_Path/Symbol.xdb#xpointer(/Model)" />
+	<Trace href="/MapObjects/_(AdvMapHeroTraceSet)/Necropolis.xdb#xpointer(/AdvMapHeroTraceSet)" />
+	<RaceTraitIcon />
+	<RaceTraitDescFileRef href="" />
+	<ScenarioHero>true</ScenarioHero>
+	<AdventureMusic />
+	<HideInEditor>false</HideInEditor>
+</AdvMapHeroShared>

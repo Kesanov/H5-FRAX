@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicSkelAnim>
+	<SrcName href="/models/Creatures/Necropolis/Wraith.mb"/>
+	<uid>C7267454-CE44-452E-9870-58FEC25DFC96</uid>
+	<ExpSrcClip href="/Animations/Creatures/NECROPOLIS/Wraith/Clip/Wraith.happy.ma"/>
+	<ExpRootTransform>Global</ExpRootTransform>
+	<ExpFrameFirst>0</ExpFrameFirst>
+	<ExpFrameLast>0</ExpFrameLast>
+	<ExpSettingsFile href=""/>
+	<MovementSpeed>0</MovementSpeed>
+	<SpeedFactor>1</SpeedFactor>
+	<Sound/>
+	<Effect href="/Effects/_(Effect)/Characters/Creatures/Necropolis/Wraith/idle00.xdb#xpointer(/Effect)"/>
+	<SpeedLineFallTime>250</SpeedLineFallTime>
+	<SpeedLineMaterial/>
+</BasicSkelAnim>
